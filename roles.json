@@ -6,7 +6,7 @@
     "sector_label": "Origination",
     "description": "Sources and processes residential mortgage applications, assessing borrower eligibility and coordinating with underwriting teams to fund loans destined for securitisation pools.",
     "headcount": 12000,
-    "salary": 55000,
+    "salary": 45000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Source and qualify mortgage applicants",
@@ -29,7 +29,7 @@
     "sector_label": "Origination",
     "description": "Evaluates creditworthiness of consumer loan applicants (auto, personal, credit cards) using credit scoring models and policy rules, deciding on loan approval for assets that may be securitised.",
     "headcount": 9000,
-    "salary": 52000,
+    "salary": 45000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Assess borrower creditworthiness using scoring models",
@@ -52,7 +52,7 @@
     "sector_label": "Origination",
     "description": "Manages the origination of auto finance loans through dealer networks and direct channels, ensuring loan quality standards for auto ABS securitisation programmes.",
     "headcount": 6000,
-    "salary": 48000,
+    "salary": 42000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Manage dealer finance relationships",
@@ -75,7 +75,7 @@
     "sector_label": "Origination",
     "description": "Originates commercial and corporate loans (CRE, leveraged, trade finance) that feed into CLO, CMBS, and other structured finance vehicles.",
     "headcount": 8000,
-    "salary": 78000,
+    "salary": 70000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Source and structure commercial loan transactions",
@@ -98,7 +98,7 @@
     "sector_label": "Origination",
     "description": "Manages warehouse credit facilities that fund loan origination prior to securitisation, monitoring collateral, advance rates, and facility utilisation.",
     "headcount": 3000,
-    "salary": 68000,
+    "salary": 62000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Monitor warehouse facility utilisation and limits",
@@ -121,7 +121,7 @@
     "sector_label": "Structuring & Modelling",
     "description": "Builds and maintains cash flow waterfall models for ABS/MBS/CLO transactions, analysing deal structures, tranching, credit enhancement levels, and prepayment assumptions.",
     "headcount": 7000,
-    "salary": 85000,
+    "salary": 72000,
     "education": "Master's degree",
     "key_tasks": [
       "Build cash flow waterfall models in Excel/Python",
@@ -144,7 +144,7 @@
     "sector_label": "Structuring & Modelling",
     "description": "Develops quantitative models for pricing, risk measurement, and portfolio analytics in structured credit products including prepayment models, default correlations, and copula frameworks.",
     "headcount": 4000,
-    "salary": 105000,
+    "salary": 115000,
     "education": "Master's degree",
     "key_tasks": [
       "Develop prepayment and default models",
@@ -167,7 +167,7 @@
     "sector_label": "Structuring & Modelling",
     "description": "Designs and optimises the capital structure of securitisation transactions, determining optimal tranching, credit enhancement, and structural features to achieve target ratings and investor demand.",
     "headcount": 3000,
-    "salary": 95000,
+    "salary": 82000,
     "education": "Master's degree",
     "key_tasks": [
       "Design optimal capital structures for ABS/MBS/CLO",
@@ -190,7 +190,7 @@
     "sector_label": "Structuring & Modelling",
     "description": "Leads the end-to-end structuring of securitisation transactions, coordinating between origination, legal, rating agencies, and investors to bring deals to market.",
     "headcount": 3500,
-    "salary": 110000,
+    "salary": 115000,
     "education": "Master's degree",
     "key_tasks": [
       "Lead deal structuring from mandate to closing",
@@ -213,7 +213,7 @@
     "sector_label": "Structuring & Modelling",
     "description": "Specialises in building and maintaining detailed cash flow waterfall models that simulate payment distributions across tranches under various economic scenarios.",
     "headcount": 3000,
-    "salary": 75000,
+    "salary": 62000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Build and maintain waterfall payment models",
@@ -236,7 +236,7 @@
     "sector_label": "Structuring & Modelling",
     "description": "Analyses and optimises the credit tranching of securitisation vehicles, determining attachment/detachment points, subordination levels, and credit enhancement to achieve desired rating outcomes.",
     "headcount": 2000,
-    "salary": 90000,
+    "salary": 80000,
     "education": "Master's degree",
     "key_tasks": [
       "Determine optimal attachment and detachment points",
@@ -282,7 +282,7 @@
     "sector_label": "Legal & Documentation",
     "description": "Manages the preparation, review, and maintenance of securitisation transaction documentation including prospectuses, servicing agreements, and investor reports.",
     "headcount": 4000,
-    "salary": 58000,
+    "salary": 48000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Prepare and proofread transaction documents",
@@ -328,7 +328,7 @@
     "sector_label": "Legal & Documentation",
     "description": "Provides specialist legal advice on the regulatory framework governing securitisation, including EU STS Regulation, UK Securitisation Regulation, CRR, and related prudential requirements.",
     "headcount": 2500,
-    "salary": 130000,
+    "salary": 140000,
     "education": "Professional degree",
     "key_tasks": [
       "Advise on EU STS and UK Securitisation Regulation compliance",
@@ -351,7 +351,7 @@
     "sector_label": "Legal & Documentation",
     "description": "Provides legal opinions on the true sale characterisation of asset transfers in securitisation, ensuring bankruptcy remoteness of SPV structures.",
     "headcount": 1500,
-    "salary": 135000,
+    "salary": 145000,
     "education": "Professional degree",
     "key_tasks": [
       "Analyse true sale vs secured lending characterisation",
@@ -374,7 +374,7 @@
     "sector_label": "Credit & Rating",
     "description": "Analyses securitisation transactions for credit rating agencies, applying rating methodologies to assign and monitor ratings on structured finance tranches.",
     "headcount": 4000,
-    "salary": 80000,
+    "salary": 65000,
     "education": "Master's degree",
     "key_tasks": [
       "Apply rating methodologies to new securitisation deals",
@@ -397,7 +397,7 @@
     "sector_label": "Credit & Rating",
     "description": "Develops and maintains credit risk models for securitised portfolios, including PD/LGD/EAD models, stress testing frameworks, and portfolio credit risk analytics.",
     "headcount": 5000,
-    "salary": 88000,
+    "salary": 85000,
     "education": "Master's degree",
     "key_tasks": [
       "Develop PD, LGD, and EAD models for loan portfolios",
@@ -420,7 +420,7 @@
     "sector_label": "Credit & Rating",
     "description": "Monitors the ongoing performance of securitised portfolios, tracking collateral performance, trigger breaches, and structural features to identify credit deterioration.",
     "headcount": 4500,
-    "salary": 65000,
+    "salary": 55000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Monitor collateral performance metrics (delinquency, default, prepayment)",
@@ -443,7 +443,7 @@
     "sector_label": "Credit & Rating",
     "description": "Specialises in analysing residential and commercial mortgage-backed securities, evaluating property markets, loan-level data, and structural features specific to real estate securitisation.",
     "headcount": 3500,
-    "salary": 82000,
+    "salary": 70000,
     "education": "Master's degree",
     "key_tasks": [
       "Analyse loan-level mortgage data for RMBS/CMBS pools",
@@ -466,7 +466,7 @@
     "sector_label": "Credit & Rating",
     "description": "Develops specialised models estimating recovery rates and loss severity for defaulted loans in securitised portfolios, incorporating collateral valuations, workout timelines, and enforcement costs.",
     "headcount": 2000,
-    "salary": 85000,
+    "salary": 80000,
     "education": "Master's degree",
     "key_tasks": [
       "Build LGD models incorporating collateral and recovery data",
@@ -512,7 +512,7 @@
     "sector_label": "Compliance & Regulatory",
     "description": "Prepares and submits regulatory reports related to securitisation exposures, including COREP, securitisation notifications, and STS verification reports to national competent authorities.",
     "headcount": 4000,
-    "salary": 62000,
+    "salary": 60000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Prepare COREP securitisation exposure reports",
@@ -535,7 +535,7 @@
     "sector_label": "Compliance & Regulatory",
     "description": "Conducts anti-money laundering and know-your-customer due diligence on securitisation counterparties, including originators, servicers, investors, and SPV directors.",
     "headcount": 6000,
-    "salary": 55000,
+    "salary": 50000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Conduct KYC due diligence on counterparties",
@@ -581,7 +581,7 @@
     "sector_label": "Compliance & Regulatory",
     "description": "Manages the operational risk framework and internal controls for securitisation activities, including control testing, risk event management, and regulatory exam preparation.",
     "headcount": 3500,
-    "salary": 85000,
+    "salary": 90000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Design and maintain internal control frameworks",
@@ -604,7 +604,7 @@
     "sector_label": "Loan Servicing",
     "description": "Oversees the servicing of securitised loan portfolios, ensuring primary servicers comply with servicing standards, collecting performance data, and managing investor reporting.",
     "headcount": 4000,
-    "salary": 72000,
+    "salary": 62000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Oversee primary servicer performance and compliance",
@@ -627,7 +627,7 @@
     "sector_label": "Loan Servicing",
     "description": "Manages defaulted or distressed loans within securitised portfolios, executing workout strategies including modifications, forbearance, enforcement, and asset disposal.",
     "headcount": 3500,
-    "salary": 68000,
+    "salary": 58000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Develop and execute workout strategies for defaulted loans",
@@ -650,7 +650,7 @@
     "sector_label": "Loan Servicing",
     "description": "Manages the collection of overdue payments from borrowers in securitised portfolios, using outbound contact strategies and payment arrangement negotiations.",
     "headcount": 8000,
-    "salary": 35000,
+    "salary": 30000,
     "education": "Secondary education",
     "key_tasks": [
       "Contact delinquent borrowers via phone, email, and letter",
@@ -673,7 +673,7 @@
     "sector_label": "Loan Servicing",
     "description": "Manages escrow accounts associated with securitised mortgage loans, ensuring accurate collection, administration, and disbursement of insurance and tax payments.",
     "headcount": 3000,
-    "salary": 42000,
+    "salary": 38000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Calculate and adjust escrow payment amounts",
@@ -696,7 +696,7 @@
     "sector_label": "Loan Servicing",
     "description": "Manages the default process for securitised loans from early delinquency through to resolution, coordinating between collections, legal, and workout teams.",
     "headcount": 3500,
-    "salary": 52000,
+    "salary": 48000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Manage default timelines and regulatory requirements",
@@ -719,7 +719,7 @@
     "sector_label": "Trading & Sales",
     "description": "Trades asset-backed securities in the secondary market, managing inventory positions, providing liquidity to clients, and pricing new issue allocations.",
     "headcount": 2500,
-    "salary": 130000,
+    "salary": 145000,
     "education": "Master's degree",
     "key_tasks": [
       "Price and trade ABS in secondary markets",
@@ -742,7 +742,7 @@
     "sector_label": "Trading & Sales",
     "description": "Specialises in trading mortgage-backed securities and covered bonds, managing prepayment risk, duration, and convexity in the trading portfolio.",
     "headcount": 2000,
-    "salary": 135000,
+    "salary": 150000,
     "education": "Master's degree",
     "key_tasks": [
       "Trade MBS and covered bonds in secondary markets",
@@ -765,7 +765,7 @@
     "sector_label": "Trading & Sales",
     "description": "Trades collateralised loan obligation tranches and leveraged loans, managing credit risk positions and providing pricing for institutional investors.",
     "headcount": 1500,
-    "salary": 145000,
+    "salary": 175000,
     "education": "Master's degree",
     "key_tasks": [
       "Price and trade CLO tranches (AAA to equity)",
@@ -788,7 +788,7 @@
     "sector_label": "Trading & Sales",
     "description": "Markets securitisation products and structured credit to institutional investors, providing trade ideas, market colour, and new issue distribution.",
     "headcount": 2500,
-    "salary": 120000,
+    "salary": 130000,
     "education": "Master's degree",
     "key_tasks": [
       "Develop and maintain institutional investor relationships",
@@ -811,7 +811,7 @@
     "sector_label": "Trading & Sales",
     "description": "Manages investment portfolios allocated to securitisation and structured credit, making buy/sell decisions, and reporting to institutional investors.",
     "headcount": 3000,
-    "salary": 125000,
+    "salary": 105000,
     "education": "Master's degree",
     "key_tasks": [
       "Make investment decisions across ABS/MBS/CLO sectors",
@@ -834,7 +834,7 @@
     "sector_label": "Trading & Sales",
     "description": "Manages repo and securities financing transactions using securitisation products as collateral, optimising funding costs and balance sheet efficiency.",
     "headcount": 2000,
-    "salary": 85000,
+    "salary": 78000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Execute repo and reverse repo transactions",
@@ -857,7 +857,7 @@
     "sector_label": "Technology & Data",
     "description": "Develops software platforms and applications for securitisation workflows, including loan origination systems, deal management platforms, and investor portals.",
     "headcount": 5000,
-    "salary": 82000,
+    "salary": 78000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Develop securitisation workflow platforms",
@@ -880,7 +880,7 @@
     "sector_label": "Technology & Data",
     "description": "Designs and maintains data infrastructure for securitisation analytics, including loan-level data warehouses, ETL pipelines, and data quality frameworks.",
     "headcount": 4000,
-    "salary": 78000,
+    "salary": 75000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Design loan-level data warehouse architectures",
@@ -926,7 +926,7 @@
     "sector_label": "Technology & Data",
     "description": "Builds and maintains digital loan origination and management platforms that produce loans suitable for securitisation, ensuring data capture meets pool eligibility and regulatory standards.",
     "headcount": 3500,
-    "salary": 75000,
+    "salary": 72000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Develop digital loan origination workflows",
@@ -949,7 +949,7 @@
     "sector_label": "Technology & Data",
     "description": "Develops regulatory technology solutions specifically for securitisation compliance, including STS verification tools, regulatory reporting engines, and compliance monitoring platforms.",
     "headcount": 2500,
-    "salary": 80000,
+    "salary": 75000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Build STS compliance verification tools",
@@ -972,7 +972,7 @@
     "sector_label": "Due Diligence & Audit",
     "description": "Conducts due diligence reviews on securitised loan portfolios, verifying loan data accuracy, compliance with eligibility criteria, and adherence to origination standards.",
     "headcount": 5000,
-    "salary": 58000,
+    "salary": 50000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Review loan files for data accuracy and completeness",
@@ -995,7 +995,7 @@
     "sector_label": "Due Diligence & Audit",
     "description": "Provides independent third-party verification of securitised loan pools for STS compliance, conducting sample-based reviews of loan eligibility and data quality.",
     "headcount": 2000,
-    "salary": 62000,
+    "salary": 52000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Conduct independent sample-based loan reviews",
@@ -1018,7 +1018,7 @@
     "sector_label": "Due Diligence & Audit",
     "description": "Conducts internal audit reviews of securitisation activities, assessing compliance with policies, regulations, and control effectiveness across the securitisation value chain.",
     "headcount": 3000,
-    "salary": 72000,
+    "salary": 65000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Plan and execute audit reviews of securitisation activities",
@@ -1041,7 +1041,7 @@
     "sector_label": "Due Diligence & Audit",
     "description": "Investigates potential fraud, misrepresentation, and origination defects in securitised loan portfolios, supporting repurchase claims and regulatory investigations.",
     "headcount": 1500,
-    "salary": 65000,
+    "salary": 55000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Investigate suspected loan fraud and misrepresentation",
@@ -1064,7 +1064,7 @@
     "sector_label": "Operations & Reporting",
     "description": "Manages the settlement and clearing of securitisation transactions, ensuring accurate trade confirmation, payment processing, and custody movements across clearing systems.",
     "headcount": 4000,
-    "salary": 48000,
+    "salary": 42000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Process trade confirmations and settlement instructions",
@@ -1087,7 +1087,7 @@
     "sector_label": "Operations & Reporting",
     "description": "Manages operational functions for securitisation trustees, including payment waterfalls, covenant compliance monitoring, and investor communications.",
     "headcount": 3500,
-    "salary": 52000,
+    "salary": 45000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Execute waterfall payment calculations and distributions",
@@ -1110,7 +1110,7 @@
     "sector_label": "Operations & Reporting",
     "description": "Prepares and distributes periodic investor reports for securitisation transactions, including performance data, pool statistics, and regulatory disclosures.",
     "headcount": 4000,
-    "salary": 55000,
+    "salary": 50000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Prepare monthly/quarterly investor performance reports",
@@ -1133,7 +1133,7 @@
     "sector_label": "Operations & Reporting",
     "description": "Manages the processing of principal and interest payments from borrowers through to investors in securitisation structures, ensuring accurate and timely fund flows.",
     "headcount": 3500,
-    "salary": 42000,
+    "salary": 36000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Process borrower payments and allocations",
@@ -1156,7 +1156,7 @@
     "sector_label": "Operations & Reporting",
     "description": "Manages the accounting and financial reporting for securitisation vehicles (SPVs), including NAV calculations, IFRS reporting, and tax compliance for structured entities.",
     "headcount": 3500,
-    "salary": 55000,
+    "salary": 50000,
     "education": "Bachelor's degree",
     "key_tasks": [
       "Prepare SPV financial statements under IFRS",
