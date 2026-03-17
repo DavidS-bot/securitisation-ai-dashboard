@@ -176,6 +176,53 @@ body {
 }
 .gradient-legend canvas { border-radius: 2px; }
 
+.conclusions-panel {
+  margin: 8px 28px 16px;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 8px;
+  padding: 16px 20px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--fg2);
+}
+.conclusions-panel h3 {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--fg);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.conclusions-panel .conclusion-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 24px;
+}
+@media (max-width: 800px) {
+  .conclusions-panel .conclusion-grid { grid-template-columns: 1fr; }
+}
+.conclusions-panel .conclusion-item {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.conclusions-panel .conclusion-item:last-child { border-bottom: none; }
+.conclusions-panel .ci-title {
+  font-weight: 600;
+  color: var(--fg);
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+.conclusions-panel .ci-body { font-size: 12px; }
+.conclusions-panel .ci-body b { color: var(--fg); font-weight: 600; }
+.conclusions-panel .ci-highlight {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 11px;
+}
+
 canvas#canvas {
   display: block;
   cursor: default;
@@ -310,6 +357,8 @@ All data in this dashboard (headcount, salaries, scores, rationales) was generat
     <div class="stat-section" id="block7"></div>
     <div class="stat-section" id="block8"></div>
   </div>
+
+  <div id="conclusions" class="conclusions-panel"></div>
 </div>
 
 <canvas id="canvas"></canvas>
@@ -688,6 +737,162 @@ function updateStats() {
   else if (colorMode === "automation_risk") updateScoreStats(totalHC, "automation_risk", "Automation Risk", automationColor);
   else if (colorMode === "regulatory") updateScoreStats(totalHC, "regulatory_complexity", "Regulatory", regulatoryColor);
   else if (colorMode === "salary") updateSalaryStats(totalHC);
+
+  updateConclusions(totalHC);
+}
+
+function updateConclusions(totalHC) {
+  const el = document.getElementById("conclusions");
+  if (colorMode === "ai_exposure") {
+    // Compute key stats
+    let wS = 0, wC = 0;
+    for (const d of data) { if (d.ai_exposure != null && d.headcount) { wS += d.ai_exposure * d.headcount; wC += d.headcount; } }
+    const avg = wC > 0 ? wS / wC : 0;
+    let veryHighHC = 0;
+    for (const d of data) { if (d.ai_exposure >= 8 && d.headcount) veryHighHC += d.headcount; }
+    // Sector avgs
+    const sectorAvg = {};
+    for (const d of data) {
+      if (!sectorAvg[d.sector_label]) sectorAvg[d.sector_label] = {ws:0,wc:0};
+      if (d.ai_exposure != null && d.headcount) { sectorAvg[d.sector_label].ws += d.ai_exposure*d.headcount; sectorAvg[d.sector_label].wc += d.headcount; }
+    }
+    const topSector = Object.entries(sectorAvg).map(([k,v])=>({name:k,avg:v.wc>0?v.ws/v.wc:0})).sort((a,b)=>b.avg-a.avg)[0];
+    const lowSector = Object.entries(sectorAvg).map(([k,v])=>({name:k,avg:v.wc>0?v.ws/v.wc:0})).sort((a,b)=>a.avg-b.avg)[0];
+
+    el.innerHTML = `<h3>Key findings &mdash; AI Exposure</h3>
+    <div class="conclusion-grid">
+      <div class="conclusion-item">
+        <div class="ci-title">Massively exposed sector</div>
+        <div class="ci-body">Weighted average of <b>${avg.toFixed(1)}/10</b> &mdash; far above the US labour market average of 4.9/10 (Karpathy). <b>${(veryHighHC/totalHC*100).toFixed(0)}%</b> of headcount scores 8-10. This is because nearly all securitisation work is digital.</div>
+      </div>
+      <div class="conclusion-item">
+        <div class="ci-title">The real differentiator: routine vs judgment</div>
+        <div class="ci-body">Unlike the broad economy where "digital vs physical" drives exposure, in securitisation <b>everything is digital</b>. The differentiator is <b>"routine rule application" vs "expert judgment"</b>. Waterfall calculations and document review (routine) score 9/10; deal negotiation and structuring creativity score 4/10.</div>
+      </div>
+      <div class="conclusion-item">
+        <div class="ci-title">Most exposed: ${topSector.name} (${topSector.avg.toFixed(1)}/10)</div>
+        <div class="ci-body">Roles involving standardised processing, reporting, and reconciliation. Tasks are highly structured, rule-based, and data-driven &mdash; prime targets for AI automation.</div>
+      </div>
+      <div class="conclusion-item">
+        <div class="ci-title">Most protected: ${lowSector.name} (${lowSector.avg.toFixed(1)}/10)</div>
+        <div class="ci-body">Relationship-intensive roles requiring client interaction, market judgment, and bespoke negotiation. These represent the "last bastion" of human-centric work in the sector.</div>
+      </div>
+    </div>`;
+  } else if (colorMode === "automation_risk") {
+    let wS = 0, wC = 0;
+    for (const d of data) { if (d.automation_risk != null && d.headcount) { wS += d.automation_risk * d.headcount; wC += d.headcount; } }
+    const avgAuto = wC > 0 ? wS / wC : 0;
+    let wE = 0, wCe = 0;
+    for (const d of data) { if (d.ai_exposure != null && d.headcount) { wE += d.ai_exposure * d.headcount; wCe += d.headcount; } }
+    const avgExp = wCe > 0 ? wE / wCe : 0;
+    // Vulnerable count
+    let vulnHC = 0;
+    for (const d of data) { if (d.automation_risk >= 7 && d.salary < 60000 && d.headcount) vulnHC += d.headcount; }
+    // Transformation roles (high exp, low auto)
+    let transHC = 0;
+    for (const d of data) { if (d.ai_exposure >= 7 && d.automation_risk <= 4 && d.headcount) transHC += d.headcount; }
+    // Resilient count
+    let resilientHC = 0;
+    for (const d of data) { if (d.automation_risk <= 3 && d.salary >= 100000 && d.headcount) resilientHC += d.headcount; }
+
+    el.innerHTML = `<h3>Key findings &mdash; Automation Risk</h3>
+    <div class="conclusion-grid">
+      <div class="conclusion-item">
+        <div class="ci-title">The gap tells the real story</div>
+        <div class="ci-body">AI Exposure averages <b>${avgExp.toFixed(1)}/10</b> but Automation Risk only <b>${avgAuto.toFixed(1)}/10</b>. This 2-point gap means many roles will be <b>transformed but not eliminated</b>. Structured Finance Analysts, Quants, and Tech roles have the biggest gap (+4 points).</div>
+      </div>
+      <div class="conclusion-item">
+        <div class="ci-title">The sector is bifurcating</div>
+        <div class="ci-body">High-judgment roles (traders, lawyers, structurers) will become more productive with AI. Operational roles (collections, settlements, data entry) face real headcount reduction. The middle is uncertain.</div>
+      </div>
+      <div class="conclusion-item">
+        <div class="ci-title">~${formatNumber(vulnHC)} most vulnerable</div>
+        <div class="ci-body">Roles with automation risk &ge;7 and salary &lt;&euro;60K represent <b>${(vulnHC/totalHC*100).toFixed(0)}%</b> of headcount: Collections, Escrow, Payment Processing, Trustees, Documentation, Due Diligence. These are <b>low-salary, high-routine</b> roles.</div>
+      </div>
+      <div class="conclusion-item">
+        <div class="ci-title">~${formatNumber(resilientHC)} premium resilient</div>
+        <div class="ci-body">Roles with automation risk &le;3 and salary &ge;&euro;100K: Deal Structurers, Lawyers, Traders, Quants, Sales. They earn more <b>precisely because</b> they do what AI cannot: bespoke judgment, relationships, fiduciary responsibility.</div>
+      </div>
+    </div>`;
+  } else if (colorMode === "salary") {
+    let wS = 0, wC = 0;
+    for (const d of data) { if (d.salary != null && d.headcount) { wS += d.salary * d.headcount; wC += d.headcount; } }
+    const avgSal = wC > 0 ? wS / wC : 0;
+    // Correlation: avg exposure by salary band
+    const bands = [{lo:0,hi:50000,label:"<50K"},{lo:50000,hi:80000,label:"50-80K"},{lo:80000,hi:999999,label:"80K+"}];
+    const bandStats = bands.map(b => {
+      let we=0,wa=0,wc=0;
+      for (const d of data) {
+        if (d.salary>=b.lo && d.salary<b.hi && d.headcount) {
+          we += d.ai_exposure*d.headcount; wa += d.automation_risk*d.headcount; wc += d.headcount;
+        }
+      }
+      return {label:b.label, exp: wc>0?we/wc:0, auto: wc>0?wa/wc:0, hc:wc};
+    });
+    let totalComp = 0;
+    for (const d of data) { if (d.salary && d.headcount) totalComp += d.salary * d.headcount; }
+
+    el.innerHTML = `<h3>Key findings &mdash; Salary</h3>
+    <div class="conclusion-grid">
+      <div class="conclusion-item">
+        <div class="ci-title">Inverse salary-risk correlation</div>
+        <div class="ci-body">The <b>worst-paid roles are the most automatable</b>. &lt;&euro;50K band: exposure ${bandStats[0].exp.toFixed(1)}, automation risk ${bandStats[0].auto.toFixed(1)}. &euro;80K+ band: exposure ${bandStats[2].exp.toFixed(1)}, automation risk ${bandStats[2].auto.toFixed(1)}. AI will <b>amplify salary inequality</b> within the sector.</div>
+      </div>
+      <div class="conclusion-item">
+        <div class="ci-title">AI amplifies the premium</div>
+        <div class="ci-body">The best-paid roles (CLO Trader &euro;175K, MBS Trader &euro;150K, Regulatory Counsel &euro;140K) are resilient because they require <b>what AI cannot do</b>: bespoke deal judgment, institutional relationships, and professional liability acceptance.</div>
+      </div>
+      <div class="conclusion-item">
+        <div class="ci-title">The uncertain middle</div>
+        <div class="ci-body">The <b>&euro;50-80K band</b> (${formatNumber(bandStats[1].hc)} people, ${(bandStats[1].hc/totalHC*100).toFixed(0)}% of headcount) is the zone of greatest uncertainty. Roles like Surveillance Analyst, Rating Agency Analyst, Master Servicer could go either way depending on how AI tools evolve.</div>
+      </div>
+      <div class="conclusion-item">
+        <div class="ci-title">&euro;${(totalComp/1e9).toFixed(1)}B total compensation at stake</div>
+        <div class="ci-body">Average salary <b>&euro;${Math.round(avgSal/1000)}K</b> across ${formatNumber(totalHC)} roles. Trading &amp; Sales commands the highest per-capita compensation. Operations &amp; Servicing the lowest. Bonuses (not included) can add 50-100% for trading/IB roles.</div>
+      </div>
+    </div>`;
+  } else if (colorMode === "regulatory") {
+    let wS = 0, wC = 0;
+    for (const d of data) { if (d.regulatory_complexity != null && d.headcount) { wS += d.regulatory_complexity * d.headcount; wC += d.headcount; } }
+    const avgReg = wC > 0 ? wS / wC : 0;
+    let highRegHC = 0;
+    for (const d of data) { if (d.regulatory_complexity >= 6 && d.headcount) highRegHC += d.headcount; }
+    // Safe transformation: high exp, high reg, low auto
+    let safeHC = 0;
+    for (const d of data) { if (d.ai_exposure>=7 && d.regulatory_complexity>=7 && d.automation_risk<=4 && d.headcount) safeHC += d.headcount; }
+    // Sector comparison
+    const sectorReg = {};
+    for (const d of data) {
+      if (!sectorReg[d.sector_label]) sectorReg[d.sector_label] = {wr:0,wa:0,wc:0};
+      if (d.headcount) {
+        sectorReg[d.sector_label].wr += (d.regulatory_complexity||0)*d.headcount;
+        sectorReg[d.sector_label].wa += (d.automation_risk||0)*d.headcount;
+        sectorReg[d.sector_label].wc += d.headcount;
+      }
+    }
+    const highReg = Object.entries(sectorReg).map(([k,v])=>({name:k,reg:v.wc>0?v.wr/v.wc:0,auto:v.wc>0?v.wa/v.wc:0})).sort((a,b)=>b.reg-a.reg)[0];
+    const lowReg = Object.entries(sectorReg).map(([k,v])=>({name:k,reg:v.wc>0?v.wr/v.wc:0,auto:v.wc>0?v.wa/v.wc:0})).sort((a,b)=>a.reg-b.reg)[0];
+
+    el.innerHTML = `<h3>Key findings &mdash; Regulatory Complexity</h3>
+    <div class="conclusion-grid">
+      <div class="conclusion-item">
+        <div class="ci-title">Regulation as employment shield</div>
+        <div class="ci-body">Average regulatory complexity: <b>${avgReg.toFixed(1)}/10</b>. <b>${(highRegHC/totalHC*100).toFixed(0)}%</b> of headcount scores 6+. The clear pattern: <b>higher regulatory complexity = lower automation risk</b>. ${highReg.name} (reg ${highReg.reg.toFixed(1)}, auto ${highReg.auto.toFixed(1)}) vs ${lowReg.name} (reg ${lowReg.reg.toFixed(1)}, auto ${lowReg.auto.toFixed(1)}).</div>
+      </div>
+      <div class="conclusion-item">
+        <div class="ci-title">Post-crisis regulation created a floor</div>
+        <div class="ci-body">EU STS, Basel III, Solvency II, Dodd-Frank created entire roles that didn't exist before 2008. Basel/RWA Analysts, Regulatory Counsel, and Compliance Officers <b>exist because of regulation</b>. As regulation tends to grow, not shrink, these roles are structurally protected.</div>
+      </div>
+      <div class="conclusion-item">
+        <div class="ci-title">~${formatNumber(safeHC)} in "safe transformation"</div>
+        <div class="ci-body">Roles with AI exposure &ge;7, regulatory complexity &ge;7, but automation risk &le;4: Structured Finance Analysts, Credit Risk Modellers, Compliance Officers, RegTech Developers. AI will <b>transform their tools but regulation demands human accountability</b>.</div>
+      </div>
+      <div class="conclusion-item">
+        <div class="ci-title">The paradox of securitisation</div>
+        <div class="ci-body">The sector that <b>complains most about regulation</b> is the one <b>most protected by it</b>. Regulators require human accountability, audit trails, and professional liability that cannot be delegated to AI. The regulatory burden is, paradoxically, an employment guarantee.</div>
+      </div>
+    </div>`;
+  }
 }
 
 function updateScoreStats(totalHC, field, label, colorFn) {
