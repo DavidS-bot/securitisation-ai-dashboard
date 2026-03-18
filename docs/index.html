@@ -263,6 +263,49 @@ canvas#canvas {
     <p>Interactive visualisation of <b id="introRoles">~50 roles</b> across the European securitisation ecosystem, representing an estimated <b id="introHeadcount">—</b> professionals. Each rectangle's <b>area</b> is proportional to estimated headcount. <b>Colour</b> shows the selected metric &mdash; toggle between AI Exposure, Salary, Automation Risk, and Regulatory Complexity.</p>
     <p>The securitisation value chain spans <b>10 sectors</b>: from loan origination and structuring through legal, credit rating, compliance, servicing, trading, technology, due diligence, and operations. Roles are scored on three dimensions that capture how AI and regulation will reshape the industry.</p>
     <details>
+      <summary>Inspiration &amp; methodology comparison with karpathy.ai/jobs</summary>
+      <div class="prompt-box"><b>This dashboard is inspired by <a href="https://karpathy.ai/jobs/" target="_blank">Andrej Karpathy's US Job Market Visualizer</a></b> (<a href="https://github.com/karpathy/jobs" target="_blank">github.com/karpathy/jobs</a>), which visualises 342 BLS occupations covering 143M US jobs with AI exposure scores. We adapted the concept, treemap visualisation, and scoring philosophy for the niche securitisation sector.
+
+<b>What we kept from Karpathy's approach:</b>
+&bull; Squarified treemap layout (Bruls et al., 2000) with area proportional to employment
+&bull; Canvas-based interactive rendering with hover tooltips
+&bull; Multiple colour layers toggling between different metrics
+&bull; 0-10 AI exposure scoring scale with calibration anchors
+&bull; The core insight that AI exposure &ne; job elimination
+
+<b>What we changed and why:</b>
+
+<b>1. Data source: BLS scraping &rarr; curated taxonomy</b>
+Karpathy scrapes 342 occupations from the Bureau of Labor Statistics (real government data with exact headcount and pay). We manually defined ~51 securitisation-specific roles because BLS categories are too broad &mdash; "Financial Analysts" covers everything from equity research to structured finance. Our headcount and salary estimates are approximations, not census data.
+
+<b>2. Scoring: LLM API calls &rarr; pre-generated estimates</b>
+Karpathy sends each occupation's BLS description to an LLM (Gemini Flash via OpenRouter) with a scoring rubric, generating scores programmatically. We pre-generated all scores and rationales using Claude (Anthropic) since our dataset is smaller and curated. The scoring rubric is similar but adapted.
+
+<b>3. Key heuristic: "digital vs physical" &rarr; "routine vs expert judgment"</b>
+Karpathy's main signal: "If the job can be done from home on a computer, exposure is 7+." This works for the broad economy (roofers 0/10 vs coders 9/10). In securitisation, <b>every role is digital</b> &mdash; there are no roofers. So our differentiator is: "routine rule application" (high exposure) vs "bespoke deal judgment and relationships" (lower exposure).
+
+<b>4. Colour layers: BLS Outlook &rarr; Automation Risk + Regulatory Complexity</b>
+Karpathy uses BLS-projected employment growth outlook. We replaced it with two sector-specific metrics:
+&bull; <b>Automation Risk</b> (0-10): distinct from exposure &mdash; measures elimination probability, not transformation
+&bull; <b>Regulatory Complexity</b> (0-10): unique to our analysis &mdash; captures how regulation shapes and protects roles. This is critical in securitisation where post-2008 regulation (EU STS, Basel III, Solvency II) created entire job categories.
+
+<b>5. Market scope: US national &rarr; EU/UK securitisation</b>
+Karpathy covers the entire US economy. We focus on the European/UK securitisation ecosystem with salaries in EUR (converted from GBP at ~1.17), referencing EU/UK regulation (EU STS, CRR, PRA, FCA).
+
+<b>6. Salary data: BLS exact figures &rarr; researched market estimates</b>
+Karpathy uses official BLS median pay data (exact, authoritative). We researched from Robert Half, Morgan McKinley, Glassdoor, eFinancialCareers, and Canary Wharfian (2025-2026 guides) &mdash; more approximate but specific to structured finance roles.
+
+<b>Summary comparison:</b>
+| Dimension | Karpathy | This dashboard |
+| Data source | BLS (gov census) | Curated + market research |
+| Occupations | 342 broad | 51 niche securitisation |
+| Scoring | LLM API (Gemini) | Pre-generated (Claude) |
+| Key signal | Digital vs physical | Routine vs judgment |
+| Layers | Outlook, Pay, Edu, AI Exp | AI Exp, Salary, Auto Risk, Reg |
+| Market | US national | EU/UK securitisation |
+| Salaries | BLS official | Recruitment guides (2025-26) |</div>
+    </details>
+    <details>
       <summary>About the scoring methodology</summary>
       <div class="prompt-box">AI Exposure (0-10): How much will AI reshape this role? In securitisation, the key differentiator is "routine vs expert judgment" rather than "digital vs physical" since nearly all roles are digital.
 
