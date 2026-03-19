@@ -1,5 +1,330 @@
 [
   {
+    "idea": "Agent Skills Marketplace and Registry",
+    "description": "Build a portable skills marketplace where users can share, discover, and sync reusable AI agent skills (markdown-based task instructions) across different agent harnesses like Claude Co-work, OpenClaw, and Cursor - like a Dropbox for agent skills.",
+    "category": "Marketplace",
+    "revenue_model": "freemium",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "Knowledge workers using AI agents, developers, productivity enthusiasts",
+    "episode_date": "2026-03-17",
+    "episode_title": "Why Anthropic Thinks AI Should Have Its Own Computer",
+    "mentioned_by": "Felix (Anthropic)",
+    "podcast": "Latent Space"
+  },
+  {
+    "idea": "AI Scouting / AI Intelligence Officer Service",
+    "description": "Offer an 'AI Scout' retainer service to companies - a dedicated person or team that maintains situational awareness of AI developments, evaluates new models against company-specific benchmarks, and advises on adoption and risk.",
+    "category": "Agency",
+    "revenue_model": "service_fee",
+    "effort": "low",
+    "investment": "bootstrap",
+    "target_market": "CEOs, law firms, policy organizations, universities",
+    "episode_date": "2026-03-16",
+    "episode_title": "AI Scouting Report the Good Bad and Weird at Law and AI",
+    "mentioned_by": "Nathan Labenz",
+    "podcast": "The Cognitive Revolution"
+  },
+  {
+    "idea": "Secure Python Runtime for AI Agents",
+    "description": "Build a lightweight, sandboxed Python interpreter (like Monty by Pydantic) designed specifically for AI agent code execution - enabling safe code-mode for agents without requiring full VM sandboxes, with microsecond latency and type-checking built in.",
+    "category": "Tool",
+    "revenue_model": "freemium",
+    "effort": "high",
+    "investment": "medium",
+    "target_market": "AI agent developers, enterprise companies deploying agents",
+    "episode_date": "2026-03-14",
+    "episode_title": "Monty the ultrafast Python interpreter by Agents for Agents",
+    "mentioned_by": "Sam Colvin",
+    "podcast": "Latent Space"
+  },
+  {
+    "idea": "Custom AI Agents for Knowledge Work",
+    "description": "Build custom AI agents that run autonomously triaging email, routing tickets, filing tasks from Slack, and learning user preferences over time.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "medium",
+    "investment": "medium",
+    "target_market": "Knowledge workers, teams using Notion/Slack",
+    "episode_date": "2026-03-12",
+    "episode_title": "From Note-Taking App to AI Workspace The Simon Last Interview",
+    "mentioned_by": "Simon Last",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "Cross-Platform Knowledge Index for AI Q&A",
+    "description": "Build a semantic index across email, Slack, Google Drive, Notion enabling AI to answer questions grounded in all organizational information.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "medium",
+    "target_market": "Enterprise teams, knowledge workers",
+    "episode_date": "2026-03-12",
+    "episode_title": "From Note-Taking App to AI Workspace The Simon Last Interview",
+    "mentioned_by": "Simon Last",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "Notion Custom Agents for Business Workflows",
+    "description": "Build custom Notion agents that automate specific knowledge work tasks - email triage, bug routing, customer feedback classification, weekly reporting - using Notion's new custom agents platform with persistent memory and autonomous background operation.",
+    "category": "Agency",
+    "revenue_model": "service_fee",
+    "effort": "low",
+    "investment": "bootstrap",
+    "target_market": "Teams using Notion, ops managers, startup founders",
+    "episode_date": "2026-03-12",
+    "episode_title": "From Note-Taking App to AI Workspace The Simon Last Interview",
+    "mentioned_by": "Simon Last",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "AI Agent Email Triage Service",
+    "description": "Build a custom AI agent that automatically triages your inbox daily - archiving junk, routing important messages, and learning your preferences over time through a simple approval workflow that eventually runs fully autonomously.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "low",
+    "investment": "bootstrap",
+    "target_market": "Executives, founders, busy professionals drowning in email",
+    "episode_date": "2026-03-12",
+    "episode_title": "From Note-Taking App to AI Workspace The Simon Last Interview",
+    "mentioned_by": "Simon Last",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "Auto Research Niche Agent Products",
+    "description": "Package Karpathy's auto research loops tuned for specific niches - Amazon listing optimizer, email sequence tuner for realtors, SaaS pricing optimizer - where the agent runs experiments 24/7 and presents winners for the user to accept.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "Amazon sellers, realtors, SaaS founders",
+    "episode_date": "2026-03-11",
+    "episode_title": "Karpathy's autoresearch broke the internet",
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "AI-Powered AB Testing Agency",
+    "description": "Use auto research to run hundreds of experiments on landing pages, ad creatives, and email sequences simultaneously - charge monthly retainer plus performance bonus for KPI lifts, positioning as 'we run 100x more tests than other shops.'",
+    "category": "Agency",
+    "revenue_model": "service_fee",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "E-commerce stores, B2B SaaS companies, DTC brands",
+    "episode_date": "2026-03-11",
+    "episode_title": "Karpathy's autoresearch broke the internet",
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Always-On Research-as-a-Service",
+    "description": "Use auto research loops for continuously updated market intelligence - competitor pricing tracking, regulatory compliance monitoring, and M&A due diligence - delivering living memos and dashboards to clients on subscription.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "VCs, acquirers, startup founders, compliance teams",
+    "episode_date": "2026-03-11",
+    "episode_title": "Karpathy's autoresearch broke the internet",
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "AutoQuant Trading Signal Service",
+    "description": "Use auto research to run hundreds of small backtests of simple trading rules overnight on a GPU, keep promising strategies, and sell signals/strategy reports as a digital product or trade your own account.",
+    "category": "Other",
+    "revenue_model": "subscription",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "Retail traders, quantitative finance enthusiasts",
+    "episode_date": "2026-03-11",
+    "episode_title": "Karpathy's autoresearch broke the internet",
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Finance Ops Autopilot SaaS",
+    "description": "Use auto research loops to continuously improve invoice matching, expense report generation, and exception detection - selling as 'we cut your AP/expense time in half' either as software or an ops service.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "medium",
+    "investment": "medium",
+    "target_market": "CFOs, finance teams at SMBs, accounting firms",
+    "episode_date": "2026-03-11",
+    "episode_title": "Karpathy's autoresearch broke the internet",
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Biosecurity Data Access Control Platform",
+    "description": "Build trusted research environments for sensitive biological data with tiered access controls (BDL0-4), allowing researchers to run code on dangerous pathogen data without downloading it, while tracking access and preventing misuse.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Government labs, universities, pharmaceutical companies, biosecurity organizations",
+    "episode_date": "2026-03-11",
+    "episode_title": "Bioinfohazards Jassi Pannu on Controlling Dangerous Data",
+    "mentioned_by": "Jassi Pannu",
+    "podcast": "The Cognitive Revolution"
+  },
+  {
+    "idea": "AI-Powered CRM Lead Qualification Agent",
+    "description": "Point an auto-research-style agent at your CRM and inbound leads to test scoring rules, auto-grade leads by likelihood to buy, draft personalized follow-ups, so sales people only focus on high-value deals.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "B2B sales teams, SaaS companies with inbound sales",
+    "episode_date": "2026-03-11",
+    "episode_title": "Karpathy's autoresearch broke the internet",
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Far-UV Air Sterilization for Consumer Market",
+    "description": "Build consumer-grade Far-UV sterilization products for homes, offices, and hospital rooms that passively kill airborne pathogens - creating both a health product business and private insurance against future pandemics.",
+    "category": "E-commerce",
+    "revenue_model": "one_time",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Immunocompromised patients, hospitals, schools, offices",
+    "episode_date": "2026-03-11",
+    "episode_title": "Bioinfohazards Jassi Pannu on Controlling Dangerous Data",
+    "mentioned_by": "Nathan Labenz",
+    "podcast": "The Cognitive Revolution"
+  },
+  {
+    "idea": "AI Memory Infrastructure for Agents",
+    "description": "Build a context infrastructure service (like Super Memory) that provides knowledge graphs with temporal reasoning, forgetfulness, user profiling, and hybrid RAG+memory retrieval for AI agents - solving the memory problem that plagues OpenClaw, Claude Code, and other agents.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "medium",
+    "target_market": "AI agent developers, companies building on OpenClaw/Claude Code",
+    "episode_date": "2026-03-09",
+    "episode_title": "OpenClaws Memory Sucks and the fix is simple",
+    "mentioned_by": "Dravya Shah",
+    "podcast": "Latent Space"
+  },
+  {
+    "idea": "OpenClaw TikTok Marketing Agent",
+    "description": "Set up an OpenClaw agent (like 'Larry') that automates TikTok slideshow creation and posting for app marketing - it researches winning hooks, generates images, creates slideshows, posts as drafts, analyzes TikTok analytics, and iterates on content to improve app download conversions.",
+    "category": "Tool",
+    "revenue_model": "one_time",
+    "effort": "low",
+    "investment": "bootstrap",
+    "target_market": "Indie app developers, solopreneurs with mobile apps",
+    "episode_date": "2026-03-09",
+    "episode_title": "I gave OpenClaw one job go viral (it worked)",
+    "mentioned_by": "Oliver Henry",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "AI Video Content Enhancement Service for Creators",
+    "description": "Use Freepik's Nana Banana Pro to enhance static talking head videos by generating AI backgrounds, adding objects, creating smooth transitions between scenes, and improving visual aesthetics - turning bedroom-shot content into professional-looking reels.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "low",
+    "investment": "bootstrap",
+    "target_market": "Instagram/TikTok creators, YouTubers, content marketers",
+    "episode_date": "2026-03-06",
+    "episode_title": "Using AI Tools (Manus, FreePik etc) to Create Viral IG Reels",
+    "mentioned_by": "Kova",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "AI Creator Style Analysis Tool",
+    "description": "Use Manus AI to analyze any creator's video content and generate a detailed style guide including aesthetic keywords, typography system, story structure, camera techniques, and a replication plan - helping creators develop their own unique style.",
+    "category": "Tool",
+    "revenue_model": "freemium",
+    "effort": "low",
+    "investment": "bootstrap",
+    "target_market": "Content creators, social media managers, marketing agencies",
+    "episode_date": "2026-03-06",
+    "episode_title": "Using AI Tools (Manus, FreePik etc) to Create Viral IG Reels",
+    "mentioned_by": "Kova",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Cloud Coding Agent with Video Demo Output",
+    "description": "Build coding agents (like Cursor's cloud agents) that not only write and test code in their own VM but produce demo videos of the results, enabling developers to review in seconds what would take minutes to pull down and test locally.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Software development teams, startups, enterprise engineering orgs",
+    "episode_date": "2026-03-06",
+    "episode_title": "Cursors Third Era Cloud Agents",
+    "mentioned_by": "Evan (Cursor)",
+    "podcast": "Latent Space"
+  },
+  {
+    "idea": "Enterprise Agent Identity and Permissions Platform",
+    "description": "Build the access control and identity layer for AI agents in the enterprise - managing what data agents can access, governing agent workspaces, tracking agent activities, and ensuring proper security when agents work across organizational boundaries.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Fortune 500 enterprises, IT security teams",
+    "episode_date": "2026-03-05",
+    "episode_title": "Why Every Agent Needs a Box Aaron Levie",
+    "mentioned_by": "Aaron Levie",
+    "podcast": "Latent Space"
+  },
+  {
+    "idea": "Agent-Ready Enterprise Consulting",
+    "description": "A professional services firm that goes into organizations to re-engineer workflows for AI agents, get data into the right format, set up documentation, and help companies restructure business processes so agents can effectively operate.",
+    "category": "Agency",
+    "revenue_model": "service_fee",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "Fortune 500 companies, mid-market enterprises adopting AI",
+    "episode_date": "2026-03-05",
+    "episode_title": "Why Every Agent Needs a Box Aaron Levie",
+    "mentioned_by": "Aaron Levie",
+    "podcast": "Latent Space"
+  },
+  {
+    "idea": "AI-Powered Interpretability Consulting for Model Safety",
+    "description": "Offer a Palantir-style consulting service using mechanistic interpretability to help enterprises understand, debug, and intentionally design their AI models - reducing hallucinations, detecting reward hacking, and ensuring reliable behavior through techniques like probes and gradient steering.",
+    "category": "Agency",
+    "revenue_model": "service_fee",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Life sciences companies, financial institutions, government agencies using AI",
+    "episode_date": "2026-03-05",
+    "episode_title": "Dont Fight Backprop Goodfires Vision for Intentional Design",
+    "mentioned_by": "Dan Balsam",
+    "podcast": "The Cognitive Revolution"
+  },
+  {
+    "idea": "AI Agent Observability and Eval Platform",
+    "description": "Build an evaluation and observability platform specifically for AI agents in enterprise - tracking agent performance across knowledge work tasks, detecting regressions, measuring quality of agent outputs in finance, legal, and other verticals.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "medium",
+    "target_market": "Enterprises deploying AI agents, AI engineering teams",
+    "episode_date": "2026-03-05",
+    "episode_title": "Why Every Agent Needs a Box Aaron Levie",
+    "mentioned_by": "Aaron Levie",
+    "podcast": "Latent Space"
+  },
+  {
+    "idea": "DevRel Bootcamp and Talent Pipeline",
+    "description": "Create a developer relations training program and talent pipeline - teaching writing, API evangelism, and community building skills to aspiring DevRel professionals, then placing them at companies who desperately need DevRel for their AI/API products.",
+    "category": "Community",
+    "revenue_model": "service_fee",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "Aspiring DevRel professionals, AI/SaaS companies hiring DevRel",
+    "episode_date": "2026-03-05",
+    "episode_title": "Why Every Agent Needs a Box Aaron Levie",
+    "mentioned_by": "Aaron Levie / Swyx",
+    "podcast": "Latent Space"
+  },
+  {
     "idea": "AI Agent SaaS for Local Business Workflows",
     "description": "Map a local business owner's workflow (e.g., roofing: leads, quoting, scheduling), identify repetitive mechanical steps, automate them with AI agents, and charge per-task or per-outcome instead of per-seat.",
     "category": "SaaS",
@@ -9,7 +334,21 @@
     "target_market": "Local business owners in specific verticals (roofing, plumbing, dental, etc.)",
     "episode_date": "2026-03-04",
     "episode_title": "SaaS is minting millionaires again (here's how)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Subniche AI Agent SaaS for Service Businesses",
+    "description": "Pick a specific subniche (e.g., roofing companies, dentists) and build an AI agent SaaS that automates their entire workflow from lead qualification to quoting to follow-up, charging per-task/outcome pricing instead of per-seat.",
+    "category": "SaaS",
+    "revenue_model": "transaction_fee",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "Local service businesses, vertical SaaS buyers",
+    "episode_date": "2026-03-04",
+    "episode_title": "SaaS is minting millionaires again (here's how)",
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Marketing Automation with Claude Code + MCPs",
@@ -21,7 +360,229 @@
     "target_market": "Solo founders and small marketing teams",
     "episode_date": "2026-03-02",
     "episode_title": "Claude Code & MCPs built my $145K marketing machine",
-    "mentioned_by": "Cody Schneider"
+    "mentioned_by": "Cody Schneider",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "GTM Engineering Automation with Claude Code",
+    "description": "Build personal marketing automation software using Claude Code + API keys for Facebook Ads, LinkedIn (Phantom Buster), cold email (Instantly), and data enrichment (Apollo), creating a pipeline that bulk-generates ad creative, auto-publishes, analyzes performance, and turns off losers automatically.",
+    "category": "Agency",
+    "revenue_model": "service_fee",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "Growth marketers, SaaS companies, agencies",
+    "episode_date": "2026-03-02",
+    "episode_title": "Claude Code & MCPs built my $145K marketing machine",
+    "mentioned_by": "Cody Schneider",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Automated Podcast Guest Outbound System",
+    "description": "Scrape podcast host emails from Rephonic API, verify with Million Verifier, and auto-add to Instantly cold email campaigns to book yourself as a podcast guest at scale.",
+    "category": "Tool",
+    "revenue_model": "one_time",
+    "effort": "low",
+    "investment": "bootstrap",
+    "target_market": "Founders, thought leaders, B2B marketers wanting podcast appearances",
+    "episode_date": "2026-03-02",
+    "episode_title": "Claude Code & MCPs built my $145K marketing machine",
+    "mentioned_by": "Cody Schneider",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "LinkedIn Engagement-to-Cold-Email Pipeline",
+    "description": "Automatically extract people who engage on your LinkedIn posts using Phantom Buster, enrich their profiles with Apollo, verify emails with Million Verifier, and add them to cold email campaigns in Instantly.",
+    "category": "Tool",
+    "revenue_model": "service_fee",
+    "effort": "low",
+    "investment": "bootstrap",
+    "target_market": "B2B sales teams, founders, growth marketers",
+    "episode_date": "2026-03-02",
+    "episode_title": "Claude Code & MCPs built my $145K marketing machine",
+    "mentioned_by": "Cody Schneider",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Bulk AI Ad Creative Generator and Optimizer",
+    "description": "Build a tool that bulk-generates 100+ ad creative variations using React components or image models, publishes them to Facebook/Meta Ads via API, auto-analyzes performance, turns off losers, and promotes winners - all running autonomously.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "Performance marketers, DTC brands, growth agencies",
+    "episode_date": "2026-03-02",
+    "episode_title": "Claude Code & MCPs built my $145K marketing machine",
+    "mentioned_by": "Cody Schneider",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "AI That Builds and Runs Companies Autonomously",
+    "description": "A platform like Pulsia where you give it a business idea and an AI CEO agent handles product coding, marketing, cold outreach, meta ads, landing pages, Twitter, and email - sending you a daily progress email. Charges $50/month subscription plus 20% revenue share.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "medium",
+    "target_market": "Aspiring entrepreneurs, side-project builders, non-technical founders",
+    "episode_date": "2026-03-01",
+    "episode_title": "Polsia Solo Founder 0 to 1m ARR in 1 month",
+    "mentioned_by": "Ben (Pulsia founder)",
+    "podcast": "Latent Space"
+  },
+  {
+    "idea": "AI Agent Warm Outbound Sales Tool",
+    "description": "Use Perplexity Computer or similar AI agent platforms to automate personalized prospect research, find decision-maker emails, draft hyper-personalized cold emails, and set up weekly sponsor monitoring across competitor podcasts/channels.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "low",
+    "investment": "bootstrap",
+    "target_market": "Podcasters, media companies, B2B sales teams",
+    "episode_date": "2026-02-27",
+    "episode_title": "What is Perplexity Computer",
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Automated Competitive Intelligence Agent",
+    "description": "Set up recurring AI agents that daily monitor 5+ competitors' websites for pricing changes, feature launches, blog posts, and social media mentions, sending push notifications only when something changes.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "low",
+    "investment": "bootstrap",
+    "target_market": "Founders, product managers, marketing teams",
+    "episode_date": "2026-02-27",
+    "episode_title": "What is Perplexity Computer",
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "AI Investment Research Memo Generator",
+    "description": "Use AI agents to pull latest financials, earnings transcripts, analyst opinions, and social sentiment for any stock ticker, then compile into a polished PDF with charts, bull/bear cases, and comparable analysis.",
+    "category": "Tool",
+    "revenue_model": "one_time",
+    "effort": "low",
+    "investment": "bootstrap",
+    "target_market": "Retail investors, financial advisors, family offices",
+    "episode_date": "2026-02-27",
+    "episode_title": "What is Perplexity Computer",
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "AI Compute Financing SPV Structures",
+    "description": "Create specialized financial vehicles to finance GPU clusters and data center buildouts using contracted cash flows as collateral.",
+    "category": "Other",
+    "revenue_model": "transaction_fee",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "AI companies needing compute infrastructure",
+    "episode_date": "2026-02-26",
+    "episode_title": "Whos Actually Funding the AI Buildout",
+    "mentioned_by": "Neil Tuari (Magnetar Capital)",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "Distributed Energy Storage for Data Centers",
+    "description": "Build distributed energy storage and mesh infrastructure to store excess capacity and distribute it when needed to power-hungry AI data centers.",
+    "category": "Other",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Data center operators, AI companies",
+    "episode_date": "2026-02-26",
+    "episode_title": "Whos Actually Funding the AI Buildout",
+    "mentioned_by": "Neil Tuari",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "On-Premises AI Factory for Enterprises",
+    "description": "Build dedicated on-premise AI compute infrastructure for enterprises who want control over inference workloads rather than cloud dependency.",
+    "category": "Other",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Fortune 500 companies, AI-heavy enterprises",
+    "episode_date": "2026-02-26",
+    "episode_title": "Whos Actually Funding the AI Buildout",
+    "mentioned_by": "Neil Tuari",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "Semiconductor Supply Chain Intelligence Service",
+    "description": "Build an analytics and research service tracking AI chip supply chains, fab capacity, data center buildouts, and capex trends for investors and enterprise customers, similar to what SemiAnalysis does but accessible to a broader market.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "Hedge funds, investors, semiconductor companies, data center operators",
+    "episode_date": "2026-02-26",
+    "episode_title": "Dylan Patel Explains the AI War While Cooking",
+    "mentioned_by": "Dylan Patel",
+    "podcast": "Latent Space"
+  },
+  {
+    "idea": "AI-Powered Materials Discovery Platform",
+    "description": "Build a SaaS platform that uses AI to search the space of all possible molecules and materials, combining generative AI with digital twin simulations to accelerate new material development for batteries, solar panels, carbon capture, and more.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Materials science companies, chemical manufacturers, energy companies",
+    "episode_date": "2026-02-25",
+    "episode_title": "Max Welling Materials Underlie Everything",
+    "mentioned_by": "Max Welling",
+    "podcast": "Latent Space"
+  },
+  {
+    "idea": "AI Code Quality Management Platform",
+    "description": "Build tools to manage code slop - monitoring, testing, and ensuring quality of AI-generated code in production codebases where no human reads every line.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "medium",
+    "investment": "medium",
+    "target_market": "Software engineering teams using AI coding tools",
+    "episode_date": "2026-02-19",
+    "episode_title": "The AI Code Slop Risk or Opportunity",
+    "mentioned_by": "Sarah Guo",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "AI-Native Vertical SaaS Replacing Legacy Systems",
+    "description": "Build AI-native applications that fully replace legacy systems of record (CRM, ERP, support) with disrupted pricing and faster time-to-value.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Enterprise companies frustrated with legacy SaaS",
+    "episode_date": "2026-02-19",
+    "episode_title": "The AI Code Slop Risk or Opportunity",
+    "mentioned_by": "Elad Gil and Sarah Guo",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "Formal Verification for Safety-Critical Software",
+    "description": "Use AI-powered formal verification (Lean language) to mathematically prove correctness of code in cryptography, autopilot, and other safety-critical domains.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Defense, aerospace, financial services, crypto",
+    "episode_date": "2026-02-18",
+    "episode_title": "Mathematical Superintelligence Harmonics Vlad and Tudor on IMO Gold",
+    "mentioned_by": "Tudor and Vlad (Harmonic)",
+    "podcast": "The Cognitive Revolution"
+  },
+  {
+    "idea": "AI Mathematical Proof Assistant API",
+    "description": "An API that formally verifies mathematical proofs, auto-formalizes natural language math into Lean, and helps solve previously unsolved problems.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Mathematicians, researchers, CS departments",
+    "episode_date": "2026-02-18",
+    "episode_title": "Mathematical Superintelligence Harmonics Vlad and Tudor on IMO Gold",
+    "mentioned_by": "Vlad Tennov and Tudor (Harmonic)",
+    "podcast": "The Cognitive Revolution"
   },
   {
     "idea": "Online Directory Business with Claude Code",
@@ -33,7 +594,164 @@
     "target_market": "People searching for categorized information in any niche",
     "episode_date": "2026-02-16",
     "episode_title": "Claude Code built me a $273/Day online directory",
-    "mentioned_by": "Frey"
+    "mentioned_by": "Frey",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Multi-Agent AI Virtual Lab for Drug Discovery",
+    "description": "Build multi-agent AI systems where specialized agents collaborate to design novel molecules and nanobodies, accelerating pharmaceutical R&D.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Biotech, pharmaceutical companies",
+    "episode_date": "2026-02-13",
+    "episode_title": "Approaching the AI Event Horizon Part 1",
+    "mentioned_by": "James Zo (Stanford)",
+    "podcast": "The Cognitive Revolution"
+  },
+  {
+    "idea": "AI Sleep Health Analysis Platform",
+    "description": "Use wearable sleep data (brain activity, heart, breathing) with AI to predict over 100 future diseases from a single night of sleep.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Healthcare providers, wearable users, insurers",
+    "episode_date": "2026-02-13",
+    "episode_title": "Approaching the AI Event Horizon Part 1",
+    "mentioned_by": "James Zo (Stanford)",
+    "podcast": "The Cognitive Revolution"
+  },
+  {
+    "idea": "AI Agent Sandbox Testing Environment",
+    "description": "Build a persistent virtual environment where multiple AI agents interact autonomously, used for testing agent behavior, safety evaluations, and studying emergent multi-agent dynamics.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "medium",
+    "target_market": "AI safety researchers, frontier model companies, enterprises deploying agents",
+    "episode_date": "2026-02-13",
+    "episode_title": "Approaching the AI Event Horizon Part 1",
+    "mentioned_by": "Shashana Tikkovski (Sage/AI Village)",
+    "podcast": "The Cognitive Revolution"
+  },
+  {
+    "idea": "Software-Defined Vehicle Architecture Licensing",
+    "description": "License a modern software-defined vehicle architecture (zonal, OTA-capable) to legacy automakers who cannot build it themselves.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Legacy automotive OEMs",
+    "episode_date": "2026-02-12",
+    "episode_title": "AI R2 and the Future of Everyday Driving Rivian CEO RJ Scaringe",
+    "mentioned_by": "RJ Scaringe",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "AI Digital Forensics Service",
+    "description": "Build AI agents that automate digital forensics investigations, reducing incident response time from days to hours, distributed via cyber insurance companies.",
+    "category": "SaaS",
+    "revenue_model": "service_fee",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Enterprises, cyber insurance companies",
+    "episode_date": "2026-02-08",
+    "episode_title": "AGI-Pilled Cyber Defense Automating Digital Forensics",
+    "mentioned_by": "Alexi Carlier (Asymmetric Security)",
+    "podcast": "The Cognitive Revolution"
+  },
+  {
+    "idea": "Proactive AI Security Assessment Platform",
+    "description": "Run AI-powered continuous digital forensics proactively on enterprise systems to detect breaches before damage occurs, replacing reactive incident response.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Enterprises, AI labs, government agencies",
+    "episode_date": "2026-02-08",
+    "episode_title": "AGI-Pilled Cyber Defense Automating Digital Forensics",
+    "mentioned_by": "Alexi Carlier",
+    "podcast": "The Cognitive Revolution"
+  },
+  {
+    "idea": "Differentially Accelerated Defensive AI",
+    "description": "Intentionally build specialized datasets, evals, and training environments to accelerate AI capabilities specifically for defense (cyber, bio, safety) without equally advancing offensive capabilities.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Government agencies, AI labs, critical infrastructure operators",
+    "episode_date": "2026-02-08",
+    "episode_title": "AGI-Pilled Cyber Defense Automating Digital Forensics",
+    "mentioned_by": "Alexi Carlier (Asymmetric Security)",
+    "podcast": "The Cognitive Revolution"
+  },
+  {
+    "idea": "AI NPC Virtual Doppelganger Platform",
+    "description": "Create personalized AI doppelgangers in virtual worlds trained on users actual behavior that can stand in for them in social interactions.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Gaming platforms, virtual world users",
+    "episode_date": "2026-02-05",
+    "episode_title": "How AI Will Transform Roblox Games into Photorealistic Worlds",
+    "mentioned_by": "David Baszucki",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "AI-Generated Micro Dramas Platform",
+    "description": "Build a platform for serialized micro-dramas generated with AI, personalized to viewer preferences - short-form video meets interactive storytelling.",
+    "category": "Content",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Mobile entertainment consumers",
+    "episode_date": "2026-02-05",
+    "episode_title": "How AI Will Transform Roblox Games into Photorealistic Worlds",
+    "mentioned_by": "Elad Gil",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "Meritocratic Hiring Assessment Platform",
+    "description": "Build 3D problem-solving assessments for hiring that test creative problem-solving ability independent of university pedigree, uncovering talent from non-traditional backgrounds.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "medium",
+    "target_market": "Tech companies, large employers",
+    "episode_date": "2026-02-05",
+    "episode_title": "How AI Will Transform Roblox Games into Photorealistic Worlds",
+    "mentioned_by": "David Baszucki",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "Organ Cryopreservation Technology",
+    "description": "Build technology to pause time for transplant organs, removing time-sensitive logistics and enabling better patient-organ matching.",
+    "category": "Other",
+    "revenue_model": "one_time",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Hospitals, transplant centers",
+    "episode_date": "2026-01-29",
+    "episode_title": "How Until is Engineering Away Time in Organ Transplants Laura Deming",
+    "mentioned_by": "Laura Deming",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "AI-Native Database for Unstructured Data",
+    "description": "Position or build a document database as the default data layer for AI applications, handling unstructured data, vector search, and high-velocity AI workloads.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "AI-native companies, enterprise developers",
+    "episode_date": "2026-01-22",
+    "episode_title": "No Priors Live Is the SaaS Bear Thesis Overblown MongoDB CEO",
+    "mentioned_by": "CJ Desai (MongoDB CEO)",
+    "podcast": "No Priors"
   },
   {
     "idea": "AI-Generated Niche Info Product Business",
@@ -45,7 +763,8 @@
     "target_market": "People going through specific life events (divorce, wedding, new parent, etc.)",
     "episode_date": "2026-01-16",
     "episode_title": "I Spent $289 So AI Could Build My Business",
-    "mentioned_by": "Samuel Thompson"
+    "mentioned_by": "Samuel Thompson",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "White Label Supplements via Supplel/Anox",
@@ -57,7 +776,8 @@
     "target_market": "Health and beauty consumers reached through Facebook ads",
     "episode_date": "2026-01-16",
     "episode_title": "I Spent $289 So AI Could Build My Business",
-    "mentioned_by": "Samuel Thompson"
+    "mentioned_by": "Samuel Thompson",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Hummingbird Nectar DTC Brand",
@@ -69,7 +789,73 @@
     "target_market": "Bird enthusiasts and backyard gardeners",
     "episode_date": "2026-01-16",
     "episode_title": "I Spent $289 So AI Could Build My Business",
-    "mentioned_by": "Samuel Thompson"
+    "mentioned_by": "Samuel Thompson",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Defense Supply Chain Critical Materials Company",
+    "description": "Produce critical materials (germanium, fiber optics, brushless motors) currently dependent on foreign supply for US defense applications.",
+    "category": "Other",
+    "revenue_model": "one_time",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "US Department of Defense, defense contractors",
+    "episode_date": "2026-01-15",
+    "episode_title": "The Largest Untapped Market Inside US Defense Emil Michael",
+    "mentioned_by": "Emil Michael",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "AI Intelligence Fusion Platform",
+    "description": "Build AI tools that aggregate and fuse multiple types of intelligence data to make human analysts dramatically more efficient.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "US intelligence agencies, Department of Defense",
+    "episode_date": "2026-01-15",
+    "episode_title": "The Largest Untapped Market Inside US Defense Emil Michael",
+    "mentioned_by": "Emil Michael",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "Directed Energy Drone Defense Systems",
+    "description": "Build scalable, cost-effective directed energy weapons (lasers, microwaves) to counter drone threats - much cheaper than missiles.",
+    "category": "Other",
+    "revenue_model": "one_time",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Military, defense agencies",
+    "episode_date": "2026-01-15",
+    "episode_title": "The Largest Untapped Market Inside US Defense Emil Michael",
+    "mentioned_by": "Emil Michael",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "AI for Digital Biology and Drug Discovery",
+    "description": "Build AI systems for protein generation, chemical understanding, and drug discovery - the ChatGPT moment for biology with protein generation and molecular design.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Pharmaceutical companies, biotech firms",
+    "episode_date": "2026-01-08",
+    "episode_title": "NVIDIAs Jensen Huang on Reasoning Models Robotics and AI Bubble",
+    "mentioned_by": "Jensen Huang",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "Vertical AI Applications Beyond Chatbots",
+    "description": "Build specialized AI applications for specific industries (medical, legal, coding, financial) where domain expertise plus AI creates massive defensible value.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "medium",
+    "target_market": "Enterprise customers in specific verticals",
+    "episode_date": "2026-01-08",
+    "episode_title": "NVIDIAs Jensen Huang on Reasoning Models Robotics and AI Bubble",
+    "mentioned_by": "Jensen Huang",
+    "podcast": "No Priors"
   },
   {
     "idea": "AI-Powered E-commerce Product Research with Axio",
@@ -81,7 +867,8 @@
     "target_market": "Aspiring e-commerce entrepreneurs",
     "episode_date": "2026-01-05",
     "episode_title": "Watch me use AI to make millions in ecommerce",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Cozy Gaming Mechanical Keyboard Brand",
@@ -93,7 +880,8 @@
     "target_market": "Gen Z women interested in cozy gaming aesthetic",
     "episode_date": "2026-01-05",
     "episode_title": "Watch me use AI to make millions in ecommerce",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Senior Dog Products E-commerce Brand",
@@ -105,7 +893,99 @@
     "target_market": "Owners of aging dogs willing to spend on pet comfort",
     "episode_date": "2026-01-05",
     "episode_title": "Watch me use AI to make millions in ecommerce",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Defense Tech Autonomous Drone Systems",
+    "description": "Build autonomous drone and robotic systems for military applications, leveraging the shift from big iron to distributed autonomous fleets.",
+    "category": "Other",
+    "revenue_model": "one_time",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Department of Defense, allied militaries",
+    "episode_date": "2025-12-19",
+    "episode_title": "The 2026 AI Forecast with Sarah and Elad",
+    "mentioned_by": "Elad Gil",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "AI Voice Agent for E-Commerce Discovery",
+    "description": "Build conversational voice AI that helps e-commerce customers discover products, navigate websites, and complete purchases through voice interaction.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "E-commerce platforms, retailers",
+    "episode_date": "2025-12-11",
+    "episode_title": "With ElevenLabs Co-Founder Mati Staniszewski",
+    "mentioned_by": "Mati Staniszewski",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "AI Personal Education Tutor",
+    "description": "A personalized AI voice tutor available through headphones that adapts to each student, using celebrity or expert voices for engaging on-demand education.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Students, lifelong learners",
+    "episode_date": "2025-12-11",
+    "episode_title": "With ElevenLabs Co-Founder Mati Staniszewski",
+    "mentioned_by": "Mati Staniszewski",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "Real-Time Voice Translation Service",
+    "description": "A real-time voice translation service preserving the original voice, emotions, and intonation across languages - the Babelfish concept.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "International businesses, travelers, content creators",
+    "episode_date": "2025-12-11",
+    "episode_title": "With ElevenLabs Co-Founder Mati Staniszewski",
+    "mentioned_by": "Mati Staniszewski",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "Agentic Government Services Platform",
+    "description": "Build AI-powered government services where citizens interact with agents for benefits, employment, education instead of navigating bureaucratic systems.",
+    "category": "SaaS",
+    "revenue_model": "service_fee",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Government agencies, municipalities",
+    "episode_date": "2025-12-11",
+    "episode_title": "With ElevenLabs Co-Founder Mati Staniszewski",
+    "mentioned_by": "Mati Staniszewski",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "AI-Powered Legal Platform for Law Firms",
+    "description": "Build vertical AI products for law firms that orchestrate entire teams and matters, connecting to billing, governance, and document management systems.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Large law firms, in-house legal teams",
+    "episode_date": "2025-12-05",
+    "episode_title": "With Harvey Co-Founder Gabe Pereyra",
+    "mentioned_by": "Gabe Pereyra",
+    "podcast": "No Priors"
+  },
+  {
+    "idea": "Forward-Deployed AI Engineering Services",
+    "description": "Embed engineering teams with enterprise customers to help them integrate AI into existing systems, build custom workflows, and transform their business.",
+    "category": "Agency",
+    "revenue_model": "service_fee",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Fortune 500 companies adopting AI",
+    "episode_date": "2025-12-05",
+    "episode_title": "With Harvey Co-Founder Gabe Pereyra",
+    "mentioned_by": "Gabe Pereyra",
+    "podcast": "No Priors"
   },
   {
     "idea": "AI Video Generator App for Niches",
@@ -117,7 +997,8 @@
     "target_market": "TikTok and Instagram users wanting viral content",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Sermon/Therapy Note-Taking App",
@@ -129,7 +1010,8 @@
     "target_market": "Churchgoers, therapy patients, people in recovery programs",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Interior Design Visualizer for Niches",
@@ -141,7 +1023,8 @@
     "target_market": "Homeowners, renters, and business owners wanting to visualize renovations",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Collectible Scanner & Valuation App",
@@ -153,7 +1036,8 @@
     "target_market": "Collectors of vinyl, comics, sports cards, toys, vintage items",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Niche AI Bundled Assistant App",
@@ -165,7 +1049,8 @@
     "target_market": "Students, salespeople, teachers, legal professionals",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Logo/Creative Asset Generator App",
@@ -177,7 +1062,8 @@
     "target_market": "New business owners and content creators needing quick branding",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Restaurant Menu Health Scanner App",
@@ -189,7 +1075,8 @@
     "target_market": "Health-conscious diners who eat out frequently",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Language Tutor for Specific Niches",
@@ -201,7 +1088,8 @@
     "target_market": "Non-native English speakers in professional contexts",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Golf Swing Coach App",
@@ -213,7 +1101,8 @@
     "target_market": "Golf enthusiasts wanting to improve their swing",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Pet Health Scanner",
@@ -225,7 +1114,8 @@
     "target_market": "Pet owners concerned about their animal's health",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Used Car Analyzer App",
@@ -237,7 +1127,8 @@
     "target_market": "Used car buyers wanting to avoid getting ripped off",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "3D Body Scanner for Specific Niches",
@@ -249,7 +1140,8 @@
     "target_market": "Fitness enthusiasts, rehab patients, remote coaching clients",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Closet Stylist App",
@@ -261,7 +1153,8 @@
     "target_market": "Fashion-conscious consumers wanting wardrobe optimization",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Garden Plant Doctor App",
@@ -273,7 +1166,8 @@
     "target_market": "Home gardeners dealing with plant health issues",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "RV/Van Life Layout Designer App",
@@ -285,7 +1179,8 @@
     "target_market": "Van life enthusiasts and RV owners doing custom conversions",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Auction Strategist App",
@@ -297,7 +1192,8 @@
     "target_market": "Auction buyers and sellers wanting data-driven decisions",
     "episode_date": "2025-12-03",
     "episode_title": "10 Unknown Apps Making $50K+ MRR (Copy Them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Solo Female Travel Safety Review Platform",
@@ -309,7 +1205,8 @@
     "target_market": "Solo female travelers (84% feel unsafe during trips)",
     "episode_date": "2025-11-13",
     "episode_title": "Startup idea someone should steal",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Gamification Agency",
@@ -321,7 +1218,8 @@
     "target_market": "App and website owners wanting higher engagement",
     "episode_date": "2025-11-13",
     "episode_title": "Startup idea someone should steal",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Influencer Content Factory",
@@ -333,7 +1231,8 @@
     "target_market": "Brands wanting organic social media presence at scale",
     "episode_date": "2025-11-10",
     "episode_title": "Glif AI: The $10 App That Replaces a Full Creative Team",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Faceless Reddit Story TikTok Channel",
@@ -345,7 +1244,8 @@
     "target_market": "TikTok/Reels viewers who consume story content",
     "episode_date": "2025-11-10",
     "episode_title": "Glif AI: The $10 App That Replaces a Full Creative Team",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Claude Skills Marketplace",
@@ -357,7 +1257,8 @@
     "target_market": "Marketing teams, data analysts, and knowledge workers using Claude",
     "episode_date": "2025-10-27",
     "episode_title": "Claude Skills Built Me an AI Agent Army (They Run Everything Now)",
-    "mentioned_by": "Amir"
+    "mentioned_by": "Amir",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Tweet-to-Newsletter Automation Skill",
@@ -369,7 +1270,8 @@
     "target_market": "Content creators and thought leaders with active Twitter presence",
     "episode_date": "2025-10-27",
     "episode_title": "Claude Skills Built Me an AI Agent Army (They Run Everything Now)",
-    "mentioned_by": "Greg Isenberg and Amir"
+    "mentioned_by": "Greg Isenberg and Amir",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "IRL Retreat / Mastermind Events",
@@ -381,7 +1283,8 @@
     "target_market": "Professionals in any niche craving real-world connection",
     "episode_date": "2025-10-20",
     "episode_title": "Make $1M+ in 2026 with this Trend (IRL is back)",
-    "mentioned_by": "Jonathan Courtney"
+    "mentioned_by": "Jonathan Courtney",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Physical Info Products with Premium Pricing",
@@ -393,7 +1296,8 @@
     "target_market": "Professionals willing to pay premium for curated physical knowledge products",
     "episode_date": "2025-10-20",
     "episode_title": "Make $1M+ in 2026 with this Trend (IRL is back)",
-    "mentioned_by": "Jonathan Courtney"
+    "mentioned_by": "Jonathan Courtney",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Cemetery Management Software",
@@ -405,7 +1309,8 @@
     "target_market": "Small cemetery operators with manual record-keeping",
     "episode_date": "2025-10-15",
     "episode_title": "Genspark's Super AI Agent is INSANE",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Voice-First AI Photo Editing App",
@@ -417,7 +1322,8 @@
     "target_market": "Everyday smartphone users wanting quick photo edits",
     "episode_date": "2025-10-15",
     "episode_title": "Genspark's Super AI Agent is INSANE",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Calling Agent Service",
@@ -429,7 +1335,8 @@
     "target_market": "Busy professionals and business owners",
     "episode_date": "2025-10-15",
     "episode_title": "Genspark's Super AI Agent is INSANE",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Custom AI Chatbot for Sales + Support",
@@ -441,7 +1348,8 @@
     "target_market": "Startups and mid-size companies wanting to replace $150/mo customer support tools",
     "episode_date": "2025-10-08",
     "episode_title": "OpenAI's NEW AI Agent Builder Replaces n8n & Zapier",
-    "mentioned_by": "Amir"
+    "mentioned_by": "Amir",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Video Ad Agency using Sora 2 + Claude",
@@ -453,7 +1361,8 @@
     "target_market": "Startups and SMBs needing video ads",
     "episode_date": "2025-10-04",
     "episode_title": "How I'd use Sora 2 + Claude to hit 1M+ views on AI videos",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Dog Allergy Scanner App",
@@ -465,7 +1374,8 @@
     "target_market": "Dog owners with pets that have food sensitivities",
     "episode_date": "2025-09-22",
     "episode_title": "Making $100K/month with iOS apps (BREAKDOWN)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Migraine Weather Guard App",
@@ -477,7 +1387,8 @@
     "target_market": "Migraine sufferers who track triggers",
     "episode_date": "2025-09-22",
     "episode_title": "Making $100K/month with iOS apps (BREAKDOWN)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Silent Study Timer App (Locked In)",
@@ -489,7 +1400,8 @@
     "target_market": "Students in competitive exam prep",
     "episode_date": "2025-09-22",
     "episode_title": "Making $100K/month with iOS apps (BREAKDOWN)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Plant Watering AI Coach App",
@@ -501,7 +1413,8 @@
     "target_market": "Urban apartment dwellers in cities like LA, NYC, Miami",
     "episode_date": "2025-09-22",
     "episode_title": "Making $100K/month with iOS apps (BREAKDOWN)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Google Maps Niche Research Workflow",
@@ -513,7 +1426,8 @@
     "target_market": "Aspiring local business owners and entrepreneurs",
     "episode_date": "2025-09-19",
     "episode_title": "My AI agents scrape Google Maps to make $$ in BORING businesses",
-    "mentioned_by": "James (The Boring Marketer)"
+    "mentioned_by": "James (The Boring Marketer)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Local Niche Newsletter + Lead Gen",
@@ -525,7 +1439,8 @@
     "target_market": "Local service businesses in tier 2/3 cities",
     "episode_date": "2025-09-19",
     "episode_title": "My AI agents scrape Google Maps to make $$ in BORING businesses",
-    "mentioned_by": "James (The Boring Marketer)"
+    "mentioned_by": "James (The Boring Marketer)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Local Niche Directory Site",
@@ -537,7 +1452,8 @@
     "target_market": "Local consumers and service providers",
     "episode_date": "2025-09-19",
     "episode_title": "My AI agents scrape Google Maps to make $$ in BORING businesses",
-    "mentioned_by": "James (The Boring Marketer)"
+    "mentioned_by": "James (The Boring Marketer)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Vibe Coded App Making $50K/month",
@@ -549,7 +1465,8 @@
     "target_market": "Users with specific workflow problems",
     "episode_date": "2025-09-17",
     "episode_title": "Apps make $50K/mo like THIS (I shouldn't share this)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Search Optimization (GEO) Service",
@@ -561,7 +1478,8 @@
     "target_market": "Businesses wanting to appear in ChatGPT and Perplexity search results",
     "episode_date": "2025-09-12",
     "episode_title": "AI Search is PRINTING (ChatGPT, GEO & Perplexity)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "SaaS Fixing/Consulting Service ($20K/mo)",
@@ -573,7 +1491,8 @@
     "target_market": "Solopreneurs and small teams with $5-20K/month SaaS products",
     "episode_date": "2025-09-10",
     "episode_title": "This Solopreneur Called Me to Fix His $20k/mo SaaS",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Agent Profit Business (Rowan Cheung Model)",
@@ -585,7 +1504,8 @@
     "target_market": "Businesses with repetitive manual processes",
     "episode_date": "2025-09-08",
     "episode_title": "Screensharing How This Guy Makes Millions with AI Agents (Rowan Cheung)",
-    "mentioned_by": "Rowan Cheung / Greg Isenberg"
+    "mentioned_by": "Rowan Cheung / Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI App Portfolio ($6M/year)",
@@ -597,7 +1517,8 @@
     "target_market": "Mobile app users in various niches",
     "episode_date": "2025-09-03",
     "episode_title": "I quit my job to make $6M/year with AI apps",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Google Ads + HeyGen AI + Perplexity Income Stack",
@@ -609,7 +1530,8 @@
     "target_market": "Local businesses, service providers wanting online presence",
     "episode_date": "2025-08-30",
     "episode_title": "Using Google Ads, Heygen AI, Perplexity to make you $$$",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Hormozi-Style AI Ad Stack",
@@ -621,7 +1543,8 @@
     "target_market": "Info product creators, course sellers, high-ticket service businesses",
     "episode_date": "2025-08-21",
     "episode_title": "How Hormozi made $83m in 5 days (Ads, Emails, Pages, Everything)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Voice AI Agent SaaS Business",
@@ -633,7 +1556,8 @@
     "target_market": "Businesses with high call volume (medical, real estate, restaurants)",
     "episode_date": "2025-08-19",
     "episode_title": "Making $$$ with Voice AI agents and SaaS (my little secret)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Agent Business ($12.5K/mo)",
@@ -645,7 +1569,8 @@
     "target_market": "Small to mid-size businesses needing automation",
     "episode_date": "2025-08-13",
     "episode_title": "The Most Overlooked $12.5K/mo AI Agent Business Anyone Can Start",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Workforce Builder (AI Employees)",
@@ -657,7 +1582,8 @@
     "target_market": "Small businesses wanting to scale without hiring",
     "episode_date": "2025-08-11",
     "episode_title": "How to Build Your Entire AI Workforce in One Afternoon (Live Demo)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Solopreneurship with GPT5 (Sam Altman Thesis)",
@@ -669,7 +1595,8 @@
     "target_market": "Solopreneurs, indie hackers, bootstrapped founders",
     "episode_date": "2025-08-07",
     "episode_title": "Making $$$ with Sam Altman's Solopreneurship Thesis with GPT5",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI SEO Service (replacing SEO agencies)",
@@ -681,7 +1608,8 @@
     "target_market": "Small businesses currently paying for SEO agencies",
     "episode_date": "2025-08-04",
     "episode_title": "How Claude Code Ranked Me FIRST on Google (It's OVER for SEO Agencies)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI-Powered Ad Creation ($200K/mo with ONE Ad)",
@@ -693,7 +1621,8 @@
     "target_market": "E-commerce brands, DTC companies running Facebook/Instagram ads",
     "episode_date": "2025-07-30",
     "episode_title": "$200K/mo with ONE AI Ad (We tell you HOW)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Micro SaaS Portfolio",
@@ -705,7 +1634,8 @@
     "target_market": "Niche business users with specific workflow pain points",
     "episode_date": "2025-07-28",
     "episode_title": "Making $$$ with MicroSaaS (I might delete this)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Quick-Flip Micro SaaS ($15K Side Hustle)",
@@ -717,7 +1647,8 @@
     "target_market": "Buyers on SaaS acquisition marketplaces",
     "episode_date": "2025-07-25",
     "episode_title": "He Built MY Startup Idea and Sold It in 8 Days ($15K Side Hustle)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Niche AI Agency (6 Best Niches)",
@@ -729,7 +1660,8 @@
     "target_market": "Businesses in specific verticals needing AI implementation",
     "episode_date": "2025-07-23",
     "episode_title": "The 6 Best AI Agency Niches to Make $50K/mo (Data-Backed)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Businesses for 22-year-olds ($500 to $100K/month)",
@@ -741,7 +1673,8 @@
     "target_market": "Young entrepreneurs (18-25) wanting to start businesses",
     "episode_date": "2025-07-16",
     "episode_title": "5 Businesses I'd Start If I Was 22 Again ($500 to $100K/Month)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Cursor as Full Business Stack Replacement",
@@ -753,7 +1686,8 @@
     "target_market": "Small businesses paying for multiple SaaS tools",
     "episode_date": "2025-07-07",
     "episode_title": "Cursor Replaces Your Entire Business Stack (Full Demo)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI SEO Page Generator (1000+ pages)",
@@ -765,7 +1699,8 @@
     "target_market": "SEO agencies, affiliate marketers, directory operators",
     "episode_date": "2025-06-30",
     "episode_title": "This AI Agent creates 1000+ SEO Pages in 52 min (Claude + MCP + Cursor)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Reddit Idea Finder for Startups",
@@ -777,7 +1712,8 @@
     "target_market": "Startup founders, indie hackers, entrepreneurs",
     "episode_date": "2025-06-13",
     "episode_title": "How I Use AI & Reddit to Find $1M+ Startup Ideas (FULL Blueprint)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "SaaS App with No Paid Ads ($670/day)",
@@ -789,7 +1725,8 @@
     "target_market": "Niche business users",
     "episode_date": "2025-06-11",
     "episode_title": "I Built a $670/Day SaaS App with NO Paid Ads (Here's How)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Viral Video Production (Google Veo3)",
@@ -801,7 +1738,8 @@
     "target_market": "Content creators, brands wanting viral social content",
     "episode_date": "2025-05-28",
     "episode_title": "How I use Google Veo3 to create viral videos (3M views in 48 hrs)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Design Agency (Runway + Midjourney)",
@@ -813,7 +1751,8 @@
     "target_market": "Startups, brands needing design work",
     "episode_date": "2025-05-26",
     "episode_title": "Making $2,800/day with AI Design Agents (Runway + Midjourney)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Idea Browser - Daily Startup Ideas Platform",
@@ -825,7 +1764,8 @@
     "target_market": "Aspiring entrepreneurs looking for startup ideas",
     "episode_date": "2025-05-26",
     "episode_title": "Making $2,800/day with AI Design Agents (Runway + Midjourney)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Automated LinkedIn Content Workflow",
@@ -837,7 +1777,8 @@
     "target_market": "B2B marketers, founders, LinkedIn creators",
     "episode_date": "2025-05-23",
     "episode_title": "I Built an AI Content Agent With N8N and Claude (Step-by-Step)",
-    "mentioned_by": "Boring Marketer (James) / Greg Isenberg"
+    "mentioned_by": "Boring Marketer (James) / Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Open Pages Platform (Personal Stats Pages)",
@@ -849,7 +1790,8 @@
     "target_market": "Fitness influencers, creators, runners, athletes, personal brands",
     "episode_date": "2025-05-19",
     "episode_title": "5 AI Startup Ideas So Good You'll Quit Your Job in 24hrs",
-    "mentioned_by": "Steph Smith / Greg Isenberg"
+    "mentioned_by": "Steph Smith / Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Integrated Health Data Platform",
@@ -861,7 +1803,8 @@
     "target_market": "Health-conscious consumers, biohackers, athletes",
     "episode_date": "2025-05-19",
     "episode_title": "5 AI Startup Ideas So Good You'll Quit Your Job in 24hrs",
-    "mentioned_by": "Steph Smith"
+    "mentioned_by": "Steph Smith",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Matchmaking Dating App (No Swiping)",
@@ -873,7 +1816,8 @@
     "target_market": "Singles tired of traditional swipe-based dating apps",
     "episode_date": "2025-05-19",
     "episode_title": "5 AI Startup Ideas So Good You'll Quit Your Job in 24hrs",
-    "mentioned_by": "Steph Smith / Greg Isenberg"
+    "mentioned_by": "Steph Smith / Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Custom GPT for Lead Generation",
@@ -885,7 +1829,8 @@
     "target_market": "Professionals (lawyers, doctors, realtors) seeking client leads",
     "episode_date": "2025-05-19",
     "episode_title": "5 AI Startup Ideas So Good You'll Quit Your Job in 24hrs",
-    "mentioned_by": "Steph Smith"
+    "mentioned_by": "Steph Smith",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Directory to Custom GPT Conversion",
@@ -897,7 +1842,8 @@
     "target_market": "Users seeking personalized recommendations in any niche",
     "episode_date": "2025-05-19",
     "episode_title": "5 AI Startup Ideas So Good You'll Quit Your Job in 24hrs",
-    "mentioned_by": "Steph Smith"
+    "mentioned_by": "Steph Smith",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Lead Magnet Platform for Personal Websites",
@@ -909,7 +1855,8 @@
     "target_market": "Creators, personal brands, thought leaders with websites",
     "episode_date": "2025-05-19",
     "episode_title": "5 AI Startup Ideas So Good You'll Quit Your Job in 24hrs",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Vibe Marketing as a Service",
@@ -921,7 +1868,8 @@
     "target_market": "Startups, small businesses, marketing teams",
     "episode_date": "2025-05-14",
     "episode_title": "Make Money with Vibe Marketing in 40 mins (n8n, MCP, Claude 3.7)",
-    "mentioned_by": "Boring Marketer (James) / Greg Isenberg"
+    "mentioned_by": "Boring Marketer (James) / Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "SEO Content Automation with MCP + Claude",
@@ -933,7 +1881,8 @@
     "target_market": "Marketers, SEO agencies, content creators",
     "episode_date": "2025-05-14",
     "episode_title": "Make Money with Vibe Marketing in 40 mins (n8n, MCP, Claude 3.7)",
-    "mentioned_by": "Boring Marketer (James)"
+    "mentioned_by": "Boring Marketer (James)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Online Directory with Affiliate Revenue",
@@ -945,7 +1894,8 @@
     "target_market": "People searching for product comparisons in specific niches",
     "episode_date": "2025-05-14",
     "episode_title": "Make Money with Vibe Marketing in 40 mins (n8n, MCP, Claude 3.7)",
-    "mentioned_by": "Greg Isenberg / Boring Marketer (James)"
+    "mentioned_by": "Greg Isenberg / Boring Marketer (James)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Implementation Consulting Agency",
@@ -957,7 +1907,8 @@
     "target_market": "Small to mid-size businesses (10-50 employees) not yet using AI",
     "episode_date": "2025-05-12",
     "episode_title": "The Golden Age of AI is happening right now (Here's Why)",
-    "mentioned_by": "Jonathan Courtney / Greg Isenberg"
+    "mentioned_by": "Jonathan Courtney / Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Modern Goodreads Alternative (Book Discovery App)",
@@ -969,7 +1920,8 @@
     "target_market": "Gen Z readers, book enthusiasts",
     "episode_date": "2025-05-05",
     "episode_title": "How to build SaaS App in a weekend using AI (Steal This)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Voice AI Arbitrage Business",
@@ -981,7 +1933,8 @@
     "target_market": "Resellers, arbitrage traders in luxury goods, real estate investors",
     "episode_date": "2025-05-02",
     "episode_title": "My Voice AI Agent Negotiated 800+ Business Deals in 1 Day (FULL Tutorial)",
-    "mentioned_by": "Tony / Greg Isenberg"
+    "mentioned_by": "Tony / Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Voice AI Feedback Collection Service",
@@ -993,7 +1946,8 @@
     "target_market": "SaaS companies, communities, membership businesses",
     "episode_date": "2025-05-02",
     "episode_title": "My Voice AI Agent Negotiated 800+ Business Deals in 1 Day (FULL Tutorial)",
-    "mentioned_by": "Tony / Greg Isenberg"
+    "mentioned_by": "Tony / Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI-Driven Newsletter on Autopilot",
@@ -1005,7 +1959,8 @@
     "target_market": "Niche audiences interested in curated content",
     "episode_date": "2025-04-30",
     "episode_title": "How I use AI agents to make money (Vibe Marketing Tutorial)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Amazon Listing Optimization AI System",
@@ -1017,7 +1972,8 @@
     "target_market": "Amazon sellers, e-commerce brands",
     "episode_date": "2025-04-30",
     "episode_title": "How I use AI agents to make money (Vibe Marketing Tutorial)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "iOS App Portfolio with Cursor + Claude",
@@ -1029,7 +1985,8 @@
     "target_market": "iPhone users in various niches",
     "episode_date": "2025-04-28",
     "episode_title": "How he built iOS apps that PRINT with Cursor + Claude",
-    "mentioned_by": "Chris Baroque / Greg Isenberg"
+    "mentioned_by": "Chris Baroque / Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Niche Productized Lead Gen Agency with AI Funnels",
@@ -1041,7 +1998,8 @@
     "target_market": "Businesses in non-techy industries (law, medical, insurance, solar, manufacturing)",
     "episode_date": "2025-04-21",
     "episode_title": "How agencies are printing $1M/Month using this AI Funnel (84% Profit Margin)",
-    "mentioned_by": "Niels (Perspective) / Greg Isenberg"
+    "mentioned_by": "Niels (Perspective) / Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Invoice Reminder SaaS (InvoiceUnder.com)",
@@ -1053,7 +2011,8 @@
     "target_market": "Freelancers, small businesses, agencies with unpaid invoices",
     "episode_date": "2025-04-18",
     "episode_title": "We Vibe Code a $30K/month SaaS App in 64 Minutes (Replit)",
-    "mentioned_by": "Greg Isenberg / Billy Howell / Nicholas Conley"
+    "mentioned_by": "Greg Isenberg / Billy Howell / Nicholas Conley",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Pickup and Delivery Storage Business",
@@ -1065,7 +2024,8 @@
     "target_market": "College students",
     "episode_date": "2025-04-16",
     "episode_title": "The $1,000/Day boring business anyone can start tomorrow",
-    "mentioned_by": "Nick Huber"
+    "mentioned_by": "Nick Huber",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Night Nurses Directory (NightNurses.com)",
@@ -1077,7 +2037,8 @@
     "target_market": "New parents, especially affluent families",
     "episode_date": "2025-04-16",
     "episode_title": "The $1,000/Day boring business anyone can start tomorrow",
-    "mentioned_by": "Greg Isenberg / Nick Huber"
+    "mentioned_by": "Greg Isenberg / Nick Huber",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Bar TV Advertising Network",
@@ -1089,7 +2050,8 @@
     "target_market": "Local small businesses wanting to advertise in bars/restaurants",
     "episode_date": "2025-04-16",
     "episode_title": "The $1,000/Day boring business anyone can start tomorrow",
-    "mentioned_by": "Nick Huber"
+    "mentioned_by": "Nick Huber",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Firewood Delivery and Stacking Service",
@@ -1101,7 +2063,8 @@
     "target_market": "Homeowners with fireplaces in suburban/rural areas",
     "episode_date": "2025-04-16",
     "episode_title": "The $1,000/Day boring business anyone can start tomorrow",
-    "mentioned_by": "Nick Huber"
+    "mentioned_by": "Nick Huber",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Mobile Detailing Business",
@@ -1113,7 +2076,8 @@
     "target_market": "Car owners wanting professional detailing at home",
     "episode_date": "2025-04-16",
     "episode_title": "The $1,000/Day boring business anyone can start tomorrow",
-    "mentioned_by": "Nick Huber"
+    "mentioned_by": "Nick Huber",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "High-End Airport Transportation Service",
@@ -1125,7 +2089,8 @@
     "target_market": "Business travelers, affluent individuals",
     "episode_date": "2025-04-16",
     "episode_title": "The $1,000/Day boring business anyone can start tomorrow",
-    "mentioned_by": "Nick Huber"
+    "mentioned_by": "Nick Huber",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Nanny/Night Nurse Recruiting Service",
@@ -1137,7 +2102,8 @@
     "target_market": "New parents, families seeking childcare",
     "episode_date": "2025-04-16",
     "episode_title": "The $1,000/Day boring business anyone can start tomorrow",
-    "mentioned_by": "Nick Huber"
+    "mentioned_by": "Nick Huber",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Self-Storage Facility Acquisition and Optimization",
@@ -1149,7 +2115,8 @@
     "target_market": "Storage customers in suburban/rural areas",
     "episode_date": "2025-04-16",
     "episode_title": "The $1,000/Day boring business anyone can start tomorrow",
-    "mentioned_by": "Nick Huber"
+    "mentioned_by": "Nick Huber",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Agent Setup Service (Lindy-as-a-Service)",
@@ -1161,7 +2128,8 @@
     "target_market": "Small to mid-size businesses, founders, executives",
     "episode_date": "2025-04-14",
     "episode_title": "I built 5 AI Agents in 36 Minutes to save me 20+ hours of work a week",
-    "mentioned_by": "Flo (Lindy AI) / Greg Isenberg"
+    "mentioned_by": "Flo (Lindy AI) / Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Competitive Intelligence Tracker",
@@ -1173,7 +2141,8 @@
     "target_market": "Startup founders, product managers, VCs",
     "episode_date": "2025-04-14",
     "episode_title": "I built 5 AI Agents in 36 Minutes to save me 20+ hours of work a week",
-    "mentioned_by": "Flo (Lindy AI)"
+    "mentioned_by": "Flo (Lindy AI)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Virtual Focus Groups",
@@ -1185,7 +2154,8 @@
     "target_market": "Product teams, marketing agencies, startups validating ideas",
     "episode_date": "2025-04-14",
     "episode_title": "I built 5 AI Agents in 36 Minutes to save me 20+ hours of work a week",
-    "mentioned_by": "Flo (Lindy AI)"
+    "mentioned_by": "Flo (Lindy AI)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Influencer Outreach Automation",
@@ -1197,7 +2167,8 @@
     "target_market": "Brands doing influencer marketing, DTC companies",
     "episode_date": "2025-04-14",
     "episode_title": "I built 5 AI Agents in 36 Minutes to save me 20+ hours of work a week",
-    "mentioned_by": "Flo (Lindy AI)"
+    "mentioned_by": "Flo (Lindy AI)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Personal CRM with Travel Triggers",
@@ -1209,7 +2180,8 @@
     "target_market": "Founders, sales professionals, networkers who travel frequently",
     "episode_date": "2025-04-14",
     "episode_title": "I built 5 AI Agents in 36 Minutes to save me 20+ hours of work a week",
-    "mentioned_by": "Flo (Lindy AI)"
+    "mentioned_by": "Flo (Lindy AI)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI-Generated GIFs for E-commerce",
@@ -1221,7 +2193,8 @@
     "target_market": "E-commerce companies, CPG brands",
     "episode_date": "2025-04-09",
     "episode_title": "The Future of AI with Riley Brown",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI-First Mobile App (Niche Consumer Apps)",
@@ -1233,7 +2206,8 @@
     "target_market": "General consumers in specific verticals (health, fitness, productivity)",
     "episode_date": "2025-04-09",
     "episode_title": "The Future of AI with Riley Brown",
-    "mentioned_by": "Greg Isenberg / Riley Brown"
+    "mentioned_by": "Greg Isenberg / Riley Brown",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Niche CRM/Inbox Tool with AI",
@@ -1245,7 +2219,8 @@
     "target_market": "Small businesses and professionals in specific verticals",
     "episode_date": "2025-04-09",
     "episode_title": "The Future of AI with Riley Brown",
-    "mentioned_by": "Greg Isenberg / Riley Brown"
+    "mentioned_by": "Greg Isenberg / Riley Brown",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Validate Startup with $50 Bing Ads",
@@ -1257,7 +2232,8 @@
     "target_market": "Aspiring entrepreneurs wanting to validate ideas cheaply",
     "episode_date": "2025-04-07",
     "episode_title": "How to Validate Your Startup Idea for $50 (Same Method That Built a $100M Brand)",
-    "mentioned_by": "Justin Mayers"
+    "mentioned_by": "Justin Mayers",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "CPG Product Design with AI",
@@ -1269,7 +2245,8 @@
     "target_market": "CPG brands, food & beverage companies, consumer product startups",
     "episode_date": "2025-04-07",
     "episode_title": "How to Validate Your Startup Idea for $50 (Same Method That Built a $100M Brand)",
-    "mentioned_by": "Justin Mayers / Greg Isenberg"
+    "mentioned_by": "Justin Mayers / Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Ad Creative Agency using ChatGPT 4o",
@@ -1281,7 +2258,8 @@
     "target_market": "E-commerce brands, DTC companies, small businesses running paid ads",
     "episode_date": "2025-04-02",
     "episode_title": "ChatGPT 4o replaces your $10,000 Ad Agency (Full Tutorial)",
-    "mentioned_by": "Jacob Posel / Greg Isenberg"
+    "mentioned_by": "Jacob Posel / Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Niche Newsletter Business on Beehiiv",
@@ -1293,7 +2271,8 @@
     "target_market": "Content creators, aspiring media entrepreneurs",
     "episode_date": "2025-03-31",
     "episode_title": "Build $1000/day cash-flowing startup on beehiiv (here's how)",
-    "mentioned_by": "Greg Isenberg / Tyler Denk"
+    "mentioned_by": "Greg Isenberg / Tyler Denk",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Vibe Coding Consulting Agency via Upwork",
@@ -1305,7 +2284,8 @@
     "target_market": "Small businesses and nonprofits needing custom internal tools",
     "episode_date": "2025-03-21",
     "episode_title": "He makes $750 a day 'Vibe Coding' Apps (using Replit, ChatGPT, Upwork)",
-    "mentioned_by": "Billy Howell"
+    "mentioned_by": "Billy Howell",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "SaaS Unbundler - Replace Expensive SaaS with Custom Apps",
@@ -1317,7 +2297,8 @@
     "target_market": "Small businesses overpaying for enterprise SaaS they barely use",
     "episode_date": "2025-03-21",
     "episode_title": "He makes $750 a day 'Vibe Coding' Apps (using Replit, ChatGPT, Upwork)",
-    "mentioned_by": "Billy Howell, Greg Isenberg"
+    "mentioned_by": "Billy Howell, Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Buy It For Life Directory & Alert Platform",
@@ -1329,7 +2310,8 @@
     "target_market": "Quality-conscious consumers who want durable, long-lasting products",
     "episode_date": "2025-03-10",
     "episode_title": "3 Proven startup trends that will make $124,000/Month",
-    "mentioned_by": "Cody Schneider, Greg Isenberg"
+    "mentioned_by": "Cody Schneider, Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Landing Page Builder for Agencies",
@@ -1341,7 +2323,8 @@
     "target_market": "Digital marketing agencies and advertisers running Google/Meta ads",
     "episode_date": "2025-03-10",
     "episode_title": "3 Proven startup trends that will make $124,000/Month",
-    "mentioned_by": "Cody Schneider"
+    "mentioned_by": "Cody Schneider",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "TikTok Viral Format Newsletter",
@@ -1353,7 +2336,8 @@
     "target_market": "TikTok creators, social media managers, and app marketers",
     "episode_date": "2025-03-10",
     "episode_title": "3 Proven startup trends that will make $124,000/Month",
-    "mentioned_by": "Cody Schneider"
+    "mentioned_by": "Cody Schneider",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Exact-Match Domain Niche Sites with AI Tools",
@@ -1365,7 +2349,8 @@
     "target_market": "People searching for specific online tools and generators",
     "episode_date": "2025-03-10",
     "episode_title": "3 Proven startup trends that will make $124,000/Month",
-    "mentioned_by": "Cody Schneider"
+    "mentioned_by": "Cody Schneider",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Parental Controls Franchise (Doctor Screen Time)",
@@ -1377,7 +2362,8 @@
     "target_market": "Parents struggling with children's screen time management",
     "episode_date": "2025-02-03",
     "episode_title": "4 microSaaS ideas you can build to make $100k/month",
-    "mentioned_by": "Sublime founder"
+    "mentioned_by": "Sublime founder",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Hands-On Craft Business in a Box",
@@ -1389,7 +2375,8 @@
     "target_market": "Adults seeking offline, hands-on creative experiences",
     "episode_date": "2025-02-03",
     "episode_title": "4 microSaaS ideas you can build to make $100k/month",
-    "mentioned_by": "Sublime founder"
+    "mentioned_by": "Sublime founder",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Lambda School for Trades",
@@ -1401,7 +2388,8 @@
     "target_market": "People seeking trade careers and companies desperate for skilled tradespeople",
     "episode_date": "2025-02-03",
     "episode_title": "4 microSaaS ideas you can build to make $100k/month",
-    "mentioned_by": "Sublime founder, Greg Isenberg"
+    "mentioned_by": "Sublime founder, Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Podcast Insight Capture App (PodShot)",
@@ -1413,7 +2401,8 @@
     "target_market": "Avid podcast listeners who want to capture and reference insights",
     "episode_date": "2025-02-03",
     "episode_title": "4 microSaaS ideas you can build to make $100k/month",
-    "mentioned_by": "Sublime founder"
+    "mentioned_by": "Sublime founder",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Content-to-Meme Generator",
@@ -1425,7 +2414,8 @@
     "target_market": "Content creators, marketers, and newsletter writers wanting viral distribution",
     "episode_date": "2025-02-03",
     "episode_title": "4 microSaaS ideas you can build to make $100k/month",
-    "mentioned_by": "Sublime founder"
+    "mentioned_by": "Sublime founder",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "ChatGPT Operator Retail Arbitrage",
@@ -1437,7 +2427,8 @@
     "target_market": "Side hustlers and resellers looking for automated deal-finding",
     "episode_date": "2025-01-30",
     "episode_title": "ChatGPT Operator Built a $500/Day Business in 30 Minutes",
-    "mentioned_by": "Chris Corner"
+    "mentioned_by": "Chris Corner",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Quote Comparison Service (NeverCallAgain.com)",
@@ -1449,7 +2440,34 @@
     "target_market": "Consumers and event planners who hate calling vendors for quotes",
     "episode_date": "2025-01-30",
     "episode_title": "ChatGPT Operator Built a $500/Day Business in 30 Minutes",
-    "mentioned_by": "Chris Corner, Greg Isenberg"
+    "mentioned_by": "Chris Corner, Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Cross-Platform Content Repurposing Tool",
+    "description": "An AI tool that automatically takes content from Twitter/X and reposts it to YouTube Community, LinkedIn, and other platforms to maximize reach with minimal effort.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "low",
+    "investment": "bootstrap",
+    "target_market": "Content creators, solopreneurs",
+    "episode_date": "2025-01-07",
+    "episode_title": "Q&A How to get 100,000 followers in 2025",
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Art Edutainment YouTube Channel",
+    "description": "Create a modern Mr. Rogers-style show for adults that combines art, creativity, and entertainment to help people engage with their creative side.",
+    "category": "Content",
+    "revenue_model": "advertising",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "Adults interested in creativity and art",
+    "episode_date": "2025-01-07",
+    "episode_title": "Q&A How to get 100,000 followers in 2025",
+    "mentioned_by": "Dr. Tyler Lemco",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Newsletter for Overseas Marketers",
@@ -1461,7 +2479,8 @@
     "target_market": "International marketers and US companies hiring remote overseas talent",
     "episode_date": "2025-01-01",
     "episode_title": "10 (Profitable) Newsletter Business Ideas To Start In 2025",
-    "mentioned_by": "Greg Isenberg, Matt McGary"
+    "mentioned_by": "Greg Isenberg, Matt McGary",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Platform-Specific Tutorial Newsletter",
@@ -1473,7 +2492,8 @@
     "target_market": "Users of specific SaaS platforms wanting to level up their skills",
     "episode_date": "2025-01-01",
     "episode_title": "10 (Profitable) Newsletter Business Ideas To Start In 2025",
-    "mentioned_by": "Greg Isenberg, Matt McGary"
+    "mentioned_by": "Greg Isenberg, Matt McGary",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Local Real Estate Investor Newsletter",
@@ -1485,7 +2505,8 @@
     "target_market": "Local real estate investors in mid-size cities (200K-1M population)",
     "episode_date": "2025-01-01",
     "episode_title": "10 (Profitable) Newsletter Business Ideas To Start In 2025",
-    "mentioned_by": "Greg Isenberg, Matt McGary"
+    "mentioned_by": "Greg Isenberg, Matt McGary",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "B2B Decision Maker Newsletter",
@@ -1497,7 +2518,8 @@
     "target_market": "C-suite executives in specific industries (oil & gas, fintech, etc.)",
     "episode_date": "2025-01-01",
     "episode_title": "10 (Profitable) Newsletter Business Ideas To Start In 2025",
-    "mentioned_by": "Greg Isenberg, Matt McGary"
+    "mentioned_by": "Greg Isenberg, Matt McGary",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Meme News Newsletter",
@@ -1509,7 +2531,8 @@
     "target_market": "Business/tech professionals who want digestible, entertaining news",
     "episode_date": "2025-01-01",
     "episode_title": "10 (Profitable) Newsletter Business Ideas To Start In 2025",
-    "mentioned_by": "Greg Isenberg, Matt McGary"
+    "mentioned_by": "Greg Isenberg, Matt McGary",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Local Community Newsletter",
@@ -1521,7 +2544,8 @@
     "target_market": "Local residents seeking curated community content",
     "episode_date": "2025-01-01",
     "episode_title": "10 (Profitable) Newsletter Business Ideas To Start In 2025",
-    "mentioned_by": "Greg Isenberg, Matt McGary"
+    "mentioned_by": "Greg Isenberg, Matt McGary",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "LinkedIn Video Content Machine",
@@ -1533,7 +2557,8 @@
     "target_market": "B2B professionals and entrepreneurs looking to grow on LinkedIn",
     "episode_date": "2024-12-20",
     "episode_title": "How to get 145k followers on LinkedIn in 1 year",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Agents as New Agencies",
@@ -1545,7 +2570,8 @@
     "target_market": "Businesses currently using agencies for repetitive tasks",
     "episode_date": "2024-12-18",
     "episode_title": "The framework for building AI startups from a product design genius",
-    "mentioned_by": "Mike Udak"
+    "mentioned_by": "Mike Udak",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Dr. AI - Skin Diagnosis App",
@@ -1557,7 +2583,8 @@
     "target_market": "Concerned parents and health-conscious individuals, especially uninsured people",
     "episode_date": "2024-12-11",
     "episode_title": "Inside the Brain of a 17-Year-Old $1M/Month AI Founder",
-    "mentioned_by": "Zach Yagari"
+    "mentioned_by": "Zach Yagari",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Advanced Voice Notes / Interactive Podcasts",
@@ -1569,7 +2596,8 @@
     "target_market": "Remote teams, executives, and knowledge workers",
     "episode_date": "2024-12-09",
     "episode_title": "3 AI app ideas that are goldmines (and how to grow them)",
-    "mentioned_by": "Dan Shipper"
+    "mentioned_by": "Dan Shipper",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "N-of-One Personal Data Bounty Platform",
@@ -1581,7 +2609,8 @@
     "target_market": "Health-conscious individuals with wearable data and data scientists",
     "episode_date": "2024-12-09",
     "episode_title": "3 AI app ideas that are goldmines (and how to grow them)",
-    "mentioned_by": "Dan Shipper"
+    "mentioned_by": "Dan Shipper",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Great Books Library",
@@ -1593,7 +2622,8 @@
     "target_market": "Students needing to read classics, business professionals interested in philosophy",
     "episode_date": "2024-12-09",
     "episode_title": "3 AI app ideas that are goldmines (and how to grow them)",
-    "mentioned_by": "Dan Shipper"
+    "mentioned_by": "Dan Shipper",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Voice-First AI Expedia",
@@ -1605,7 +2635,8 @@
     "target_market": "Travelers who prefer voice interaction, younger demographics",
     "episode_date": "2024-12-09",
     "episode_title": "3 AI app ideas that are goldmines (and how to grow them)",
-    "mentioned_by": "Dan Shipper, Greg Isenberg"
+    "mentioned_by": "Dan Shipper, Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "SEO-Driven Programmatic Content Sites",
@@ -1617,7 +2648,8 @@
     "target_market": "Local businesses, niche communities seeking curated information",
     "episode_date": "2024-12-02",
     "episode_title": "Build a high traffic startup using AI, Webflow and Zapier",
-    "mentioned_by": "Omar"
+    "mentioned_by": "Omar",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Black Friday Campaign Agency",
@@ -1629,7 +2661,8 @@
     "target_market": "E-commerce and SaaS companies wanting to maximize holiday sales",
     "episode_date": "2024-11-27",
     "episode_title": "How This Guy Makes His Entire Year's Revenue in Black Friday WEEK",
-    "mentioned_by": "Jonathan Courtney, Greg Isenberg"
+    "mentioned_by": "Jonathan Courtney, Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Anti-TripAdvisor Travel App",
@@ -1641,7 +2674,8 @@
     "target_market": "Millennial and Gen Z travelers who want authentic local experiences",
     "episode_date": "2024-11-25",
     "episode_title": "3 startup ideas from the co-founder of Loom (make $120k/mo)",
-    "mentioned_by": "Loom co-founder (Shahed Khan)"
+    "mentioned_by": "Loom co-founder (Shahed Khan)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Path 2.0 - Close Friends Social Network",
@@ -1653,7 +2687,8 @@
     "target_market": "Millennials and Gen Z tired of public social media wanting private friend networks",
     "episode_date": "2024-11-25",
     "episode_title": "3 startup ideas from the co-founder of Loom (make $120k/mo)",
-    "mentioned_by": "Loom co-founder (Shahed Khan)"
+    "mentioned_by": "Loom co-founder (Shahed Khan)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Nostalgia Time Capsule App",
@@ -1665,7 +2700,8 @@
     "target_market": "Millennials who value nostalgia and personal connections",
     "episode_date": "2024-11-25",
     "episode_title": "3 startup ideas from the co-founder of Loom (make $120k/mo)",
-    "mentioned_by": "Loom co-founder (Shahed Khan)"
+    "mentioned_by": "Loom co-founder (Shahed Khan)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Agent Marketplace for Solopreneurs",
@@ -1677,7 +2713,8 @@
     "target_market": "Solopreneurs and small business owners wanting to automate operations",
     "episode_date": "2024-11-18",
     "episode_title": "3 $1M+ AI startup ideas to build in 2025 (and how to grow them)",
-    "mentioned_by": "Arvid Kahl"
+    "mentioned_by": "Arvid Kahl",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Golf Swing Analysis App",
@@ -1689,7 +2726,8 @@
     "target_market": "Amateur golfers seeking to improve their game",
     "episode_date": "2024-11-13",
     "episode_title": "How to build a $1M+ Consumer SaaS App (step-by-step guide)",
-    "mentioned_by": "Joseph Choy"
+    "mentioned_by": "Joseph Choy",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Poker Strategy App",
@@ -1701,7 +2739,8 @@
     "target_market": "Poker players from beginners to intermediates",
     "episode_date": "2024-11-13",
     "episode_title": "How to build a $1M+ Consumer SaaS App (step-by-step guide)",
-    "mentioned_by": "Joseph Choy"
+    "mentioned_by": "Joseph Choy",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Skincare AI Analysis App",
@@ -1713,7 +2752,8 @@
     "target_market": "Skincare-conscious consumers, primarily women 18-35",
     "episode_date": "2024-11-13",
     "episode_title": "How to build a $1M+ Consumer SaaS App (step-by-step guide)",
-    "mentioned_by": "Joseph Choy"
+    "mentioned_by": "Joseph Choy",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Career AI - All-in-One Career Platform",
@@ -1725,7 +2765,8 @@
     "target_market": "College students and recent graduates seeking careers",
     "episode_date": "2024-11-06",
     "episode_title": "24 year old making $1m/month from AI shares 3 startup ideas",
-    "mentioned_by": "Blake Anderson"
+    "mentioned_by": "Blake Anderson",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Journal AI - AI-Powered Journaling App",
@@ -1737,7 +2778,8 @@
     "target_market": "Young adults interested in self-improvement and mental wellness",
     "episode_date": "2024-11-06",
     "episode_title": "24 year old making $1m/month from AI shares 3 startup ideas",
-    "mentioned_by": "Blake Anderson"
+    "mentioned_by": "Blake Anderson",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Language Learning App (Duolingo Competitor)",
@@ -1749,7 +2791,8 @@
     "target_market": "Language learners, especially younger demographics on TikTok",
     "episode_date": "2024-11-06",
     "episode_title": "24 year old making $1m/month from AI shares 3 startup ideas",
-    "mentioned_by": "Blake Anderson"
+    "mentioned_by": "Blake Anderson",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Niche TikTok Trend Tracker",
@@ -1761,7 +2804,8 @@
     "target_market": "Content creators and app developers looking for trending niches",
     "episode_date": "2024-11-04",
     "episode_title": "7 $1M+ AI startup ideas you can launch tomorrow with $0",
-    "mentioned_by": "Cody Schneider"
+    "mentioned_by": "Cody Schneider",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Employee Platform (Lindy-style)",
@@ -1773,7 +2817,8 @@
     "target_market": "Small businesses and solopreneurs wanting to automate operations",
     "episode_date": "2024-11-01",
     "episode_title": "Fire your team and hire AI employees?",
-    "mentioned_by": "Flo (Lindy CEO)"
+    "mentioned_by": "Flo (Lindy CEO)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Recruiting Agency Built on Agents",
@@ -1785,7 +2830,8 @@
     "target_market": "Companies looking to hire talent, especially in tech and design",
     "episode_date": "2024-11-01",
     "episode_title": "Fire your team and hire AI employees?",
-    "mentioned_by": "Greg Isenberg, Flo"
+    "mentioned_by": "Greg Isenberg, Flo",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Funnel Scraper Agent",
@@ -1797,7 +2843,8 @@
     "target_market": "Marketers, growth hackers, and entrepreneurs wanting to study successful funnels",
     "episode_date": "2024-10-30",
     "episode_title": "How to steal funnels that crush",
-    "mentioned_by": "Jordan"
+    "mentioned_by": "Jordan",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Tweet-Sized Landing Page Builder",
@@ -1809,7 +2856,8 @@
     "target_market": "Entrepreneurs and marketers launching products",
     "episode_date": "2024-10-28",
     "episode_title": "How to make $20,000,000 with a landing page",
-    "mentioned_by": "Jonathan Courtney"
+    "mentioned_by": "Jonathan Courtney",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI-Powered Parenting Content Platform",
@@ -1821,7 +2869,8 @@
     "target_market": "Parents of K-12 children seeking educational guidance",
     "episode_date": "2024-10-23",
     "episode_title": "2 $1M+ EdTech Startups you can launch tomorrow",
-    "mentioned_by": "Sarah Lacy"
+    "mentioned_by": "Sarah Lacy",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Niche Online Directories",
@@ -1833,7 +2882,8 @@
     "target_market": "People searching for curated lists in specific niches (tools, services, products)",
     "episode_date": "2024-10-21",
     "episode_title": "Do this to build a $200,000 side hustle (The Online Directory Blueprint)",
-    "mentioned_by": "John Rush"
+    "mentioned_by": "John Rush",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Directory Marketplace (Sell Directories)",
@@ -1845,7 +2895,8 @@
     "target_market": "Directory builders and SaaS companies looking for traffic acquisition",
     "episode_date": "2024-10-21",
     "episode_title": "Do this to build a $200,000 side hustle (The Online Directory Blueprint)",
-    "mentioned_by": "John Rush"
+    "mentioned_by": "John Rush",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Chrome Extension Factory",
@@ -1857,7 +2908,8 @@
     "target_market": "General consumers and developers looking for browser productivity tools",
     "episode_date": "2024-10-18",
     "episode_title": "Do this to build a $100k/mo chrome extension using AI (Cursor AI, Claude)",
-    "mentioned_by": "Greg Isenberg, Mickey (Rash Mike)"
+    "mentioned_by": "Greg Isenberg, Mickey (Rash Mike)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "HTML/CSS Scraper Chrome Extension",
@@ -1869,7 +2921,47 @@
     "target_market": "Web developers and designers",
     "episode_date": "2024-10-18",
     "episode_title": "Do this to build a $100k/mo chrome extension using AI (Cursor AI, Claude)",
-    "mentioned_by": "Mickey (Rash Mike)"
+    "mentioned_by": "Mickey (Rash Mike)",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Creator-Led IRL Events Business",
+    "description": "Build a scalable events business where niche creators host community gatherings in multiple cities simultaneously, monetizing through tickets and sponsorships.",
+    "category": "Community",
+    "revenue_model": "transaction_fee",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "Content creators with engaged audiences",
+    "episode_date": "2024-10-07",
+    "episode_title": "How Creators Can Thrive in the AI + AR Era",
+    "mentioned_by": "Samir (Colin and Samir)",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "AR Ad Network for Smart Glasses",
+    "description": "Build the advertising network for AR glasses, negotiating ad placement in augmented reality environments as early internet ad networks did for websites.",
+    "category": "Tool",
+    "revenue_model": "advertising",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Advertisers, AR platform users",
+    "episode_date": "2024-10-07",
+    "episode_title": "How Creators Can Thrive in the AI + AR Era",
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "YouTube Creator Education Course Business",
+    "description": "Build educational courses teaching YouTube strategy (thumbnails, hooks, content-market fit) and sell them as digital products to aspiring creators.",
+    "category": "Content",
+    "revenue_model": "one_time",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "Aspiring YouTube creators",
+    "episode_date": "2024-10-07",
+    "episode_title": "How Creators Can Thrive in the AI + AR Era",
+    "mentioned_by": "Samir (Colin and Samir)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Content Updater for Publishers",
@@ -1881,7 +2973,8 @@
     "target_market": "Large publishers and content-heavy websites (Tom's Guide, tech blogs)",
     "episode_date": "2024-09-04",
     "episode_title": "4 profitable startups from the founder of exploding topics",
-    "mentioned_by": "Brian Dean (guest)"
+    "mentioned_by": "Brian Dean (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Premium Meal Delivery (Uber Black for Food)",
@@ -1893,7 +2986,8 @@
     "target_market": "Affluent professionals in major cities who want private-chef quality without the awkwardness",
     "episode_date": "2024-09-04",
     "episode_title": "4 profitable startups from the founder of exploding topics",
-    "mentioned_by": "Brian Dean (guest)"
+    "mentioned_by": "Brian Dean (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "ADHD Brand & Community Platform",
@@ -1905,7 +2999,8 @@
     "target_market": "Adults diagnosed or self-diagnosing with ADHD (rapidly growing market)",
     "episode_date": "2024-09-04",
     "episode_title": "4 profitable startups from the founder of exploding topics",
-    "mentioned_by": "Brian Dean (guest) & Greg Isenberg"
+    "mentioned_by": "Brian Dean (guest) & Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Content Repurposing Agency",
@@ -1917,7 +3012,8 @@
     "target_market": "Content-heavy businesses and publishers with large content libraries",
     "episode_date": "2024-09-04",
     "episode_title": "4 profitable startups from the founder of exploding topics",
-    "mentioned_by": "Brian Dean (guest)"
+    "mentioned_by": "Brian Dean (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Yonder 2.0 / Premium Phone-Free Pouch",
@@ -1929,7 +3025,8 @@
     "target_market": "Affluent parents, schools, comedy venues, wellness retreats",
     "episode_date": "2024-08-29",
     "episode_title": "The step by step guide to starting a business from $0",
-    "mentioned_by": "Adam Robinson (guest)"
+    "mentioned_by": "Adam Robinson (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Facebook Reels Auto-Comment Pinning Tool",
@@ -1941,7 +3038,8 @@
     "target_market": "Creators cross-posting to Facebook who want to monetize Facebook reach",
     "episode_date": "2024-08-27",
     "episode_title": "5 validated startup ideas that will make you money",
-    "mentioned_by": "Chris Kerner (guest)"
+    "mentioned_by": "Chris Kerner (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Programmatic SEO Lead Gen Franchise",
@@ -1953,7 +3051,8 @@
     "target_market": "Aspiring entrepreneurs looking for franchise alternatives",
     "episode_date": "2024-08-27",
     "episode_title": "5 validated startup ideas that will make you money",
-    "mentioned_by": "Chris Kerner (guest)"
+    "mentioned_by": "Chris Kerner (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Lifetime Warranty DTC Brand (Shady Rays Model)",
@@ -1965,7 +3064,8 @@
     "target_market": "Consumers who want worry-free products with lifetime guarantees",
     "episode_date": "2024-08-27",
     "episode_title": "5 validated startup ideas that will make you money",
-    "mentioned_by": "Chris Kerner (guest)"
+    "mentioned_by": "Chris Kerner (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Abandoned Cart Phone Call Agency for Shopify",
@@ -1977,7 +3077,8 @@
     "target_market": "Shopify Plus stores with high-AOV products (makeup, apparel)",
     "episode_date": "2024-08-27",
     "episode_title": "5 validated startup ideas that will make you money",
-    "mentioned_by": "Chris Kerner (guest)"
+    "mentioned_by": "Chris Kerner (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Viral Content Cross-Platform Repurposing AI Tool",
@@ -1989,7 +3090,8 @@
     "target_market": "Content creators and marketers who repurpose trending content across platforms",
     "episode_date": "2024-08-27",
     "episode_title": "5 validated startup ideas that will make you money",
-    "mentioned_by": "Chris Kerner (guest)"
+    "mentioned_by": "Chris Kerner (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "We Go Where You Don't Agency",
@@ -2001,7 +3103,8 @@
     "target_market": "Creators and businesses focused on one platform but ignoring others",
     "episode_date": "2024-08-27",
     "episode_title": "5 validated startup ideas that will make you money",
-    "mentioned_by": "Chris Kerner (guest) & Greg Isenberg"
+    "mentioned_by": "Chris Kerner (guest) & Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Slow Living / Anti-Hustle Brand & Products",
@@ -2013,7 +3116,8 @@
     "target_market": "Millennials burnt out on hustle culture seeking intentional living",
     "episode_date": "2024-08-23",
     "episode_title": "How I use Pinterest and Google to find $1M+ startup ideas",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Legal Jargon Simplifier Chrome Extension",
@@ -2025,7 +3129,8 @@
     "target_market": "Consumers and small business owners signing legal documents",
     "episode_date": "2024-08-15",
     "episode_title": "4 SaaS ideas to build in 2025 (and how to grow them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Micro Influencer Campaign Manager SaaS",
@@ -2037,7 +3142,8 @@
     "target_market": "Small to medium e-commerce brands wanting affordable influencer marketing",
     "episode_date": "2024-08-15",
     "episode_title": "4 SaaS ideas to build in 2025 (and how to grow them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Writing Coach for Non-Native English Speakers",
@@ -2049,7 +3155,8 @@
     "target_market": "Billions of non-native English speakers working in professional environments",
     "episode_date": "2024-08-15",
     "episode_title": "4 SaaS ideas to build in 2025 (and how to grow them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Micro-Localization Platform for Global Brands",
@@ -2061,7 +3168,8 @@
     "target_market": "Global brands wanting to feel local in specific neighborhoods and cities",
     "episode_date": "2024-08-15",
     "episode_title": "4 SaaS ideas to build in 2025 (and how to grow them)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Solopreneur Book Writing with AI System",
@@ -2073,7 +3181,8 @@
     "target_market": "Solopreneurs wanting to establish authority through books",
     "episode_date": "2024-08-12",
     "episode_title": "How to write a book with AI [step-by-step guide]",
-    "mentioned_by": "Justin Welsh (guest)"
+    "mentioned_by": "Justin Welsh (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Brand-Creator Sponsorship Reverse Marketplace",
@@ -2085,7 +3194,8 @@
     "target_market": "Brands seeking creator sponsorships, B2B creators with newsletters",
     "episode_date": "2024-08-07",
     "episode_title": "Creator tools you can build that will print money",
-    "mentioned_by": "Tibo (guest)"
+    "mentioned_by": "Tibo (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "SEO Mini Tools Growth Strategy",
@@ -2097,7 +3207,8 @@
     "target_market": "Anyone searching for free online tools; converts to paid SaaS users",
     "episode_date": "2024-08-07",
     "episode_title": "Creator tools you can build that will print money",
-    "mentioned_by": "Tibo (guest)"
+    "mentioned_by": "Tibo (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Anti-AI Positioning Tools Suite",
@@ -2109,7 +3220,8 @@
     "target_market": "Creators who want to differentiate themselves as producing genuine human content",
     "episode_date": "2024-08-07",
     "episode_title": "Creator tools you can build that will print money",
-    "mentioned_by": "Tibo (guest)"
+    "mentioned_by": "Tibo (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Keyword Generator Niche Sites",
@@ -2121,7 +3233,8 @@
     "target_market": "People searching for visual inspiration (tattoos, designs, art)",
     "episode_date": "2024-08-05",
     "episode_title": "5 $1M+ AI startup ideas from an indie hacker legend",
-    "mentioned_by": "Danny Postma (guest)"
+    "mentioned_by": "Danny Postma (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "ComfyUI Workflow Marketplace",
@@ -2133,7 +3246,8 @@
     "target_market": "AI developers, creators using ComfyUI, indie hackers",
     "episode_date": "2024-08-05",
     "episode_title": "5 $1M+ AI startup ideas from an indie hacker legend",
-    "mentioned_by": "Danny Postma (guest)"
+    "mentioned_by": "Danny Postma (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Fiverr/Upwork 2.0 with AI Workers",
@@ -2145,7 +3259,8 @@
     "target_market": "Businesses currently using Fiverr/Upwork for automatable tasks",
     "episode_date": "2024-08-05",
     "episode_title": "5 $1M+ AI startup ideas from an indie hacker legend",
-    "mentioned_by": "Danny Postma (guest)"
+    "mentioned_by": "Danny Postma (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI-Powered Productized Copywriting Service",
@@ -2157,7 +3272,8 @@
     "target_market": "Startups and businesses needing landing page copy optimization",
     "episode_date": "2024-08-05",
     "episode_title": "5 $1M+ AI startup ideas from an indie hacker legend",
-    "mentioned_by": "Danny Postma (guest)"
+    "mentioned_by": "Danny Postma (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Medical Scribe for Niche Practitioners",
@@ -2169,7 +3285,8 @@
     "target_market": "Veterinarians, dentists, therapists, and other practitioners who need note-taking automation",
     "episode_date": "2024-08-05",
     "episode_title": "5 $1M+ AI startup ideas from an indie hacker legend",
-    "mentioned_by": "Danny Postma (guest)"
+    "mentioned_by": "Danny Postma (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Product Spec Document Tool for PMs",
@@ -2181,7 +3298,8 @@
     "target_market": "Product managers at tech companies",
     "episode_date": "2024-07-31",
     "episode_title": "Startup ideas brainstorm (steal this $130k/month idea)",
-    "mentioned_by": "Danny Grant (guest ideas list)"
+    "mentioned_by": "Danny Grant (guest ideas list)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Developer Portfolio Builder (Format for Devs)",
@@ -2193,7 +3311,8 @@
     "target_market": "Software developers wanting beautiful portfolio sites beyond GitHub",
     "episode_date": "2024-07-31",
     "episode_title": "Startup ideas brainstorm (steal this $130k/month idea)",
-    "mentioned_by": "Danny Grant (guest ideas list)"
+    "mentioned_by": "Danny Grant (guest ideas list)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "No-Code Marketplace Builder (Shopify for Marketplaces)",
@@ -2205,7 +3324,8 @@
     "target_market": "Non-technical entrepreneurs wanting to build marketplace businesses",
     "episode_date": "2024-07-31",
     "episode_title": "Startup ideas brainstorm (steal this $130k/month idea)",
-    "mentioned_by": "Danny Grant (guest ideas list)"
+    "mentioned_by": "Danny Grant (guest ideas list)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "HQ Trivia for Dating",
@@ -2217,7 +3337,8 @@
     "target_market": "Singles looking for novel dating experiences, entertainment-seeking millennials",
     "episode_date": "2024-07-31",
     "episode_title": "Startup ideas brainstorm (steal this $130k/month idea)",
-    "mentioned_by": "Danny Grant (guest ideas list)"
+    "mentioned_by": "Danny Grant (guest ideas list)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "K-Pop Factory for Startup Growth Marketers",
@@ -2229,7 +3350,8 @@
     "target_market": "Startups needing their first growth marketer, dev evangelist, or design engineer",
     "episode_date": "2024-07-24",
     "episode_title": "4 $1M+ startup ideas you can launch tomorrow",
-    "mentioned_by": "Danny Grant (guest)"
+    "mentioned_by": "Danny Grant (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Dev Evangelism Bounty Platform",
@@ -2241,7 +3363,8 @@
     "target_market": "Early-stage developer tool startups needing documentation and tutorials",
     "episode_date": "2024-07-24",
     "episode_title": "4 $1M+ startup ideas you can launch tomorrow",
-    "mentioned_by": "Danny Grant (guest)"
+    "mentioned_by": "Danny Grant (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Sofar Sounds for Talks/Entertainment",
@@ -2253,7 +3376,8 @@
     "target_market": "Urban professionals seeking novel social experiences",
     "episode_date": "2024-07-24",
     "episode_title": "4 $1M+ startup ideas you can launch tomorrow",
-    "mentioned_by": "Danny Grant (guest)"
+    "mentioned_by": "Danny Grant (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Crypto-Verified Luxury Watch Marketplace",
@@ -2265,7 +3389,8 @@
     "target_market": "Luxury watch collectors and sellers",
     "episode_date": "2024-07-22",
     "episode_title": "3 crypto startup ideas: dating app, luxury watch marketplace, tutoring platform",
-    "mentioned_by": "Guest"
+    "mentioned_by": "Guest",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Niche Faceless YouTube Channel",
@@ -2277,7 +3402,8 @@
     "target_market": "YouTube viewers in specific niches; advertisers targeting those niches",
     "episode_date": "2024-07-17",
     "episode_title": "How to build a profitable Faceless YouTube Channel in 72 Hours",
-    "mentioned_by": "Jonathan Courtney & Greg Isenberg"
+    "mentioned_by": "Jonathan Courtney & Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Hedge Fund Alternative Data Business",
@@ -2289,7 +3415,8 @@
     "target_market": "Hedge funds, institutional investors",
     "episode_date": "2024-07-15",
     "episode_title": "5 startup ideas targeting profitable niches",
-    "mentioned_by": "Guest"
+    "mentioned_by": "Guest",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "TikTok Trend-Based Product Creator",
@@ -2301,7 +3428,8 @@
     "target_market": "TikTok users, trend-followers, content creators",
     "episode_date": "2024-07-10",
     "episode_title": "I can't believe he gave away these $1M+/year startup ideas",
-    "mentioned_by": "Near (guest)"
+    "mentioned_by": "Near (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Blue Collar Startup Marketing Agency",
@@ -2313,7 +3441,8 @@
     "target_market": "Blue collar business owners who need marketing help",
     "episode_date": "2024-07-08",
     "episode_title": "8 startup ideas backed by data/trends to get you paid",
-    "mentioned_by": "Guest"
+    "mentioned_by": "Guest",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Spreadsheet-to-SaaS Vertical Software",
@@ -2325,7 +3454,8 @@
     "target_market": "Small businesses in niche industries still using spreadsheets",
     "episode_date": "2024-07-01",
     "episode_title": "SaaS apps that will print profits",
-    "mentioned_by": "Brett Goldstein (guest)"
+    "mentioned_by": "Brett Goldstein (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Career Transition Coaching for Stuck Professionals",
@@ -2337,7 +3467,8 @@
     "target_market": "Teachers, nurses, architects, and other professionals over 35 who feel stuck",
     "episode_date": "2024-06-26",
     "episode_title": "1 profitable startup idea hiding in plain sight",
-    "mentioned_by": "Jonathan Courtney (guest)"
+    "mentioned_by": "Jonathan Courtney (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Social Media Insurance Company",
@@ -2349,7 +3480,8 @@
     "target_market": "Creators, influencers, newsletter operators with valuable digital assets",
     "episode_date": "2024-06-24",
     "episode_title": "Startup ideas and frameworks to make you wealthy",
-    "mentioned_by": "Greg Isenberg & Natalie Ellis"
+    "mentioned_by": "Greg Isenberg & Natalie Ellis",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Family Office / Have You Thought of This",
@@ -2361,7 +3493,8 @@
     "target_market": "Entrepreneurs and property owners with complex financial lives below family office threshold",
     "episode_date": "2024-06-24",
     "episode_title": "Startup ideas and frameworks to make you wealthy",
-    "mentioned_by": "Greg Isenberg & Natalie Ellis"
+    "mentioned_by": "Greg Isenberg & Natalie Ellis",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Postpartum Wellness Concierge Service",
@@ -2373,7 +3506,8 @@
     "target_market": "Pregnant and postpartum women willing to pay premium for comprehensive health guidance",
     "episode_date": "2024-06-24",
     "episode_title": "Startup ideas and frameworks to make you wealthy",
-    "mentioned_by": "Natalie Ellis (guest)"
+    "mentioned_by": "Natalie Ellis (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "YouTube-First Productized Services Agency",
@@ -2385,7 +3519,8 @@
     "target_market": "Small business owners who watch tutorial content but want done-for-you services",
     "episode_date": "2024-06-20",
     "episode_title": "Do THIS to Make $30,000/month",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Micro Wedding Lead Generation Platform",
@@ -2397,7 +3532,8 @@
     "target_market": "Engaged couples in expensive cities wanting intimate weddings",
     "episode_date": "2024-06-17",
     "episode_title": "4 profitable startup ideas you can launch tomorrow",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Micro Wedding Planning Agency",
@@ -2409,7 +3545,8 @@
     "target_market": "Couples wanting affordable, intimate wedding experiences",
     "episode_date": "2024-06-17",
     "episode_title": "4 profitable startup ideas you can launch tomorrow",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Credentialization Platform for Emerging Roles",
@@ -2421,7 +3558,8 @@
     "target_market": "Career changers, aspiring professionals in emerging tech roles",
     "episode_date": "2024-06-17",
     "episode_title": "4 profitable startup ideas you can launch tomorrow",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Validated Startup Idea Marketplace",
@@ -2433,7 +3571,8 @@
     "target_market": "Aspiring entrepreneurs who can build but struggle to find validated ideas",
     "episode_date": "2024-06-12",
     "episode_title": "I can't believe he shared these $1M+/year startup ideas",
-    "mentioned_by": "John Rush (guest)"
+    "mentioned_by": "John Rush (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Localized Directory Business",
@@ -2445,7 +3584,8 @@
     "target_market": "Non-English speaking tech users, local businesses in non-English markets",
     "episode_date": "2024-06-12",
     "episode_title": "I can't believe he shared these $1M+/year startup ideas",
-    "mentioned_by": "John Rush (guest)"
+    "mentioned_by": "John Rush (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI-Powered Scientific Journal Simplifier",
@@ -2457,7 +3597,8 @@
     "target_market": "General public interested in science, health-conscious consumers",
     "episode_date": "2024-06-10",
     "episode_title": "Startup ideas brainstorm (steal this $100k/month idea)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Gaming Loyalty Rewards Platform (Drop for Steam)",
@@ -2469,7 +3610,8 @@
     "target_market": "PC gamers on Steam, gaming brands looking for customer engagement",
     "episode_date": "2024-06-10",
     "episode_title": "Startup ideas brainstorm (steal this $100k/month idea)",
-    "mentioned_by": "Matthew (listener) / Greg Isenberg"
+    "mentioned_by": "Matthew (listener) / Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Nostalgia-Based Content and Collectibles Empire",
@@ -2481,7 +3623,8 @@
     "target_market": "Millennials nostalgic for late 90s/early 2000s gaming and tech",
     "episode_date": "2024-06-05",
     "episode_title": "My favorite money-making hack of 2024 is called nostalgia hacking",
-    "mentioned_by": "Jonathan Courtney (guest)"
+    "mentioned_by": "Jonathan Courtney (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Retro Gaming Soho House / LAN Party Venue",
@@ -2493,7 +3636,8 @@
     "target_market": "Professional millennials seeking social alternatives to bars",
     "episode_date": "2024-06-05",
     "episode_title": "My favorite money-making hack of 2024 is called nostalgia hacking",
-    "mentioned_by": "Jonathan Courtney & Greg Isenberg"
+    "mentioned_by": "Jonathan Courtney & Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Viral Loop Product Company (Content-Generating Products)",
@@ -2505,7 +3649,8 @@
     "target_market": "Content creators and consumers who share purchases on social media",
     "episode_date": "2024-06-03",
     "episode_title": "4 startup ideas using viral loops and memes to get you paid",
-    "mentioned_by": "Maddie Mo (guest)"
+    "mentioned_by": "Maddie Mo (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Google Ads Agency for Niche Verticals",
@@ -2517,7 +3662,8 @@
     "target_market": "Small business owners in specific verticals who need Google Ads help",
     "episode_date": "2024-05-27",
     "episode_title": "I can't believe he gave away these GENIUS 7 profitable startup ideas",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Niche Publishing House for Lit RPG",
@@ -2529,7 +3675,8 @@
     "target_market": "Kindle Unlimited readers, gaming enthusiasts who prefer reading over playing",
     "episode_date": "2024-05-22",
     "episode_title": "3 startup ideas using data/trends to get you paid",
-    "mentioned_by": "Nicolas Cole (guest)"
+    "mentioned_by": "Nicolas Cole (guest)",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Kindle Category Arbitrage Tool",
@@ -2541,7 +3688,8 @@
     "target_market": "Entrepreneurial publishers, indie authors",
     "episode_date": "2024-05-22",
     "episode_title": "3 startup ideas using data/trends to get you paid",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Trends Newsletter for Writing Businesses",
@@ -2553,7 +3701,8 @@
     "target_market": "Writing entrepreneurs, indie publishers, content creators",
     "episode_date": "2024-05-22",
     "episode_title": "3 startup ideas using data/trends to get you paid",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Books-to-Businesses Pipeline",
@@ -2565,7 +3714,8 @@
     "target_market": "Readers of popular niche books",
     "episode_date": "2024-05-15",
     "episode_title": "5 game-changing startup ideas from a life hacking genius",
-    "mentioned_by": "Chris Hutchins"
+    "mentioned_by": "Chris Hutchins",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Dating Coach App (Riz/Plug AI Model)",
@@ -2577,7 +3727,8 @@
     "target_market": "Young people using dating apps who want conversation help",
     "episode_date": "2024-05-12",
     "episode_title": "How this viral AI App is making $190,000/month",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Coaching Apps in Multiple Verticals",
@@ -2589,7 +3740,8 @@
     "target_market": "Young consumers seeking personalized advice in specific areas",
     "episode_date": "2024-05-12",
     "episode_title": "How this viral AI App is making $190,000/month",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Sleep Membership Club (The 100 Club)",
@@ -2601,7 +3753,8 @@
     "target_market": "Sleep-obsessed consumers using Eight Sleep, Oura, etc.",
     "episode_date": "2024-05-12",
     "episode_title": "How this viral AI App is making $190,000/month",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Anti-Trend Business (Opposite of Every Trend)",
@@ -2613,7 +3766,8 @@
     "target_market": "Consumers who reject mainstream trends",
     "episode_date": "2024-05-12",
     "episode_title": "How this viral AI App is making $190,000/month",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Therapist AI App",
@@ -2625,7 +3779,8 @@
     "target_market": "People seeking affordable mental health support",
     "episode_date": "2024-05-12",
     "episode_title": "How this viral AI App is making $190,000/month",
-    "mentioned_by": "Jonathan Courtney"
+    "mentioned_by": "Jonathan Courtney",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Internal Recap Tool for Companies",
@@ -2637,7 +3792,8 @@
     "target_market": "CEOs and executives at companies with 50+ employees",
     "episode_date": "2024-05-10",
     "episode_title": "A few $30k+/month startup ideas from the most manic/genius founder you've never heard of",
-    "mentioned_by": "Cody Schneider"
+    "mentioned_by": "Cody Schneider",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Programmatic SEO Content Sites",
@@ -2649,7 +3805,8 @@
     "target_market": "Businesses wanting organic search traffic",
     "episode_date": "2024-05-10",
     "episode_title": "A few $30k+/month startup ideas from the most manic/genius founder you've never heard of",
-    "mentioned_by": "Cody Schneider"
+    "mentioned_by": "Cody Schneider",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Men's Anti-Aging / Longevity Brand",
@@ -2661,7 +3818,8 @@
     "target_market": "Health-conscious men 25-45",
     "episode_date": "2024-05-08",
     "episode_title": "This $20M/year Founder shares his 3 top business ideas with me",
-    "mentioned_by": "Jason"
+    "mentioned_by": "Jason",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Repackaged Corporate Training at Premium Pricing",
@@ -2673,7 +3831,8 @@
     "target_market": "Corporate employees and teams willing to pay premium for well-packaged training",
     "episode_date": "2024-05-01",
     "episode_title": "This legend gave away 3 crazy cash-flowing business ideas",
-    "mentioned_by": "Jonathan Courtney"
+    "mentioned_by": "Jonathan Courtney",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Twitter Strategy Tool (Built on Twitter API)",
@@ -2685,7 +3844,8 @@
     "target_market": "Twitter power users, creators, and business accounts",
     "episode_date": "2024-04-24",
     "episode_title": "$100M+/Year Founder Reveals a Brilliant Startup Idea Built on Top of Twitter",
-    "mentioned_by": "Jason Cohen"
+    "mentioned_by": "Jason Cohen",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Sommelier for X (Sleep Sommelier, Water Sommelier)",
@@ -2697,7 +3857,8 @@
     "target_market": "Consumers seeking expert guidance in specific lifestyle areas",
     "episode_date": "2024-04-18",
     "episode_title": "pov: you have $10k to build a $1M startup",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Directory of Clean Products",
@@ -2709,7 +3870,8 @@
     "target_market": "Health-conscious consumers concerned about toxins",
     "episode_date": "2024-04-18",
     "episode_title": "pov: you have $10k to build a $1M startup",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Lightweight AI Notes App (Notion + Apple Notes Hybrid)",
@@ -2721,7 +3883,8 @@
     "target_market": "Knowledge workers frustrated with Notion's slowness and Apple Notes' formatting",
     "episode_date": "2024-04-18",
     "episode_title": "pov: you have $10k to build a $1M startup",
-    "mentioned_by": "Jordan"
+    "mentioned_by": "Jordan",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Premium Swag-as-a-Service for Tech Companies",
@@ -2733,7 +3896,8 @@
     "target_market": "Internet-native companies wanting premium physical brand merchandise",
     "episode_date": "2024-04-18",
     "episode_title": "pov: you have $10k to build a $1M startup",
-    "mentioned_by": "Jordan"
+    "mentioned_by": "Jordan",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Mac Productivity App Holding Company",
@@ -2745,7 +3909,8 @@
     "target_market": "Mac users and knowledge workers",
     "episode_date": "2024-04-18",
     "episode_title": "pov: you have $10k to build a $1M startup",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI-Powered True North App (Personal Finance Dashboard)",
@@ -2757,7 +3922,8 @@
     "target_market": "Professionals wanting to understand their financial health",
     "episode_date": "2024-04-12",
     "episode_title": "Watch this if you want free $1m-$100m business ideas (with Kevin Rose)",
-    "mentioned_by": "Kevin Rose"
+    "mentioned_by": "Kevin Rose",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Newsletter Acquisition and Consolidation",
@@ -2769,7 +3935,8 @@
     "target_market": "Newsletter operators looking to sell, and audiences in specific niches",
     "episode_date": "2024-03-28",
     "episode_title": "He has 1M+ followers and $1M startup ideas for you",
-    "mentioned_by": "Brian Feroldi"
+    "mentioned_by": "Brian Feroldi",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Surge Pricing for Housing/Short-Term Rentals",
@@ -2781,7 +3948,8 @@
     "target_market": "Seasonal travelers and property owners with empty homes",
     "episode_date": "2024-03-25",
     "episode_title": "I asked a $2B investment genius for his best startup ideas (and it was genius)",
-    "mentioned_by": "Ali Hamed"
+    "mentioned_by": "Ali Hamed",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Pay-for-Performance Marketing Agency",
@@ -2793,7 +3961,8 @@
     "target_market": "Companies in high-CPA industries (finance, crypto, hotels, telecoms)",
     "episode_date": "2024-03-08",
     "episode_title": "I can't believe he gave away these GENIUS 3 AI startup ideas (watch this)",
-    "mentioned_by": "Eric Siu"
+    "mentioned_by": "Eric Siu",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Customer Service Agents for Cost Savings",
@@ -2805,7 +3974,8 @@
     "target_market": "Companies with large customer service teams",
     "episode_date": "2024-03-08",
     "episode_title": "I can't believe he gave away these GENIUS 3 AI startup ideas (watch this)",
-    "mentioned_by": "Eric Siu"
+    "mentioned_by": "Eric Siu",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Pay-for-Performance CRO Agency",
@@ -2817,7 +3987,8 @@
     "target_market": "E-commerce businesses wanting higher conversion rates",
     "episode_date": "2024-03-08",
     "episode_title": "I can't believe he gave away these GENIUS 3 AI startup ideas (watch this)",
-    "mentioned_by": "Eric Siu"
+    "mentioned_by": "Eric Siu",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Night Guard with Teeth Whitening",
@@ -2829,7 +4000,8 @@
     "target_market": "People who grind teeth at night (large market)",
     "episode_date": "2024-03-08",
     "episode_title": "I can't believe he gave away these GENIUS 3 AI startup ideas (watch this)",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Vertical EO/YPO Communities (Unbundling YPO)",
@@ -2841,7 +4013,8 @@
     "target_market": "Entrepreneurs and executives in specific industries",
     "episode_date": "2024-03-08",
     "episode_title": "I can't believe he gave away these GENIUS 3 AI startup ideas (watch this)",
-    "mentioned_by": "Eric Siu"
+    "mentioned_by": "Eric Siu",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Supper Club Concept for US Cities",
@@ -2853,7 +4026,8 @@
     "target_market": "Urban professionals seeking unique social dining experiences",
     "episode_date": "2024-03-08",
     "episode_title": "I can't believe he gave away these GENIUS 3 AI startup ideas (watch this)",
-    "mentioned_by": "Eric Siu"
+    "mentioned_by": "Eric Siu",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Transformation Agency",
@@ -2865,7 +4039,8 @@
     "target_market": "Mid-size companies looking to integrate AI into operations",
     "episode_date": "2024-03-08",
     "episode_title": "I can't believe he gave away these GENIUS 3 AI startup ideas (watch this)",
-    "mentioned_by": "Eric Siu"
+    "mentioned_by": "Eric Siu",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Cross-Cultural Product Arbitrage",
@@ -2877,7 +4052,8 @@
     "target_market": "Consumers in the target culture unfamiliar with the product",
     "episode_date": "2024-03-08",
     "episode_title": "I can't believe he gave away these GENIUS 3 AI startup ideas (watch this)",
-    "mentioned_by": "Eric Siu"
+    "mentioned_by": "Eric Siu",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Longevity Concierge Service",
@@ -2889,7 +4065,8 @@
     "target_market": "Health-conscious consumers spending on longevity",
     "episode_date": "2024-03-08",
     "episode_title": "I can't believe he gave away these GENIUS 3 AI startup ideas (watch this)",
-    "mentioned_by": "Eric Siu"
+    "mentioned_by": "Eric Siu",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Gamification Platform for Household/Work Tasks",
@@ -2901,7 +4078,8 @@
     "target_market": "Families with kids, companies wanting employee engagement",
     "episode_date": "2024-03-08",
     "episode_title": "I can't believe he gave away these GENIUS 3 AI startup ideas (watch this)",
-    "mentioned_by": "Eric Siu"
+    "mentioned_by": "Eric Siu",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Creator Software Empire (James Clear Model)",
@@ -2913,7 +4091,8 @@
     "target_market": "The creator's existing audience seeking tools",
     "episode_date": "2024-03-01",
     "episode_title": "He earns $500k/month filming Rolex trading",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Luxury Watch Negotiation Content + Paid Community",
@@ -2925,7 +4104,8 @@
     "target_market": "Luxury watch enthusiasts and dealers",
     "episode_date": "2024-03-01",
     "episode_title": "He earns $500k/month filming Rolex trading",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Coffeezilla for Tech (Tech Investigative Journalism)",
@@ -2937,7 +4117,8 @@
     "target_market": "Tech industry professionals and enthusiasts",
     "episode_date": "2024-03-01",
     "episode_title": "He earns $500k/month filming Rolex trading",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Curation-as-a-Service Platform",
@@ -2949,7 +4130,8 @@
     "target_market": "Busy professionals who want curated insights from top thinkers",
     "episode_date": "2024-02-14",
     "episode_title": "The Co-Founder Of A $75M+ Company Gave Me His BEST Business Ideas",
-    "mentioned_by": "Alex Lieberman"
+    "mentioned_by": "Alex Lieberman",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Product Virality Through Exacerbating Pain",
@@ -2961,7 +4143,8 @@
     "target_market": "Users frustrated with existing solutions in any category",
     "episode_date": "2024-02-07",
     "episode_title": "He Shares The Science Behind Viral Products",
-    "mentioned_by": "Saurin Iverson"
+    "mentioned_by": "Saurin Iverson",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Bonus Chapter Email Capture (Book Marketing Hack)",
@@ -2973,7 +4156,8 @@
     "target_market": "Authors and course creators with published works",
     "episode_date": "2024-01-31",
     "episode_title": "Brainstorming $1M Business Ideas with Tiago Forte",
-    "mentioned_by": "Tiago Forte"
+    "mentioned_by": "Tiago Forte",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Pet AG1 (Premium Pet Supplements)",
@@ -2985,7 +4169,8 @@
     "target_market": "Pet owners who spend premium on pet health",
     "episode_date": "2024-01-18",
     "episode_title": "How To Make $10 MILLION from scratch",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Paid Newsletter + Community Membership ($100/month)",
@@ -2997,7 +4182,8 @@
     "target_market": "Professionals willing to pay for curated insights and peer network",
     "episode_date": "2024-01-18",
     "episode_title": "How To Make $10 MILLION from scratch",
-    "mentioned_by": "Nicolas Cole"
+    "mentioned_by": "Nicolas Cole",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Holding Company for Productivity Apps",
@@ -3009,7 +4195,8 @@
     "target_market": "Knowledge workers and productivity enthusiasts",
     "episode_date": "2024-01-11",
     "episode_title": "$1M Startup Trends For 2024, With Michael Karnjanaprakorn",
-    "mentioned_by": "Michael Karnjanaprakorn"
+    "mentioned_by": "Michael Karnjanaprakorn",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Audience-in-a-Box Service for Creators",
@@ -3021,7 +4208,8 @@
     "target_market": "Established creators wanting to expand to new platforms",
     "episode_date": "2024-01-05",
     "episode_title": "How To Build A Million-Dollar Media Empire",
-    "mentioned_by": "Eric Torenberg"
+    "mentioned_by": "Eric Torenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Paid Community on Skool ($99/month)",
@@ -3033,7 +4221,8 @@
     "target_market": "People interested in building community-based businesses",
     "episode_date": "2023-12-28",
     "episode_title": "My Biggest WINS & REGRETS Of 2023",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Holiday startup ideas brainstorm format",
@@ -3045,7 +4234,8 @@
     "target_market": "Aspiring entrepreneurs looking for vetted startup ideas",
     "episode_date": "2023-12-21",
     "episode_title": "Steal These 6 Startup Ideas For 2024",
-    "mentioned_by": "Greg Isenberg, Theo, and Jordan"
+    "mentioned_by": "Greg Isenberg, Theo, and Jordan",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI-Enhanced SEO Agency (Boring Marketing)",
@@ -3057,7 +4247,8 @@
     "target_market": "Businesses wanting to rank higher on Google",
     "episode_date": "2023-12-21",
     "episode_title": "Steal These 6 Startup Ideas For 2024",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Obituary-triggered vendor replacement business",
@@ -3069,7 +4260,8 @@
     "target_market": "Industries with high vendor loyalty and aging service providers",
     "episode_date": "2023-12-14",
     "episode_title": "The Biggest Startup Opportunities In 2024",
-    "mentioned_by": "Eric Ries"
+    "mentioned_by": "Eric Ries",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Lean Startup approach to rolling up service businesses",
@@ -3081,7 +4273,8 @@
     "target_market": "Small service business customers in fragmented industries",
     "episode_date": "2023-12-14",
     "episode_title": "The Biggest Startup Opportunities In 2024",
-    "mentioned_by": "Eric Ries"
+    "mentioned_by": "Eric Ries",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Obituary-Triggered Vendor Replacement Service",
@@ -3093,7 +4286,8 @@
     "target_market": "Industries with aging vendor populations (trades, specialized services)",
     "episode_date": "2023-12-14",
     "episode_title": "The Biggest Startup Opportunities In 2024",
-    "mentioned_by": "Eric Ries"
+    "mentioned_by": "Eric Ries",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Faceless YouTube channels with AI",
@@ -3105,7 +4299,8 @@
     "target_market": "YouTube viewers interested in educational and explainer content",
     "episode_date": "2023-11-30",
     "episode_title": "How To Make MILLIONS As A Faceless YouTuber",
-    "mentioned_by": "Drew Riley"
+    "mentioned_by": "Drew Riley",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Faceless YouTube in multiple languages",
@@ -3117,7 +4312,8 @@
     "target_market": "Non-English speaking YouTube audiences globally",
     "episode_date": "2023-11-30",
     "episode_title": "How To Make MILLIONS As A Faceless YouTuber",
-    "mentioned_by": "Greg Isenberg and Drew Riley"
+    "mentioned_by": "Greg Isenberg and Drew Riley",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Productized operations/systems-as-a-service",
@@ -3129,7 +4325,8 @@
     "target_market": "Established companies with messy operations who need systems",
     "episode_date": "2023-11-30",
     "episode_title": "How To Make MILLIONS As A Faceless YouTuber",
-    "mentioned_by": "Drew Riley"
+    "mentioned_by": "Drew Riley",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Sales-as-a-service for agencies",
@@ -3141,7 +4338,8 @@
     "target_market": "Marketing, design, and development agencies that need more clients",
     "episode_date": "2023-11-30",
     "episode_title": "How To Make MILLIONS As A Faceless YouTuber",
-    "mentioned_by": "Drew Riley"
+    "mentioned_by": "Drew Riley",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Faceless YouTube + niche AI software hybrid",
@@ -3153,7 +4351,8 @@
     "target_market": "YouTube viewers interested in AI tools for their specific workflow",
     "episode_date": "2023-11-30",
     "episode_title": "How To Make MILLIONS As A Faceless YouTuber",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Faceless YouTube Channels with AI Voiceover",
@@ -3165,7 +4364,8 @@
     "target_market": "YouTube viewers interested in educational content",
     "episode_date": "2023-11-30",
     "episode_title": "How To Make MILLIONS As A Faceless YouTuber",
-    "mentioned_by": "Drew Riley"
+    "mentioned_by": "Drew Riley",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Newsletter Co-Registration Arbitrage",
@@ -3177,7 +4377,8 @@
     "target_market": "Newsletter operators looking to grow and monetize",
     "episode_date": "2023-11-30",
     "episode_title": "How To Make MILLIONS As A Faceless YouTuber",
-    "mentioned_by": "Drew Riley"
+    "mentioned_by": "Drew Riley",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Faceless YouTube in Multiple Languages",
@@ -3189,7 +4390,8 @@
     "target_market": "Non-English speaking YouTube audiences globally",
     "episode_date": "2023-11-30",
     "episode_title": "How To Make MILLIONS As A Faceless YouTuber",
-    "mentioned_by": "Drew Riley"
+    "mentioned_by": "Drew Riley",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Productized Operations-as-a-Service",
@@ -3201,7 +4403,8 @@
     "target_market": "Established companies with chaotic operations",
     "episode_date": "2023-11-30",
     "episode_title": "How To Make MILLIONS As A Faceless YouTuber",
-    "mentioned_by": "Drew Riley"
+    "mentioned_by": "Drew Riley",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Creator SaaS with public journey (ConvertKit model)",
@@ -3213,7 +4416,8 @@
     "target_market": "Creators and small businesses needing email marketing tools",
     "episode_date": "2023-11-16",
     "episode_title": "How To Make Money As A Creator",
-    "mentioned_by": "Nathan Barry"
+    "mentioned_by": "Nathan Barry",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Creator-to-SaaS Company Pipeline",
@@ -3225,7 +4429,8 @@
     "target_market": "The creator's own audience who need tools",
     "episode_date": "2023-11-16",
     "episode_title": "How To Make Money As A Creator",
-    "mentioned_by": "Nathan Barry"
+    "mentioned_by": "Nathan Barry",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Visual newsletter (Bay Area Times model)",
@@ -3237,7 +4442,8 @@
     "target_market": "Business and tech professionals who want quick visual news digests",
     "episode_date": "2023-11-09",
     "episode_title": "How To Build A Media Business With Anthony Pompliano",
-    "mentioned_by": "Anthony Pompliano"
+    "mentioned_by": "Anthony Pompliano",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Media company with hedge fund monetization",
@@ -3249,7 +4455,8 @@
     "target_market": "Financial markets, institutional investors, and informed retail investors",
     "episode_date": "2023-11-09",
     "episode_title": "How To Build A Media Business With Anthony Pompliano",
-    "mentioned_by": "Anthony Pompliano"
+    "mentioned_by": "Anthony Pompliano",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Visual Newsletter (Bay Area Times Model)",
@@ -3261,7 +4468,8 @@
     "target_market": "Professionals who prefer visual content consumption",
     "episode_date": "2023-11-09",
     "episode_title": "How To Build A Media Business With Anthony Pompliano",
-    "mentioned_by": "Anthony Pompliano"
+    "mentioned_by": "Anthony Pompliano",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "High Revenue Per Employee Media Company",
@@ -3273,7 +4481,8 @@
     "target_market": "Business and tech professionals",
     "episode_date": "2023-11-09",
     "episode_title": "How To Build A Media Business With Anthony Pompliano",
-    "mentioned_by": "Anthony Pompliano"
+    "mentioned_by": "Anthony Pompliano",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Paid creator community ($500K ARR model)",
@@ -3285,7 +4494,8 @@
     "target_market": "Content creators looking to turn attention into revenue",
     "episode_date": "2023-09-21",
     "episode_title": "How Jay Clouse Built a $500,000 ARR Community (in Less than 2 Years)",
-    "mentioned_by": "Jay Clouse"
+    "mentioned_by": "Jay Clouse",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Paid Creator Community ($500K ARR)",
@@ -3297,7 +4507,8 @@
     "target_market": "Content creators looking to turn attention into business revenue",
     "episode_date": "2023-09-21",
     "episode_title": "How Jay Clouse Built a $500,000 ARR Community (in Less than 2 Years)",
-    "mentioned_by": "Jay Clouse"
+    "mentioned_by": "Jay Clouse",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Multi-business holding company in local services",
@@ -3309,7 +4520,8 @@
     "target_market": "Local businesses and consumers in a specific metro area",
     "episode_date": "2023-09-07",
     "episode_title": "How Holdco Legend Michael Girdley is Playing Multi-Decade Games (and Winning)",
-    "mentioned_by": "Michael Girdley"
+    "mentioned_by": "Michael Girdley",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Holdco of Local Service Businesses",
@@ -3321,7 +4533,8 @@
     "target_market": "Local markets with fragmented service industries",
     "episode_date": "2023-09-07",
     "episode_title": "How Holdco Legend Michael Girdley is Playing Multi-Decade Games (and Winning)",
-    "mentioned_by": "Michael Girdley"
+    "mentioned_by": "Michael Girdley",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Hosting Curated Networking Events",
@@ -3333,7 +4546,8 @@
     "target_market": "Professionals and entrepreneurs in specific cities",
     "episode_date": "2023-08-31",
     "episode_title": "3 Non-Obvious Networking Strategies That Work",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Holdco model: incubate businesses from your cost centers",
@@ -3345,7 +4559,8 @@
     "target_market": "Other business owners who need the same services",
     "episode_date": "2023-08-17",
     "episode_title": "Personal Holding Companies Build vs. Buy",
-    "mentioned_by": "Nick Huber"
+    "mentioned_by": "Nick Huber",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Personal Holding Company (Build + Buy Businesses)",
@@ -3357,7 +4572,8 @@
     "target_market": "Entrepreneurs with existing audiences who can acquire and grow small businesses",
     "episode_date": "2023-08-17",
     "episode_title": "Personal Holding Companies: Build vs. Buy",
-    "mentioned_by": "Nick Huber"
+    "mentioned_by": "Nick Huber",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Podcast-to-empire funnel",
@@ -3369,7 +4585,8 @@
     "target_market": "Professionals and entrepreneurs in a specific niche",
     "episode_date": "2023-08-10",
     "episode_title": "How to Turn a Podcast into an Empire",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Revenue Per Attention Optimization for Creators",
@@ -3381,7 +4598,8 @@
     "target_market": "Content creators with engaged but smaller audiences",
     "episode_date": "2023-08-03",
     "episode_title": "Status Games, Fame, and the Truth about FIRE",
-    "mentioned_by": "Nicolas Cole"
+    "mentioned_by": "Nicolas Cole",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Venture Studio / Holding Company Model",
@@ -3393,7 +4611,8 @@
     "target_market": "Serial entrepreneurs looking for a framework to build multiple businesses",
     "episode_date": "2023-07-20",
     "episode_title": "Multipreneurship 101 and Why It Matters",
-    "mentioned_by": "Jesse Pujji"
+    "mentioned_by": "Jesse Pujji",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Growth Assistant - Outsourced Virtual Assistants",
@@ -3405,7 +4624,8 @@
     "target_market": "Entrepreneurs and small business owners",
     "episode_date": "2023-07-20",
     "episode_title": "Multipreneurship 101 and Why It Matters",
-    "mentioned_by": "Jesse Pujji"
+    "mentioned_by": "Jesse Pujji",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Niche AI tools marketplace/directory",
@@ -3417,7 +4637,8 @@
     "target_market": "Professionals and businesses looking for the right AI tools for their use case",
     "episode_date": "2023-06-29",
     "episode_title": "Business ideas worth paying attention to",
-    "mentioned_by": "Emma Lawler"
+    "mentioned_by": "Emma Lawler",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Vertical AI Tools for Specific Industries",
@@ -3429,7 +4650,8 @@
     "target_market": "Professionals in specific industries",
     "episode_date": "2023-06-29",
     "episode_title": "Business ideas worth paying attention to",
-    "mentioned_by": "Emma Lawler"
+    "mentioned_by": "Emma Lawler",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Content flywheel media business",
@@ -3441,7 +4663,8 @@
     "target_market": "Audiences interested in personal development and mindfulness",
     "episode_date": "2023-06-22",
     "episode_title": "I met this guy who is the million dollar content flywheel king",
-    "mentioned_by": "Case Kenny"
+    "mentioned_by": "Case Kenny",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Content Flywheel Business (Podcast + Community + Products)",
@@ -3453,7 +4676,8 @@
     "target_market": "Audiences in self-improvement, mindfulness, wellness niches",
     "episode_date": "2023-06-22",
     "episode_title": "I met this guy who is the million dollar content flywheel king",
-    "mentioned_by": "Case Kenny"
+    "mentioned_by": "Case Kenny",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "IRL Founders Mastermind Groups",
@@ -3465,7 +4689,8 @@
     "target_market": "Entrepreneurs and founders at similar stages",
     "episode_date": "2023-06-01",
     "episode_title": "The IRL Tribes That Could Change Your Life",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Niche Media Empire for Gig Economy Workers",
@@ -3477,7 +4702,8 @@
     "target_market": "Gig economy workers (drivers, freelancers, delivery people)",
     "episode_date": "2023-05-25",
     "episode_title": "How The Rideshare Guy Turned Uber, Lyft Drivers into a Media Empire",
-    "mentioned_by": "Harry Campbell"
+    "mentioned_by": "Harry Campbell",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Faceless Instagram Media Brands",
@@ -3489,7 +4715,8 @@
     "target_market": "Advertisers looking for niche audiences",
     "episode_date": "2023-05-18",
     "episode_title": "Roberto Nickson Grew 400K+ Followers In 100 Days: Here's How",
-    "mentioned_by": "Roberto Nickson"
+    "mentioned_by": "Roberto Nickson",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Million-dollar productized agency",
@@ -3501,7 +4728,8 @@
     "target_market": "Companies needing specialized services in a specific domain",
     "episode_date": "2023-05-04",
     "episode_title": "The Ultimate Guide to Building Million Dollar Agencies",
-    "mentioned_by": "Greg Isenberg and Theo"
+    "mentioned_by": "Greg Isenberg and Theo",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Productized Service Agency (Design Subscription)",
@@ -3513,7 +4741,8 @@
     "target_market": "Startups and SMBs needing ongoing design work",
     "episode_date": "2023-05-04",
     "episode_title": "The Ultimate Guide to Building Million Dollar Agencies",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Pear Ring - Physical Single Status Indicator",
@@ -3525,7 +4754,8 @@
     "target_market": "Singles tired of dating apps",
     "episode_date": "2023-04-27",
     "episode_title": "Everything I learned this week",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "YouTube Video Summary Tool",
@@ -3537,7 +4767,8 @@
     "target_market": "Content consumers, researchers, and content creators",
     "episode_date": "2023-04-27",
     "episode_title": "Everything I learned this week",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "DTC brand with landing page-first strategy",
@@ -3549,7 +4780,8 @@
     "target_market": "DTC e-commerce brands looking to optimize conversion rates",
     "episode_date": "2023-04-20",
     "episode_title": "The Secret Strategies of Top DTC Brands with Nik Sharma",
-    "mentioned_by": "Nik Sharma"
+    "mentioned_by": "Nik Sharma",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "DTC Brand with Community-First Approach",
@@ -3561,7 +4793,8 @@
     "target_market": "Consumers in specific lifestyle niches (wellness, fitness, etc.)",
     "episode_date": "2023-04-20",
     "episode_title": "The Secret Strategies of Top DTC Brands with Nik Sharma",
-    "mentioned_by": "Nik Sharma"
+    "mentioned_by": "Nik Sharma",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "TikTok Growth Agency for Brands",
@@ -3573,7 +4806,8 @@
     "target_market": "Brands and thought leaders wanting to grow on TikTok",
     "episode_date": "2023-04-06",
     "episode_title": "The Ultimate TikTok Guide by JT Barnett: From Beginner to Stardom",
-    "mentioned_by": "JT Barnett"
+    "mentioned_by": "JT Barnett",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI-first SaaS product (Jasper model)",
@@ -3585,7 +4819,8 @@
     "target_market": "Marketing teams and content creators needing AI-assisted copy",
     "episode_date": "2023-03-30",
     "episode_title": "Master the Art of AI-first Products with Dave Rogenmoser's Winning Formula",
-    "mentioned_by": "Dave Rogenmoser"
+    "mentioned_by": "Dave Rogenmoser",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI-First Content Marketing Tool",
@@ -3597,7 +4832,8 @@
     "target_market": "Marketing teams and content creators at businesses",
     "episode_date": "2023-03-30",
     "episode_title": "Master the Art of AI-first Products with Dave Rogenmoser's Winning Formula",
-    "mentioned_by": "Dave Rogenmoser"
+    "mentioned_by": "Dave Rogenmoser",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Niche Community Forum + Podcast + Tools Bundle",
@@ -3609,7 +4845,8 @@
     "target_market": "Any underserved professional or hobbyist niche",
     "episode_date": "2023-03-03",
     "episode_title": "From Zero to 2M+ How Josh Dorkin Built the Bigger Pockets Community",
-    "mentioned_by": "Josh Dorkin"
+    "mentioned_by": "Josh Dorkin",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Community-based product with specific identity groups",
@@ -3621,7 +4858,8 @@
     "target_market": "People who identify with a specific lifestyle, hobby, or professional group",
     "episode_date": "2023-02-27",
     "episode_title": "3 Community-Based Products Doing It Right with April MacLean",
-    "mentioned_by": "April MacLean and Greg Isenberg"
+    "mentioned_by": "April MacLean and Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Community-Based Product with Paid Membership",
@@ -3633,7 +4871,8 @@
     "target_market": "Niche hobbyists or professionals seeking peer connections and resources",
     "episode_date": "2023-02-27",
     "episode_title": "3 Community-Based Products Doing It Right with April MacLean",
-    "mentioned_by": "April MacLean"
+    "mentioned_by": "April MacLean",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI virtual influencer/model",
@@ -3645,7 +4884,8 @@
     "target_market": "Brands looking for influencer partnerships without human unpredictability",
     "episode_date": "2023-02-09",
     "episode_title": "From Zero to Millions Danny Postma Reveals AI App Strategies for Success",
-    "mentioned_by": "Danny Postma"
+    "mentioned_by": "Danny Postma",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Niche AI tool leveraging GPT APIs",
@@ -3657,7 +4897,8 @@
     "target_market": "Professionals in specific verticals who need AI assistance",
     "episode_date": "2023-02-09",
     "episode_title": "From Zero to Millions Danny Postma Reveals AI App Strategies for Success",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI-Generated Virtual Influencer",
@@ -3669,7 +4910,8 @@
     "target_market": "Brands looking for influencer marketing without human influencer risk",
     "episode_date": "2023-02-09",
     "episode_title": "From Zero to Millions: Danny Postma Reveals AI App Strategies for Success",
-    "mentioned_by": "Danny Postma"
+    "mentioned_by": "Danny Postma",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Headshot Generator",
@@ -3681,7 +4923,8 @@
     "target_market": "Professionals needing LinkedIn/corporate headshots without studio visits",
     "episode_date": "2023-02-09",
     "episode_title": "From Zero to Millions: Danny Postma Reveals AI App Strategies for Success",
-    "mentioned_by": "Danny Postma"
+    "mentioned_by": "Danny Postma",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI Interior Design Tool",
@@ -3693,7 +4936,8 @@
     "target_market": "Homeowners and renters looking to redecorate",
     "episode_date": "2023-02-09",
     "episode_title": "From Zero to Millions: Danny Postma Reveals AI App Strategies for Success",
-    "mentioned_by": "Danny Postma"
+    "mentioned_by": "Danny Postma",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Politician Stock Tracker App",
@@ -3705,7 +4949,8 @@
     "target_market": "Retail investors interested in following political trading patterns",
     "episode_date": "2023-02-02",
     "episode_title": "Unveiling Chris Josephs' Million-Dollar Meme Strategy",
-    "mentioned_by": "Chris Josephs"
+    "mentioned_by": "Chris Josephs",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Meme-Driven Finance App Marketing",
@@ -3717,7 +4962,8 @@
     "target_market": "Young retail investors on social media",
     "episode_date": "2023-02-02",
     "episode_title": "Unveiling Chris Josephs' Million-Dollar Meme Strategy",
-    "mentioned_by": "Chris Josephs"
+    "mentioned_by": "Chris Josephs",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Micro Private Equity - Buy Small Businesses",
@@ -3729,7 +4975,8 @@
     "target_market": "Aspiring business owners who want steady cash flow rather than startup risk",
     "episode_date": "2023-01-26",
     "episode_title": "Mastering Micro Private Equity: Brent Beshore's Strategy for Wealth Generation",
-    "mentioned_by": "Brent Beshore"
+    "mentioned_by": "Brent Beshore",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Creator-led brand/product company",
@@ -3741,7 +4988,8 @@
     "target_market": "Fans and followers of specific creators",
     "episode_date": "2022-12-29",
     "episode_title": "Building Big Businesses with Creators with Emily Herrera",
-    "mentioned_by": "Emily Herrera"
+    "mentioned_by": "Emily Herrera",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Self-storage real estate investment",
@@ -3753,7 +5001,8 @@
     "target_market": "Individuals and businesses needing storage space",
     "episode_date": "2022-12-22",
     "episode_title": "How Nick Huber Built His Wealth From Sweaty Startup to Real Estate Investor",
-    "mentioned_by": "Nick Huber"
+    "mentioned_by": "Nick Huber",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Turn cost centers into businesses",
@@ -3765,7 +5014,8 @@
     "target_market": "Small business owners who need the same services you're already paying for",
     "episode_date": "2022-12-22",
     "episode_title": "How Nick Huber Built His Wealth From Sweaty Startup to Real Estate Investor",
-    "mentioned_by": "Nick Huber"
+    "mentioned_by": "Nick Huber",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Niche newsletter business with advertising monetization",
@@ -3777,7 +5027,8 @@
     "target_market": "Professionals in specific industries who want curated information",
     "episode_date": "2022-12-15",
     "episode_title": "Why Every Creator Should Have a Newsletter with Austin Rief",
-    "mentioned_by": "Austin Rief"
+    "mentioned_by": "Austin Rief",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Personal holding company for creators",
@@ -3789,7 +5040,8 @@
     "target_market": "Creators and entrepreneurs with audiences wanting to diversify revenue",
     "episode_date": "2022-12-08",
     "episode_title": "Money, Wealth, and Personal Holding Companies with Michael Karnjanaprakorn",
-    "mentioned_by": "Michael Karnjanaprakorn"
+    "mentioned_by": "Michael Karnjanaprakorn",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI writing assistant Chrome extension for niche use cases",
@@ -3801,7 +5053,8 @@
     "target_market": "Writers, newsletter creators, content marketers",
     "episode_date": "2022-11-30",
     "episode_title": "How Writers Can Be More Productive Using AI with Ben Tossell",
-    "mentioned_by": "Ben Tossell and Greg Isenberg"
+    "mentioned_by": "Ben Tossell and Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI-generated personalized children's books",
@@ -3813,7 +5066,8 @@
     "target_market": "Parents and grandparents of young children",
     "episode_date": "2022-11-30",
     "episode_title": "How Writers Can Be More Productive Using AI with Ben Tossell",
-    "mentioned_by": "Ben Tossell"
+    "mentioned_by": "Ben Tossell",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Voice clone newsletter-to-podcast converter",
@@ -3825,7 +5079,8 @@
     "target_market": "Newsletter writers who want to reach podcast audiences without recording",
     "episode_date": "2022-11-30",
     "episode_title": "How Writers Can Be More Productive Using AI with Ben Tossell",
-    "mentioned_by": "Ben Tossell"
+    "mentioned_by": "Ben Tossell",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AI-powered ad creative generation and optimization",
@@ -3837,7 +5092,8 @@
     "target_market": "D2C brands, e-commerce companies, newsletter publishers running paid ads",
     "episode_date": "2022-11-30",
     "episode_title": "How Writers Can Be More Productive Using AI with Ben Tossell",
-    "mentioned_by": "Ben Tossell"
+    "mentioned_by": "Ben Tossell",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Visualize Value - productized design and education",
@@ -3849,7 +5105,8 @@
     "target_market": "Entrepreneurs and professionals who want to learn business concepts visually",
     "episode_date": "2022-11-23",
     "episode_title": "Building the Right Product, At the Right Time, For the Right People - with Jack Butcher",
-    "mentioned_by": "Jack Butcher"
+    "mentioned_by": "Jack Butcher",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Paid community for women entrepreneurs (BossBabe model)",
@@ -3861,7 +5118,8 @@
     "target_market": "Women entrepreneurs and aspiring business owners",
     "episode_date": "2022-09-22",
     "episode_title": "The Laws of Community Building with Natalie Ellis",
-    "mentioned_by": "Natalie Ellis"
+    "mentioned_by": "Natalie Ellis",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Gaming live-streaming as community monetization",
@@ -3873,7 +5131,8 @@
     "target_market": "Gaming and entertainment audiences willing to pay for live content",
     "episode_date": "2022-09-15",
     "episode_title": "How To Monetize On YouTube With Harley Morenstein",
-    "mentioned_by": "Harley Morenstein"
+    "mentioned_by": "Harley Morenstein",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Acquire and roll up boring businesses into a mini Berkshire Hathaway",
@@ -3885,7 +5144,8 @@
     "target_market": "Small business owners looking to sell, and customers of service businesses",
     "episode_date": "2022-09-01",
     "episode_title": "Building a Mini Berkshire Hathaway",
-    "mentioned_by": "Sieva Kozinsky and Xavier Helgesen"
+    "mentioned_by": "Sieva Kozinsky and Xavier Helgesen",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "AppSumo-style deal platform for niche verticals",
@@ -3897,7 +5157,8 @@
     "target_market": "Software buyers in specific niches looking for deals",
     "episode_date": "2022-07-07",
     "episode_title": "Bootstrapping Through A Bear Market with Noah Kagan",
-    "mentioned_by": "Noah Kagan"
+    "mentioned_by": "Noah Kagan",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Weekend side project to MVP pipeline",
@@ -3909,7 +5170,8 @@
     "target_market": "Any niche community with an unmet need",
     "episode_date": "2022-06-10",
     "episode_title": "Building From Scratch with Ryan Hoover",
-    "mentioned_by": "Ryan Hoover"
+    "mentioned_by": "Ryan Hoover",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Newsletter co-registration network",
@@ -3921,7 +5183,60 @@
     "target_market": "Newsletter publishers looking for subscriber growth",
     "episode_date": "2022-05-26",
     "episode_title": "$30M by Age 19 And Where You Should Build Today",
-    "mentioned_by": "Sahil Bloom"
+    "mentioned_by": "Sahil Bloom",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Digital Marketing Agency for Mom-and-Pop Businesses",
+    "description": "An agency helping local small businesses get relevant on social media and digital advertising platforms, charging monthly retainers.",
+    "category": "Agency",
+    "revenue_model": "service_fee",
+    "effort": "medium",
+    "investment": "bootstrap",
+    "target_market": "Local small businesses, mom-and-pop shops",
+    "episode_date": "2022-05-26",
+    "episode_title": "$30M by Age 19 And Where You Should Build Today",
+    "mentioned_by": "Val and Sahil Bloom",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Financial Education Platform for Kids",
+    "description": "A gamified app/platform that teaches kids about investing, interest, and money management through interactive games and tools, with parents as the primary buyer.",
+    "category": "SaaS",
+    "revenue_model": "freemium",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "Parents of children ages 5-16",
+    "episode_date": "2022-05-26",
+    "episode_title": "$30M by Age 19 And Where You Should Build Today",
+    "mentioned_by": "Sahil Bloom and Val",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Kids Swim School Franchise",
+    "description": "Invest in or operate a kids swim school franchise with high margins, recurring revenue from parents, and relatively low overhead.",
+    "category": "Other",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Parents with young children",
+    "episode_date": "2022-05-26",
+    "episode_title": "$30M by Age 19 And Where You Should Build Today",
+    "mentioned_by": "Sahil Bloom",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "SBA Loan Small Business Acquisition Strategy",
+    "description": "Use SBA loans combined with seller financing to acquire cash-flowing small businesses with minimal down payment, generating high cash-on-cash returns.",
+    "category": "Other",
+    "revenue_model": "transaction_fee",
+    "effort": "high",
+    "investment": "medium",
+    "target_market": "Aspiring entrepreneurs wanting to exit corporate jobs",
+    "episode_date": "2022-05-26",
+    "episode_title": "$30M by Age 19 And Where You Should Build Today",
+    "mentioned_by": "Sahil Bloom and Val",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Products and services for older adults (55+)",
@@ -3933,7 +5248,8 @@
     "target_market": "Adults 55+ who are tech-curious but underserved by current startups",
     "episode_date": "2022-05-05",
     "episode_title": "Why You Should Start a Business For Older Adults",
-    "mentioned_by": "Greg Isenberg and Sahil Bloom"
+    "mentioned_by": "Greg Isenberg and Sahil Bloom",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Boring B2B service businesses (laundromats, storage, car washes)",
@@ -3945,7 +5261,8 @@
     "target_market": "Local consumers needing everyday services",
     "episode_date": "2022-03-17",
     "episode_title": "How to Get Rich Building Boring Businesses",
-    "mentioned_by": "Sahil Bloom"
+    "mentioned_by": "Sahil Bloom",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Swag/promotional products marketplace with tech layer",
@@ -3957,7 +5274,8 @@
     "target_market": "Companies and organizations ordering branded merchandise",
     "episode_date": "2022-03-11",
     "episode_title": "Bootstrapping An Eight-Figure Business",
-    "mentioned_by": "Michael Martocci"
+    "mentioned_by": "Michael Martocci",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Personality-Market Fit consulting/framework",
@@ -3969,7 +5287,8 @@
     "target_market": "First-time entrepreneurs and aspiring founders",
     "episode_date": "2022-02-22",
     "episode_title": "Personality-Market Fit",
-    "mentioned_by": "Greg Isenberg and Sahil Bloom"
+    "mentioned_by": "Greg Isenberg and Sahil Bloom",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Local social app for Gen Z",
@@ -3981,7 +5300,8 @@
     "target_market": "Gen Z students, high school and college age",
     "episode_date": "2022-02-15",
     "episode_title": "Will Meta Bounce Back (with Nikita Bier)",
-    "mentioned_by": "Nikita Bier"
+    "mentioned_by": "Nikita Bier",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Meme marketing agency",
@@ -3993,7 +5313,8 @@
     "target_market": "Brands targeting younger demographics who want viral social media presence",
     "episode_date": "2022-01-19",
     "episode_title": "Memes Rule The World with Dogecoin Creator Billy Markus",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Enterprise tool simplified for SMBs",
@@ -4005,7 +5326,8 @@
     "target_market": "Small and medium businesses that can't afford enterprise software",
     "episode_date": "2022-01-14",
     "episode_title": "The Power of Becoming a Feedback Magnet with Kat Cole",
-    "mentioned_by": "Kat Cole"
+    "mentioned_by": "Kat Cole",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Twitter as super app for knowledge creator economy",
@@ -4017,7 +5339,60 @@
     "target_market": "Knowledge creators, writers, thought leaders",
     "episode_date": "2022-01-11",
     "episode_title": "Forecasting the Future of Tech with Scott Belsky",
-    "mentioned_by": "Sahil Bloom and Scott Belsky"
+    "mentioned_by": "Sahil Bloom and Scott Belsky",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Consumer Preference Profile Platform",
+    "description": "A platform where consumers fill out their preferences (food, hospitality, travel) and proactively share them with participating brands, restaurants, and hotels for personalized experiences everywhere they go.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "medium",
+    "target_market": "Hospitality businesses, restaurants, hotels",
+    "episode_date": "2022-01-11",
+    "episode_title": "Forecasting the Future of Tech with Scott Belsky",
+    "mentioned_by": "Scott Belsky",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Culture-as-a-Service for Remote Teams",
+    "description": "A service that helps remote companies organize summits and in-person gatherings in different locations to build and maintain company culture.",
+    "category": "Agency",
+    "revenue_model": "service_fee",
+    "effort": "medium",
+    "investment": "low",
+    "target_market": "Remote-first companies with 20-500 employees",
+    "episode_date": "2022-01-11",
+    "episode_title": "Forecasting the Future of Tech with Scott Belsky",
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Polygamous Worker Operating System",
+    "description": "A platform that helps freelancers and multi-project workers manage their various engagements, contracts, and income streams in one place, while helping companies manage part-time talent.",
+    "category": "SaaS",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "medium",
+    "target_market": "Freelancers, 1099 workers, companies hiring fractional talent",
+    "episode_date": "2022-01-11",
+    "episode_title": "Forecasting the Future of Tech with Scott Belsky",
+    "mentioned_by": "Scott Belsky and Sahil Bloom",
+    "podcast": "The Startup Ideas Podcast"
+  },
+  {
+    "idea": "Mood-Based Music via Wearables",
+    "description": "Partner with wearable devices like Whoop to detect mood, energy, and biometrics, then integrate with Spotify to automatically serve music matching your emotional state.",
+    "category": "Tool",
+    "revenue_model": "subscription",
+    "effort": "high",
+    "investment": "high",
+    "target_market": "Music listeners, wellness enthusiasts",
+    "episode_date": "2022-01-11",
+    "episode_title": "Forecasting the Future of Tech with Scott Belsky",
+    "mentioned_by": "Scott Belsky and Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "NFT project with real-world utility and IP",
@@ -4029,7 +5404,8 @@
     "target_market": "Collectors, brand enthusiasts, Web3-native audiences",
     "episode_date": "2022-01-06",
     "episode_title": "NFTs with Gary Vaynerchuk",
-    "mentioned_by": "Gary Vaynerchuk"
+    "mentioned_by": "Gary Vaynerchuk",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Brand NFT launch agency",
@@ -4041,7 +5417,8 @@
     "target_market": "Fortune 500 brands and consumer companies wanting Web3 presence",
     "episode_date": "2022-01-06",
     "episode_title": "NFTs with Gary Vaynerchuk",
-    "mentioned_by": "Gary Vaynerchuk"
+    "mentioned_by": "Gary Vaynerchuk",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Drive to Survive-style docuseries for extreme sports",
@@ -4053,7 +5430,8 @@
     "target_market": "Sports fans, streaming platforms, extreme sports audiences",
     "episode_date": "2021-12-14",
     "episode_title": "State of the Union DAOing the X Games",
-    "mentioned_by": "Sahil Bloom and Sam Shortstein"
+    "mentioned_by": "Sahil Bloom and Sam Shortstein",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "DAO to buy and reimagine the X Games",
@@ -4065,7 +5443,8 @@
     "target_market": "Extreme sports fans, athletes, and Web3 enthusiasts",
     "episode_date": "2021-12-10",
     "episode_title": "Buying the X Games with Olympic Icon Apolo Ohno",
-    "mentioned_by": "Sahil Bloom"
+    "mentioned_by": "Sahil Bloom",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Concierge business for home services",
@@ -4077,7 +5456,8 @@
     "target_market": "Homeowners who don't have time to manage home maintenance and repairs",
     "episode_date": "2021-12-03",
     "episode_title": "Reinventing Home Ownership and Concierge Businesses With Sam Parr",
-    "mentioned_by": "Sam Parr"
+    "mentioned_by": "Sam Parr",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Fractional home ownership platform",
@@ -4089,7 +5469,8 @@
     "target_market": "Young professionals and first-time investors who want real estate exposure",
     "episode_date": "2021-12-03",
     "episode_title": "Reinventing Home Ownership and Concierge Businesses With Sam Parr",
-    "mentioned_by": "Greg Isenberg"
+    "mentioned_by": "Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "DAO to buy a Twitter board seat",
@@ -4101,7 +5482,8 @@
     "target_market": "Twitter power users and Web3 enthusiasts who want governance over the platform",
     "episode_date": "2021-12-01",
     "episode_title": "Special DAOing a Twitter Board Seat",
-    "mentioned_by": "Sahil Bloom and Greg Isenberg"
+    "mentioned_by": "Sahil Bloom and Greg Isenberg",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Community-first CBD/wellness brand for women",
@@ -4113,7 +5495,8 @@
     "target_market": "Women interested in wellness and CBD products",
     "episode_date": "2021-11-18",
     "episode_title": "The NSFW Framework & the Magic of Community-Product Fit with Amanda Goetz",
-    "mentioned_by": "Amanda Goetz"
+    "mentioned_by": "Amanda Goetz",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Unbundling S&P 500 companies into niche startups",
@@ -4125,7 +5508,8 @@
     "target_market": "Enterprise customers underserved by large conglomerates",
     "episode_date": "2021-11-11",
     "episode_title": "Disruptive Innovation & Unbundling The S&P 500 With Howard Lindzon",
-    "mentioned_by": "Howard Lindzon"
+    "mentioned_by": "Howard Lindzon",
+    "podcast": "The Startup Ideas Podcast"
   },
   {
     "idea": "Community-driven podcast platform",
@@ -4137,6 +5521,7 @@
     "target_market": "Podcast listeners and creators who want deeper engagement beyond passive listening",
     "episode_date": "2021-11-04",
     "episode_title": "Podcasts Are Broken",
-    "mentioned_by": "Greg Isenberg and Sahil Bloom"
+    "mentioned_by": "Greg Isenberg and Sahil Bloom",
+    "podcast": "The Startup Ideas Podcast"
   }
 ]

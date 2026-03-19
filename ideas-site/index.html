@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Startup Ideas Explorer — 345 Ideas from The Startup Ideas Podcast</title>
+<title>Startup Ideas Explorer — 425 Ideas from 4 Podcasts</title>
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 :root { --bg: #0a0a0f; --bg2: #12121a; --bg3: #1a1a24; --fg: #e0e0e8; --fg2: #888894; --accent: #f0a030; }
@@ -117,9 +117,9 @@ body { background: var(--bg); color: var(--fg); font-family: -apple-system, Blin
   <div class="header">
     <h1>Startup Ideas Explorer</h1>
     <div class="sub">
-      <b id="totalCount">345</b> business ideas extracted from <b>357 episodes</b> of
-      <b>The Startup Ideas Podcast</b> (Greg Isenberg) spanning <b>Nov 2021 — Mar 2026</b>.
-      Filter by category, effort, investment, or search by keyword.
+      <b id="totalCount">425</b> business ideas extracted from <b>400+ episodes</b> across
+      <b>4 podcasts</b>: The Startup Ideas Podcast, No Priors, The Cognitive Revolution &amp; Latent Space.
+      Spanning <b>Nov 2021 — Mar 2026</b>. Filter by category, effort, investment, podcast, or search.
     </div>
   </div>
 
@@ -156,6 +156,16 @@ body { background: var(--bg); color: var(--fg); font-family: -apple-system, Blin
         <option value="low">Low ($1-10K)</option>
         <option value="medium">Medium ($10-50K)</option>
         <option value="high">High ($50K+)</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>Podcast</label>
+      <select id="podcastFilter">
+        <option value="">All podcasts</option>
+        <option value="The Startup Ideas Podcast">Startup Ideas (375)</option>
+        <option value="No Priors">No Priors (27)</option>
+        <option value="The Cognitive Revolution">Cognitive Revolution (12)</option>
+        <option value="Latent Space">Latent Space (11)</option>
       </select>
     </div>
     <div class="filter-group">
@@ -198,12 +208,14 @@ function applyFilters() {
   const effort = document.getElementById('effortFilter').value;
   const invest = document.getElementById('investFilter').value;
   const year = document.getElementById('yearFilter').value;
+  const podcast = document.getElementById('podcastFilter').value;
 
   filtered = data.filter(d => {
     if (cat && d.category !== cat) return false;
     if (effort && d.effort !== effort) return false;
     if (invest && d.investment !== invest) return false;
     if (year && !d.episode_date.startsWith(year)) return false;
+    if (podcast && d.podcast !== podcast) return false;
     if (search) {
       const hay = [d.idea, d.description, d.target_market, d.episode_title, d.mentioned_by, d.category]
         .join(' ').toLowerCase();
@@ -277,6 +289,7 @@ function renderIdeas() {
       <div class="ic-episode">
         <b>${esc(d.episode_date)}</b> &mdash; ${esc(d.episode_title)}
         ${d.mentioned_by ? ` &mdash; <b>${esc(d.mentioned_by)}</b>` : ''}
+        ${d.podcast && d.podcast !== 'The Startup Ideas Podcast' ? ` &mdash; <i>${esc(d.podcast)}</i>` : ''}
       </div>
     </div>
   `).join('');
@@ -307,12 +320,14 @@ document.getElementById('catFilter').addEventListener('change', applyFilters);
 document.getElementById('effortFilter').addEventListener('change', applyFilters);
 document.getElementById('investFilter').addEventListener('change', applyFilters);
 document.getElementById('yearFilter').addEventListener('change', applyFilters);
+document.getElementById('podcastFilter').addEventListener('change', applyFilters);
 document.getElementById('resetBtn').addEventListener('click', () => {
   document.getElementById('searchInput').value = '';
   document.getElementById('catFilter').value = '';
   document.getElementById('effortFilter').value = '';
   document.getElementById('investFilter').value = '';
   document.getElementById('yearFilter').value = '';
+  document.getElementById('podcastFilter').value = '';
   applyFilters();
 });
 
