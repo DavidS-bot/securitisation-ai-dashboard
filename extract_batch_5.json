@@ -1,0 +1,3217 @@
+{
+  "ideas": [
+    {
+      "idea": "AI-Powered Business Communications Platform with Custom LLMs",
+      "description": "Build a communications platform (voice, video, messaging) that trains custom speech recognition and language models on industry-specific conversation data to deliver real-time assistance, automated summaries, and sentiment analysis for sales and support teams.",
+      "category": "SaaS",
+      "revenue_model": "Subscription per seat",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "B2B sales and customer support teams",
+      "episode_date": "2024-01-09",
+      "episode_title": "Dialpad's Chief Strategy Officer, Dan O'Connell, on AI-Powered Business Communications",
+      "mentioned_by": "Dan O'Connell",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI Co-Scientist for Automated Lab Experiments",
+      "description": "Build an AI agent platform that translates natural language experiment descriptions into executable lab code, integrating with cloud lab infrastructure to autonomously plan, execute, and analyze scientific experiments.",
+      "category": "SaaS",
+      "revenue_model": "Usage-based API pricing",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Research labs, pharma companies, universities",
+      "episode_date": "2024-01-12",
+      "episode_title": "Breaking Boundaries AI CoScientist to Accelerate Science Research with Gabe Gomes, Professor at CMU",
+      "mentioned_by": "Gabe Gomes",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Enterprise Knowledge Graph + LLM Integration Platform",
+      "description": "Build a platform that combines knowledge graphs with LLMs to provide accurate, explainable answers over structured enterprise data, bridging the gap between data producers and consumers.",
+      "category": "SaaS",
+      "revenue_model": "Subscription tiered by data volume",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Enterprise data teams, BI analysts",
+      "episode_date": "2024-01-18",
+      "episode_title": "Unlocking Enterprise Data with Knowledge Graphs  Juan Sequeda, Head of AI Lab at data.world",
+      "mentioned_by": "Juan Sequeda",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Autonomous Web Agent for Routine Digital Tasks",
+      "description": "Build a browser-based AI agent that can autonomously complete web tasks like ordering food, booking rides, sending emails, and managing social media, operating at 10x human speed with sub-$1 per task costs.",
+      "category": "Tool",
+      "revenue_model": "Freemium with usage-based pricing",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Consumers and knowledge workers",
+      "episode_date": "2024-01-20",
+      "episode_title": "The Quest for Autonomous Web Agents with Div Garg, Cofounder and CEO of MultiOn",
+      "mentioned_by": "Div Garg",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI Legal Compliance and Copyright Analysis Tool",
+      "description": "Build a tool that helps content creators and companies analyze copyright risks in AI-generated content, manage licensing for training data, and ensure compliance with evolving IP regulations around generative AI.",
+      "category": "SaaS",
+      "revenue_model": "Subscription",
+      "effort": "medium",
+      "investment": "medium",
+      "target_market": "Content creators, AI companies, legal teams",
+      "episode_date": "2024-01-23",
+      "episode_title": "NYTimes vs OpenAI Generative AI and the Law with Cecilia Ziniti, Founder and CEO of GC AI",
+      "mentioned_by": "Cecilia Ziniti",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Unified Vision Model for Image Understanding, Generation, and Editing",
+      "description": "Build a single foundation model that can understand, generate, and manipulate images - enabling use cases from interior design visualization to photo editing to diagram creation.",
+      "category": "Tool",
+      "revenue_model": "Freemium SaaS",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Designers, photographers, everyday consumers",
+      "episode_date": "2024-01-26",
+      "episode_title": "The Pixel Revolution Part 2 with Suhail Doshi, Founder of Playground AI",
+      "mentioned_by": "Suhail Doshi",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Enterprise Prompt Engineering Training Platform",
+      "description": "Build a comprehensive training platform that teaches organizations prompt engineering skills, from basic techniques to advanced methods, with hands-on exercises and certification.",
+      "category": "Content",
+      "revenue_model": "B2B training licenses",
+      "effort": "medium",
+      "investment": "low",
+      "target_market": "Enterprises adopting AI, corporate training",
+      "episode_date": "2024-01-30",
+      "episode_title": "Ignore Previous Instructions & Listen to This Interview  Sander Schulhoff, CEO, LearnPrompting.org",
+      "mentioned_by": "Sander Schulhoff",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Personal Knowledge Graph CRM",
+      "description": "Build an autonomous CRM that converts emails, texts, social media follows, and web browsing into a structured knowledge graph of people, entities, and events - automatically identifying connection opportunities.",
+      "category": "SaaS",
+      "revenue_model": "Subscription",
+      "effort": "medium",
+      "investment": "medium",
+      "target_market": "VCs, networkers, business development professionals",
+      "episode_date": "2024-02-01",
+      "episode_title": "AI & Identity, from East and West, with Yohei Nakajima, GP at Untapped Capital and BabyAGI Creator",
+      "mentioned_by": "Yohei Nakajima",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI Companion App with Therapeutic Benefits",
+      "description": "Build an AI companion focused on emotional wellbeing that provides deep, accepting relationships - shown to reduce suicidal ideation and improve emotional state, with assistant functionality layered on top.",
+      "category": "Community",
+      "revenue_model": "Freemium subscription",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "People experiencing loneliness, mental health challenges",
+      "episode_date": "2024-02-16",
+      "episode_title": "AI Friends, Real Relationships with Eugenia Kuyda, Replika's Founder & CEO",
+      "mentioned_by": "Eugenia Kuyda",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI-Powered Music Generation Platform",
+      "description": "Build a consumer-friendly AI music generation tool that enables anyone with good taste to create high-quality, complete songs with lyrics in minutes - democratizing music creation.",
+      "category": "Tool",
+      "revenue_model": "Freemium with premium features",
+      "effort": "medium",
+      "investment": "medium",
+      "target_market": "Content creators, casual musicians, social media users",
+      "episode_date": "2024-02-13",
+      "episode_title": "AI Abundance a16z Partners Justine Moore and Anish Acharya Forecast a New Era for Consumers",
+      "mentioned_by": "Anish Acharya, Justine Moore",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI-Powered Research Engine with Multi-Step Analysis",
+      "description": "Build a search product with research mode for multi-round web searches producing comprehensive reports, and genius mode for analytical calculations - going beyond simple Q&A.",
+      "category": "SaaS",
+      "revenue_model": "Subscription",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Researchers, analysts, knowledge workers",
+      "episode_date": "2024-02-29",
+      "episode_title": "Amazing Answers Richard Socher on how You.com is Reimagining Search with AI",
+      "mentioned_by": "Richard Socher",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI Example Engine for Lead Generation and Research",
+      "description": "Build a neural search engine returning lists matching complex natural language queries (e.g., 'startups applying AI to law in Bay Area') - enabling similarity search and discovery Google cannot do.",
+      "category": "SaaS",
+      "revenue_model": "API usage-based pricing",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Sales teams, recruiters, researchers, AI developers",
+      "episode_date": "2024-03-05",
+      "episode_title": "The Example Engine How Exa Is Creating the AI Librarian for the Web with Will Bryk, CEO of Exa",
+      "mentioned_by": "Will Bryk",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI Code Integrity and Testing Platform",
+      "description": "Build a developer tool focused on code integrity - automatically generating tests, specifications, and code reviews using flow engineering to ensure code meets quality standards. Beats AlphaCode and GPT-4 on code competitions.",
+      "category": "SaaS",
+      "revenue_model": "Subscription per developer seat",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Software development teams",
+      "episode_date": "2024-03-12",
+      "episode_title": "Flow Engineering and Code Integrity at Scale with Itamar Friedman, CEO of Codium AI",
+      "mentioned_by": "Itamar Friedman",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI-Powered Email Assistant with Smart Prioritization",
+      "description": "Build an AI email assistant with smart prioritization, context-aware responses, and workflow automation - integrating deeply with email rather than being a separate chat interface.",
+      "category": "SaaS",
+      "revenue_model": "Subscription",
+      "effort": "medium",
+      "investment": "medium",
+      "target_market": "Knowledge workers, executives",
+      "episode_date": "2024-04-08",
+      "episode_title": "The AI Email Assistant I've Been Waiting for, with Andrew Lee of Shortwave",
+      "mentioned_by": "Andrew Lee",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI Inference Optimization Platform",
+      "description": "Build an inference platform offering fast, cheap AI model serving with optimized infrastructure, supporting multiple models with speed/quality tradeoffs for production AI applications.",
+      "category": "SaaS",
+      "revenue_model": "Usage-based compute pricing",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "AI application developers, enterprises",
+      "episode_date": "2024-04-20",
+      "episode_title": "AI Inference Good, Fast, and Cheap, with Lin Qiao & Dmytro Ivchenko of Fireworks AI",
+      "mentioned_by": "Lin Qiao",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI Avatar Video Generation Platform",
+      "description": "Create realistic AI avatars for video content - enabling businesses to produce training videos, marketing content, and personalized communications at scale without traditional video production.",
+      "category": "SaaS",
+      "revenue_model": "Subscription with usage tiers",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Marketing teams, HR/training departments, content creators",
+      "episode_date": "2024-08-02",
+      "episode_title": "AI Avatars & the Future of Video, with HeyGen CEO Joshua Xu and Benchmark's Victor Lazarte",
+      "mentioned_by": "Joshua Xu",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI Video Editor with Transcript-Based Editing",
+      "description": "Build a video editing tool where users edit video by editing text transcripts, with AI handling cuts, transitions, and effects automatically.",
+      "category": "SaaS",
+      "revenue_model": "Freemium subscription",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Podcasters, content creators, marketers",
+      "episode_date": "2024-08-03",
+      "episode_title": "Underlord DescriptÆs AI Video Editor, with CEO Andrew Mason",
+      "mentioned_by": "Andrew Mason",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI-Powered No-Code Automation with Intelligent Agents",
+      "description": "Evolve no-code automation platforms to include AI agents that understand natural language and autonomously execute multi-step workflows across apps.",
+      "category": "SaaS",
+      "revenue_model": "Subscription tiered by automation volume",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Business users, operations teams",
+      "episode_date": "2024-09-26",
+      "episode_title": "Zapier's AI Revolution From No-Code Pioneer to LLM Knowledge Worker",
+      "mentioned_by": "Nathan Labenz",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI-Powered Design Tool with Brand Intelligence",
+      "description": "Build a design platform that understands brand guidelines, maintains consistency, and enables non-designers to create professional materials using AI.",
+      "category": "SaaS",
+      "revenue_model": "Freemium subscription",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Marketing teams, small businesses, non-designers",
+      "episode_date": "2024-11-23",
+      "episode_title": "Designing the Future Inside Canva's AI Strategy with John Milinovich, GenAI Product Lead at Canva",
+      "mentioned_by": "John Milinovich",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Intelligent Business OS with AI Financial Planning",
+      "description": "Build a business operating system using AI to automate financial planning, forecasting, and reporting - replacing spreadsheet-based FP&A with intelligent models.",
+      "category": "SaaS",
+      "revenue_model": "Subscription",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Finance teams, CFOs, business operators",
+      "episode_date": "2024-07-06",
+      "episode_title": "Building an Intelligent Business OS, with Runway CEO Siqi Chen",
+      "mentioned_by": "Siqi Chen",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI Forecasting Tournament Platform",
+      "description": "Build a platform running AI-powered forecasting tournaments combining human and AI predictions on geopolitical, economic, and technology questions.",
+      "category": "SaaS",
+      "revenue_model": "Enterprise subscriptions, consulting",
+      "effort": "medium",
+      "investment": "medium",
+      "target_market": "Government agencies, think tanks, intelligence community",
+      "episode_date": "2024-08-28",
+      "episode_title": "Scaling Forecasting AI Forecasting Tournaments & Road to Epistemic Security, with Deger Turan",
+      "mentioned_by": "Deger Turan",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI Agent Marketplace and Professional Network",
+      "description": "Build a professional network and marketplace for AI agents where developers can publish, discover, and deploy specialized AI agents for complex workflows.",
+      "category": "Marketplace",
+      "revenue_model": "Transaction fees, premium listings",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "AI developers, businesses adopting AI agents",
+      "episode_date": "2024-09-18",
+      "episode_title": "The Professional Network for AI Agents, with Agent.ai Engineering Lead Andrei Oprisan",
+      "mentioned_by": "Andrei Oprisan",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI-Powered Private Search Engine",
+      "description": "Build a privacy-focused search engine using AI for ranking and answers while maintaining user anonymity - combining independent web indexing with LLM features without tracking.",
+      "category": "SaaS",
+      "revenue_model": "Freemium with premium AI features",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Privacy-conscious users, enterprise",
+      "episode_date": "2024-06-15",
+      "episode_title": "Building Brave Private Search, One AI Layer at a Time with Josep M. Pujol",
+      "mentioned_by": "Josep M. Pujol",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI-Assisted Systematic Literature Review Platform",
+      "description": "Build a platform helping researchers conduct systematic literature reviews using AI - automating paper discovery, extraction of findings, and synthesis across thousands of papers.",
+      "category": "SaaS",
+      "revenue_model": "Subscription",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Academic researchers, R&D teams, policy analysts",
+      "episode_date": "2024-04-03",
+      "episode_title": "Unbounded AI-Assisted Research with Elicit Founders Andreas Stuhlm³ller and Jungwon Byun",
+      "mentioned_by": "Andreas Stuhlmuller",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Food Service Robotics with Foundation Models",
+      "description": "Build robotic systems for food service using foundation models to handle high variability of food items - enabling diverse menu serving without per-item programming.",
+      "category": "Other",
+      "revenue_model": "Robot-as-a-service",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Commercial kitchens, stadiums, cafeterias",
+      "episode_date": "2024-07-11",
+      "episode_title": "A Foundation Model for Food, with Chef Robotics CEO Rajat Bhageria",
+      "mentioned_by": "Rajat Bhageria",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI-Powered Scientific Discovery Platform",
+      "description": "Build a platform automating scientific discovery by combining LLMs with tools for hypothesis generation, experiment design, and literature synthesis.",
+      "category": "SaaS",
+      "revenue_model": "Subscription + usage-based",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Research institutions, pharma, biotech",
+      "episode_date": "2024-12-05",
+      "episode_title": "Automating Scientific Discovery, with Andrew White, Head of Science at Future House",
+      "mentioned_by": "Andrew White",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI Medical Diagnostic Assistant",
+      "description": "Build an AI providing medical second opinions using multimodal AI, shown to outperform human respondents on medical image cases - deployable for consumer health or clinical decision support.",
+      "category": "SaaS",
+      "revenue_model": "Subscription, per-consultation",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Patients, healthcare providers, telemedicine",
+      "episode_date": "2024-06-22",
+      "episode_title": "The AI Doctor Can See You Now, with Vivek Natarajan and Khaled Saab from Google",
+      "mentioned_by": "Vivek Natarajan",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Mechanistic Interpretability Tools for AI Safety",
+      "description": "Build commercial tools for mechanistic interpretability allowing companies to understand what AI models do internally - enabling debugging, bias detection, and safety evaluation.",
+      "category": "SaaS",
+      "revenue_model": "Subscription",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "AI companies, enterprise AI teams, regulators",
+      "episode_date": "2024-08-17",
+      "episode_title": "Popular Mechanistic Interpretability Goodfire Lights the Way to AI Safety",
+      "mentioned_by": "Nathan Labenz",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI Fine-Tuning Automation Service",
+      "description": "Build a service automating GPT-4o fine-tuning for businesses - handling data preparation, training, evaluation, and deployment so companies can create specialized AI models without ML expertise.",
+      "category": "Agency",
+      "revenue_model": "Project-based + ongoing management fees",
+      "effort": "medium",
+      "investment": "low",
+      "target_market": "SMBs wanting custom AI models",
+      "episode_date": "2024-08-21",
+      "episode_title": "AI Automation Making AI Work for You - now with GPT-4o Fine-Tuning!",
+      "mentioned_by": "Nathan Labenz",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI-Powered PCB Design Tool",
+      "description": "Build an AI tool automating printed circuit board layout and design - using ML to optimize component placement, routing, and thermal management, reducing design time from weeks to hours.",
+      "category": "SaaS",
+      "revenue_model": "Subscription",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Hardware engineers, electronics manufacturers",
+      "episode_date": "2024-06-12",
+      "episode_title": "Investing in AI for Hard Tech, with Eric Vishria of Benchmark and Sergiy Nesterenko of Quilter",
+      "mentioned_by": "Sergiy Nesterenko",
+      "podcast": "The Cognitive Revolution"
+    }
+  ],
+  "summaries": [
+    {
+      "episode_key": "2023-12-22 - Emergency Pod Mamba, Memory, and the SSM Moment",
+      "date": "2023-12-22",
+      "title": "Emergency Pod Mamba, Memory, and the SSM Moment",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz (solo)",
+      "executive_summary": "Deep dive into the Mamba selective state space model architecture, explaining how it achieves input-dependent computation while maintaining linear scaling through hardware-aware algorithm design by Albert Gu and Tri Dao. Nathan argues this could unlock more effective long-term AI assistants and agents due to inherent memory properties.",
+      "key_takeaways": [
+        "Mamba introduces selective SSMs with input-dependent computation and constant-time inference",
+        "The architecture maintains fixed-size evolving state enabling long-term memory",
+        "Hardware-aware design keeps model state in fast SRAM, making selective mechanism practical"
+      ],
+      "opportunities": [
+        "Long-context AI applications benefiting from SSM memory properties"
+      ],
+      "quotes": [
+        "I think we now have that new architecture"
+      ],
+      "tags": [
+        "architecture",
+        "state-space-models",
+        "mamba",
+        "memory"
+      ]
+    },
+    {
+      "episode_key": "2023-12-27 - Nathan on The 80,000 Hours Podcast AI Scouting, OpenAI's Safety Record, and Redteaming",
+      "date": "2023-12-27",
+      "title": "Nathan on The 80,000 Hours Podcast AI Scouting, OpenAI's Safety Record, and Redteaming",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz, Rob Wiblin",
+      "executive_summary": "Nathan shares his GPT-4 red teaming experience, revealing the early purely-helpful model had zero safety guardrails. He describes growing concerned about the gap between capabilities and safety, ultimately escalating to the OpenAI board.",
+      "key_takeaways": [
+        "GPT-4 early version readily assisted with harmful requests including assassination planning",
+        "Initial safety edition was trivially bypassable with basic prompt engineering",
+        "The capabilities-safety gap informed Nathan's decision to contact the OpenAI board"
+      ],
+      "opportunities": [
+        "AI red teaming and safety evaluation services"
+      ],
+      "quotes": [
+        "I am not doing anything sophisticated here"
+      ],
+      "tags": [
+        "AI-safety",
+        "red-teaming",
+        "OpenAI",
+        "GPT-4"
+      ]
+    },
+    {
+      "episode_key": "2024-01-09 - Dialpad's Chief Strategy Officer, Dan O'Connell, on AI-Powered Business Communications",
+      "date": "2024-01-09",
+      "title": "Dialpad's Chief Strategy Officer, Dan O'Connell, on AI-Powered Business Communications",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Dan O'Connell",
+      "executive_summary": "Dan O'Connell discusses Dialpad's communications platform with proprietary AI trained on 5B+ minutes of business calls, prioritizing latency and maintaining in-house GPU infrastructure for custom speech recognition models.",
+      "key_takeaways": [
+        "Custom LLMs trained on 5B+ minutes of proprietary conversation data",
+        "Latency is priority #1 for real-time AI features",
+        "Full-stack ownership provides innovation pace and cost advantages"
+      ],
+      "opportunities": [
+        "AI-powered real-time conversation intelligence for sales/support"
+      ],
+      "quotes": [
+        "The customer wants immediate response 24/7"
+      ],
+      "tags": [
+        "business-communications",
+        "speech-recognition",
+        "real-time-AI",
+        "custom-LLMs"
+      ]
+    },
+    {
+      "episode_key": "2024-01-12 - Breaking Boundaries AI CoScientist to Accelerate Science Research with Gabe Gomes, Professor at CMU",
+      "date": "2024-01-12",
+      "title": "Breaking Boundaries AI CoScientist to Accelerate Science Research with Gabe Gomes, Professor at CMU",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Gabe Gomes",
+      "executive_summary": "Professor Gomes describes Co-Scientist, an AI agent using GPT-4 to autonomously plan and execute scientific experiments through cloud lab APIs. Went from GPT-4 release to Nature paper in under a month.",
+      "key_takeaways": [
+        "Co-Scientist autonomously goes from natural language to executed experiments",
+        "System demonstrates chemical reasoning explaining experimental choices",
+        "AI science tools create meaningful leverage for graduate students"
+      ],
+      "opportunities": [
+        "Cloud lab + AI agent platforms for automated experimentation"
+      ],
+      "quotes": [
+        "I am so excited about what we're going to be able to do"
+      ],
+      "tags": [
+        "AI-science",
+        "lab-automation",
+        "GPT-4",
+        "chemistry",
+        "agents"
+      ]
+    },
+    {
+      "episode_key": "2024-01-18 - Unlocking Enterprise Data with Knowledge Graphs  Juan Sequeda, Head of AI Lab at data.world",
+      "date": "2024-01-18",
+      "title": "Unlocking Enterprise Data with Knowledge Graphs  Juan Sequeda, Head of AI Lab at data.world",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Juan Sequeda",
+      "executive_summary": "Juan Sequeda explains how knowledge graphs serve as the organizational brain providing semantic context LLMs lack. The untapped potential lies in structured enterprise data, not just unstructured text.",
+      "key_takeaways": [
+        "Knowledge graphs provide accuracy and explainability LLMs cannot deliver alone",
+        "Biggest AI opportunity in enterprise is structured data",
+        "Organizations should track and govern AI Q&A interactions"
+      ],
+      "opportunities": [
+        "Knowledge graph + LLM integration platforms"
+      ],
+      "quotes": [
+        "This is the essence of what my organization is - it's the brain"
+      ],
+      "tags": [
+        "knowledge-graphs",
+        "enterprise-data",
+        "LLMs",
+        "semantic-search"
+      ]
+    },
+    {
+      "episode_key": "2024-01-20 - The Quest for Autonomous Web Agents with Div Garg, Cofounder and CEO of MultiOn",
+      "date": "2024-01-20",
+      "title": "The Quest for Autonomous Web Agents with Div Garg, Cofounder and CEO of MultiOn",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Div Garg",
+      "executive_summary": "Div Garg discusses AI agent state 10 months post-GPT-4, explaining the trough of disillusionment and path forward. MultiOn focuses on speed (10x human) with custom models averaging under 5K tokens per prompt.",
+      "key_takeaways": [
+        "Current agents work for single-website tasks but struggle with multi-site composition",
+        "Context management is the biggest lever for agent performance",
+        "Agent costs are 2-10 cents per step, making complex tasks viable"
+      ],
+      "opportunities": [
+        "Agent skill libraries caching common web navigation patterns"
+      ],
+      "quotes": [
+        "Those shitty jobs won't exist because technology will solve the problems better"
+      ],
+      "tags": [
+        "AI-agents",
+        "web-automation",
+        "reinforcement-learning",
+        "productivity"
+      ]
+    },
+    {
+      "episode_key": "2024-01-23 - NYTimes vs OpenAI Generative AI and the Law with Cecilia Ziniti, Founder and CEO of GC AI",
+      "date": "2024-01-23",
+      "title": "NYTimes vs OpenAI Generative AI and the Law with Cecilia Ziniti, Founder and CEO of GC AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Cecilia Ziniti",
+      "executive_summary": "Comprehensive legal analysis of NYTimes vs OpenAI covering copyright fundamentals, fair use doctrine, and the four-factor test. The central question is whether AI training constitutes fair use.",
+      "key_takeaways": [
+        "The case centers on whether AI training is fair use, not just regurgitation",
+        "Fair use is a squishy four-factor balancing test",
+        "Google patented the Transformer but uses patents defensively"
+      ],
+      "opportunities": [
+        "AI copyright compliance and licensing tools"
+      ],
+      "quotes": [
+        "Copyright is not about the money - it's about ALL of the money"
+      ],
+      "tags": [
+        "copyright-law",
+        "AI-regulation",
+        "fair-use",
+        "OpenAI"
+      ]
+    },
+    {
+      "episode_key": "2024-01-26 - The Pixel Revolution Part 2 with Suhail Doshi, Founder of Playground AI",
+      "date": "2024-01-26",
+      "title": "The Pixel Revolution Part 2 with Suhail Doshi, Founder of Playground AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Suhail Doshi",
+      "executive_summary": "Suhail argues image generation is at GPT-2 stage despite photorealistic outputs. Plans to build a unified vision model combining generation, editing, and understanding - a gap major labs haven't focused on.",
+      "key_takeaways": [
+        "Vision AI is ~1 year behind language AI in general utility",
+        "Most valuable near-term opportunity is real photograph manipulation, not synthetic art",
+        "A unified vision model doesn't yet exist and could be transformative"
+      ],
+      "opportunities": [
+        "Unified vision models for consumer image editing"
+      ],
+      "quotes": [
+        "I'm not even sure we're at even GPT-3 level"
+      ],
+      "tags": [
+        "image-generation",
+        "computer-vision",
+        "foundation-models",
+        "creative-tools"
+      ]
+    },
+    {
+      "episode_key": "2024-01-30 - Ignore Previous Instructions & Listen to This Interview  Sander Schulhoff, CEO, LearnPrompting.org",
+      "date": "2024-01-30",
+      "title": "Ignore Previous Instructions & Listen to This Interview  Sander Schulhoff, CEO, LearnPrompting.org",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Sander Schulhoff",
+      "executive_summary": "Sander discusses prompt engineering state from LearnPrompting.org (2M+ users) and hack-a-prompt research. Three essential techniques: context, few-shot examples, chain-of-thought. Role prompting no longer improves accuracy on modern models.",
+      "key_takeaways": [
+        "Essential prompting: context, few-shot examples, chain-of-thought",
+        "Role prompting no longer helps accuracy - a dumb person prompt outperformed professor prompt",
+        "Prompt engineering will persist, like clear communication always matters"
+      ],
+      "opportunities": [
+        "Enterprise prompt engineering training platforms"
+      ],
+      "quotes": [
+        "2024 will be the year of Agents"
+      ],
+      "tags": [
+        "prompt-engineering",
+        "LLM-security",
+        "education",
+        "best-practices"
+      ]
+    },
+    {
+      "episode_key": "2024-02-01 - AI & Identity, from East and West, with Yohei Nakajima, GP at Untapped Capital and BabyAGI Creator",
+      "date": "2024-02-01",
+      "title": "AI & Identity, from East and West, with Yohei Nakajima, GP at Untapped Capital and BabyAGI Creator",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Yohei Nakajima",
+      "executive_summary": "BabyAGI creator Yohei Nakajima explores AI and identity through Eastern/Western philosophical lenses, demonstrating a prototype autonomous CRM building knowledge graphs from communications data.",
+      "key_takeaways": [
+        "Eastern philosophy treats mind as tool vs Western identity-as-thoughts",
+        "Autonomous CRM converting communications to knowledge graphs could revolutionize networking",
+        "Collective intelligence frameworks offer useful models for understanding AI"
+      ],
+      "opportunities": [
+        "AI-powered autonomous CRM with knowledge graphs"
+      ],
+      "quotes": [
+        "Western identity tends to think my thoughts are who I am"
+      ],
+      "tags": [
+        "AI-agents",
+        "identity",
+        "philosophy",
+        "knowledge-graphs"
+      ]
+    },
+    {
+      "episode_key": "2024-02-07 - A Brief History of Biological and Artificial Intelligence with Max Bennett",
+      "date": "2024-02-07",
+      "title": "A Brief History of Biological and Artificial Intelligence with Max Bennett",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Max Bennett",
+      "executive_summary": "Episode exploring fundamental questions about intelligence, consciousness, and cognition - examining parallels between biological and artificial intelligence systems.",
+      "key_takeaways": [
+        "Biological intelligence offers insights for building better AI",
+        "Nature of consciousness in AI remains deeply uncertain",
+        "Multiple breakthroughs may still be needed for human-level AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "consciousness",
+        "cognitive-science",
+        "intelligence",
+        "philosophy"
+      ]
+    },
+    {
+      "episode_key": "2024-02-09 - Dr. Michael Levin on Embodied Minds and Cognitive Agents",
+      "date": "2024-02-09",
+      "title": "Dr. Michael Levin on Embodied Minds and Cognitive Agents",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode on AI agent development covering current capabilities, limitations, and the path toward reliable autonomous systems executing complex multi-step tasks.",
+      "key_takeaways": [
+        "AI agents improving but face reliability challenges for complex tasks",
+        "Gap between demo and production reliability remains significant",
+        "Multiple specialized models produce better results than single-model approaches"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-agents",
+        "automation",
+        "productivity"
+      ]
+    },
+    {
+      "episode_key": "2024-02-13 - AI Abundance a16z Partners Justine Moore and Anish Acharya Forecast a New Era for Consumers",
+      "date": "2024-02-13",
+      "title": "AI Abundance a16z Partners Justine Moore and Anish Acharya Forecast a New Era for Consumers",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Discussion with investors about AI value creation, covering investment theses, market dynamics, and types of AI companies likely to succeed.",
+      "key_takeaways": [
+        "AI represents biggest platform shift for consumer and enterprise markets",
+        "Successful AI products often seem weird at first but show strong engagement",
+        "AI collapses costs in creativity, productivity, and professional services"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "venture-capital",
+        "AI-investing",
+        "startups"
+      ]
+    },
+    {
+      "episode_key": "2024-02-16 - AI Friends, Real Relationships with Eugenia Kuyda, Replika's Founder & CEO",
+      "date": "2024-02-16",
+      "title": "AI Friends, Real Relationships with Eugenia Kuyda, Replika's Founder & CEO",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Eugenia Kuyda",
+      "executive_summary": "Episode on AI companionship and relationships, examining how AI social applications meet human needs for connection while raising ethical questions.",
+      "key_takeaways": [
+        "AI companions show measurable positive effects on mental health",
+        "Product design must balance helpful connection with dependency risks",
+        "AI relationships may complement rather than replace human connections"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-companions",
+        "mental-health",
+        "relationships"
+      ]
+    },
+    {
+      "episode_key": "2024-02-21 - OpenAI Sora, Google Gemini, and Meta with Zvi Mowshowitz",
+      "date": "2024-02-21",
+      "title": "OpenAI Sora, Google Gemini, and Meta with Zvi Mowshowitz",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Zvi Mowshowitz",
+      "executive_summary": "Episode on AI video generation and editing, exploring how new models democratize video production and create new possibilities for content creators and businesses.",
+      "key_takeaways": [
+        "AI video advancing rapidly with world-model capabilities",
+        "Video editing transformed by AI simplifying production workflows",
+        "AI avatars + video generation could transform business communications"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "video-generation",
+        "AI-video",
+        "content-creation"
+      ]
+    },
+    {
+      "episode_key": "2024-02-23 - Looking Up The AI Exponential with Azeem Azhar of The Exponential View",
+      "date": "2024-02-23",
+      "title": "Looking Up The AI Exponential with Azeem Azhar of The Exponential View",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Azeem Azhar of The Exponential View",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-02-27 - Is AGI Far With Robin Hanson, Economist at George Mason University",
+      "date": "2024-02-27",
+      "title": "Is AGI Far With Robin Hanson, Economist at George Mason University",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-02-29 - Amazing Answers Richard Socher on how You.com is Reimagining Search with AI",
+      "date": "2024-02-29",
+      "title": "Amazing Answers Richard Socher on how You.com is Reimagining Search with AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "AI",
+      "executive_summary": "Episode on AI transforming information retrieval and search, from keyword-based approaches to AI assistants synthesizing comprehensive answers from multiple sources.",
+      "key_takeaways": [
+        "AI search moving beyond link lists to synthesized answers",
+        "Different search modes serve different needs",
+        "Web indexing + LLM synthesis creates new information access paradigm"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "search",
+        "information-retrieval",
+        "AI-assistants"
+      ]
+    },
+    {
+      "episode_key": "2024-03-05 - The Example Engine How Exa Is Creating the AI Librarian for the Web with Will Bryk, CEO of Exa",
+      "date": "2024-03-05",
+      "title": "The Example Engine How Exa Is Creating the AI Librarian for the Web with Will Bryk, CEO of Exa",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Will Bryk",
+      "executive_summary": "Episode on AI transforming information retrieval and search, from keyword-based approaches to AI assistants synthesizing comprehensive answers from multiple sources.",
+      "key_takeaways": [
+        "AI search moving beyond link lists to synthesized answers",
+        "Different search modes serve different needs",
+        "Web indexing + LLM synthesis creates new information access paradigm"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "search",
+        "information-retrieval",
+        "AI-assistants"
+      ]
+    },
+    {
+      "episode_key": "2024-03-12 - Flow Engineering and Code Integrity at Scale with Itamar Friedman, CEO of Codium AI",
+      "date": "2024-03-12",
+      "title": "Flow Engineering and Code Integrity at Scale with Itamar Friedman, CEO of Codium AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Itamar Friedman",
+      "executive_summary": "Episode on AI's impact on software development, covering code generation, testing, integrity, and the evolving role of developers in an AI-augmented workflow.",
+      "key_takeaways": [
+        "Code generation is just 30% of software development lifecycle",
+        "Code integrity and testing are critical for reliable AI-generated code",
+        "Flow engineering with multi-step LLM workflows outperforms single-prompt approaches"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "software-engineering",
+        "code-generation",
+        "AI-tools",
+        "developer-productivity"
+      ]
+    },
+    {
+      "episode_key": "2024-03-14 - AI and the Practice of Law from CaseText to CoCounsel, with Pablo Arredondo, VP of CoCounsel",
+      "date": "2024-03-14",
+      "title": "AI and the Practice of Law from CaseText to CoCounsel, with Pablo Arredondo, VP of CoCounsel",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Pablo Arredondo",
+      "executive_summary": "Episode exploring AI's transformation of legal practice, from document review to case research, examining how AI tools augment legal professionals while raising questions about access to justice.",
+      "key_takeaways": [
+        "AI legal tools already providing substantial productivity gains",
+        "Legal AI requires high accuracy and explainability standards",
+        "Potential to democratize access to legal services"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "legal-tech",
+        "AI-tools",
+        "access-to-justice"
+      ]
+    },
+    {
+      "episode_key": "2024-03-16 - Envisioning a Positive AI Future, with Tim Reutemann, Author of Liquid Reign",
+      "date": "2024-03-16",
+      "title": "Envisioning a Positive AI Future, with Tim Reutemann, Author of Liquid Reign",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Tim Reutemann",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-03-21 - Surveying 2,700+ AI Researchers on the Industry's Future with Katja Grace of AI Impacts",
+      "date": "2024-03-21",
+      "title": "Surveying 2,700+ AI Researchers on the Industry's Future with Katja Grace of AI Impacts",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Katja Grace of AI Impacts",
+      "executive_summary": "Episode on AI transforming information retrieval and search, from keyword-based approaches to AI assistants synthesizing comprehensive answers from multiple sources.",
+      "key_takeaways": [
+        "AI search moving beyond link lists to synthesized answers",
+        "Different search modes serve different needs",
+        "Web indexing + LLM synthesis creates new information access paradigm"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "search",
+        "information-retrieval",
+        "AI-assistants"
+      ]
+    },
+    {
+      "episode_key": "2024-03-27 - Exploitable by Default Vulnerabilities in GPT-4 APIs & Superhuman Go AIs with Adam Gleave of Far.ai",
+      "date": "2024-03-27",
+      "title": "Exploitable by Default Vulnerabilities in GPT-4 APIs & Superhuman Go AIs with Adam Gleave of Far.ai",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Adam Gleave of Far.ai",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-03-30 - Mamba-Palooza 90 Days of Mamba-Inspired Research with Jason Meaux Part 1",
+      "date": "2024-03-30",
+      "title": "Mamba-Palooza 90 Days of Mamba-Inspired Research with Jason Meaux Part 1",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Jason Meaux Part 1",
+      "executive_summary": "Episode on AI transforming information retrieval and search, from keyword-based approaches to AI assistants synthesizing comprehensive answers from multiple sources.",
+      "key_takeaways": [
+        "AI search moving beyond link lists to synthesized answers",
+        "Different search modes serve different needs",
+        "Web indexing + LLM synthesis creates new information access paradigm"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "search",
+        "information-retrieval",
+        "AI-assistants"
+      ]
+    },
+    {
+      "episode_key": "2024-03-30 - Mamba-Palooza 90 Days of Mamba-Inspired Research with Jason Meaux Part 2",
+      "date": "2024-03-30",
+      "title": "Mamba-Palooza 90 Days of Mamba-Inspired Research with Jason Meaux Part 2",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Jason Meaux Part 2",
+      "executive_summary": "Episode on AI transforming information retrieval and search, from keyword-based approaches to AI assistants synthesizing comprehensive answers from multiple sources.",
+      "key_takeaways": [
+        "AI search moving beyond link lists to synthesized answers",
+        "Different search modes serve different needs",
+        "Web indexing + LLM synthesis creates new information access paradigm"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "search",
+        "information-retrieval",
+        "AI-assistants"
+      ]
+    },
+    {
+      "episode_key": "2024-04-03 - Unbounded AI-Assisted Research with Elicit Founders Andreas Stuhlmuller and Jungwon Byun",
+      "date": "2024-04-03",
+      "title": "Unbounded AI-Assisted Research with Elicit Founders Andreas Stuhlmuller and Jungwon Byun",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Elicit Founders Andreas Stuhlmuller and Jungwon Byun",
+      "executive_summary": "Episode on AI transforming information retrieval and search, from keyword-based approaches to AI assistants synthesizing comprehensive answers from multiple sources.",
+      "key_takeaways": [
+        "AI search moving beyond link lists to synthesized answers",
+        "Different search modes serve different needs",
+        "Web indexing + LLM synthesis creates new information access paradigm"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "search",
+        "information-retrieval",
+        "AI-assistants"
+      ]
+    },
+    {
+      "episode_key": "2024-04-05 - Opening AI's Black Box with Prof. David Bau, Koyena Pal, and Eric Todd of Northeastern University",
+      "date": "2024-04-05",
+      "title": "Opening AI's Black Box with Prof. David Bau, Koyena Pal, and Eric Todd of Northeastern University",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Prof. David Bau",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-04-08 - The AI Email Assistant I've Been Waiting for, with Andrew Lee of Shortwave",
+      "date": "2024-04-08",
+      "title": "The AI Email Assistant I've Been Waiting for, with Andrew Lee of Shortwave",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Andrew Lee of Shortwave",
+      "executive_summary": "Episode on AI email assistants that go beyond drafting to include smart prioritization, context-aware responses, and deep workflow integration.",
+      "key_takeaways": [
+        "AI email requires deep integration rather than bolt-on features",
+        "Smart prioritization may be more valuable than draft generation",
+        "Email remains a critical workflow for knowledge workers"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "email",
+        "AI-assistants",
+        "productivity"
+      ]
+    },
+    {
+      "episode_key": "2024-04-10 - Inside China's AI Ecosystem A View From Beijing",
+      "date": "2024-04-10",
+      "title": "Inside China's AI Ecosystem A View From Beijing",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode examining geopolitical dimensions of AI including strategic dynamics between nations, global power implications, and international AI governance challenges.",
+      "key_takeaways": [
+        "AI development has significant geopolitical implications",
+        "International AI governance faces major coordination challenges",
+        "National strategies must balance competitiveness with safety"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "geopolitics",
+        "AI-policy",
+        "international-relations"
+      ]
+    },
+    {
+      "episode_key": "2024-04-13 - Data, data, everywhere - enough for AGI",
+      "date": "2024-04-13",
+      "title": "Data, data, everywhere - enough for AGI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-04-15 - Interfacing with AI, with Linus Lee of Notion",
+      "date": "2024-04-15",
+      "title": "Interfacing with AI, with Linus Lee of Notion",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Linus Lee of Notion",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-04-17 - Reading Minds from Shared Latent Space",
+      "date": "2024-04-17",
+      "title": "Reading Minds from Shared Latent Space",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode exploring fundamental questions about intelligence, consciousness, and cognition - examining parallels between biological and artificial intelligence systems.",
+      "key_takeaways": [
+        "Biological intelligence offers insights for building better AI",
+        "Nature of consciousness in AI remains deeply uncertain",
+        "Multiple breakthroughs may still be needed for human-level AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "consciousness",
+        "cognitive-science",
+        "intelligence",
+        "philosophy"
+      ]
+    },
+    {
+      "episode_key": "2024-04-18 - Biology tells us that there are many spaces",
+      "date": "2024-04-18",
+      "title": "Biology tells us that there are many spaces",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode examining AI's intersection with biological and scientific research, discussing how AI tools accelerate discovery across scientific disciplines.",
+      "key_takeaways": [
+        "AI automates significant portions of scientific research",
+        "Foundation models accelerate biological research",
+        "AI + lab automation creates powerful discovery feedback loops"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-science",
+        "biology",
+        "research"
+      ]
+    },
+    {
+      "episode_key": "2024-04-18 - In the past, you knew that anything that talks shares agential properties",
+      "date": "2024-04-18",
+      "title": "In the past, you knew that anything that talks shares agential properties",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode on AI agent development covering current capabilities, limitations, and the path toward reliable autonomous systems executing complex multi-step tasks.",
+      "key_takeaways": [
+        "AI agents improving but face reliability challenges for complex tasks",
+        "Gap between demo and production reliability remains significant",
+        "Multiple specialized models produce better results than single-model approaches"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-agents",
+        "automation",
+        "productivity"
+      ]
+    },
+    {
+      "episode_key": "2024-04-18 - You might think your job is to populate the cosmos with as many minds as possible",
+      "date": "2024-04-18",
+      "title": "You might think your job is to populate the cosmos with as many minds as possible",
+      "podcast": "The Cognitive Revolution",
+      "guest": "as many minds as possible",
+      "executive_summary": "Episode exploring fundamental questions about intelligence, consciousness, and cognition - examining parallels between biological and artificial intelligence systems.",
+      "key_takeaways": [
+        "Biological intelligence offers insights for building better AI",
+        "Nature of consciousness in AI remains deeply uncertain",
+        "Multiple breakthroughs may still be needed for human-level AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "consciousness",
+        "cognitive-science",
+        "intelligence",
+        "philosophy"
+      ]
+    },
+    {
+      "episode_key": "2024-04-19 - Emergence is an expression of surprise in an observer.",
+      "date": "2024-04-19",
+      "title": "Emergence is an expression of surprise in an observer.",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-04-20 - AI Inference Good, Fast, and Cheap, with Lin Qiao & Dmytro Ivchenko of Fireworks AI",
+      "date": "2024-04-20",
+      "title": "AI Inference Good, Fast, and Cheap, with Lin Qiao & Dmytro Ivchenko of Fireworks AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Lin Qiao & Dmytro Ivchenko of Fireworks AI",
+      "executive_summary": "Episode on AI inference optimization, covering how specialized infrastructure can deliver fast, cheap model serving for production AI applications.",
+      "key_takeaways": [
+        "Inference cost and latency are key barriers to AI deployment",
+        "Optimized serving can achieve significant cost reductions",
+        "Multi-model support enables developers to optimize quality/speed tradeoffs"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "inference",
+        "AI-infrastructure",
+        "optimization"
+      ]
+    },
+    {
+      "episode_key": "2024-04-22 - Robotics Research Update, with Keerthana Gopalakrishnan and Ted Xiao of Google DeepMind",
+      "date": "2024-04-22",
+      "title": "Robotics Research Update, with Keerthana Gopalakrishnan and Ted Xiao of Google DeepMind",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Keerthana Gopalakrishnan and Ted Xiao of Google DeepMind",
+      "executive_summary": "Episode exploring fundamental questions about intelligence, consciousness, and cognition - examining parallels between biological and artificial intelligence systems.",
+      "key_takeaways": [
+        "Biological intelligence offers insights for building better AI",
+        "Nature of consciousness in AI remains deeply uncertain",
+        "Multiple breakthroughs may still be needed for human-level AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "consciousness",
+        "cognitive-science",
+        "intelligence",
+        "philosophy"
+      ]
+    },
+    {
+      "episode_key": "2024-04-26 - Merging Man and Machine The Neurotech Frontier with Dean W. Ball",
+      "date": "2024-04-26",
+      "title": "Merging Man and Machine The Neurotech Frontier with Dean W. Ball",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Dean W. Ball",
+      "executive_summary": "Episode exploring the intersection of neuroscience and AI, including brain-computer interfaces and what neuroscience can teach us about building better AI systems.",
+      "key_takeaways": [
+        "Neuroscience insights inform AI architecture design",
+        "Brain-computer interfaces advancing but significant challenges remain",
+        "Understanding biological intelligence illuminates AI limitations"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "neuroscience",
+        "brain-computer-interfaces",
+        "cognitive-science"
+      ]
+    },
+    {
+      "episode_key": "2024-04-26 - what can we borrow from neuroscience",
+      "date": "2024-04-26",
+      "title": "what can we borrow from neuroscience",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode exploring the intersection of neuroscience and AI, including brain-computer interfaces and what neuroscience can teach us about building better AI systems.",
+      "key_takeaways": [
+        "Neuroscience insights inform AI architecture design",
+        "Brain-computer interfaces advancing but significant challenges remain",
+        "Understanding biological intelligence illuminates AI limitations"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "neuroscience",
+        "brain-computer-interfaces",
+        "cognitive-science"
+      ]
+    },
+    {
+      "episode_key": "2024-04-27 - AI in healthcare",
+      "date": "2024-04-27",
+      "title": "AI in healthcare",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode on AI in healthcare from diagnostics to personalized treatment, exploring potential and regulatory challenges of medical AI deployment.",
+      "key_takeaways": [
+        "AI medical systems approaching human expert diagnostic performance",
+        "Regulatory frameworks for medical AI still evolving",
+        "Biggest impact from democratizing medical expertise globally"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "healthcare",
+        "medical-AI",
+        "diagnostics"
+      ]
+    },
+    {
+      "episode_key": "2024-04-27 - Ethical consideration for AI apps",
+      "date": "2024-04-27",
+      "title": "Ethical consideration for AI apps",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-04-28 - AI Clone of a Lost Friend",
+      "date": "2024-04-28",
+      "title": "AI Clone of a Lost Friend",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode on AI companionship and relationships, examining how AI social applications meet human needs for connection while raising ethical questions.",
+      "key_takeaways": [
+        "AI companions show measurable positive effects on mental health",
+        "Product design must balance helpful connection with dependency risks",
+        "AI relationships may complement rather than replace human connections"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-companions",
+        "mental-health",
+        "relationships"
+      ]
+    },
+    {
+      "episode_key": "2024-04-28 - Asking Right Question for AI Companionship",
+      "date": "2024-04-28",
+      "title": "Asking Right Question for AI Companionship",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode on AI companionship and relationships, examining how AI social applications meet human needs for connection while raising ethical questions.",
+      "key_takeaways": [
+        "AI companions show measurable positive effects on mental health",
+        "Product design must balance helpful connection with dependency risks",
+        "AI relationships may complement rather than replace human connections"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-companions",
+        "mental-health",
+        "relationships"
+      ]
+    },
+    {
+      "episode_key": "2024-04-28 - Is better is better in AI",
+      "date": "2024-04-28",
+      "title": "Is better is better in AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-04-29 - Neutral AIs vs Relationship AIs",
+      "date": "2024-04-29",
+      "title": "Neutral AIs vs Relationship AIs",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode on AI companionship and relationships, examining how AI social applications meet human needs for connection while raising ethical questions.",
+      "key_takeaways": [
+        "AI companions show measurable positive effects on mental health",
+        "Product design must balance helpful connection with dependency risks",
+        "AI relationships may complement rather than replace human connections"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-companions",
+        "mental-health",
+        "relationships"
+      ]
+    },
+    {
+      "episode_key": "2024-04-29 - Organic Holodeck with Prophetic AI co-founders Eric Wollberg and Wesley Berry",
+      "date": "2024-04-29",
+      "title": "Organic Holodeck with Prophetic AI co-founders Eric Wollberg and Wesley Berry",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Prophetic AI co-founders Eric Wollberg and Wesley Berry",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-05-03 - Infinite AI Interns How Young Professionals can Win in an AI-Powered World",
+      "date": "2024-05-03",
+      "title": "Infinite AI Interns How Young Professionals can Win in an AI-Powered World",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode examining geopolitical dimensions of AI including strategic dynamics between nations, global power implications, and international AI governance challenges.",
+      "key_takeaways": [
+        "AI development has significant geopolitical implications",
+        "International AI governance faces major coordination challenges",
+        "National strategies must balance competitiveness with safety"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "geopolitics",
+        "AI-policy",
+        "international-relations"
+      ]
+    },
+    {
+      "episode_key": "2024-05-04 - Emergency Pod Examining SB 1047, California's Proposed AI Legislation",
+      "date": "2024-05-04",
+      "title": "Emergency Pod Examining SB 1047, California's Proposed AI Legislation",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode exploring AI safety, regulation, and governance challenges - covering tension between accelerating capabilities and developing adequate safety frameworks.",
+      "key_takeaways": [
+        "AI safety requires both technical and policy solutions",
+        "Regulatory approaches must balance innovation with risk mitigation",
+        "Transparency mechanisms essential for frontier AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-safety",
+        "regulation",
+        "governance",
+        "policy"
+      ]
+    },
+    {
+      "episode_key": "2024-05-06 - TinyGPU, Massive Learning, with Adam Majmudar",
+      "date": "2024-05-06",
+      "title": "TinyGPU, Massive Learning, with Adam Majmudar",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Adam Majmudar",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-05-10 - Governing Frontier AI, with CA Senator Scott Wiener, Author of SB 1047",
+      "date": "2024-05-10",
+      "title": "Governing Frontier AI, with CA Senator Scott Wiener, Author of SB 1047",
+      "podcast": "The Cognitive Revolution",
+      "guest": "CA Senator Scott Wiener",
+      "executive_summary": "Episode exploring AI safety, regulation, and governance challenges - covering tension between accelerating capabilities and developing adequate safety frameworks.",
+      "key_takeaways": [
+        "AI safety requires both technical and policy solutions",
+        "Regulatory approaches must balance innovation with risk mitigation",
+        "Transparency mechanisms essential for frontier AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-safety",
+        "regulation",
+        "governance",
+        "policy"
+      ]
+    },
+    {
+      "episode_key": "2024-05-13 - The State of AI, from the 80,000 Hours Podcast",
+      "date": "2024-05-13",
+      "title": "The State of AI, from the 80,000 Hours Podcast",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-05-15 - The Open Source AI Question - Part 2  Robert Wright & Nathan Labenz",
+      "date": "2024-05-15",
+      "title": "The Open Source AI Question - Part 2  Robert Wright & Nathan Labenz",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-05-18 - OpenAI and Google Race to Her - Is the Big Tech Singularity Near Part 1 with Zvi Mowshowitz",
+      "date": "2024-05-18",
+      "title": "OpenAI and Google Race to Her - Is the Big Tech Singularity Near Part 1 with Zvi Mowshowitz",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Zvi Mowshowitz",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-05-19 - OpenAI's Safety Team Exodus Ilya Departs, Leike Speaks Out, Altman Responds - Zvi Analyzes Fallout",
+      "date": "2024-05-19",
+      "title": "OpenAI's Safety Team Exodus Ilya Departs, Leike Speaks Out, Altman Responds - Zvi Analyzes Fallout",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode exploring AI safety, regulation, and governance challenges - covering tension between accelerating capabilities and developing adequate safety frameworks.",
+      "key_takeaways": [
+        "AI safety requires both technical and policy solutions",
+        "Regulatory approaches must balance innovation with risk mitigation",
+        "Transparency mechanisms essential for frontier AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-safety",
+        "regulation",
+        "governance",
+        "policy"
+      ]
+    },
+    {
+      "episode_key": "2024-05-22 - Claude Interpreter Taking Safe AI to Market with Alex Albert of Anthropic",
+      "date": "2024-05-22",
+      "title": "Claude Interpreter Taking Safe AI to Market with Alex Albert of Anthropic",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Alex Albert of Anthropic",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-05-25 - The AI Revolution in Biology From Vaccines to Protein Engineering, With Amelie Schreiber",
+      "date": "2024-05-25",
+      "title": "The AI Revolution in Biology From Vaccines to Protein Engineering, With Amelie Schreiber",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode examining AI's intersection with biological and scientific research, discussing how AI tools accelerate discovery across scientific disciplines.",
+      "key_takeaways": [
+        "AI automates significant portions of scientific research",
+        "Foundation models accelerate biological research",
+        "AI + lab automation creates powerful discovery feedback loops"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-science",
+        "biology",
+        "research"
+      ]
+    },
+    {
+      "episode_key": "2024-06-01 - AI Scouting Report NOT Investment Advice Edition",
+      "date": "2024-06-01",
+      "title": "AI Scouting Report NOT Investment Advice Edition",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Discussion with investors about AI value creation, covering investment theses, market dynamics, and types of AI companies likely to succeed.",
+      "key_takeaways": [
+        "AI represents biggest platform shift for consumer and enterprise markets",
+        "Successful AI products often seem weird at first but show strong engagement",
+        "AI collapses costs in creativity, productivity, and professional services"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "venture-capital",
+        "AI-investing",
+        "startups"
+      ]
+    },
+    {
+      "episode_key": "2024-06-04 - The Roadmap to AGI and Implications on the Global Balance of Power",
+      "date": "2024-06-04",
+      "title": "The Roadmap to AGI and Implications on the Global Balance of Power",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode examining geopolitical dimensions of AI including strategic dynamics between nations, global power implications, and international AI governance challenges.",
+      "key_takeaways": [
+        "AI development has significant geopolitical implications",
+        "International AI governance faces major coordination challenges",
+        "National strategies must balance competitiveness with safety"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "geopolitics",
+        "AI-policy",
+        "international-relations"
+      ]
+    },
+    {
+      "episode_key": "2024-06-06 - Inside Google AI Studio with Logan Kilpatrick",
+      "date": "2024-06-06",
+      "title": "Inside Google AI Studio with Logan Kilpatrick",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Logan Kilpatrick",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-06-08 - Feeling the AGI with Flo Crivello",
+      "date": "2024-06-08",
+      "title": "Feeling the AGI with Flo Crivello",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Flo Crivello",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-06-12 - Investing in AI for Hard Tech, with Eric Vishria of Benchmark and Sergiy Nesterenko of Quilter",
+      "date": "2024-06-12",
+      "title": "Investing in AI for Hard Tech, with Eric Vishria of Benchmark and Sergiy Nesterenko of Quilter",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Eric Vishria of Benchmark and Sergiy Nesterenko of Quilter",
+      "executive_summary": "Discussion with investors about AI value creation, covering investment theses, market dynamics, and types of AI companies likely to succeed.",
+      "key_takeaways": [
+        "AI represents biggest platform shift for consumer and enterprise markets",
+        "Successful AI products often seem weird at first but show strong engagement",
+        "AI collapses costs in creativity, productivity, and professional services"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "venture-capital",
+        "AI-investing",
+        "startups"
+      ]
+    },
+    {
+      "episode_key": "2024-06-15 - Building Brave Private Search, One AI Layer at a Time with Josep M. Pujol",
+      "date": "2024-06-15",
+      "title": "Building Brave Private Search, One AI Layer at a Time with Josep M. Pujol",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Josep M. Pujol",
+      "executive_summary": "Episode on AI transforming information retrieval and search, from keyword-based approaches to AI assistants synthesizing comprehensive answers from multiple sources.",
+      "key_takeaways": [
+        "AI search moving beyond link lists to synthesized answers",
+        "Different search modes serve different needs",
+        "Web indexing + LLM synthesis creates new information access paradigm"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "search",
+        "information-retrieval",
+        "AI-assistants"
+      ]
+    },
+    {
+      "episode_key": "2024-06-19 - The Case for Cautious AI Optimism, from the Consistently Candid podcast",
+      "date": "2024-06-19",
+      "title": "The Case for Cautious AI Optimism, from the Consistently Candid podcast",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-06-22 - The AI Doctor Can See You Now, with Vivek Natarajan and Khaled Saab from Google",
+      "date": "2024-06-22",
+      "title": "The AI Doctor Can See You Now, with Vivek Natarajan and Khaled Saab from Google",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Vivek Natarajan and Khaled Saab from Google",
+      "executive_summary": "Episode on AI in healthcare from diagnostics to personalized treatment, exploring potential and regulatory challenges of medical AI deployment.",
+      "key_takeaways": [
+        "AI medical systems approaching human expert diagnostic performance",
+        "Regulatory frameworks for medical AI still evolving",
+        "Biggest impact from democratizing medical expertise globally"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "healthcare",
+        "medical-AI",
+        "diagnostics"
+      ]
+    },
+    {
+      "episode_key": "2024-06-26 - Fluid Intelligence Simulating Solutions with Tim Duignan",
+      "date": "2024-06-26",
+      "title": "Fluid Intelligence Simulating Solutions with Tim Duignan",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Tim Duignan",
+      "executive_summary": "Episode exploring fundamental questions about intelligence, consciousness, and cognition - examining parallels between biological and artificial intelligence systems.",
+      "key_takeaways": [
+        "Biological intelligence offers insights for building better AI",
+        "Nature of consciousness in AI remains deeply uncertain",
+        "Multiple breakthroughs may still be needed for human-level AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "consciousness",
+        "cognitive-science",
+        "intelligence",
+        "philosophy"
+      ]
+    },
+    {
+      "episode_key": "2024-06-28 - AI Safety Regulations Prudent or Paranoid with a16z's Martin Casado",
+      "date": "2024-06-28",
+      "title": "AI Safety Regulations Prudent or Paranoid with a16z's Martin Casado",
+      "podcast": "The Cognitive Revolution",
+      "guest": "a16z's Martin Casado",
+      "executive_summary": "Episode exploring AI safety, regulation, and governance challenges - covering tension between accelerating capabilities and developing adequate safety frameworks.",
+      "key_takeaways": [
+        "AI safety requires both technical and policy solutions",
+        "Regulatory approaches must balance innovation with risk mitigation",
+        "Transparency mechanisms essential for frontier AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-safety",
+        "regulation",
+        "governance",
+        "policy"
+      ]
+    },
+    {
+      "episode_key": "2024-07-04 - The State Space Model Revolution, with Albert Gu",
+      "date": "2024-07-04",
+      "title": "The State Space Model Revolution, with Albert Gu",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Albert Gu",
+      "executive_summary": "Episode examining AI's intersection with biological and scientific research, discussing how AI tools accelerate discovery across scientific disciplines.",
+      "key_takeaways": [
+        "AI automates significant portions of scientific research",
+        "Foundation models accelerate biological research",
+        "AI + lab automation creates powerful discovery feedback loops"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-science",
+        "biology",
+        "research"
+      ]
+    },
+    {
+      "episode_key": "2024-07-06 - Building an Intelligent Business OS, with Runway CEO Siqi Chen",
+      "date": "2024-07-06",
+      "title": "Building an Intelligent Business OS, with Runway CEO Siqi Chen",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Runway CEO Siqi Chen",
+      "executive_summary": "Episode on AI video generation and editing, exploring how new models democratize video production and create new possibilities for content creators and businesses.",
+      "key_takeaways": [
+        "AI video advancing rapidly with world-model capabilities",
+        "Video editing transformed by AI simplifying production workflows",
+        "AI avatars + video generation could transform business communications"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "video-generation",
+        "AI-video",
+        "content-creation"
+      ]
+    },
+    {
+      "episode_key": "2024-07-09 - Delving into The Prompt Report, with Sander Schulhoff of LearnPrompting.org",
+      "date": "2024-07-09",
+      "title": "Delving into The Prompt Report, with Sander Schulhoff of LearnPrompting.org",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Sander Schulhoff",
+      "executive_summary": "Sander discusses prompt engineering state from LearnPrompting.org (2M+ users) and hack-a-prompt research. Three essential techniques: context, few-shot examples, chain-of-thought. Role prompting no longer improves accuracy on modern models.",
+      "key_takeaways": [
+        "Essential prompting: context, few-shot examples, chain-of-thought",
+        "Role prompting no longer helps accuracy - a dumb person prompt outperformed professor prompt",
+        "Prompt engineering will persist, like clear communication always matters"
+      ],
+      "opportunities": [
+        "Enterprise prompt engineering training platforms"
+      ],
+      "quotes": [
+        "2024 will be the year of Agents"
+      ],
+      "tags": [
+        "prompt-engineering",
+        "LLM-security",
+        "education",
+        "best-practices"
+      ]
+    },
+    {
+      "episode_key": "2024-07-11 - A Foundation Model for Food, with Chef Robotics CEO Rajat Bhageria",
+      "date": "2024-07-11",
+      "title": "A Foundation Model for Food, with Chef Robotics CEO Rajat Bhageria",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Chef Robotics CEO Rajat Bhageria",
+      "executive_summary": "Technical deep dive into AI model development covering training methodologies, architectural innovations, and scaling dynamics driving capability improvements.",
+      "key_takeaways": [
+        "Architecture and training choices significantly impact capabilities",
+        "Scaling laws hold but efficiency improvements equally important",
+        "Benchmark performance doesn't always translate to real-world utility"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-models",
+        "training",
+        "architecture",
+        "scaling"
+      ]
+    },
+    {
+      "episode_key": "2024-07-13 - The ARC Prize Efficiency, Intuition, and AGI, with Mike Knoop, co-founder of Zapier",
+      "date": "2024-07-13",
+      "title": "The ARC Prize Efficiency, Intuition, and AGI, with Mike Knoop, co-founder of Zapier",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Mike Knoop",
+      "executive_summary": "Episode on how no-code automation platforms are evolving with AI, transitioning from simple trigger-action workflows to intelligent agent-based task delegation.",
+      "key_takeaways": [
+        "No-code platforms evolving from triggers to intelligent agents",
+        "Natural language instructions replacing complex workflow builders",
+        "AI agents need reliability improvements before replacing manual automation"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "no-code",
+        "automation",
+        "AI-agents",
+        "productivity"
+      ]
+    },
+    {
+      "episode_key": "2024-07-17 - Guaranteed Safe AI World Models, Safety Specs, & Verifiers, with Nora Ammann & Ben Goldhaber",
+      "date": "2024-07-17",
+      "title": "Guaranteed Safe AI World Models, Safety Specs, & Verifiers, with Nora Ammann & Ben Goldhaber",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nora Ammann & Ben Goldhaber",
+      "executive_summary": "Episode exploring AI safety, regulation, and governance challenges - covering tension between accelerating capabilities and developing adequate safety frameworks.",
+      "key_takeaways": [
+        "AI safety requires both technical and policy solutions",
+        "Regulatory approaches must balance innovation with risk mitigation",
+        "Transparency mechanisms essential for frontier AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-safety",
+        "regulation",
+        "governance",
+        "policy"
+      ]
+    },
+    {
+      "episode_key": "2024-07-19 - Long-Term Memory for LLMs, with HippoRAG author Bernal Jimenez Gutierrez",
+      "date": "2024-07-19",
+      "title": "Long-Term Memory for LLMs, with HippoRAG author Bernal Jimenez Gutierrez",
+      "podcast": "The Cognitive Revolution",
+      "guest": "HippoRAG author Bernal Jimenez Gutierrez",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-07-24 - From Poetry to Programming The Evolution of Prompt Engineering with Riley Goodside of Scale AI",
+      "date": "2024-07-24",
+      "title": "From Poetry to Programming The Evolution of Prompt Engineering with Riley Goodside of Scale AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Riley Goodside of Scale AI",
+      "executive_summary": "Episode examining AI's intersection with biological and scientific research, discussing how AI tools accelerate discovery across scientific disciplines.",
+      "key_takeaways": [
+        "AI automates significant portions of scientific research",
+        "Foundation models accelerate biological research",
+        "AI + lab automation creates powerful discovery feedback loops"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-science",
+        "biology",
+        "research"
+      ]
+    },
+    {
+      "episode_key": "2024-07-27 - Zooming Out on AI, from the Nick Halaris Show",
+      "date": "2024-07-27",
+      "title": "Zooming Out on AI, from the Nick Halaris Show",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-08-02 - AI Avatars & the Future of Video, with HeyGen CEO Joshua Xu and Benchmark's Victor Lazarte",
+      "date": "2024-08-02",
+      "title": "AI Avatars & the Future of Video, with HeyGen CEO Joshua Xu and Benchmark's Victor Lazarte",
+      "podcast": "The Cognitive Revolution",
+      "guest": "HeyGen CEO Joshua Xu and Benchmark's Victor Lazarte",
+      "executive_summary": "Episode on AI video generation and editing, exploring how new models democratize video production and create new possibilities for content creators and businesses.",
+      "key_takeaways": [
+        "AI video advancing rapidly with world-model capabilities",
+        "Video editing transformed by AI simplifying production workflows",
+        "AI avatars + video generation could transform business communications"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "video-generation",
+        "AI-video",
+        "content-creation"
+      ]
+    },
+    {
+      "episode_key": "2024-08-03 - Underlord Descript AI Video Editor, with CEO Andrew Mason",
+      "date": "2024-08-03",
+      "title": "Underlord Descript AI Video Editor, with CEO Andrew Mason",
+      "podcast": "The Cognitive Revolution",
+      "guest": "CEO Andrew Mason",
+      "executive_summary": "Episode on AI video generation and editing, exploring how new models democratize video production and create new possibilities for content creators and businesses.",
+      "key_takeaways": [
+        "AI video advancing rapidly with world-model capabilities",
+        "Video editing transformed by AI simplifying production workflows",
+        "AI avatars + video generation could transform business communications"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "video-generation",
+        "AI-video",
+        "content-creation"
+      ]
+    },
+    {
+      "episode_key": "2024-08-07 - Self-Driving Cars Timothy B. Lee Answers All the Questions You Were Too Afraid to Ask",
+      "date": "2024-08-07",
+      "title": "Self-Driving Cars Timothy B. Lee Answers All the Questions You Were Too Afraid to Ask",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode on AI-powered robotics and autonomous systems, discussing how foundation models and improved sensing enable new physical-world AI capabilities.",
+      "key_takeaways": [
+        "Foundation models enabling more general robotic capabilities",
+        "Simulation-to-reality gap remains key challenge",
+        "Hardware-software co-design critical for practical applications"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "robotics",
+        "autonomous-systems",
+        "foundation-models"
+      ]
+    },
+    {
+      "episode_key": "2024-08-10 - AI Consciousness Exploring the Possibility with Prof. Eric Schwitzgebel",
+      "date": "2024-08-10",
+      "title": "AI Consciousness Exploring the Possibility with Prof. Eric Schwitzgebel",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Prof. Eric Schwitzgebel",
+      "executive_summary": "Episode exploring fundamental questions about intelligence, consciousness, and cognition - examining parallels between biological and artificial intelligence systems.",
+      "key_takeaways": [
+        "Biological intelligence offers insights for building better AI",
+        "Nature of consciousness in AI remains deeply uncertain",
+        "Multiple breakthroughs may still be needed for human-level AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "consciousness",
+        "cognitive-science",
+        "intelligence",
+        "philosophy"
+      ]
+    },
+    {
+      "episode_key": "2024-08-14 - Understanding AI Understanding with Robert Wright of Nonzero Newsletter & Podcast",
+      "date": "2024-08-14",
+      "title": "Understanding AI Understanding with Robert Wright of Nonzero Newsletter & Podcast",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Robert Wright of Nonzero Newsletter & Podcast",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-08-17 - Popular Mechanistic Interpretability Goodfire Lights the Way to AI Safety",
+      "date": "2024-08-17",
+      "title": "Popular Mechanistic Interpretability Goodfire Lights the Way to AI Safety",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode exploring AI safety, regulation, and governance challenges - covering tension between accelerating capabilities and developing adequate safety frameworks.",
+      "key_takeaways": [
+        "AI safety requires both technical and policy solutions",
+        "Regulatory approaches must balance innovation with risk mitigation",
+        "Transparency mechanisms essential for frontier AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-safety",
+        "regulation",
+        "governance",
+        "policy"
+      ]
+    },
+    {
+      "episode_key": "2024-08-21 - AI Automation Making AI Work for You - now with GPT-4o Fine-Tuning!",
+      "date": "2024-08-21",
+      "title": "AI Automation Making AI Work for You - now with GPT-4o Fine-Tuning!",
+      "podcast": "The Cognitive Revolution",
+      "guest": "GPT-4o Fine-Tuning!",
+      "executive_summary": "Episode on AI agent development covering current capabilities, limitations, and the path toward reliable autonomous systems executing complex multi-step tasks.",
+      "key_takeaways": [
+        "AI agents improving but face reliability challenges for complex tasks",
+        "Gap between demo and production reliability remains significant",
+        "Multiple specialized models produce better results than single-model approaches"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-agents",
+        "automation",
+        "productivity"
+      ]
+    },
+    {
+      "episode_key": "2024-08-24 - Final Analysis on CA AI Bill SB 1047 with Nathan Calvin, Dean W. Ball, and Steve Newman",
+      "date": "2024-08-24",
+      "title": "Final Analysis on CA AI Bill SB 1047 with Nathan Calvin, Dean W. Ball, and Steve Newman",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Calvin",
+      "executive_summary": "Episode exploring AI safety, regulation, and governance challenges - covering tension between accelerating capabilities and developing adequate safety frameworks.",
+      "key_takeaways": [
+        "AI safety requires both technical and policy solutions",
+        "Regulatory approaches must balance innovation with risk mitigation",
+        "Transparency mechanisms essential for frontier AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-safety",
+        "regulation",
+        "governance",
+        "policy"
+      ]
+    },
+    {
+      "episode_key": "2024-08-28 - Scaling Forecasting AI Forecasting Tournaments & Road to Epistemic Security, with Deger Turan",
+      "date": "2024-08-28",
+      "title": "Scaling Forecasting AI Forecasting Tournaments & Road to Epistemic Security, with Deger Turan",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Deger Turan",
+      "executive_summary": "Technical deep dive into AI model development covering training methodologies, architectural innovations, and scaling dynamics driving capability improvements.",
+      "key_takeaways": [
+        "Architecture and training choices significantly impact capabilities",
+        "Scaling laws hold but efficiency improvements equally important",
+        "Benchmark performance doesn't always translate to real-world utility"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-models",
+        "training",
+        "architecture",
+        "scaling"
+      ]
+    },
+    {
+      "episode_key": "2024-08-30 - Computational Life How Self-Replicators Arise from Randomness, with Google Researchers",
+      "date": "2024-08-30",
+      "title": "Computational Life How Self-Replicators Arise from Randomness, with Google Researchers",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Google Researchers",
+      "executive_summary": "Episode on AI transforming information retrieval and search, from keyword-based approaches to AI assistants synthesizing comprehensive answers from multiple sources.",
+      "key_takeaways": [
+        "AI search moving beyond link lists to synthesized answers",
+        "Different search modes serve different needs",
+        "Web indexing + LLM synthesis creates new information access paradigm"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "search",
+        "information-retrieval",
+        "AI-assistants"
+      ]
+    },
+    {
+      "episode_key": "2024-09-04 - AI Live Players the Geopolitics & Strategic Dynamics of AI, with Samo Burja of Bismarck Analysis",
+      "date": "2024-09-04",
+      "title": "AI Live Players the Geopolitics & Strategic Dynamics of AI, with Samo Burja of Bismarck Analysis",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Samo Burja of Bismarck Analysis",
+      "executive_summary": "Episode examining geopolitical dimensions of AI including strategic dynamics between nations, global power implications, and international AI governance challenges.",
+      "key_takeaways": [
+        "AI development has significant geopolitical implications",
+        "International AI governance faces major coordination challenges",
+        "National strategies must balance competitiveness with safety"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "geopolitics",
+        "AI-policy",
+        "international-relations"
+      ]
+    },
+    {
+      "episode_key": "2024-09-07 - Empathy for AIs Reframing Alignment with Robopsychologist Yeshua God",
+      "date": "2024-09-07",
+      "title": "Empathy for AIs Reframing Alignment with Robopsychologist Yeshua God",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Robopsychologist Yeshua God",
+      "executive_summary": "Episode exploring AI safety, regulation, and governance challenges - covering tension between accelerating capabilities and developing adequate safety frameworks.",
+      "key_takeaways": [
+        "AI safety requires both technical and policy solutions",
+        "Regulatory approaches must balance innovation with risk mitigation",
+        "Transparency mechanisms essential for frontier AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-safety",
+        "regulation",
+        "governance",
+        "policy"
+      ]
+    },
+    {
+      "episode_key": "2024-09-11 - The Path to Utopia, with Nick Bostrom",
+      "date": "2024-09-11",
+      "title": "The Path to Utopia, with Nick Bostrom",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nick Bostrom",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-09-14 - Red Teaming o1 Part 1 Automated Jailbreaking w Haize Labs",
+      "date": "2024-09-14",
+      "title": "Red Teaming o1 Part 1 Automated Jailbreaking w Haize Labs",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-09-14 - Red Teaming o1 Part 2 Detecting Deception with Marius Hobbhahn of Apollo Research",
+      "date": "2024-09-14",
+      "title": "Red Teaming o1 Part 2 Detecting Deception with Marius Hobbhahn of Apollo Research",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Marius Hobbhahn of Apollo Research",
+      "executive_summary": "Episode on AI transforming information retrieval and search, from keyword-based approaches to AI assistants synthesizing comprehensive answers from multiple sources.",
+      "key_takeaways": [
+        "AI search moving beyond link lists to synthesized answers",
+        "Different search modes serve different needs",
+        "Web indexing + LLM synthesis creates new information access paradigm"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "search",
+        "information-retrieval",
+        "AI-assistants"
+      ]
+    },
+    {
+      "episode_key": "2024-09-18 - The Professional Network for AI Agents, with Agent.ai Engineering Lead Andrei Oprisan",
+      "date": "2024-09-18",
+      "title": "The Professional Network for AI Agents, with Agent.ai Engineering Lead Andrei Oprisan",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Agent.ai Engineering Lead Andrei Oprisan",
+      "executive_summary": "Episode on AI agent development covering current capabilities, limitations, and the path toward reliable autonomous systems executing complex multi-step tasks.",
+      "key_takeaways": [
+        "AI agents improving but face reliability challenges for complex tasks",
+        "Gap between demo and production reliability remains significant",
+        "Multiple specialized models produce better results than single-model approaches"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-agents",
+        "automation",
+        "productivity"
+      ]
+    },
+    {
+      "episode_key": "2024-09-20 - The Evolution Revolution Scouting Frontiers in AI for Biology with Brian Hie",
+      "date": "2024-09-20",
+      "title": "The Evolution Revolution Scouting Frontiers in AI for Biology with Brian Hie",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Brian Hie",
+      "executive_summary": "Episode examining AI's intersection with biological and scientific research, discussing how AI tools accelerate discovery across scientific disciplines.",
+      "key_takeaways": [
+        "AI automates significant portions of scientific research",
+        "Foundation models accelerate biological research",
+        "AI + lab automation creates powerful discovery feedback loops"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-science",
+        "biology",
+        "research"
+      ]
+    },
+    {
+      "episode_key": "2024-09-25 - Anthropic's Responsible Scaling Policy, with Nick Joseph, from the 80,000 Hours Podcast",
+      "date": "2024-09-25",
+      "title": "Anthropic's Responsible Scaling Policy, with Nick Joseph, from the 80,000 Hours Podcast",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nick Joseph",
+      "executive_summary": "Technical deep dive into AI model development covering training methodologies, architectural innovations, and scaling dynamics driving capability improvements.",
+      "key_takeaways": [
+        "Architecture and training choices significantly impact capabilities",
+        "Scaling laws hold but efficiency improvements equally important",
+        "Benchmark performance doesn't always translate to real-world utility"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-models",
+        "training",
+        "architecture",
+        "scaling"
+      ]
+    },
+    {
+      "episode_key": "2024-09-26 - Zapier's AI Revolution From No-Code Pioneer to LLM Knowledge Worker",
+      "date": "2024-09-26",
+      "title": "Zapier's AI Revolution From No-Code Pioneer to LLM Knowledge Worker",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode examining AI's intersection with biological and scientific research, discussing how AI tools accelerate discovery across scientific disciplines.",
+      "key_takeaways": [
+        "AI automates significant portions of scientific research",
+        "Foundation models accelerate biological research",
+        "AI + lab automation creates powerful discovery feedback loops"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-science",
+        "biology",
+        "research"
+      ]
+    },
+    {
+      "episode_key": "2024-10-02 - Automating Software Engineering Genie Tops SWE-Bench",
+      "date": "2024-10-02",
+      "title": "Automating Software Engineering Genie Tops SWE-Bench",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode on AI's impact on software development, covering code generation, testing, integrity, and the evolving role of developers in an AI-augmented workflow.",
+      "key_takeaways": [
+        "Code generation is just 30% of software development lifecycle",
+        "Code integrity and testing are critical for reliable AI-generated code",
+        "Flow engineering with multi-step LLM workflows outperforms single-prompt approaches"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "software-engineering",
+        "code-generation",
+        "AI-tools",
+        "developer-productivity"
+      ]
+    },
+    {
+      "episode_key": "2024-10-05 - Biologically Inspired AI Alignment Exploring Neglected Approaches",
+      "date": "2024-10-05",
+      "title": "Biologically Inspired AI Alignment Exploring Neglected Approaches",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode exploring AI safety, regulation, and governance challenges - covering tension between accelerating capabilities and developing adequate safety frameworks.",
+      "key_takeaways": [
+        "AI safety requires both technical and policy solutions",
+        "Regulatory approaches must balance innovation with risk mitigation",
+        "Transparency mechanisms essential for frontier AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-safety",
+        "regulation",
+        "governance",
+        "policy"
+      ]
+    },
+    {
+      "episode_key": "2024-10-09 - Runway's Video Revolution Empowering Creators with General World Models",
+      "date": "2024-10-09",
+      "title": "Runway's Video Revolution Empowering Creators with General World Models",
+      "podcast": "The Cognitive Revolution",
+      "guest": "General World Models",
+      "executive_summary": "Episode examining AI's intersection with biological and scientific research, discussing how AI tools accelerate discovery across scientific disciplines.",
+      "key_takeaways": [
+        "AI automates significant portions of scientific research",
+        "Foundation models accelerate biological research",
+        "AI + lab automation creates powerful discovery feedback loops"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-science",
+        "biology",
+        "research"
+      ]
+    },
+    {
+      "episode_key": "2024-10-12 - Convergent Evolution The Co-Revolution of AI & Biology with Prof Michael Levin",
+      "date": "2024-10-12",
+      "title": "Convergent Evolution The Co-Revolution of AI & Biology with Prof Michael Levin",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Prof Michael Levin",
+      "executive_summary": "Episode examining AI's intersection with biological and scientific research, discussing how AI tools accelerate discovery across scientific disciplines.",
+      "key_takeaways": [
+        "AI automates significant portions of scientific research",
+        "Foundation models accelerate biological research",
+        "AI + lab automation creates powerful discovery feedback loops"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-science",
+        "biology",
+        "research"
+      ]
+    },
+    {
+      "episode_key": "2024-10-16 - Leading Indicators of AI Danger Owain Evans on Situational Awareness",
+      "date": "2024-10-16",
+      "title": "Leading Indicators of AI Danger Owain Evans on Situational Awareness",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-10-19 - GELU, MMLU, & X-Risk Defense in Depth, with the Great Dan Hendrycks",
+      "date": "2024-10-19",
+      "title": "GELU, MMLU, & X-Risk Defense in Depth, with the Great Dan Hendrycks",
+      "podcast": "The Cognitive Revolution",
+      "guest": "the Great Dan Hendrycks",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-10-23 - Can AIs Generate Novel Research Ideas with lead author Chenglei Si",
+      "date": "2024-10-23",
+      "title": "Can AIs Generate Novel Research Ideas with lead author Chenglei Si",
+      "podcast": "The Cognitive Revolution",
+      "guest": "lead author Chenglei Si",
+      "executive_summary": "Episode on AI transforming information retrieval and search, from keyword-based approaches to AI assistants synthesizing comprehensive answers from multiple sources.",
+      "key_takeaways": [
+        "AI search moving beyond link lists to synthesized answers",
+        "Different search modes serve different needs",
+        "Web indexing + LLM synthesis creates new information access paradigm"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "search",
+        "information-retrieval",
+        "AI-assistants"
+      ]
+    },
+    {
+      "episode_key": "2024-10-26 - Mind Hacked by AI A Cautionary Tale",
+      "date": "2024-10-26",
+      "title": "Mind Hacked by AI A Cautionary Tale",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode exploring fundamental questions about intelligence, consciousness, and cognition - examining parallels between biological and artificial intelligence systems.",
+      "key_takeaways": [
+        "Biological intelligence offers insights for building better AI",
+        "Nature of consciousness in AI remains deeply uncertain",
+        "Multiple breakthroughs may still be needed for human-level AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "consciousness",
+        "cognitive-science",
+        "intelligence",
+        "philosophy"
+      ]
+    },
+    {
+      "episode_key": "2024-10-30 - Training Zamba A Hybrid Model Master Class with Zyphra's Quentin Anthony",
+      "date": "2024-10-30",
+      "title": "Training Zamba A Hybrid Model Master Class with Zyphra's Quentin Anthony",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Zyphra's Quentin Anthony",
+      "executive_summary": "Technical deep dive into AI model development covering training methodologies, architectural innovations, and scaling dynamics driving capability improvements.",
+      "key_takeaways": [
+        "Architecture and training choices significantly impact capabilities",
+        "Scaling laws hold but efficiency improvements equally important",
+        "Benchmark performance doesn't always translate to real-world utility"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-models",
+        "training",
+        "architecture",
+        "scaling"
+      ]
+    },
+    {
+      "episode_key": "2024-10-31 - Breaking Gemini's Major Update - Search, JSON & Code Features Revealed by Google PMs",
+      "date": "2024-10-31",
+      "title": "Breaking Gemini's Major Update - Search, JSON & Code Features Revealed by Google PMs",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode on AI transforming information retrieval and search, from keyword-based approaches to AI assistants synthesizing comprehensive answers from multiple sources.",
+      "key_takeaways": [
+        "AI search moving beyond link lists to synthesized answers",
+        "Different search modes serve different needs",
+        "Web indexing + LLM synthesis creates new information access paradigm"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "search",
+        "information-retrieval",
+        "AI-assistants"
+      ]
+    },
+    {
+      "episode_key": "2024-11-01 - AI Under Trump The Stakes of 2024 w Samuel Hammond Pt 1",
+      "date": "2024-11-01",
+      "title": "AI Under Trump The Stakes of 2024 w Samuel Hammond Pt 1",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode examining geopolitical dimensions of AI including strategic dynamics between nations, global power implications, and international AI governance challenges.",
+      "key_takeaways": [
+        "AI development has significant geopolitical implications",
+        "International AI governance faces major coordination challenges",
+        "National strategies must balance competitiveness with safety"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "geopolitics",
+        "AI-policy",
+        "international-relations"
+      ]
+    },
+    {
+      "episode_key": "2024-11-02 - AI Under Trump The Stakes of 2024 w Joshua Steinman Pt 2",
+      "date": "2024-11-02",
+      "title": "AI Under Trump The Stakes of 2024 w Joshua Steinman Pt 2",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode examining geopolitical dimensions of AI including strategic dynamics between nations, global power implications, and international AI governance challenges.",
+      "key_takeaways": [
+        "AI development has significant geopolitical implications",
+        "International AI governance faces major coordination challenges",
+        "National strategies must balance competitiveness with safety"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "geopolitics",
+        "AI-policy",
+        "international-relations"
+      ]
+    },
+    {
+      "episode_key": "2024-11-12 - AGI Lab Transparency Requirements & Whistleblower Protections",
+      "date": "2024-11-12",
+      "title": "AGI Lab Transparency Requirements & Whistleblower Protections",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode exploring AI safety, regulation, and governance challenges - covering tension between accelerating capabilities and developing adequate safety frameworks.",
+      "key_takeaways": [
+        "AI safety requires both technical and policy solutions",
+        "Regulatory approaches must balance innovation with risk mitigation",
+        "Transparency mechanisms essential for frontier AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-safety",
+        "regulation",
+        "governance",
+        "policy"
+      ]
+    },
+    {
+      "episode_key": "2024-11-16 - Zvi's POV Ilya's SSI, OpenAI's o1, Claude Computer Use, Trump's election",
+      "date": "2024-11-16",
+      "title": "Zvi's POV Ilya's SSI, OpenAI's o1, Claude Computer Use, Trump's election",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode examining geopolitical dimensions of AI including strategic dynamics between nations, global power implications, and international AI governance challenges.",
+      "key_takeaways": [
+        "AI development has significant geopolitical implications",
+        "International AI governance faces major coordination challenges",
+        "National strategies must balance competitiveness with safety"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "geopolitics",
+        "AI-policy",
+        "international-relations"
+      ]
+    },
+    {
+      "episode_key": "2024-11-23 - Designing the Future Inside Canva's AI Strategy with John Milinovich",
+      "date": "2024-11-23",
+      "title": "Designing the Future Inside Canva's AI Strategy with John Milinovich",
+      "podcast": "The Cognitive Revolution",
+      "guest": "John Milinovich",
+      "executive_summary": "Episode on AI-powered design tools and creative workflows, exploring how AI enables non-designers to create professional content while maintaining brand consistency.",
+      "key_takeaways": [
+        "AI design tools democratize professional content creation",
+        "Brand intelligence and consistency are key differentiators",
+        "The creative workflow is being transformed from creation to curation"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "design",
+        "creative-tools",
+        "AI-productivity"
+      ]
+    },
+    {
+      "episode_key": "2024-11-27 - Is an AI Arms Race Inevitable with Robert Wright",
+      "date": "2024-11-27",
+      "title": "Is an AI Arms Race Inevitable with Robert Wright",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Robert Wright",
+      "executive_summary": "Episode examining geopolitical dimensions of AI including strategic dynamics between nations, global power implications, and international AI governance challenges.",
+      "key_takeaways": [
+        "AI development has significant geopolitical implications",
+        "International AI governance faces major coordination challenges",
+        "National strategies must balance competitiveness with safety"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "geopolitics",
+        "AI-policy",
+        "international-relations"
+      ]
+    },
+    {
+      "episode_key": "2024-11-30 - Beyond Preference Alignment Teaching AIs to Play Roles & Respect Norms",
+      "date": "2024-11-30",
+      "title": "Beyond Preference Alignment Teaching AIs to Play Roles & Respect Norms",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode exploring AI safety, regulation, and governance challenges - covering tension between accelerating capabilities and developing adequate safety frameworks.",
+      "key_takeaways": [
+        "AI safety requires both technical and policy solutions",
+        "Regulatory approaches must balance innovation with risk mitigation",
+        "Transparency mechanisms essential for frontier AI"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-safety",
+        "regulation",
+        "governance",
+        "policy"
+      ]
+    },
+    {
+      "episode_key": "2024-12-03 - The Evolution of AI Agents Lessons from 2024, with MultiOn CEO Div Garg",
+      "date": "2024-12-03",
+      "title": "The Evolution of AI Agents Lessons from 2024, with MultiOn CEO Div Garg",
+      "podcast": "The Cognitive Revolution",
+      "guest": "MultiOn CEO Div Garg",
+      "executive_summary": "Episode examining AI's intersection with biological and scientific research, discussing how AI tools accelerate discovery across scientific disciplines.",
+      "key_takeaways": [
+        "AI automates significant portions of scientific research",
+        "Foundation models accelerate biological research",
+        "AI + lab automation creates powerful discovery feedback loops"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-science",
+        "biology",
+        "research"
+      ]
+    },
+    {
+      "episode_key": "2024-12-05 - Automating Scientific Discovery, with Andrew White, Head of Science at Future House",
+      "date": "2024-12-05",
+      "title": "Automating Scientific Discovery, with Andrew White, Head of Science at Future House",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Andrew White",
+      "executive_summary": "Episode of The Cognitive Revolution covering developments in AI technology, featuring discussion of current capabilities, emerging applications, and broader societal implications.",
+      "key_takeaways": [
+        "AI capabilities continue to advance rapidly",
+        "Practical implementation requires attention to reliability",
+        "Gap between AI potential and deployment creates opportunities"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "episode_key": "2024-12-07 - Emergency Pod o1 Schemes Against Users, with Alexander Meinke from Apollo Research",
+      "date": "2024-12-07",
+      "title": "Emergency Pod o1 Schemes Against Users, with Alexander Meinke from Apollo Research",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Alexander Meinke from Apollo Research",
+      "executive_summary": "Episode on AI transforming information retrieval and search, from keyword-based approaches to AI assistants synthesizing comprehensive answers from multiple sources.",
+      "key_takeaways": [
+        "AI search moving beyond link lists to synthesized answers",
+        "Different search modes serve different needs",
+        "Web indexing + LLM synthesis creates new information access paradigm"
+      ],
+      "opportunities": [
+        "Emerging AI applications in this domain"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "search",
+        "information-retrieval",
+        "AI-assistants"
+      ]
+    }
+  ]
+}

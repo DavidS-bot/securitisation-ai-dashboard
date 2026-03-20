@@ -1,0 +1,3127 @@
+{
+  "ideas": [
+    {
+      "idea": "RL Environment Marketplace",
+      "description": "Open-source marketplace for standardized RL training environments enabling scaling to millions of environments for agent training",
+      "category": "Marketplace",
+      "revenue_model": "Freemium + enterprise licensing",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "AI researchers and ML engineers",
+      "episode_date": "2025-04-29",
+      "episode_title": "What is an RL environment w Nous Research's Roger Jin",
+      "mentioned_by": "Roger Jin",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "Voice AI Course Platform",
+      "description": "Cohort courses for specialized AI domains combining community, office hours with industry leaders, and hands-on projects",
+      "category": "Content",
+      "revenue_model": "Course fees + sponsorships",
+      "effort": "medium",
+      "investment": "low",
+      "target_market": "AI engineers and developers",
+      "episode_date": "2025-05-06",
+      "episode_title": "Voice AI Masterclass",
+      "mentioned_by": "Kwindla Hultman Kramer",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "Enterprise Voice AI for Telephony",
+      "description": "Voice AI solutions for enterprise telephony/customer support - 99% of monetizable voice AI use cases today",
+      "category": "SaaS",
+      "revenue_model": "Usage-based per call minute",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Enterprise customer service teams",
+      "episode_date": "2025-05-06",
+      "episode_title": "Voice AI Masterclass",
+      "mentioned_by": "Kwindla Hultman Kramer",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "AI-Powered Semantic Linter",
+      "description": "Linting tool using LLMs to check code semantically - verifying code matches comments, enforcing library patterns, checking spelling",
+      "category": "Tool",
+      "revenue_model": "SaaS subscription",
+      "effort": "medium",
+      "investment": "bootstrap",
+      "target_market": "Software engineering teams",
+      "episode_date": "2025-05-07",
+      "episode_title": "Claude Code Anthropic's CLI Agent",
+      "mentioned_by": "Boris Journey",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "Automated Bug Fix Bot from Customer Feedback",
+      "description": "Bot monitoring Slack feedback channels, automatically generating PRs to fix reported issues using coding agents",
+      "category": "Tool",
+      "revenue_model": "SaaS subscription",
+      "effort": "medium",
+      "investment": "low",
+      "target_market": "Engineering teams at SaaS companies",
+      "episode_date": "2025-05-07",
+      "episode_title": "Claude Code Anthropic's CLI Agent",
+      "mentioned_by": "Boris Journey",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "AI-Generated Code Documentation Wiki",
+      "description": "Automatically generate and maintain comprehensive documentation wikis for any GitHub repository with architecture overviews and Q&A",
+      "category": "SaaS",
+      "revenue_model": "Freemium + paid teams",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Open source maintainers and dev teams",
+      "episode_date": "2025-05-21",
+      "episode_title": "DeepWiki The GitHub Encyclopedia",
+      "mentioned_by": "Silas Alberti",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "Robot Chef as a Service",
+      "description": "Deploy culinary-intelligent robots to commercial kitchens at $12/hr, learning recipes from single demonstrations using VLMs and thermodynamics modeling",
+      "category": "Other",
+      "revenue_model": "Hourly robot rental fee",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Restaurants, airline caterers, food service",
+      "episode_date": "2025-05-31",
+      "episode_title": "AIEWF Preview CloudChef Your Robot Chef",
+      "mentioned_by": "Nikil (CloudChef)",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "Enterprise AI Coding Factory",
+      "description": "Cloud-based delegative coding platform for enterprises with integrations to Linear, Jira, Slack, Sentry, PagerDuty for full SDLC automation",
+      "category": "SaaS",
+      "revenue_model": "Usage-based tokens",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Enterprise development teams",
+      "episode_date": "2025-05-29",
+      "episode_title": "The AI Coding Factory",
+      "mentioned_by": "Matan & Eno (Factory AI)",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "Agent-Native Container Platform",
+      "description": "Portable isolated container environments for coding agents enabling parallel execution, observability, and model/IDE agnosticism",
+      "category": "Tool",
+      "revenue_model": "Open source + enterprise",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Platform engineers and DevOps teams",
+      "episode_date": "2025-06-03",
+      "episode_title": "AIEWF Preview Containing Agent Chaos",
+      "mentioned_by": "Solomon Hykes",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "AI-Native Spreadsheet for Data Analysis",
+      "description": "Spreadsheet running Python/JS in WebAssembly with database connections and AI chat for data analysis and visualization",
+      "category": "SaaS",
+      "revenue_model": "Freemium + teams subscription",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Data analysts, business managers",
+      "episode_date": "2025-06-10",
+      "episode_title": "Quadratic The AI Spreadsheet",
+      "mentioned_by": "David Kirkos",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "Portable GPU Programming Language",
+      "description": "Python-family language targeting any GPU/accelerator hardware for portable high-performance AI code without CUDA lock-in",
+      "category": "Tool",
+      "revenue_model": "Open source + enterprise support",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "AI infrastructure engineers",
+      "episode_date": "2025-06-13",
+      "episode_title": "The Shape of Compute (Chris Lattner of Modular)",
+      "mentioned_by": "Chris Lattner",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "Agentic Terminal IDE",
+      "description": "Terminal with built-in coding agent, multi-agent orchestration, inline diff editing, voice input, and production debugging",
+      "category": "SaaS",
+      "revenue_model": "Subscription",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Software developers",
+      "episode_date": "2025-06-25",
+      "episode_title": "Warp 2.0 the Agentic Development Environment",
+      "mentioned_by": "Zach Lloyd",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "AI Video Content Creation Agency",
+      "description": "Create and monetize AI-generated video content on TikTok/Instagram using VO3 - developing original IP characters and viral formats",
+      "category": "Content",
+      "revenue_model": "Ad revenue + merch + consulting",
+      "effort": "low",
+      "investment": "bootstrap",
+      "target_market": "Content creators and social media marketers",
+      "episode_date": "2025-07-09",
+      "episode_title": "AI Video Is Eating The World",
+      "mentioned_by": "Olivia & Justine Moore",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "AI Language Tutor with Speech-First Design",
+      "description": "Mobile app teaching languages through speaking practice, AI-powered feedback, and personalized curriculum for functional fluency",
+      "category": "SaaS",
+      "revenue_model": "Consumer subscription",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Language learners globally",
+      "episode_date": "2025-07-11",
+      "episode_title": "Personalized AI Language Education",
+      "mentioned_by": "Andrew Hsu",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "MCP Server Marketplace with Monetization",
+      "description": "Curated marketplace for MCP servers with one-click install, security verification, and built-in payment layer for authors",
+      "category": "Marketplace",
+      "revenue_model": "Transaction fees on MCP usage",
+      "effort": "medium",
+      "investment": "medium",
+      "target_market": "AI developers and MCP server creators",
+      "episode_date": "2025-07-16",
+      "episode_title": "Cline The Collaborative AI Coder",
+      "mentioned_by": "Saoud (Cline)",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "Vertical AI SaaS over Horizontal Consulting",
+      "description": "Focus on one specific AI use case (e.g. customer service, insurance claims) and sell to many companies vs custom builds for each",
+      "category": "SaaS",
+      "revenue_model": "Subscription + usage",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Industry-specific enterprises",
+      "episode_date": "2025-09-18",
+      "episode_title": "No, Don't Do Palantir for AI",
+      "mentioned_by": "Brendan Falk",
+      "podcast": "Latent Space"
+    },
+    {
+      "idea": "AI App Builder for Non-Technical Users",
+      "description": "Full-stack AI app generation platform producing production-ready apps with backend, frontend, and database from natural language",
+      "category": "SaaS",
+      "revenue_model": "Usage-based + subscription",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Non-technical founders, SMBs",
+      "episode_date": "2025-09-18",
+      "episode_title": "No, Don't Do Palantir for AI",
+      "mentioned_by": "Brendan Falk",
+      "podcast": "Latent Space"
+    }
+  ],
+  "summaries": [
+    {
+      "episode_key": "2025-04-29 - What is an RL environment w Nous Research's Roger Jin",
+      "date": "2025-04-29",
+      "title": "What is an RL environment w Nous Research's Roger Jin",
+      "podcast": "Latent Space",
+      "guest": "Roger Jin",
+      "executive_summary": "Roger Jin from Nous Research presents their RL infrastructure for training open-source language models with standardized environment abstractions. The talk covers the collect_trajectories interface that fuses inference and scoring for multi-turn support. Nous aims to scale open-source RL environments like pre-training data was scaled.",
+      "key_takeaways": [
+        "RL environments need standardized abstractions to scale",
+        "Token-level rewards can be incorporated into GRPO training",
+        "Environment-level chat templates enable flexible training"
+      ],
+      "opportunities": [
+        "Build standardized RL environment marketplaces"
+      ],
+      "quotes": [
+        "We want to build up this huge pool of environments"
+      ],
+      "tags": [
+        "reinforcement-learning",
+        "open-source",
+        "training-infrastructure",
+        "GRPO"
+      ]
+    },
+    {
+      "episode_key": "2025-05-06 - Voice AI Masterclass",
+      "date": "2025-05-06",
+      "title": "Voice AI Masterclass",
+      "podcast": "Latent Space",
+      "guest": "Kwindla Hultman Kramer",
+      "executive_summary": "Kwindla from Daily and Pipecat discusses the Voice AI landscape covering real-time voice orchestration, production challenges, and emerging trends. Telephony dominates monetization while real-time video approaches an inflection point.",
+      "key_takeaways": [
+        "99% of monetizable voice AI use cases are telephony via Twilio",
+        "Real-time video will hit same inflection as voice by end of 2025",
+        "Turn detection and context management remain key challenges"
+      ],
+      "opportunities": [
+        "Build voice AI solutions for enterprise telephony"
+      ],
+      "quotes": [
+        "The voice AI monetization pull came from enterprise and B2B"
+      ],
+      "tags": [
+        "voice-AI",
+        "telephony",
+        "Pipecat",
+        "real-time"
+      ]
+    },
+    {
+      "episode_key": "2025-05-07 - Claude Code Anthropic's CLI Agent",
+      "date": "2025-05-07",
+      "title": "Claude Code Anthropic's CLI Agent",
+      "podcast": "Latent Space",
+      "guest": "Boris Journey, Cat Woo",
+      "executive_summary": "Boris and Cat from Anthropic discuss Claude Code's origin as an internal experiment that grew virally. They emphasize simplicity with auto-compact, claude.md files, and agentic search outperforming RAG. Average cost is ~$6/day per active user.",
+      "key_takeaways": [
+        "Agentic search outperforms RAG for code retrieval significantly",
+        "Average cost ~$6/day per user justified by productivity ROI",
+        "80-90% of Claude Code's code written by Claude with human review"
+      ],
+      "opportunities": [
+        "Build semantic linting tools using LLMs"
+      ],
+      "quotes": [
+        "The simplest thing usually works when the model is so good"
+      ],
+      "tags": [
+        "Claude-Code",
+        "coding-agents",
+        "Anthropic",
+        "CLI"
+      ]
+    },
+    {
+      "episode_key": "2025-05-07 - Zed Agents with Zed Cofounders Nathan Sobo & Antonio Scandurra",
+      "date": "2025-05-07",
+      "title": "Zed Agents with Zed Cofounders Nathan Sobo & Antonio Scandurra",
+      "podcast": "Latent Space",
+      "guest": "Nathan Sobo, Antonio Scandurra",
+      "executive_summary": "Zed cofounders discuss building AI agents into their Rust-based editor with CRDT collaboration. They leverage collaborative editing for agents as first-class collaborators with real-time multi-buffer editing.",
+      "key_takeaways": [
+        "CRDTs enable seamless agent-human co-editing",
+        "Edit prediction uses fine-tuned models for non-local completions",
+        "Simple grep/glob search works without code indexing initially"
+      ],
+      "opportunities": [
+        "Build CRDT-based infrastructure for multi-agent coding"
+      ],
+      "quotes": [
+        "An agent is a fundamentally new kind of collaborator"
+      ],
+      "tags": [
+        "Zed",
+        "code-editor",
+        "CRDT",
+        "agents"
+      ]
+    },
+    {
+      "episode_key": "2025-05-09 - Open Questions in Agentic RL",
+      "date": "2025-05-09",
+      "title": "Open Questions in Agentic RL",
+      "podcast": "Latent Space",
+      "guest": "Will Brown",
+      "executive_summary": "Will Brown outlines the roadmap toward training open-source agents through multi-turn RL, discussing credit assignment, context management, async training, and model merging for decentralized skill acquisition.",
+      "key_takeaways": [
+        "Multi-turn RL with tool use is path to O3-level agents",
+        "Model merging works surprisingly well for combining skills",
+        "Sub-agent delegation manages context window limits"
+      ],
+      "opportunities": [
+        "Build async RL training infrastructure"
+      ],
+      "quotes": [
+        "Everyone wants better agents that can go off and do stuff"
+      ],
+      "tags": [
+        "reinforcement-learning",
+        "agents",
+        "multi-turn",
+        "Prime-Intellect"
+      ]
+    },
+    {
+      "episode_key": "2025-05-16 - ChatGPT Codex The Missing Manual",
+      "date": "2025-05-16",
+      "title": "ChatGPT Codex The Missing Manual",
+      "podcast": "Latent Space",
+      "guest": "Josh McGrath, Alexander",
+      "executive_summary": "OpenAI team discusses ChatGPT Codex, a cloud-based coding agent with sandboxed environments. They emphasize one-shot autonomous completion, agents.md customization, and training models rather than adding guardrails.",
+      "key_takeaways": [
+        "Cloud agents enable true parallelism - 60 tasks per hour",
+        "agents.md provides repo-level instructions like onboarding",
+        "Training model behaviors preferred over hardcoded guardrails"
+      ],
+      "opportunities": [
+        "Build tools for automatic agents.md generation"
+      ],
+      "quotes": [
+        "The model isn't all the product but the model is the product"
+      ],
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "coding-agents",
+        "cloud"
+      ]
+    },
+    {
+      "episode_key": "2025-05-21 - DeepWiki The GitHub Encyclopedia",
+      "date": "2025-05-21",
+      "title": "DeepWiki The GitHub Encyclopedia",
+      "podcast": "Latent Space",
+      "guest": "Silas Alberti",
+      "executive_summary": "Silas from Cognition discusses DeepWiki, free AI-generated documentation for GitHub repos. Uses commit history and LSP graphs for architecture understanding beyond folder structure. 30K+ repos indexed at $300K+ compute cost.",
+      "key_takeaways": [
+        "Commit history reveals system boundaries better than folders",
+        "30K+ repos indexed with organic growth in Asia",
+        "Wiki badges trigger automatic refresh creating growth flywheel"
+      ],
+      "opportunities": [
+        "Build cross-repo deep research tools for GitHub"
+      ],
+      "quotes": [
+        "We always wanted a Q&A tool for any open source codebase"
+      ],
+      "tags": [
+        "DeepWiki",
+        "documentation",
+        "Cognition",
+        "code-understanding"
+      ]
+    },
+    {
+      "episode_key": "2025-05-23 - Multi-Turn RL for Multi-Hour Agents",
+      "date": "2025-05-23",
+      "title": "Multi-Turn RL for Multi-Hour Agents",
+      "podcast": "Latent Space",
+      "guest": "Will Brown",
+      "executive_summary": "Will Brown discusses Claude 4 launch alongside his multi-turn RL research. Topics include reward hacking reduction, thinking budgets as RL-trained capabilities, and model-based rewards over deterministic verification.",
+      "key_takeaways": [
+        "Claude 4 reduced reward hacking from 45% to 15%",
+        "Thinking budgets trainable via RL for appropriate effort",
+        "LLM-as-judge rewards more flexible than deterministic parsers"
+      ],
+      "opportunities": [
+        "Build model-based reward systems for RL beyond math/code"
+      ],
+      "quotes": [
+        "The model learning self-correction is expected"
+      ],
+      "tags": [
+        "Claude-4",
+        "reinforcement-learning",
+        "reward-hacking",
+        "agents"
+      ]
+    },
+    {
+      "episode_key": "2025-05-29 - The AI Coding Factory",
+      "date": "2025-05-29",
+      "title": "The AI Coding Factory",
+      "podcast": "Latent Space",
+      "guest": "Matan, Eno",
+      "executive_summary": "Factory AI founders discuss autonomous systems for full SDLC targeting enterprises with old codebases. Their droids handle coding, knowledge, and reliability with deep enterprise integrations.",
+      "key_takeaways": [
+        "Enterprise migration condensed from 4 months to 3.5 days",
+        "Code churn is key quality metric - healthy codebases see 3-4%",
+        "Developer sentiment matters more than quantitative metrics"
+      ],
+      "opportunities": [
+        "Build enterprise AI coding platforms for migrations"
+      ],
+      "quotes": [
+        "Time writing code goes down but planning time goes way up"
+      ],
+      "tags": [
+        "Factory-AI",
+        "enterprise",
+        "coding-agents",
+        "delegation"
+      ]
+    },
+    {
+      "episode_key": "2025-05-31 - AIEWF Preview CloudChef Your Robot Chef",
+      "date": "2025-05-31",
+      "title": "AIEWF Preview CloudChef Your Robot Chef",
+      "podcast": "Latent Space",
+      "guest": "Nikil",
+      "executive_summary": "CloudChef deploys robot chefs at $12/hr learning recipes from single demonstrations. Combines proprietary culinary intelligence with off-the-shelf hardware and VLMs. Serving Michelin-quality food in Palo Alto.",
+      "key_takeaways": [
+        "Food service is 3x more labor-intensive than hospitals",
+        "Robot handles 40-50% of world's cuisine for line cooking",
+        "$12/hr model taps labor budgets with no capex"
+      ],
+      "opportunities": [
+        "Apply robot-as-a-service to labor-intensive industries"
+      ],
+      "quotes": [
+        "At McDonald's prices you should eat the tastiest food ever"
+      ],
+      "tags": [
+        "robotics",
+        "food-tech",
+        "VLMs",
+        "automation"
+      ]
+    },
+    {
+      "episode_key": "2025-06-02 - AIEWF Preview Gemini in 2025 and Realtime Voice AI",
+      "date": "2025-06-02",
+      "title": "AIEWF Preview Gemini in 2025 and Realtime Voice AI",
+      "podcast": "Latent Space",
+      "guest": "Logan Kilpatrick, Shreyas",
+      "executive_summary": "Google team discusses Gemini IO announcements: thinking budgets, native audio output, implicit caching, and Live API evolution with Daily's Kwindla on voice infrastructure.",
+      "key_takeaways": [
+        "Implicit caching saves costs without developer configuration",
+        "Native audio enables speaker identification",
+        "Session length and tool calling are key production challenges"
+      ],
+      "opportunities": [
+        "Build voice apps on Gemini's native audio"
+      ],
+      "quotes": [
+        "We want to make one model - the Gemini model"
+      ],
+      "tags": [
+        "Gemini",
+        "voice-AI",
+        "caching",
+        "Live-API"
+      ]
+    },
+    {
+      "episode_key": "2025-06-03 - AIEWF Preview Containing Agent Chaos",
+      "date": "2025-06-03",
+      "title": "AIEWF Preview Containing Agent Chaos",
+      "podcast": "Latent Space",
+      "guest": "Solomon Hykes",
+      "executive_summary": "Docker creator discusses Dagger's pivot toward standardized container environments for AI coding agents. Argues current fragmentation mirrors pre-Docker era.",
+      "key_takeaways": [
+        "Agent environments need portability across IDEs and clouds",
+        "Local execution is the litmus test for agent infrastructure",
+        "CI/CD and agent runtime are converging"
+      ],
+      "opportunities": [
+        "Build agent-native container environments"
+      ],
+      "quotes": [
+        "Developers want to run stuff locally - that can't be an afterthought"
+      ],
+      "tags": [
+        "Docker",
+        "Dagger",
+        "containers",
+        "agents"
+      ]
+    },
+    {
+      "episode_key": "2025-06-06 - The Utility of Interpretability",
+      "date": "2025-06-06",
+      "title": "The Utility of Interpretability",
+      "podcast": "Latent Space",
+      "guest": "Emmanuel Amiesen",
+      "executive_summary": "Anthropic's Emmanuel demos circuit tracing toolkit now open-sourced for Gemma 2 and Llama. Anyone can generate interpretability graphs showing how models arrive at predictions.",
+      "key_takeaways": [
+        "Circuit patterns similar across different model sizes",
+        "Tools run on free Google Colab tier",
+        "Error diamonds show what computation remains unexplained"
+      ],
+      "opportunities": [
+        "Build interpretability-powered eval tools"
+      ],
+      "quotes": [
+        "There are behaviors models do way more than any group can explore"
+      ],
+      "tags": [
+        "interpretability",
+        "Anthropic",
+        "circuit-tracing",
+        "open-source"
+      ]
+    },
+    {
+      "episode_key": "2025-06-10 - Quadratic The AI Spreadsheet",
+      "date": "2025-06-10",
+      "title": "Quadratic The AI Spreadsheet",
+      "podcast": "Latent Space",
+      "guest": "David Kirkos",
+      "executive_summary": "Quadratic: AI-native spreadsheet running Python/JS in WebAssembly with database connections. AI chat for analysis and visualization. Real-time multiplayer.",
+      "key_takeaways": [
+        "AI eliminated learning curve driving adoption",
+        "WebAssembly enables sub-second Python in-browser",
+        "Formulas will be used less in favor of Python"
+      ],
+      "opportunities": [
+        "Build AI-native data analysis tools"
+      ],
+      "quotes": [
+        "AI makes the education problem go away - learning curve went to zero"
+      ],
+      "tags": [
+        "spreadsheets",
+        "data-analysis",
+        "WebAssembly",
+        "Python"
+      ]
+    },
+    {
+      "episode_key": "2025-06-11 - Launching AI Diplomacy the hardest LLM Game Benchmark yet",
+      "date": "2025-06-11",
+      "title": "Launching AI Diplomacy the hardest LLM Game Benchmark yet",
+      "podcast": "Latent Space",
+      "guest": "Alex Duffy",
+      "executive_summary": "AI Diplomacy as hardest LLM game benchmark requiring natural language negotiation, strategic planning, and multi-agent coordination.",
+      "key_takeaways": [
+        "Diplomacy tests negotiation and long-horizon planning",
+        "Multi-agent games expose capability gaps in LLMs",
+        "Game benchmarks provide richer signal than Q&A"
+      ],
+      "opportunities": [
+        "Build game-based AI benchmarks"
+      ],
+      "quotes": [
+        "We wanted something requiring fundamentally new techniques"
+      ],
+      "tags": [
+        "benchmarks",
+        "games",
+        "multi-agent",
+        "negotiation"
+      ]
+    },
+    {
+      "episode_key": "2025-06-13 - The Shape of Compute (Chris Lattner of Modular)",
+      "date": "2025-06-13",
+      "title": "The Shape of Compute (Chris Lattner of Modular)",
+      "podcast": "Latent Space",
+      "guest": "Chris Lattner",
+      "executive_summary": "Chris Lattner on Modular achieving state-of-the-art LLM serving without CUDA. Mojo language, Max framework, and cluster deployment now open-sourced for NVIDIA and AMD.",
+      "key_takeaways": [
+        "Modular matches NVIDIA's best without using CUDA",
+        "Mojo is faster than Rust with binding-free Python integration",
+        "Full-stack container is only 1GB"
+      ],
+      "opportunities": [
+        "Use Mojo for portable GPU programming"
+      ],
+      "quotes": [
+        "Change is all around us - conventional wisdom says it's impossible"
+      ],
+      "tags": [
+        "Mojo",
+        "Modular",
+        "GPU",
+        "inference"
+      ]
+    },
+    {
+      "episode_key": "2025-06-19 - Scaling Test Time Compute to Multi-Agent Civilizations",
+      "date": "2025-06-19",
+      "title": "Scaling Test Time Compute to Multi-Agent Civilizations",
+      "podcast": "Latent Space",
+      "guest": "Noam Brown",
+      "executive_summary": "Noam Brown discusses scaling test-time compute through multi-agent systems from Cicero and poker to AI civilizations.",
+      "key_takeaways": [
+        "Test-time compute scales through multi-agent interaction",
+        "Game-theoretic training produces more robust agents",
+        "Multi-agent civilizations emerge from cooperative-competitive dynamics"
+      ],
+      "opportunities": [
+        "Build multi-agent simulation environments"
+      ],
+      "quotes": [
+        "The pace of progress has been staggering"
+      ],
+      "tags": [
+        "multi-agent",
+        "test-time-compute",
+        "game-theory",
+        "OpenAI"
+      ]
+    },
+    {
+      "episode_key": "2025-06-25 - Warp 2.0 the Agentic Development Environment",
+      "date": "2025-06-25",
+      "title": "Warp 2.0 the Agentic Development Environment",
+      "podcast": "Latent Space",
+      "guest": "Zach Lloyd, Ben Holmes",
+      "executive_summary": "Warp 2.0 demo: coding agent, multi-agent orchestration, inline diffs, voice input, MCP integrations, production debugging in database REPLs.",
+      "key_takeaways": [
+        "Terminal UX naturally supports multi-threaded agent workflows",
+        "Rich UI elements differentiate from pure CLI agents",
+        "Save prompts enable shareable agent workflows"
+      ],
+      "opportunities": [
+        "Build agentic terminal tools"
+      ],
+      "quotes": [
+        "The best interface for agents is similar to a terminal UX"
+      ],
+      "tags": [
+        "Warp",
+        "terminal",
+        "coding-agents",
+        "ADE"
+      ]
+    },
+    {
+      "episode_key": "2025-07-02 - Information Theory for Language Models Jack Morris",
+      "date": "2025-07-02",
+      "title": "Information Theory for Language Models Jack Morris",
+      "podcast": "Latent Space",
+      "guest": "Jack Morris",
+      "executive_summary": "Applying information theory to understand and evaluate language models through entropy, compression, and mutual information.",
+      "key_takeaways": [
+        "Information-theoretic metrics provide principled evaluation",
+        "Compression quality correlates with model capability",
+        "Entropy reveals model uncertainty patterns"
+      ],
+      "opportunities": [
+        "Build information-theoretic eval tools"
+      ],
+      "quotes": [
+        "Information theory gives principled measurement of what models know"
+      ],
+      "tags": [
+        "information-theory",
+        "evaluation",
+        "LLMs",
+        "metrics"
+      ]
+    },
+    {
+      "episode_key": "2025-07-05 - Anthropic vs Cognition on Multi-Agents A Breakdown with Dylan Davis",
+      "date": "2025-07-05",
+      "title": "Anthropic vs Cognition on Multi-Agents A Breakdown with Dylan Davis",
+      "podcast": "Latent Space",
+      "guest": "Dylan Davis",
+      "executive_summary": "Comparing multi-agent approaches from Anthropic and Cognition covering architectural decisions and tradeoffs.",
+      "key_takeaways": [
+        "Sub-agent delegation patterns vary between approaches",
+        "Agent reliability decreases with chain length",
+        "Orchestration patterns matter more than individual capability"
+      ],
+      "opportunities": [
+        "Build multi-agent orchestration frameworks"
+      ],
+      "quotes": [
+        "The question is whether agents work together"
+      ],
+      "tags": [
+        "multi-agent",
+        "Anthropic",
+        "Cognition",
+        "orchestration"
+      ]
+    },
+    {
+      "episode_key": "2025-07-09 - AI Video Is Eating The World",
+      "date": "2025-07-09",
+      "title": "AI Video Is Eating The World",
+      "podcast": "Latent Space",
+      "guest": "Olivia & Justine Moore",
+      "executive_summary": "A16z partners survey exploding AI video landscape from VO3 viral content to AI-native IP on TikTok.",
+      "key_takeaways": [
+        "VO3 shifted viral content to TikTok/Instagram",
+        "Monetization includes ads, consulting, courses, merch",
+        "Character consistency and known IP drive viral success"
+      ],
+      "opportunities": [
+        "Build AI video creation tools or content agencies"
+      ],
+      "quotes": [
+        "The first AI native IP bought by Netflix will be a watershed"
+      ],
+      "tags": [
+        "AI-video",
+        "VO3",
+        "creator-economy",
+        "TikTok"
+      ]
+    },
+    {
+      "episode_key": "2025-07-11 - Personalized AI Language Education",
+      "date": "2025-07-11",
+      "title": "Personalized AI Language Education",
+      "podcast": "Latent Space",
+      "guest": "Andrew Hsu",
+      "executive_summary": "Speak CTO on building leading English app in South Korea from pre-LLM speech practice to AI tutoring. Premium-only, speech-first, functional fluency focus.",
+      "key_takeaways": [
+        "Whisper was the superhuman speech recognition moment",
+        "Premium-only pricing filters for motivated learners",
+        "6% of Korean population has tried Speak"
+      ],
+      "opportunities": [
+        "Build AI-native language tutoring for underserved languages"
+      ],
+      "quotes": [
+        "If we can win this market we probably have something real"
+      ],
+      "tags": [
+        "EdTech",
+        "language-learning",
+        "speech",
+        "Korea"
+      ]
+    },
+    {
+      "episode_key": "2025-07-14 - Ranking Agentic LLMs",
+      "date": "2025-07-14",
+      "title": "Ranking Agentic LLMs",
+      "podcast": "Latent Space",
+      "guest": "Pratik Bhavsar",
+      "executive_summary": "Building benchmarks for ranking agentic LLM capabilities across tool use, planning, and execution.",
+      "key_takeaways": [
+        "Agentic capabilities need different evaluation than chat",
+        "Tool use accuracy is key differentiating metric",
+        "Real-world task completion correlates poorly with benchmarks"
+      ],
+      "opportunities": [
+        "Build agentic LLM evaluation platforms"
+      ],
+      "quotes": [
+        "Standard benchmarks don't capture what makes agents useful"
+      ],
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "agents",
+        "Galileo"
+      ]
+    },
+    {
+      "episode_key": "2025-07-16 - Cline The Collaborative AI Coder",
+      "date": "2025-07-16",
+      "title": "Cline The Collaborative AI Coder",
+      "podcast": "Latent Space",
+      "guest": "Saoud, Pash",
+      "executive_summary": "Cline founders on their open-source VS Code coding agent. Plan/act paradigm, MCP marketplace with 150+ servers, vision of infrastructure for any agent.",
+      "key_takeaways": [
+        "Plan/Act mode emerged from watching how users work",
+        "MCP marketplace has monetizable tools",
+        "VS Code extension avoids fork maintenance burden"
+      ],
+      "opportunities": [
+        "Build monetizable MCP servers"
+      ],
+      "quotes": [
+        "Being a VS Code extension reduces onboarding friction"
+      ],
+      "tags": [
+        "Cline",
+        "VS-Code",
+        "MCP",
+        "coding-agents"
+      ]
+    },
+    {
+      "episode_key": "2025-07-18 - ARC-AGI-3 The Interactive Reasoning Benchmark",
+      "date": "2025-07-18",
+      "title": "ARC-AGI-3 The Interactive Reasoning Benchmark",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "ARC-AGI-3 tests interactive reasoning requiring multi-turn problem solving rather than one-shot answers.",
+      "key_takeaways": [
+        "Interactive reasoning tests reveal different capabilities",
+        "ARC-AGI-3 adds human-like interaction to reasoning eval",
+        "Models struggle with novel interactive formats"
+      ],
+      "opportunities": [
+        "Build interactive reasoning frameworks"
+      ],
+      "quotes": [
+        "The gap between static and interactive performance is enormous"
+      ],
+      "tags": [
+        "ARC-AGI",
+        "benchmarks",
+        "reasoning",
+        "interactive"
+      ]
+    },
+    {
+      "episode_key": "2025-07-18 - The Future of Notebooks - with Akshay Agrawal of Marimo",
+      "date": "2025-07-18",
+      "title": "The Future of Notebooks - with Akshay Agrawal of Marimo",
+      "podcast": "Latent Space",
+      "guest": "Akshay Agrawal",
+      "executive_summary": "Marimo: reactive notebook fixing Jupyter issues with reproducibility, hidden state, and interactivity.",
+      "key_takeaways": [
+        "Reactive notebooks eliminate hidden state bugs",
+        "Notebooks deployable as interactive web apps",
+        "AI works better in reproducible environments"
+      ],
+      "opportunities": [
+        "Build AI-enhanced reactive notebooks"
+      ],
+      "quotes": [
+        "The future notebook is reactive, reproducible, and deployable"
+      ],
+      "tags": [
+        "notebooks",
+        "Marimo",
+        "data-science",
+        "Python"
+      ]
+    },
+    {
+      "episode_key": "2025-07-23 - AI is Eating Search",
+      "date": "2025-07-23",
+      "title": "AI is Eating Search",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "How AI disrupts traditional search engines through better answers and conversational interfaces.",
+      "key_takeaways": [
+        "AI search captures meaningful traffic from Google",
+        "Conversational interfaces change user behavior",
+        "Source attribution builds trust"
+      ],
+      "opportunities": [
+        "Build vertical AI search tools"
+      ],
+      "quotes": [
+        "The future of search is answers not links"
+      ],
+      "tags": [
+        "search",
+        "AI-search",
+        "Perplexity",
+        "disruption"
+      ]
+    },
+    {
+      "episode_key": "2025-07-24 - Math Olympiad gold medalist explains OpenAI and Google DeepMind IMO Gold Performances",
+      "date": "2025-07-24",
+      "title": "Math Olympiad gold medalist explains OpenAI and Google DeepMind IMO Gold Performances",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Math Olympiad medalist analyzes AI IMO gold performances explaining what they mean for reasoning.",
+      "key_takeaways": [
+        "IMO gold represents genuine reasoning not pattern matching",
+        "Different approaches achieved similar results",
+        "Math reasoning transfers to other domains"
+      ],
+      "opportunities": [
+        "Build math reasoning evaluation tools"
+      ],
+      "quotes": [
+        "These systems are doing genuine mathematical reasoning"
+      ],
+      "tags": [
+        "math",
+        "IMO",
+        "reasoning",
+        "OpenAI"
+      ]
+    },
+    {
+      "episode_key": "2025-07-28 - The Oral History of Windsurf",
+      "date": "2025-07-28",
+      "title": "The Oral History of Windsurf",
+      "podcast": "Latent Space",
+      "guest": "Varun Mohan, Scott Wu",
+      "executive_summary": "Windsurf founding team on building AI coding IDE from autocomplete to agentic coding.",
+      "key_takeaways": [
+        "IDE vs fork involves fundamental architecture tradeoffs",
+        "Agent-mode adoption correlates with autocomplete trust",
+        "Enterprise needs different agent reliability"
+      ],
+      "opportunities": [
+        "Study IDE agent integration patterns"
+      ],
+      "quotes": [
+        "We wanted an IDE that makes you feel like you have a team"
+      ],
+      "tags": [
+        "Windsurf",
+        "Codeium",
+        "IDE",
+        "coding-agents"
+      ]
+    },
+    {
+      "episode_key": "2025-07-29 - Using RFT to Build Clinical Superintelligence",
+      "date": "2025-07-29",
+      "title": "Using RFT to Build Clinical Superintelligence",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "RFT for clinical AI exceeding human expert performance in diagnosis and treatment planning.",
+      "key_takeaways": [
+        "RFT enables domain-specific specialization beyond general capabilities",
+        "Clinical verification loops provide natural reward signals",
+        "Medical AI requires different safety standards"
+      ],
+      "opportunities": [
+        "Build RFT-powered vertical AI for healthcare"
+      ],
+      "quotes": [
+        "Clinical superintelligence is achievable domain by domain"
+      ],
+      "tags": [
+        "healthcare",
+        "RFT",
+        "clinical-AI",
+        "fine-tuning"
+      ]
+    },
+    {
+      "episode_key": "2025-07-31 - The RLVR Revolution",
+      "date": "2025-07-31",
+      "title": "The RLVR Revolution",
+      "podcast": "Latent Space",
+      "guest": "Nathan Lambert",
+      "executive_summary": "Nathan Lambert on RLVR revolution - how verifiable rewards transform model training.",
+      "key_takeaways": [
+        "Verifiable rewards dramatically improve training signal quality",
+        "RLVR works best with clear right/wrong answers",
+        "Open-source RLVR catching up to frontier labs"
+      ],
+      "opportunities": [
+        "Build verifiable reward systems for new domains"
+      ],
+      "quotes": [
+        "Verifiable rewards are the key insight making RL work for LLMs"
+      ],
+      "tags": [
+        "RLVR",
+        "reinforcement-learning",
+        "AI2",
+        "training"
+      ]
+    },
+    {
+      "episode_key": "2025-08-04 - Composio 10,000+ tools that evolve for Agents",
+      "date": "2025-08-04",
+      "title": "Composio 10,000+ tools that evolve for Agents",
+      "podcast": "Latent Space",
+      "guest": "Karan Vaidya, Soham Ganatra",
+      "executive_summary": "Composio platform with 10,000+ tool integrations for AI agents to interact with any SaaS product.",
+      "key_takeaways": [
+        "Tool integration is major bottleneck for agent deployment",
+        "Standardized interfaces reduce development time",
+        "Tool ecosystems need evolution as APIs change"
+      ],
+      "opportunities": [
+        "Build agent tool integration platforms"
+      ],
+      "quotes": [
+        "Agents need thousands of tools to be truly useful"
+      ],
+      "tags": [
+        "tools",
+        "agents",
+        "integrations",
+        "Composio"
+      ]
+    },
+    {
+      "episode_key": "2025-08-04 - Mercury Ultra-Fast Diffusion LLMs",
+      "date": "2025-08-04",
+      "title": "Mercury Ultra-Fast Diffusion LLMs",
+      "podcast": "Latent Space",
+      "guest": "Stefano Ermon",
+      "executive_summary": "Mercury: diffusion-based LLM generating tokens in parallel rather than sequentially for dramatic speedups.",
+      "key_takeaways": [
+        "Diffusion LLMs generate all tokens simultaneously",
+        "Parallel generation enables generative UI",
+        "Quality-speed tradeoffs differ from autoregressive"
+      ],
+      "opportunities": [
+        "Build apps leveraging parallel token generation"
+      ],
+      "quotes": [
+        "Diffusion LLMs generate tokens in parallel not one at a time"
+      ],
+      "tags": [
+        "diffusion-LLMs",
+        "inference",
+        "speed",
+        "Inception-Labs"
+      ]
+    },
+    {
+      "episode_key": "2025-08-05 - OpenCode Claude Code but Open Source",
+      "date": "2025-08-05",
+      "title": "OpenCode Claude Code but Open Source",
+      "podcast": "Latent Space",
+      "guest": "Dax Reed",
+      "executive_summary": "OpenCode: open-source Claude Code alternative working with any model and frontier terminal UI.",
+      "key_takeaways": [
+        "Open-source CLI agents enable model-agnostic workflows",
+        "Terminal UI design impacts developer productivity",
+        "Model flexibility crucial as different models excel differently"
+      ],
+      "opportunities": [
+        "Build open-source model-agnostic coding agents"
+      ],
+      "quotes": [
+        "You should be able to use any model with your coding agent"
+      ],
+      "tags": [
+        "open-source",
+        "CLI",
+        "coding-agents",
+        "OpenCode"
+      ]
+    },
+    {
+      "episode_key": "2025-08-06 - The AI Agenda GPT5 leaks and the business of AI News",
+      "date": "2025-08-06",
+      "title": "The AI Agenda GPT5 leaks and the business of AI News",
+      "podcast": "Latent Space",
+      "guest": "Steph Palazzolo",
+      "executive_summary": "GPT-5 leaks discussion and business model of AI journalism from The Information.",
+      "key_takeaways": [
+        "AI journalism faces challenges with constant launches",
+        "Subscription AI news finding sustainable models",
+        "Source verification increasingly difficult"
+      ],
+      "opportunities": [
+        "Build AI news analysis and curation platforms"
+      ],
+      "quotes": [
+        "The pace of AI news has fundamentally changed tech journalism"
+      ],
+      "tags": [
+        "journalism",
+        "GPT-5",
+        "media",
+        "AI-news"
+      ]
+    },
+    {
+      "episode_key": "2025-08-15 - Greg Brockman on OpenAI's Road to AGI",
+      "date": "2025-08-15",
+      "title": "Greg Brockman on OpenAI's Road to AGI",
+      "podcast": "Latent Space",
+      "guest": "Greg Brockman",
+      "executive_summary": "Greg Brockman on OpenAI's vision and roadmap toward AGI covering research priorities and safety balance.",
+      "key_takeaways": [
+        "OpenAI views AGI achievable through scaling with innovations",
+        "Organization structure matters as much as technical capability",
+        "Safety and capability are complementary not competing"
+      ],
+      "opportunities": [
+        "Study organizational design from frontier AI labs"
+      ],
+      "quotes": [
+        "We're on the road to AGI"
+      ],
+      "tags": [
+        "OpenAI",
+        "AGI",
+        "strategy",
+        "safety"
+      ]
+    },
+    {
+      "episode_key": "2025-08-18 - Accelerators @ 3x NVIDIA H200 perf Made in the USA",
+      "date": "2025-08-18",
+      "title": "Accelerators @ 3x NVIDIA H200 perf Made in the USA",
+      "podcast": "Latent Space",
+      "guest": "Thomas Sohmers, Mitesh Agrawal",
+      "executive_summary": "Positron AI building AI chips at 3x NVIDIA H200 performance manufactured in USA.",
+      "key_takeaways": [
+        "New chip architectures achieve significant speedups over NVIDIA",
+        "US chip manufacturing strategically important for AI",
+        "Specialized accelerators trade generality for performance"
+      ],
+      "opportunities": [
+        "Explore AI chip investment opportunities"
+      ],
+      "quotes": [
+        "3x H200 performance with fundamentally different architecture"
+      ],
+      "tags": [
+        "hardware",
+        "accelerators",
+        "chips",
+        "NVIDIA"
+      ]
+    },
+    {
+      "episode_key": "2025-08-19 - Long Live Context Engineering - with Jeff Huber of Chroma",
+      "date": "2025-08-19",
+      "title": "Long Live Context Engineering - with Jeff Huber of Chroma",
+      "podcast": "Latent Space",
+      "guest": "Jeff Huber",
+      "executive_summary": "Jeff Huber on evolution from prompt to context engineering as key capability for effective AI apps.",
+      "key_takeaways": [
+        "Context engineering succeeds prompt engineering",
+        "Vector databases essential for efficient retrieval at scale",
+        "Agent performance depends more on context quality than model"
+      ],
+      "opportunities": [
+        "Build context engineering tools"
+      ],
+      "quotes": [
+        "What you put in context matters more than how you prompt"
+      ],
+      "tags": [
+        "context-engineering",
+        "Chroma",
+        "RAG",
+        "vector-databases"
+      ]
+    },
+    {
+      "episode_key": "2025-08-29 - Better Data is All You Need",
+      "date": "2025-08-29",
+      "title": "Better Data is All You Need",
+      "podcast": "Latent Space",
+      "guest": "Ari Morcos",
+      "executive_summary": "Ari Morcos arguing data quality more impactful than model architecture for AI performance.",
+      "key_takeaways": [
+        "Data quality improvements yield larger gains than architecture",
+        "Systematic curation requires automated filtering and human judgment",
+        "Training data composition determines capabilities"
+      ],
+      "opportunities": [
+        "Build data curation and quality assessment tools"
+      ],
+      "quotes": [
+        "Better data consistently beats bigger models"
+      ],
+      "tags": [
+        "data-quality",
+        "Datology",
+        "training-data",
+        "curation"
+      ]
+    },
+    {
+      "episode_key": "2025-09-01 - Launching Ona Coding Agent with Fully Sandboxed Cloud Environment",
+      "date": "2025-09-01",
+      "title": "Launching Ona Coding Agent with Fully Sandboxed Cloud Environment",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Ona: coding agent with fully sandboxed cloud environments for safe autonomous execution.",
+      "key_takeaways": [
+        "Cloud sandboxing enables autonomous coding safely",
+        "Pre-configured environments reduce setup time",
+        "Sandboxed agents parallelize more easily"
+      ],
+      "opportunities": [
+        "Build sandboxed cloud environments for agents"
+      ],
+      "quotes": [
+        "Sandboxing makes fully autonomous agents practical"
+      ],
+      "tags": [
+        "coding-agents",
+        "sandboxing",
+        "cloud",
+        "Ona"
+      ]
+    },
+    {
+      "episode_key": "2025-09-08 - A Technical History of Generative Media",
+      "date": "2025-09-08",
+      "title": "A Technical History of Generative Media",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Technical history from early GANs through diffusion to modern video generation.",
+      "key_takeaways": [
+        "Diffusion models replaced GANs as dominant architecture",
+        "Video generation followed image by 2-3 years",
+        "Architecture convergence suggests unified models"
+      ],
+      "opportunities": [
+        "Study generative media trends"
+      ],
+      "quotes": [
+        "Each breakthrough expanded creators by an order of magnitude"
+      ],
+      "tags": [
+        "generative-media",
+        "history",
+        "diffusion",
+        "video"
+      ]
+    },
+    {
+      "episode_key": "2025-09-11 - Context Engineering for Agents - Lance Martin, LangChain",
+      "date": "2025-09-11",
+      "title": "Context Engineering for Agents - Lance Martin, LangChain",
+      "podcast": "Latent Space",
+      "guest": "Lance Martin",
+      "executive_summary": "Lance Martin on context engineering for effective AI agents covering retrieval, memory, and dynamic assembly.",
+      "key_takeaways": [
+        "Dynamic context outperforms static templates for agents",
+        "Agent memory needs different patterns than RAG",
+        "Context window management is primary bottleneck"
+      ],
+      "opportunities": [
+        "Build context engineering frameworks"
+      ],
+      "quotes": [
+        "Context engineering is the new prompt engineering"
+      ],
+      "tags": [
+        "context-engineering",
+        "LangChain",
+        "agents",
+        "memory"
+      ]
+    },
+    {
+      "episode_key": "2025-09-18 - No, Don't Do Palantir for AI",
+      "date": "2025-09-18",
+      "title": "No, Don't Do Palantir for AI",
+      "podcast": "Latent Space",
+      "guest": "Brendan Falk",
+      "executive_summary": "Brendan shares lessons from attempting AI-native Palantir for Global 2000. Pivoted to Hercules app builder. Custom enterprise AI has unfavorable economics.",
+      "key_takeaways": [
+        "Enterprise AI consulting only works at $5-10M+ contracts",
+        "Messy data not AI capability is the real bottleneck",
+        "Vertical specialization required for sustainable margins"
+      ],
+      "opportunities": [
+        "Build vertical AI SaaS not horizontal consulting"
+      ],
+      "quotes": [
+        "If a company is $100M revenue they'll never pay $10M annually"
+      ],
+      "tags": [
+        "enterprise-AI",
+        "consulting",
+        "Palantir",
+        "pivot"
+      ]
+    },
+    {
+      "episode_key": "2025-09-23 - Beyond Transformers with Power Retention",
+      "date": "2025-09-23",
+      "title": "Beyond Transformers with Power Retention",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Power Retention architecture as post-transformer approach with sub-quadratic complexity.",
+      "key_takeaways": [
+        "Power Retention offers sub-quadratic for long-context",
+        "New architectures must match transformer quality",
+        "Hybrid approaches show promise"
+      ],
+      "opportunities": [
+        "Research alternative architectures"
+      ],
+      "quotes": [
+        "The transformer isn't the final architecture"
+      ],
+      "tags": [
+        "architecture",
+        "transformers",
+        "efficiency",
+        "retention"
+      ]
+    },
+    {
+      "episode_key": "2025-09-25 - Amp The Emperor Has No Clothes",
+      "date": "2025-09-25",
+      "title": "Amp The Emperor Has No Clothes",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Critical analysis of whether current AI coding tools deliver on promises vs demos.",
+      "key_takeaways": [
+        "Production performance often lags demos",
+        "Code review remains critical human requirement",
+        "Honest benchmarking reveals gaps"
+      ],
+      "opportunities": [
+        "Build honest evaluation frameworks"
+      ],
+      "quotes": [
+        "We need to be honest about what these tools can and cannot do"
+      ],
+      "tags": [
+        "coding-agents",
+        "evaluation",
+        "honesty",
+        "production"
+      ]
+    },
+    {
+      "episode_key": "2025-09-25 - Snowglobe Simulations for your AI",
+      "date": "2025-09-25",
+      "title": "Snowglobe Simulations for your AI",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Snowglobe: controlled simulation environments for testing AI agents before deployment.",
+      "key_takeaways": [
+        "Simulation enables exhaustive agent testing",
+        "Controlled environments reproduce rare edge cases",
+        "Agent testing needs different methodology"
+      ],
+      "opportunities": [
+        "Build simulation environments for agents"
+      ],
+      "quotes": [
+        "You need a snowglobe to test your agent"
+      ],
+      "tags": [
+        "simulation",
+        "testing",
+        "agents",
+        "evaluation"
+      ]
+    },
+    {
+      "episode_key": "2025-09-30 - Claude Sonnet 4.5 and Anthropic's roadmap for Agents and Developers",
+      "date": "2025-09-30",
+      "title": "Claude Sonnet 4.5 and Anthropic's roadmap for Agents and Developers",
+      "podcast": "Latent Space",
+      "guest": "Mike Krieger",
+      "executive_summary": "Episode featuring Mike Krieger discussing and Anthropic's roadmap for Agents and Developers. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Mike Krieger",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Mike Krieger"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "claude"
+      ]
+    },
+    {
+      "episode_key": "2025-10-01 - Raising $1.1b to build the fastest LLM Chips on Earth",
+      "date": "2025-10-01",
+      "title": "Raising $1.1b to build the fastest LLM Chips on Earth",
+      "podcast": "Latent Space",
+      "guest": "Andrew Feldman",
+      "executive_summary": "Episode featuring Andrew Feldman discussing build the fastest LLM Chips on Earth. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Andrew Feldman",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Andrew Feldman"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "raising"
+      ]
+    },
+    {
+      "episode_key": "2025-10-02 - Taste is your Moat (Dylan Field of Figma)",
+      "date": "2025-10-02",
+      "title": "Taste is your Moat (Dylan Field of Figma)",
+      "podcast": "Latent Space",
+      "guest": "Dylan Field",
+      "executive_summary": "Episode featuring Dylan Field discussing Moat (Dylan Field of Figma). Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Dylan Field",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Dylan Field"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "taste"
+      ]
+    },
+    {
+      "episode_key": "2025-10-02 - The antidote to AI fatigue",
+      "date": "2025-10-02",
+      "title": "The antidote to AI fatigue",
+      "podcast": "Latent Space",
+      "guest": "Answer.ai",
+      "executive_summary": "Episode featuring Answer.ai discussing AI fatigue. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Answer.ai",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Answer.ai"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "the"
+      ]
+    },
+    {
+      "episode_key": "2025-10-05 - Traversal Causal ML and Reinforcement Learning",
+      "date": "2025-10-05",
+      "title": "Traversal Causal ML and Reinforcement Learning",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Episode featuring experts discussing and Reinforcement Learning. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from the discussion",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from the discussion"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "traversal"
+      ]
+    },
+    {
+      "episode_key": "2025-10-07 - DevDay 2025 Apps SDK, Agent Kit, MCP, Codex",
+      "date": "2025-10-07",
+      "title": "DevDay 2025 Apps SDK, Agent Kit, MCP, Codex",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Episode featuring experts discussing SDK, Agent Kit, MCP, Codex. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from the discussion",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from the discussion"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "devday"
+      ]
+    },
+    {
+      "episode_key": "2025-10-11 - Building Jamba 3B the tiny Hybrid Transformer State Space Reasoning Model",
+      "date": "2025-10-11",
+      "title": "Building Jamba 3B the tiny Hybrid Transformer State Space Reasoning Model",
+      "podcast": "Latent Space",
+      "guest": "Barak Lenz",
+      "executive_summary": "Episode featuring Barak Lenz discussing the tiny Hybrid Transformer State Space Reasoning Model. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Barak Lenz",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Barak Lenz"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "building"
+      ]
+    },
+    {
+      "episode_key": "2025-10-16 - Why RL Won",
+      "date": "2025-10-16",
+      "title": "Why RL Won",
+      "podcast": "Latent Space",
+      "guest": "Kyle Corbitt",
+      "executive_summary": "Episode featuring Kyle Corbitt discussing Why RL Won. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Kyle Corbitt",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Kyle Corbitt"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "why"
+      ]
+    },
+    {
+      "episode_key": "2025-10-18 - Terminal-Bench Pushing Claude Code OpenAI Codex Factory Droid to the limits",
+      "date": "2025-10-18",
+      "title": "Terminal-Bench Pushing Claude Code OpenAI Codex Factory Droid to the limits",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Episode featuring experts discussing Code OpenAI Codex Factory Droid to the limits. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from the discussion",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from the discussion"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "terminal-bench"
+      ]
+    },
+    {
+      "episode_key": "2025-10-20 - Open Model Pretraining Masterclass",
+      "date": "2025-10-20",
+      "title": "Open Model Pretraining Masterclass",
+      "podcast": "Latent Space",
+      "guest": "Elie Bakouch",
+      "executive_summary": "Episode featuring Elie Bakouch discussing Masterclass. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Elie Bakouch",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Elie Bakouch"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "open"
+      ]
+    },
+    {
+      "episode_key": "2025-10-24 - Breaking AI to Fix It Ian Webster Promptfoo $18M Series A",
+      "date": "2025-10-24",
+      "title": "Breaking AI to Fix It Ian Webster Promptfoo $18M Series A",
+      "podcast": "Latent Space",
+      "guest": "Ian Webster",
+      "executive_summary": "Episode featuring Ian Webster discussing Fix It Ian Webster Promptfoo $18M Series A. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Ian Webster",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Ian Webster"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "breaking"
+      ]
+    },
+    {
+      "episode_key": "2025-10-30 - The Agents Economy Backbone",
+      "date": "2025-10-30",
+      "title": "The Agents Economy Backbone",
+      "podcast": "Latent Space",
+      "guest": "Emily Glassberg Sands",
+      "executive_summary": "Episode featuring Emily Glassberg Sands discussing Backbone. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Emily Glassberg Sands",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Emily Glassberg Sands"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "the"
+      ]
+    },
+    {
+      "episode_key": "2025-11-01 - Ship AI recap Agents Workflows and Python",
+      "date": "2025-11-01",
+      "title": "Ship AI recap Agents Workflows and Python",
+      "podcast": "Latent Space",
+      "guest": "Malte Ubl",
+      "executive_summary": "Episode featuring Malte Ubl discussing Agents Workflows and Python. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Malte Ubl",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Malte Ubl"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "ship"
+      ]
+    },
+    {
+      "episode_key": "2025-11-02 - Automating Scientific Discovery",
+      "date": "2025-11-02",
+      "title": "Automating Scientific Discovery",
+      "podcast": "Latent Space",
+      "guest": "Jessica Rumbelow",
+      "executive_summary": "Episode featuring Jessica Rumbelow discussing Automating Scientific Discovery. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Jessica Rumbelow",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Jessica Rumbelow"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "automating"
+      ]
+    },
+    {
+      "episode_key": "2025-11-03 - How Zyphra went all-in on AMD",
+      "date": "2025-11-03",
+      "title": "How Zyphra went all-in on AMD",
+      "podcast": "Latent Space",
+      "guest": "Quentin Anthony",
+      "executive_summary": "Episode featuring Quentin Anthony discussing all-in on AMD. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Quentin Anthony",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Quentin Anthony"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "how"
+      ]
+    },
+    {
+      "episode_key": "2025-11-06 - Priscilla Chan and Mark Zuckerberg Frontier AI Virtual Biology",
+      "date": "2025-11-06",
+      "title": "Priscilla Chan and Mark Zuckerberg Frontier AI Virtual Biology",
+      "podcast": "Latent Space",
+      "guest": "Priscilla Chan, Mark Zuckerberg",
+      "executive_summary": "Episode featuring Priscilla Chan, Mark Zuckerberg discussing Mark Zuckerberg Frontier AI Virtual Biology. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Priscilla Chan, Mark Zuckerberg",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Priscilla Chan, Mark Zuckerberg"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "priscilla"
+      ]
+    },
+    {
+      "episode_key": "2025-11-08 - Terminal-Bench 2.0",
+      "date": "2025-11-08",
+      "title": "Terminal-Bench 2.0",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Episode featuring experts discussing Terminal-Bench 2.0. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from the discussion",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from the discussion"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "terminal-bench"
+      ]
+    },
+    {
+      "episode_key": "2025-11-08 - The State of AI Engineer Hiring",
+      "date": "2025-11-08",
+      "title": "The State of AI Engineer Hiring",
+      "podcast": "Latent Space",
+      "guest": "Vivek Ravisankar",
+      "executive_summary": "Episode featuring Vivek Ravisankar discussing AI Engineer Hiring. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Vivek Ravisankar",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Vivek Ravisankar"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "the"
+      ]
+    },
+    {
+      "episode_key": "2025-11-10 - Inside GitHub AI Revolution",
+      "date": "2025-11-10",
+      "title": "Inside GitHub AI Revolution",
+      "podcast": "Latent Space",
+      "guest": "Jared Palmer",
+      "executive_summary": "Episode featuring Jared Palmer discussing Revolution. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Jared Palmer",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Jared Palmer"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "inside"
+      ]
+    },
+    {
+      "episode_key": "2025-11-10 - Inside Google Labs Building The Gemini Coding Agent",
+      "date": "2025-11-10",
+      "title": "Inside Google Labs Building The Gemini Coding Agent",
+      "podcast": "Latent Space",
+      "guest": "Jed Borovik",
+      "executive_summary": "Episode featuring Jed Borovik discussing Building The Gemini Coding Agent. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Jed Borovik",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Jed Borovik"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "inside"
+      ]
+    },
+    {
+      "episode_key": "2025-11-14 - Anthropic Glean OpenRouter How AI Moats Are Built",
+      "date": "2025-11-14",
+      "title": "Anthropic Glean OpenRouter How AI Moats Are Built",
+      "podcast": "Latent Space",
+      "guest": "Deedy Das",
+      "executive_summary": "Episode featuring Deedy Das discussing How AI Moats Are Built. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Deedy Das",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Deedy Das"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "anthropic"
+      ]
+    },
+    {
+      "episode_key": "2025-11-19 - 10x AI Engineers with $1m Salaries",
+      "date": "2025-11-19",
+      "title": "10x AI Engineers with $1m Salaries",
+      "podcast": "Latent Space",
+      "guest": "Alex Lieberman, Arman Hezarkhani",
+      "executive_summary": "Episode featuring Alex Lieberman, Arman Hezarkhani discussing with $1m Salaries. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Alex Lieberman, Arman Hezarkhani",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Alex Lieberman, Arman Hezarkhani"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "10x"
+      ]
+    },
+    {
+      "episode_key": "2025-11-22 - Building the AI Hardware Engineer",
+      "date": "2025-11-22",
+      "title": "Building the AI Hardware Engineer",
+      "podcast": "Latent Space",
+      "guest": "Matthias Wagner",
+      "executive_summary": "Episode featuring Matthias Wagner discussing Hardware Engineer. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Matthias Wagner",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Matthias Wagner"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "building"
+      ]
+    },
+    {
+      "episode_key": "2025-11-25 - After LLMs Spatial Intelligence and World Models",
+      "date": "2025-11-25",
+      "title": "After LLMs Spatial Intelligence and World Models",
+      "podcast": "Latent Space",
+      "guest": "Fei-Fei Li, Justin Johnson",
+      "executive_summary": "Episode featuring Fei-Fei Li, Justin Johnson discussing Intelligence and World Models. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Fei-Fei Li, Justin Johnson",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Fei-Fei Li, Justin Johnson"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "after"
+      ]
+    },
+    {
+      "episode_key": "2025-12-06 - World Models General Intuition",
+      "date": "2025-12-06",
+      "title": "World Models General Intuition",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Episode featuring experts discussing Intuition. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from the discussion",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from the discussion"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "world"
+      ]
+    },
+    {
+      "episode_key": "2025-12-07 - The Great Evals Debate",
+      "date": "2025-12-07",
+      "title": "The Great Evals Debate",
+      "podcast": "Latent Space",
+      "guest": "Ankur Goyal, Malte Ubl",
+      "executive_summary": "Episode featuring Ankur Goyal, Malte Ubl discussing Debate. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Ankur Goyal, Malte Ubl",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Ankur Goyal, Malte Ubl"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "the"
+      ]
+    },
+    {
+      "episode_key": "2025-12-12 - AI to AEs Grit Glean Kleiner Perkins",
+      "date": "2025-12-12",
+      "title": "AI to AEs Grit Glean Kleiner Perkins",
+      "podcast": "Latent Space",
+      "guest": "Joubin Mirzadegan",
+      "executive_summary": "Episode featuring Joubin Mirzadegan discussing Grit Glean Kleiner Perkins. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Joubin Mirzadegan",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Joubin Mirzadegan"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "ai"
+      ]
+    },
+    {
+      "episode_key": "2025-12-16 - Jailbreaking AGI",
+      "date": "2025-12-16",
+      "title": "Jailbreaking AGI",
+      "podcast": "Latent Space",
+      "guest": "Pliny the Liberator",
+      "executive_summary": "Episode featuring Pliny the Liberator discussing Jailbreaking AGI. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Pliny the Liberator",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Pliny the Liberator"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "jailbreaking"
+      ]
+    },
+    {
+      "episode_key": "2025-12-18 - SAM 3 The Eyes for AI",
+      "date": "2025-12-18",
+      "title": "SAM 3 The Eyes for AI",
+      "podcast": "Latent Space",
+      "guest": "Nikhila, Pengchuan",
+      "executive_summary": "Episode featuring Nikhila, Pengchuan discussing Eyes for AI. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Nikhila, Pengchuan",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Nikhila, Pengchuan"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "sam"
+      ]
+    },
+    {
+      "episode_key": "2025-12-26 - GPT5-Codex-Max Training Agents with Personality Tools Trust",
+      "date": "2025-12-26",
+      "title": "GPT5-Codex-Max Training Agents with Personality Tools Trust",
+      "podcast": "Latent Space",
+      "guest": "Brian Fioca, Bill Chen",
+      "executive_summary": "Episode featuring Brian Fioca, Bill Chen discussing with Personality Tools Trust. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Brian Fioca, Bill Chen",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Brian Fioca, Bill Chen"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "gpt5-codex-max"
+      ]
+    },
+    {
+      "episode_key": "2025-12-26 - Steve Yegge Vibe Coding Manifesto",
+      "date": "2025-12-26",
+      "title": "Steve Yegge Vibe Coding Manifesto",
+      "podcast": "Latent Space",
+      "guest": "Steve Yegge",
+      "executive_summary": "Episode featuring Steve Yegge discussing Coding Manifesto. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Steve Yegge",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Steve Yegge"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "steve"
+      ]
+    },
+    {
+      "episode_key": "2025-12-28 - One Year of MCP",
+      "date": "2025-12-28",
+      "title": "One Year of MCP",
+      "podcast": "Latent Space",
+      "guest": "David Soria Parria",
+      "executive_summary": "Episode featuring David Soria Parria discussing MCP. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from David Soria Parria",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from David Soria Parria"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "one"
+      ]
+    },
+    {
+      "episode_key": "2025-12-30 - State of AI Startups",
+      "date": "2025-12-30",
+      "title": "State of AI Startups",
+      "podcast": "Latent Space",
+      "guest": "Sarah Catanzaro",
+      "executive_summary": "Episode featuring Sarah Catanzaro discussing Startups. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Sarah Catanzaro",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Sarah Catanzaro"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "state"
+      ]
+    },
+    {
+      "episode_key": "2025-12-30 - State of RL Reasoning",
+      "date": "2025-12-30",
+      "title": "State of RL Reasoning",
+      "podcast": "Latent Space",
+      "guest": "Ashvin Nair",
+      "executive_summary": "Episode featuring Ashvin Nair discussing Reasoning. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Ashvin Nair",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Ashvin Nair"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "state"
+      ]
+    },
+    {
+      "episode_key": "2025-12-31 - NeurIPS Best Paper 1000 Layer Networks",
+      "date": "2025-12-31",
+      "title": "NeurIPS Best Paper 1000 Layer Networks",
+      "podcast": "Latent Space",
+      "guest": "Kevin Wang",
+      "executive_summary": "Episode featuring Kevin Wang discussing 1000 Layer Networks. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Kevin Wang",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Kevin Wang"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "neurips"
+      ]
+    },
+    {
+      "episode_key": "2025-12-31 - State of AI Papers 2025",
+      "date": "2025-12-31",
+      "title": "State of AI Papers 2025",
+      "podcast": "Latent Space",
+      "guest": "Team AlphaXiv",
+      "executive_summary": "Episode featuring Team AlphaXiv discussing Papers 2025. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Team AlphaXiv",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Team AlphaXiv"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "state"
+      ]
+    },
+    {
+      "episode_key": "2025-12-31 - State of Code Evals After SWE-bench",
+      "date": "2025-12-31",
+      "title": "State of Code Evals After SWE-bench",
+      "podcast": "Latent Space",
+      "guest": "John Yang",
+      "executive_summary": "Episode featuring John Yang discussing Evals After SWE-bench. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from John Yang",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from John Yang"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "state"
+      ]
+    },
+    {
+      "episode_key": "2025-12-31 - State of Context Engineering",
+      "date": "2025-12-31",
+      "title": "State of Context Engineering",
+      "podcast": "Latent Space",
+      "guest": "Nina Lopatina",
+      "executive_summary": "Episode featuring Nina Lopatina discussing Engineering. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Nina Lopatina",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Nina Lopatina"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "state"
+      ]
+    },
+    {
+      "episode_key": "2025-12-31 - State of Evals LMArena $1.7B Vision",
+      "date": "2025-12-31",
+      "title": "State of Evals LMArena $1.7B Vision",
+      "podcast": "Latent Space",
+      "guest": "Anastasios Angelopoulos",
+      "executive_summary": "Episode featuring Anastasios Angelopoulos discussing LMArena $1.7B Vision. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Anastasios Angelopoulos",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Anastasios Angelopoulos"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "state"
+      ]
+    },
+    {
+      "episode_key": "2025-12-31 - State of MechInterp SAEs in Production",
+      "date": "2025-12-31",
+      "title": "State of MechInterp SAEs in Production",
+      "podcast": "Latent Space",
+      "guest": "Goodfire",
+      "executive_summary": "Episode featuring Goodfire discussing SAEs in Production. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Goodfire",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Goodfire"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "state"
+      ]
+    },
+    {
+      "episode_key": "2025-12-31 - State of Post-Training GPT-4.1 to 5.1",
+      "date": "2025-12-31",
+      "title": "State of Post-Training GPT-4.1 to 5.1",
+      "podcast": "Latent Space",
+      "guest": "Josh McGrath",
+      "executive_summary": "Episode featuring Josh McGrath discussing GPT-4.1 to 5.1. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Josh McGrath",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Josh McGrath"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "state"
+      ]
+    },
+    {
+      "episode_key": "2025-12-31 - State of Research Funding Beyond NSF",
+      "date": "2025-12-31",
+      "title": "State of Research Funding Beyond NSF",
+      "podcast": "Latent Space",
+      "guest": "Andy Konwinski",
+      "executive_summary": "Episode featuring Andy Konwinski discussing Funding Beyond NSF. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Andy Konwinski",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Andy Konwinski"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "state"
+      ]
+    },
+    {
+      "episode_key": "2026-01-09 - Artificial Analysis Independent LLM Analysis House",
+      "date": "2026-01-09",
+      "title": "Artificial Analysis Independent LLM Analysis House",
+      "podcast": "Latent Space",
+      "guest": "George Cameron",
+      "executive_summary": "Episode featuring George Cameron discussing LLM Analysis House. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from George Cameron",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from George Cameron"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "artificial"
+      ]
+    },
+    {
+      "episode_key": "2026-01-17 - Brex AI Hail Mary",
+      "date": "2026-01-17",
+      "title": "Brex AI Hail Mary",
+      "podcast": "Latent Space",
+      "guest": "James Reggio",
+      "executive_summary": "Episode featuring James Reggio discussing Mary. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from James Reggio",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from James Reggio"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "brex"
+      ]
+    },
+    {
+      "episode_key": "2026-01-23 - Captaining IMO Gold Deep Think On-Policy RL",
+      "date": "2026-01-23",
+      "title": "Captaining IMO Gold Deep Think On-Policy RL",
+      "podcast": "Latent Space",
+      "guest": "Yi Tay",
+      "executive_summary": "Episode featuring Yi Tay discussing Deep Think On-Policy RL. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Yi Tay",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Yi Tay"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "captaining"
+      ]
+    },
+    {
+      "episode_key": "2026-01-27 - Prism OpenAI LaTeX Cursor for Scientists",
+      "date": "2026-01-27",
+      "title": "Prism OpenAI LaTeX Cursor for Scientists",
+      "podcast": "Latent Space",
+      "guest": "Kevin Weil, Victor Powell",
+      "executive_summary": "Episode featuring Kevin Weil, Victor Powell discussing Cursor for Scientists. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Kevin Weil, Victor Powell",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Kevin Weil, Victor Powell"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "prism"
+      ]
+    },
+    {
+      "episode_key": "2026-01-28 - From Red Teaming GPT-4 to Automating Drug Discovery",
+      "date": "2026-01-28",
+      "title": "From Red Teaming GPT-4 to Automating Drug Discovery",
+      "podcast": "Latent Space",
+      "guest": "Andrew White",
+      "executive_summary": "Episode featuring Andrew White discussing GPT-4 to Automating Drug Discovery. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Andrew White",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Andrew White"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "from"
+      ]
+    },
+    {
+      "episode_key": "2026-02-04 - Context Graphs according to the authors",
+      "date": "2026-02-04",
+      "title": "Context Graphs according to the authors",
+      "podcast": "Latent Space",
+      "guest": "Jaya Gupta, Ashu Garg",
+      "executive_summary": "Episode featuring Jaya Gupta, Ashu Garg discussing to the authors. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Jaya Gupta, Ashu Garg",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Jaya Gupta, Ashu Garg"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "context"
+      ]
+    },
+    {
+      "episode_key": "2026-02-05 - Goodfire AI Interpretability as Next Frontier",
+      "date": "2026-02-05",
+      "title": "Goodfire AI Interpretability as Next Frontier",
+      "podcast": "Latent Space",
+      "guest": "Myra Deng, Mark Bissell",
+      "executive_summary": "Episode featuring Myra Deng, Mark Bissell discussing as Next Frontier. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Myra Deng, Mark Bissell",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Myra Deng, Mark Bissell"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "goodfire"
+      ]
+    },
+    {
+      "episode_key": "2026-02-10 - Reverse Engineering OpenAI Training Data",
+      "date": "2026-02-10",
+      "title": "Reverse Engineering OpenAI Training Data",
+      "podcast": "Latent Space",
+      "guest": "Pratyush Maini",
+      "executive_summary": "Episode featuring Pratyush Maini discussing Training Data. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Pratyush Maini",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Pratyush Maini"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "reverse"
+      ]
+    },
+    {
+      "episode_key": "2026-02-12 - Generating Molecules Not Just Models",
+      "date": "2026-02-12",
+      "title": "Generating Molecules Not Just Models",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Episode featuring experts discussing Just Models. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from the discussion",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from the discussion"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "generating"
+      ]
+    },
+    {
+      "episode_key": "2026-02-12 - The AI Frontier Gemini 3 Deep Think distilling to Flash",
+      "date": "2026-02-12",
+      "title": "The AI Frontier Gemini 3 Deep Think distilling to Flash",
+      "podcast": "Latent Space",
+      "guest": "Jeff Dean",
+      "executive_summary": "Episode featuring Jeff Dean discussing Gemini 3 Deep Think distilling to Flash. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Jeff Dean",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Jeff Dean"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "the"
+      ]
+    },
+    {
+      "episode_key": "2026-02-19 - Inside AI $10B+ Capital Flywheel",
+      "date": "2026-02-19",
+      "title": "Inside AI $10B+ Capital Flywheel",
+      "podcast": "Latent Space",
+      "guest": "Martin Casado, Sarah Wang",
+      "executive_summary": "Episode featuring Martin Casado, Sarah Wang discussing Capital Flywheel. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Martin Casado, Sarah Wang",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Martin Casado, Sarah Wang"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "inside"
+      ]
+    },
+    {
+      "episode_key": "2026-02-23 - The End of SWE-Bench Verified",
+      "date": "2026-02-23",
+      "title": "The End of SWE-Bench Verified",
+      "podcast": "Latent Space",
+      "guest": "Mia Glaese, Olivia Watkins",
+      "executive_summary": "Episode featuring Mia Glaese, Olivia Watkins discussing SWE-Bench Verified. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Mia Glaese, Olivia Watkins",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Mia Glaese, Olivia Watkins"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "the"
+      ]
+    },
+    {
+      "episode_key": "2026-02-24 - Claude Code for Finance Global Memory Shortage",
+      "date": "2026-02-24",
+      "title": "Claude Code for Finance Global Memory Shortage",
+      "podcast": "Latent Space",
+      "guest": "Doug O'Laughlin",
+      "executive_summary": "Episode featuring Doug O'Laughlin discussing Finance Global Memory Shortage. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Doug O'Laughlin",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Doug O'Laughlin"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "claude"
+      ]
+    },
+    {
+      "episode_key": "2026-02-27 - Measuring Exponential Trends Rising in AI",
+      "date": "2026-02-27",
+      "title": "Measuring Exponential Trends Rising in AI",
+      "podcast": "Latent Space",
+      "guest": "Joel Becker",
+      "executive_summary": "Episode featuring Joel Becker discussing Rising in AI. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Joel Becker",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Joel Becker"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "measuring"
+      ]
+    },
+    {
+      "episode_key": "2026-02-27 - Measuring Exponential Trends Rising in AI METR",
+      "date": "2026-02-27",
+      "title": "Measuring Exponential Trends Rising in AI METR",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Episode featuring experts discussing Rising in AI METR. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from the discussion",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from the discussion"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "measuring"
+      ]
+    },
+    {
+      "episode_key": "2026-03-01 - Polsia Solo Founder 0 to 1m ARR in 1 month",
+      "date": "2026-03-01",
+      "title": "Polsia Solo Founder 0 to 1m ARR in 1 month",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Episode featuring experts discussing 0 to 1m ARR in 1 month. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from the discussion",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from the discussion"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "polsia"
+      ]
+    },
+    {
+      "episode_key": "2026-03-05 - Why Every Agent Needs a Box",
+      "date": "2026-03-05",
+      "title": "Why Every Agent Needs a Box",
+      "podcast": "Latent Space",
+      "guest": "Aaron Levie",
+      "executive_summary": "Episode featuring Aaron Levie discussing Needs a Box. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Aaron Levie",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Aaron Levie"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "why"
+      ]
+    },
+    {
+      "episode_key": "2026-03-06 - Cursor Third Era Cloud Agents",
+      "date": "2026-03-06",
+      "title": "Cursor Third Era Cloud Agents",
+      "podcast": "Latent Space",
+      "guest": "Sam Whitmore, Jonas Nelle",
+      "executive_summary": "Episode featuring Sam Whitmore, Jonas Nelle discussing Cloud Agents. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Sam Whitmore, Jonas Nelle",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Sam Whitmore, Jonas Nelle"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "cursor"
+      ]
+    },
+    {
+      "episode_key": "2026-03-06 - Why Your AI Agents Dont Work",
+      "date": "2026-03-06",
+      "title": "Why Your AI Agents Dont Work",
+      "podcast": "Latent Space",
+      "guest": "Dex Horthy",
+      "executive_summary": "Episode featuring Dex Horthy discussing Agents Dont Work. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Dex Horthy",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Dex Horthy"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "why"
+      ]
+    },
+    {
+      "episode_key": "2026-03-08 - Agent Inference at the Speed of Light NVIDIA",
+      "date": "2026-03-08",
+      "title": "Agent Inference at the Speed of Light NVIDIA",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Episode featuring experts discussing the Speed of Light NVIDIA. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from the discussion",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from the discussion"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "agent"
+      ]
+    },
+    {
+      "episode_key": "2026-03-08 - Agent Inference at Speed of Light How NVIDIA moves like $4.3T Startup",
+      "date": "2026-03-08",
+      "title": "Agent Inference at Speed of Light How NVIDIA moves like $4.3T Startup",
+      "podcast": "Latent Space",
+      "guest": "",
+      "executive_summary": "Episode featuring experts discussing Speed of Light How NVIDIA moves like $4.3T Startup. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from the discussion",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from the discussion"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "agent"
+      ]
+    },
+    {
+      "episode_key": "2026-03-09 - OpenClaw Memory Sucks and the fix is simple",
+      "date": "2026-03-09",
+      "title": "OpenClaw Memory Sucks and the fix is simple",
+      "podcast": "Latent Space",
+      "guest": "Dhravya Shah",
+      "executive_summary": "Episode featuring Dhravya Shah discussing and the fix is simple. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Dhravya Shah",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Dhravya Shah"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "openclaw"
+      ]
+    },
+    {
+      "episode_key": "2023-04-25 - No Priors Ep. 1 With Noam Brown Research Scientist at Meta",
+      "date": "2023-04-25",
+      "title": "No Priors Ep. 1 With Noam Brown Research Scientist at Meta",
+      "podcast": "No Priors",
+      "guest": "Noam Brown",
+      "executive_summary": "Episode featuring Noam Brown discussing 1 With Noam Brown Research Scientist at Meta. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Noam Brown",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Noam Brown"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "no"
+      ]
+    },
+    {
+      "episode_key": "2023-04-25 - No Priors Ep. 10 With Copilots Chief Architect Alex Graveley",
+      "date": "2023-04-25",
+      "title": "No Priors Ep. 10 With Copilots Chief Architect Alex Graveley",
+      "podcast": "No Priors",
+      "guest": "Alex Graveley",
+      "executive_summary": "Episode featuring Alex Graveley discussing 10 With Copilots Chief Architect Alex Graveley. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Alex Graveley",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Alex Graveley"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "no"
+      ]
+    },
+    {
+      "episode_key": "2023-04-25 - No Priors Ep. 11 With Matei Zaharia CTO of Databricks",
+      "date": "2023-04-25",
+      "title": "No Priors Ep. 11 With Matei Zaharia CTO of Databricks",
+      "podcast": "No Priors",
+      "guest": "Matei Zaharia",
+      "executive_summary": "Episode featuring Matei Zaharia discussing 11 With Matei Zaharia CTO of Databricks. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Matei Zaharia",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Matei Zaharia"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "no"
+      ]
+    },
+    {
+      "episode_key": "2023-04-25 - No Priors Ep. 12 With Noam Shazeer",
+      "date": "2023-04-25",
+      "title": "No Priors Ep. 12 With Noam Shazeer",
+      "podcast": "No Priors",
+      "guest": "Noam Shazeer",
+      "executive_summary": "Episode featuring Noam Shazeer discussing 12 With Noam Shazeer. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Noam Shazeer",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Noam Shazeer"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "no"
+      ]
+    },
+    {
+      "episode_key": "2023-04-25 - No Priors Ep. 13 With Jensen Huang Founder CEO of NVIDIA",
+      "date": "2023-04-25",
+      "title": "No Priors Ep. 13 With Jensen Huang Founder CEO of NVIDIA",
+      "podcast": "No Priors",
+      "guest": "Jensen Huang",
+      "executive_summary": "Episode featuring Jensen Huang discussing 13 With Jensen Huang Founder CEO of NVIDIA. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Jensen Huang",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Jensen Huang"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "no"
+      ]
+    },
+    {
+      "episode_key": "2023-04-25 - No Priors Ep. 7 With Stanford Professor Dr. Percy Liang",
+      "date": "2023-04-25",
+      "title": "No Priors Ep. 7 With Stanford Professor Dr. Percy Liang",
+      "podcast": "No Priors",
+      "guest": "Percy Liang",
+      "executive_summary": "Episode featuring Percy Liang discussing 7 With Stanford Professor Dr. Percy Liang. Covers latest developments in AI technology and implications for builders.",
+      "key_takeaways": [
+        "Key insight from Percy Liang",
+        "Industry trends and technical developments covered",
+        "Practical implications for AI practitioners discussed"
+      ],
+      "opportunities": [
+        "Opportunity area explored in the episode"
+      ],
+      "quotes": [
+        "Notable perspective from Percy Liang"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "podcast",
+        "no"
+      ]
+    }
+  ]
+}

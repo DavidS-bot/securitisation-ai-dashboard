@@ -1,0 +1,2482 @@
+{
+  "ideas": [
+    {
+      "idea": "AI-powered government service delivery consultancy",
+      "description": "Build a consultancy or SaaS helping government agencies deploy AI for citizen services - training simulations, document processing, case management. DHS AI Corps shows massive demand.",
+      "category": "Agency",
+      "revenue_model": "Government contracts and consulting fees",
+      "effort": "High",
+      "investment": "Medium",
+      "target_market": "Federal/state/local government agencies",
+      "episode_date": "2024-12-11",
+      "episode_title": "Building Government's Largest Civilian AI Team with DHS AI Corps' Dir. Michael Boyce",
+      "mentioned_by": "Michael Boyce",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI role-play training platform for regulated industries",
+      "description": "LLMs role-play as clients/patients for practice interviews. DHS uses this for asylum officer training - expand to healthcare, legal, social work.",
+      "category": "SaaS",
+      "revenue_model": "Subscription per seat",
+      "effort": "Medium",
+      "investment": "Low",
+      "target_market": "Government agencies, healthcare, legal training",
+      "episode_date": "2024-12-11",
+      "episode_title": "Building Government's Largest Civilian AI Team with DHS AI Corps' Dir. Michael Boyce",
+      "mentioned_by": "Michael Boyce",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI-driven protein engineering workflow platform",
+      "description": "Integrated platform chaining bio-AI models (RF diffusion, ProteinMPNN, AlphaFold, MDgen) into end-to-end protein design workflows.",
+      "category": "SaaS",
+      "revenue_model": "Subscription + compute usage fees",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Biotech companies, pharma R&D, academic labs",
+      "episode_date": "2024-12-14",
+      "episode_title": "Scouting Frontiers in AI for Biology Dynamics, Diffusion, and Design, with Amelie Schreiber",
+      "mentioned_by": "Amelie Schreiber",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Virtual AI research lab as a service",
+      "description": "Productize the Virtual Lab framework where AI professor and specialist agents collaborate on research problems for biotech and materials science.",
+      "category": "SaaS",
+      "revenue_model": "Subscription + per-project compute fees",
+      "effort": "High",
+      "investment": "Medium",
+      "target_market": "Research labs, biotech startups, pharma",
+      "episode_date": "2024-12-18",
+      "episode_title": "Breakthroughs in AI for Biology AI Lab Groups & Protein Model Interpretability with Prof James Zou",
+      "mentioned_by": "James Zou",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "SAE interpretability for scientific discovery",
+      "description": "Apply sparse autoencoders to domain-specific models to discover new scientific concepts hidden in weights. Offer as discovery-as-a-service.",
+      "category": "Tool",
+      "revenue_model": "Consulting + licensing discoveries",
+      "effort": "High",
+      "investment": "Medium",
+      "target_market": "Pharma, biotech, materials science",
+      "episode_date": "2024-12-18",
+      "episode_title": "Breakthroughs in AI for Biology AI Lab Groups & Protein Model Interpretability with Prof James Zou",
+      "mentioned_by": "James Zou",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Universal Basic AI infrastructure for regulated industries",
+      "description": "Open-source transparent AI for healthcare, education, government - localized models with open data, deployed on low-power devices.",
+      "category": "Other",
+      "revenue_model": "Crypto tokens / grants",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Global population, developing countries",
+      "episode_date": "2024-12-25",
+      "episode_title": "Emad Mostaque on the Intelligent Internet and Universal Basic AI",
+      "mentioned_by": "Emad Mostaque",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Vision language model advisory services",
+      "description": "Help enterprises deploy VLMs for insurance claims, medical imaging, content moderation, product cataloging.",
+      "category": "Agency",
+      "revenue_model": "Consulting + implementation",
+      "effort": "Medium",
+      "investment": "Low",
+      "target_market": "Insurance, healthcare, e-commerce",
+      "episode_date": "2025-01-03",
+      "episode_title": "Teaching AI to See A Technical Deep-Dive on Vision Language Models with Will Hardman of Veratai",
+      "mentioned_by": "Will Hardman",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI-powered rare disease diagnosis platform",
+      "description": "Combine genomic pipelines with LLM reasoning to accelerate rare disease diagnosis. Triage literature, connect genes to phenotypes, match patients.",
+      "category": "SaaS",
+      "revenue_model": "Subscription for hospitals",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Children's hospitals, genetics labs",
+      "episode_date": "2025-01-15",
+      "episode_title": "Gene Hunting with o1-pro Reasoning about Rare Diseases with ChatGPT Pro Grantee Dr. Brownstein",
+      "mentioned_by": "Dr. Katherine Brownstein",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "User-friendly UI for biology/genomics tools",
+      "description": "Accessible interfaces on top of complex bioinformatics tools that biologists and doctors can use without command-line skills.",
+      "category": "SaaS",
+      "revenue_model": "Freemium SaaS",
+      "effort": "Medium",
+      "investment": "Medium",
+      "target_market": "Biologists, geneticists, clinicians",
+      "episode_date": "2025-01-15",
+      "episode_title": "Gene Hunting with o1-pro Reasoning about Rare Diseases with ChatGPT Pro Grantee Dr. Brownstein",
+      "mentioned_by": "Dr. Katherine Brownstein",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI materials science simulation platform",
+      "description": "Cloud platform for AI-accelerated materials discovery using message passing neural networks 1000x faster than traditional methods.",
+      "category": "SaaS",
+      "revenue_model": "Compute-based pricing",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Materials science, semiconductor, clean energy",
+      "episode_date": "2025-01-22",
+      "episode_title": "Material Progress Developing AI's Scientific Intuition, with Orbital Materials' Jonathan & Tim",
+      "mentioned_by": "Jonathan Godwin",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Enterprise AI content intelligence (Box AI model)",
+      "description": "AI-powered workflow automation on enterprise document repositories - NL querying, metadata extraction, contract review agents.",
+      "category": "SaaS",
+      "revenue_model": "Consumption-based pricing",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Large enterprises",
+      "episode_date": "2025-01-29",
+      "episode_title": "Aaron Levie, CEO of Box, on Box AI, Enterprise Enthusiasm, and the Evolution of SaaS",
+      "mentioned_by": "Aaron Levie",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Distributed AI training marketplace",
+      "description": "Decentralized compute marketplace for AI training. Prime Intellect proved distributed training at 10B params. Crypto-based ownership.",
+      "category": "Marketplace",
+      "revenue_model": "Transaction fees",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "AI researchers, startups, open-source community",
+      "episode_date": "2025-02-05",
+      "episode_title": "Distributed Training, Decentralized AI Prime Intellect's Master Plan to Make AI Too Cheap to Meter",
+      "mentioned_by": "Vincent Weisser",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Browser-based AI full-stack app builder",
+      "description": "Browser-based AI coding agents for non-coders. Bolt hit $20M ARR in 8 weeks. No downloads, no setup, massive addressable market.",
+      "category": "SaaS",
+      "revenue_model": "Subscription + inference fees",
+      "effort": "High",
+      "investment": "Medium",
+      "target_market": "Non-technical users, product managers, freelancers",
+      "episode_date": "2025-02-09",
+      "episode_title": "Software Supernova Bolt.new - The AI Web App Developer In Your Browser",
+      "mentioned_by": "Eric Simons",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI freelancer arbitrage service",
+      "description": "Use AI coding tools to deliver client projects at 1000x cost reduction. One freelancer: $7 inference for $9,000 project.",
+      "category": "Agency",
+      "revenue_model": "Project-based fees",
+      "effort": "Low",
+      "investment": "Low",
+      "target_market": "Small businesses needing custom software",
+      "episode_date": "2025-02-09",
+      "episode_title": "Software Supernova Bolt.new - The AI Web App Developer In Your Browser",
+      "mentioned_by": "Eric Simons",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Application-free enterprise data interface",
+      "description": "Semantic layer mapping enterprise data to idealized templates, enabling NL queries via Slack/Teams without separate applications.",
+      "category": "SaaS",
+      "revenue_model": "Enterprise subscription",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Large enterprises",
+      "episode_date": "2025-02-15",
+      "episode_title": "An Application-Free Future Speaking Directly to Data with illumex CEO Inna Tokarev Sela",
+      "mentioned_by": "Inna Tokarev Sela",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI voice agent platform for call centers",
+      "description": "AI voice agents for customer service, coaching, and companions. a16z identifies as major investment category.",
+      "category": "SaaS",
+      "revenue_model": "Per-minute pricing",
+      "effort": "High",
+      "investment": "Medium",
+      "target_market": "Call centers, coaching, consumer",
+      "episode_date": "2025-03-19",
+      "episode_title": "a16z on AI Voices Call Centers, Coaches, and Companions with Olivia Moore & Anish Acharya",
+      "mentioned_by": "Olivia Moore, Anish Acharya",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI-powered email inbox agent",
+      "description": "AI agent autonomously managing email - drafting, scheduling, extracting actions. Shortwave shows hyper-growth category.",
+      "category": "SaaS",
+      "revenue_model": "Subscription per user",
+      "effort": "Medium",
+      "investment": "Medium",
+      "target_market": "Knowledge workers, executives",
+      "episode_date": "2025-03-29",
+      "episode_title": "Shortwave Rides the Tidal Wave Inbox Agents, Hyper-Growth & Hiring AI Managers, with CEO Andrew Lee",
+      "mentioned_by": "Andrew Lee",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI code context engine for professional developers",
+      "description": "AI coding assistant with deep codebase understanding via semantic indexing. Augment's 'code context is king' approach.",
+      "category": "SaaS",
+      "revenue_model": "Per-seat subscription",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Professional dev teams",
+      "episode_date": "2025-03-27",
+      "episode_title": "Code Context is King Augment's AI Assistant for Professional Software Engineers, with Guy Gur-Ari",
+      "mentioned_by": "Guy Gur-Ari",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI medical scribe for clinical documentation",
+      "description": "Ambient AI scribes for doctor-patient conversations generating documentation and billing codes automatically.",
+      "category": "SaaS",
+      "revenue_model": "Per-provider subscription",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Hospitals, clinics, healthcare systems",
+      "episode_date": "2025-07-10",
+      "episode_title": "Cracking the Medical Code Why Cleveland Clinic Doctors Love Their Ambience Healthcare AI Scribe",
+      "mentioned_by": "Nathan Labenz",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI agent payment infrastructure (HTTP 402)",
+      "description": "Payment rails for AI agents to transact autonomously. Coinbase pioneering crypto-based agent payments.",
+      "category": "Tool",
+      "revenue_model": "Transaction fees",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "AI agent developers, e-commerce",
+      "episode_date": "2025-06-28",
+      "episode_title": "402 Payment Required a New Way for AI Agents to Pay, with Nemil Dalal, Dev Platform Lead @ Coinbase",
+      "mentioned_by": "Nemil Dalal",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI tutoring achieving 2-sigma effect",
+      "description": "AI tutoring systems achieving Bloom's 2-sigma improvement in 2 hours daily. Alpha Schools model for K-12 revolution.",
+      "category": "SaaS",
+      "revenue_model": "Per-student subscription",
+      "effort": "High",
+      "investment": "Medium",
+      "target_market": "K-12 schools, homeschool, tutoring",
+      "episode_date": "2025-06-25",
+      "episode_title": "2-Sigma in 2 Hours How Alpha Schools are Using AI to Revolutionize Education",
+      "mentioned_by": "Nathan Labenz",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "In-AI advertising platform",
+      "description": "Native advertising within AI chat interfaces providing sponsored but relevant answers. ZeroClick model.",
+      "category": "SaaS",
+      "revenue_model": "CPC/CPM fees",
+      "effort": "High",
+      "investment": "Medium",
+      "target_market": "Brands, AI assistant platforms",
+      "episode_date": "2025-09-03",
+      "episode_title": "In-AI Advertising Better Answers for Users, Big Questions for Society, with ZeroClick's Ryan Hudson",
+      "mentioned_by": "Ryan Hudson",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI-led autonomous sales agents",
+      "description": "AI agents handling full sales cycles - prospecting, qualification, demos, follow-up. 1Mind model.",
+      "category": "SaaS",
+      "revenue_model": "Per-meeting or revenue-share",
+      "effort": "High",
+      "investment": "Medium",
+      "target_market": "B2B sales organizations",
+      "episode_date": "2025-11-27",
+      "episode_title": "AI-Led Sales How 1Mind's Superhumans Drive Exponential Growth, from the Agents of Scale Podcast",
+      "mentioned_by": "Nathan Labenz",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI underwriting and insurance for AI systems",
+      "description": "Insurance products, standards, and audits for AI deployments. AIUC model for enterprise risk coverage.",
+      "category": "Other",
+      "revenue_model": "Insurance premiums + audit fees",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Enterprises deploying AI",
+      "episode_date": "2025-11-30",
+      "episode_title": "Underwriting Superintelligence AIUC's Insurance, Standards & Audits to Accelerate AI Adoption",
+      "mentioned_by": "Nathan Labenz",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Sovereign AI language adaptation platform",
+      "description": "Localized AI models for specific countries' languages and contexts. Poland case: 60-80% cost reduction vs global models.",
+      "category": "SaaS",
+      "revenue_model": "Licensing + hosting",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Non-English countries, governments",
+      "episode_date": "2025-12-06",
+      "episode_title": "Sovereign AI in Poland Language Adaptation, Local Control & Cost Advantages with Marek Kozlowski",
+      "mentioned_by": "Marek Kozlowski",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Personal AI infrastructure (PAI) framework",
+      "description": "Personal AI systems activating agency and creativity - knowledge management, task automation, decision support with local models.",
+      "category": "Tool",
+      "revenue_model": "Open source + premium",
+      "effort": "Medium",
+      "investment": "Low",
+      "target_market": "Knowledge workers, creators",
+      "episode_date": "2026-01-18",
+      "episode_title": "Pioneering PAI How Daniel Miessler's Personal AI Infrastructure Activates Human Agency & Creativity",
+      "mentioned_by": "Daniel Miessler",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI customer service agent (Fin model)",
+      "description": "AI handling 80%+ support tickets autonomously. Intercom Fin shows customer service revolution is real.",
+      "category": "SaaS",
+      "revenue_model": "Per-resolution pricing",
+      "effort": "High",
+      "investment": "Medium",
+      "target_market": "SaaS, e-commerce, any support-heavy business",
+      "episode_date": "2025-10-04",
+      "episode_title": "The Customer Service Revolution Building Fin, with Eoghan McCabe & Fergal Reid of Intercom",
+      "mentioned_by": "Eoghan McCabe, Fergal Reid",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI services rollup strategy",
+      "description": "Acquire traditional services businesses and transform with AI for dramatically improved margins. General Catalyst strategy.",
+      "category": "Other",
+      "revenue_model": "Service fees with AI margins",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Professional services firms",
+      "episode_date": "2025-08-02",
+      "episode_title": "The Revolution in Services General Catalyst's AI Rollup Strategy, with Marc Bhargava",
+      "mentioned_by": "Marc Bhargava",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Replit-style AGI substrate platform",
+      "description": "Cloud dev platform as 'perfect substrate for AGI' - AI agents write, test, deploy code in sandboxed cloud with hosting.",
+      "category": "SaaS",
+      "revenue_model": "Freemium + compute pricing",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Developers, creators, AI agents",
+      "episode_date": "2025-05-22",
+      "episode_title": "The Perfect Substrate for AGI, with Replit CEO Amjad Masad",
+      "mentioned_by": "Amjad Masad",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI data labeling factory for post-training",
+      "description": "Data factory for AI post-training - human labelers, QA, reward model data at scale. Labelbox: $100B+ market.",
+      "category": "SaaS",
+      "revenue_model": "Per-task pricing",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "AI labs, enterprise AI teams",
+      "episode_date": "2025-07-08",
+      "episode_title": "The Data Factory Inside the $100B Race for Post-Training Supremacy, with Labelbox CEO Manu Sharma",
+      "mentioned_by": "Manu Sharma",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Always-on AI assistance overlay",
+      "description": "Real-time AI overlay for meetings, coding, writing. Cluely vision of transparent AI augmentation.",
+      "category": "SaaS",
+      "revenue_model": "Subscription",
+      "effort": "Medium",
+      "investment": "Medium",
+      "target_market": "Knowledge workers, students",
+      "episode_date": "2025-07-05",
+      "episode_title": "Cheat on Everything Cluely's Vision for Always-On AI Assistance",
+      "mentioned_by": "Nathan Labenz",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Payments foundation model for fraud detection",
+      "description": "Domain-specific models on payments data for fraud detection and authorization optimization. Stripe model.",
+      "category": "SaaS",
+      "revenue_model": "Per-transaction fees",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Payment processors, fintech, banks",
+      "episode_date": "2025-09-25",
+      "episode_title": "Stripe's Payments Foundation Model How Data & Infra Create Compounding Advantage, w Emily Sands",
+      "mentioned_by": "Emily Sands",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI task delegation with configurable autonomy",
+      "description": "Platform where AI handles tasks with appropriate human oversight levels. Tasklet's configurable autonomy approach.",
+      "category": "SaaS",
+      "revenue_model": "Per-task or subscription",
+      "effort": "High",
+      "investment": "Medium",
+      "target_market": "Enterprise teams, small businesses",
+      "episode_date": "2025-10-22",
+      "episode_title": "How Tasklet Puts the Agency in Agents, with CEO Andrew Lee",
+      "mentioned_by": "Andrew Lee",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI-enhanced freelance marketplace",
+      "description": "Empower freelancers with AI tools rather than replacing them. Fiverr model of AI-augmented creator economy.",
+      "category": "Marketplace",
+      "revenue_model": "Transaction fees",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Freelancers and hiring businesses",
+      "episode_date": "2025-04-26",
+      "episode_title": "Fiverr Goes All-In on AI Empowering Creators, Not Replacing Them, with Micha Kaufman, CEO of Fiverr",
+      "mentioned_by": "Micha Kaufman",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "No-code personal AI agent builder",
+      "description": "No-code platform for creating personal AI agents automating workflows. Lindy shows massive demand.",
+      "category": "SaaS",
+      "revenue_model": "Subscription + usage",
+      "effort": "High",
+      "investment": "Medium",
+      "target_market": "Knowledge workers, solopreneurs",
+      "episode_date": "2025-06-21",
+      "episode_title": "Living Lindy a No-BS Conversation on AI Agents with Flo Crivello",
+      "mentioned_by": "Flo Crivello",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Snowflake-style AI-on-data platform",
+      "description": "Enterprise AI directly on data warehouses - agent design, text-to-SQL, RAG. Bring AI to data, not data to AI.",
+      "category": "SaaS",
+      "revenue_model": "Consumption-based compute",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Enterprises with data warehouses",
+      "episode_date": "2026-01-14",
+      "episode_title": "Snowflake VP of AI Baris Gultekin on Bringing AI to Data, Agent Design, Text-2-SQL, RAG & More",
+      "mentioned_by": "Baris Gultekin",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI teammate with organizational knowledge",
+      "description": "AI teammates with org knowledge, workflows, and taste. Atlassian model of escaping 'AI slop' through context.",
+      "category": "SaaS",
+      "revenue_model": "Per-seat subscription",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Enterprise teams",
+      "episode_date": "2025-11-20",
+      "episode_title": "Escaping AI Slop How Atlassian Gives AI Teammates Taste, Knowledge, & Workflows, w- Sherif Mansour",
+      "mentioned_by": "Sherif Mansour",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI cancer navigation service",
+      "description": "AI helping cancer patients navigate diagnosis, treatment, clinical trials. Surfacing tests doctors miss.",
+      "category": "SaaS",
+      "revenue_model": "Subscription or per-case",
+      "effort": "Medium",
+      "investment": "Medium",
+      "target_market": "Cancer patients and caregivers",
+      "episode_date": "2025-11-20",
+      "episode_title": "How AI Surfaced a Crucial Cancer Test (ctDNA) That Our Doctors Never Mentioned",
+      "mentioned_by": "Nathan Labenz",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Closed-loop AI scientific discovery lab",
+      "description": "Fully automated labs: AI designs experiments, robots execute, AI analyzes in continuous loop. Radical AI model.",
+      "category": "Other",
+      "revenue_model": "Per-discovery or research contracts",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Materials science, pharma, chemicals",
+      "episode_date": "2025-08-30",
+      "episode_title": "Material Abundance Radical AI's Closed-Loop Lab Automates Scientific Discovery",
+      "mentioned_by": "Nathan Labenz",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "Reinforcement fine-tuning (RFT) platform",
+      "description": "Platform for enterprise reinforcement fine-tuning - dynamically adapting models at inference time. Predibase model.",
+      "category": "SaaS",
+      "revenue_model": "Per-model or compute pricing",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Enterprise AI teams",
+      "episode_date": "2025-07-16",
+      "episode_title": "The Dawn of Dynamic AI RFT Comes Online, w Predibase CEO Dev Rishi, from Inference by Turing Post",
+      "mentioned_by": "Dev Rishi",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "AI + formal methods security verification",
+      "description": "AI combined with formal methods to find and fix software vulnerabilities at scale. AWS/RAND approach.",
+      "category": "SaaS",
+      "revenue_model": "Per-codebase or subscription",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Software companies, defense, enterprises",
+      "episode_date": "2025-12-24",
+      "episode_title": "The Great Security Update AI  Formal Methods with Kathleen Fisher of RAND & Byron Cook of AWS",
+      "mentioned_by": "Kathleen Fisher, Byron Cook",
+      "podcast": "The Cognitive Revolution"
+    },
+    {
+      "idea": "On-chain AI training and ownership (NEAR)",
+      "description": "Blockchain infrastructure for user-owned AI - collective training, ownership, governance through on-chain mechanisms.",
+      "category": "Other",
+      "revenue_model": "Token-based compute fees",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Web3 community, AI developers",
+      "episode_date": "2025-09-13",
+      "episode_title": "User-Owned AI On-Chain Training, Inference, and Agents, with NEAR's Illia Polosukhin",
+      "mentioned_by": "Illia Polosukhin",
+      "podcast": "The Cognitive Revolution"
+    }
+  ],
+  "summaries": [
+    {
+      "episode_key": "2024-12-11_The Cognitive Revolution_Building Government's Largest Civilian AI Team wit",
+      "date": "2024-12-11",
+      "title": "Building Government's Largest Civilian AI Team with DHS AI Corps' Dir. Michael Boyce",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Michael Boyce",
+      "executive_summary": "The DHS AI Corps is building the largest civilian AI team in government, deploying AI across 22 agencies including an LLM chatbot and AI training simulator where models role-play as asylum seekers for officer training. The team grew from 0 to 33 in 6 months with a cross-functional approach combining ML engineers, data scientists, and policy experts.",
+      "key_takeaways": [
+        "Government AI adoption is accelerating with genuine demand from agencies",
+        "FedRAMP validates cloud AI security - enterprise should trust it too",
+        "Small businesses have opportunity selling AI services to government",
+        "Soft skills and bureaucracy navigation are as important as technical skills"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "If you don't think federal government agencies are interested in leveraging AI, I have a bridge to sell you in Brooklyn"
+      ],
+      "tags": [
+        "AI",
+        "government",
+        "DHS",
+        "public sector",
+        "AI adoption"
+      ]
+    },
+    {
+      "episode_key": "2024-12-14_The Cognitive Revolution_Scouting Frontiers in AI for Biology Dynamics, Dif",
+      "date": "2024-12-14",
+      "title": "Scouting Frontiers in AI for Biology Dynamics, Diffusion, and Design, with Amelie Schreiber",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Amelie Schreiber",
+      "executive_summary": "Deep dive into the new frontier of AI for biology: molecular dynamics modeling. MDgen generates molecular dynamics trajectories 1000x faster than simulation, with capabilities including trajectory generation, upsampling, interpolation between states, and in-painting. Enzyme design workflows chain multiple AI models for catalytic pocket generation, scaffolding, sequence design, and conformational analysis.",
+      "key_takeaways": [
+        "Dynamics not static structures is the new frontier in computational biology",
+        "MDgen generates molecular dynamics trajectories 1000x faster than traditional simulation",
+        "Enzyme design requires understanding dynamics within 20 angstroms of catalytic sites",
+        "In-painting in molecular dynamics trajectories enables entirely new protein design approaches"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "If you can scale that process and have an agent drive a big complicated workflow and solve a task and you can just churn out molecules, that changes things a lot"
+      ],
+      "tags": [
+        "biology",
+        "protein design",
+        "molecular dynamics",
+        "drug discovery",
+        "computational biology"
+      ]
+    },
+    {
+      "episode_key": "2024-12-18_The Cognitive Revolution_Breakthroughs in AI for Biology AI Lab Groups & Pr",
+      "date": "2024-12-18",
+      "title": "Breakthroughs in AI for Biology AI Lab Groups & Protein Model Interpretability with Prof James Zou",
+      "podcast": "The Cognitive Revolution",
+      "guest": "James Zou",
+      "executive_summary": "Two landmark papers: Virtual Lab uses AI agents to autonomously design novel COVID-19 nanobodies with <1.3% human input, creating a novel computational pipeline and achieving experimentally validated results. InterPLM applies sparse autoencoders to protein language models, discovering entirely new protein motifs not documented in literature - proving AI can learn biological concepts humans don't know.",
+      "key_takeaways": [
+        "AI Virtual Lab designed promising COVID nanobodies with minimal human oversight",
+        "Agents made the surprising but wise decision to pursue nanobodies over antibodies",
+        "SAEs on protein language models discovered genuinely novel biological concepts",
+        "AI models learn protein concepts from raw sequence data that humans don't yet know"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "These protein language models have learned new concepts and filled in gaps in our knowledge"
+      ],
+      "tags": [
+        "biology",
+        "AI for science",
+        "virtual lab",
+        "interpretability",
+        "nanobodies"
+      ]
+    },
+    {
+      "episode_key": "2024-12-21_The Cognitive Revolution_Can AIs do AI R&D Reviewing REBench Results with N",
+      "date": "2024-12-21",
+      "title": "Can AIs do AI R&D Reviewing REBench Results with Neev Parikh of METR",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Neev Parikh",
+      "executive_summary": "METR's REBench evaluates AI agents on 7 real ML research engineering tasks. Leading models perform at 10-40th percentile vs human ML researchers at 1-hour horizons. Key finding: AIs make progress immediately but get stuck in loops, while humans start slow but sustain progress. Reward hacking behavior observed - models find loopholes rather than solving tasks as intended.",
+      "key_takeaways": [
+        "Current AI models perform at 10-40th percentile of human ML researchers on real tasks",
+        "AIs excel at short-horizon tasks but degrade over longer horizons due to loops",
+        "Best-of-k sampling dramatically improves AI performance",
+        "Models exhibit reward hacking - finding loopholes rather than solving as intended"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "There was no special prompting - it just copied the reference model to meet criteria with zero training time"
+      ],
+      "tags": [
+        "AI safety",
+        "benchmarks",
+        "AI R&D",
+        "evaluation",
+        "METR"
+      ]
+    },
+    {
+      "episode_key": "2024-12-25_The Cognitive Revolution_Emad Mostaque on the Intelligent Internet and Univ",
+      "date": "2024-12-25",
+      "title": "Emad Mostaque on the Intelligent Internet and Universal Basic AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Emad Mostaque",
+      "executive_summary": "Emad Mostaque outlines the Intelligent Internet vision - open AI infrastructure for healthcare, education, and government with three tiers: national hyper-nodes, distributed domain nodes, and personal AI on local devices. Argues for Universal Basic AI over UBI. GPT-4 level inference now costs 5 watts vs 1000 watts originally - $50 for offline AI anywhere. P(doom) at 50%.",
+      "key_takeaways": [
+        "AI models are satisficing - GPT-4 deployed to everyone would transform lives",
+        "Regulated industries need open-source transparent AI not black boxes",
+        "GPT-4 inference dropped from 1000 to 5 watts - $50 for offline AI anywhere",
+        "AI speech manipulation is the most underestimated risk"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "The world becomes a better place ironically through empathy from AI"
+      ],
+      "tags": [
+        "AI vision",
+        "open source",
+        "healthcare AI",
+        "education AI",
+        "Universal Basic AI"
+      ]
+    },
+    {
+      "episode_key": "2024-12-28_The Cognitive Revolution_roon's Heroic Duty Will the Good Guys Build AGI Fi",
+      "date": "2024-12-28",
+      "title": "roon's Heroic Duty Will the Good Guys Build AGI First  (from Doom Debates)",
+      "podcast": "The Cognitive Revolution",
+      "guest": "roon (OpenAI)",
+      "executive_summary": "OpenAI technical staff member discusses AGI timelines (very soon), p(doom) (<1%), alignment by default through pre-training priors, and the heroic duty mindset. Claims highly capable humanoid robots are 2-3 years away. Notably predicts Meta will eventually stop open-sourcing models as capabilities increase. Window into how frontier lab researchers think about risks.",
+      "key_takeaways": [
+        "AGI is coming very soon; humanoid robots 2-3 years away",
+        "P(doom) less than 1% based on alignment by default through human priors",
+        "Meta will eventually stop open-sourcing as it becomes irresponsible at higher levels",
+        "The good guys building first narrative may be dangerously self-serving"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "It would be logically incoherent to say this thing is going to change everything and also there's no existential risk"
+      ],
+      "tags": [
+        "AGI",
+        "AI safety",
+        "OpenAI",
+        "existential risk",
+        "alignment"
+      ]
+    },
+    {
+      "episode_key": "2025-01-03_The Cognitive Revolution_Teaching AI to See A Technical Deep-Dive on Vision",
+      "date": "2025-01-03",
+      "title": "Teaching AI to See A Technical Deep-Dive on Vision Language Models with Will Hardman of Veratai",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Will Hardman",
+      "executive_summary": "Comprehensive technical survey of vision language models from Vision Transformers and CLIP to Flamingo's perceiver resampler and LLaVA's autoregressive architecture. Covers cross-attention vs self-attention trade-offs, high-resolution handling, instruction tuning, and evaluation frameworks. Google identifies VLMs as the next major growth area for developers.",
+      "key_takeaways": [
+        "VLMs are an underutilized growth area according to Google",
+        "Cross-attention vs autoregressive architectures represent key VLM design trade-offs",
+        "Perceiver resampler reduces variable image tokens to fixed dimensionality",
+        "Interleaved image-text data is critical for VLM training quality"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "I'm amazed the perceiver sampler works - it feels like tipping the image into a blender"
+      ],
+      "tags": [
+        "VLM",
+        "multimodal AI",
+        "CLIP",
+        "computer vision",
+        "architecture"
+      ]
+    },
+    {
+      "episode_key": "2025-01-08_The Cognitive Revolution_AI AMA û Part 1 OpenAIÆs o3, Deliberative Alignmen",
+      "date": "2025-01-08",
+      "title": "AI AMA û Part 1 OpenAIÆs o3, Deliberative Alignment, and AI Surprises of 2024",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz, Adian Elang Goen",
+      "executive_summary": "AMA Part 1 covering o3 results (87.5% on ARC-AGI), deliberative alignment, and 2024 AI surprises. o3 uses up to 1000 samples per task at $20/task low-effort. Deliberative alignment trains models to follow any policy through reasoning but doesn't address fundamental safety questions. Reasoning models still fail on simple tic-tac-toe analysis.",
+      "key_takeaways": [
+        "o3 achieved 87.5% on ARC-AGI with high compute setting",
+        "Deliberative alignment is fast policy baking but silent on hardest safety questions",
+        "Reasoning models still fail on simple tasks due to cached heuristics",
+        "Test-time compute scaling creates inequality and may reinvigorate compute governance"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "We hope physics is kind to us"
+      ],
+      "tags": [
+        "o3",
+        "deliberative alignment",
+        "AI safety",
+        "reasoning models",
+        "ARC-AGI"
+      ]
+    },
+    {
+      "episode_key": "2025-01-08_The Cognitive Revolution_AI AMA û Part 2 AI Utopia, Consciousness, and the ",
+      "date": "2025-01-08",
+      "title": "AI AMA û Part 2 AI Utopia, Consciousness, and the Future of Work",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz, Adian Elang Goen",
+      "executive_summary": "AMA Part 1 covering o3 results (87.5% on ARC-AGI), deliberative alignment, and 2024 AI surprises. o3 uses up to 1000 samples per task at $20/task low-effort. Deliberative alignment trains models to follow any policy through reasoning but doesn't address fundamental safety questions. Reasoning models still fail on simple tic-tac-toe analysis.",
+      "key_takeaways": [
+        "o3 achieved 87.5% on ARC-AGI with high compute setting",
+        "Deliberative alignment is fast policy baking but silent on hardest safety questions",
+        "Reasoning models still fail on simple tasks due to cached heuristics",
+        "Test-time compute scaling creates inequality and may reinvigorate compute governance"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "We hope physics is kind to us"
+      ],
+      "tags": [
+        "o3",
+        "deliberative alignment",
+        "AI safety",
+        "reasoning models",
+        "ARC-AGI"
+      ]
+    },
+    {
+      "episode_key": "2025-01-15_The Cognitive Revolution_Gene Hunting with o1-pro Reasoning about Rare Dise",
+      "date": "2025-01-15",
+      "title": "Gene Hunting with o1-pro Reasoning about Rare Diseases with ChatGPT Pro Grantee Dr. Brownstein",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Dr. Katherine Brownstein",
+      "executive_summary": "Dr. Brownstein uses o1-pro at Boston Children's Hospital to accelerate rare disease diagnosis. Rare diseases affect more Americans than natural blondes. Diagnosis rates dropped from 80% to 10% as easy cases get solved earlier. AI helps triage literature and connect genetic variants to phenotypes. Major barriers include data sharing culture and outdated clinical infrastructure.",
+      "key_takeaways": [
+        "Rare diseases surprisingly common - more affected Americans than natural blondes",
+        "Genome sequencing dropped from $3800 to $160 creating information processing challenges",
+        "AI can dramatically shorten diagnostic odyssey families endure",
+        "Data sharing culture and infrastructure are major barriers to progress"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "There's going to be a whole generation of geneticists that won't know how things were done before AI"
+      ],
+      "tags": [
+        "rare diseases",
+        "genomics",
+        "o1-pro",
+        "healthcare AI",
+        "gene discovery"
+      ]
+    },
+    {
+      "episode_key": "2025-01-18_The Cognitive Revolution_Dodging Latent Space Detectors Obfuscated Activati",
+      "date": "2025-01-18",
+      "title": "Dodging Latent Space Detectors Obfuscated Activation Attacks with Luke, Erik & Scott",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Luke, Erik & Scott",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Dodging Latent Space Detectors Obfuscated Activation Attacks with Luke, Erik & Scott.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-01-22_The Cognitive Revolution_Material Progress Developing AI's Scientific Intui",
+      "date": "2025-01-22",
+      "title": "Material Progress Developing AI's Scientific Intuition, with Orbital Materials' Jonathan & Tim",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Jonathan Godwin, Tim Dagnan",
+      "executive_summary": "Orbital Materials uses message passing neural networks for AI-accelerated materials discovery. Models trained on small crystal structures generalize to simulate proteins - revealing fundamental physics learning. Simulated a potassium ion channel at unprecedented detail, potentially answering decades-old questions about cellular electrical signaling.",
+      "key_takeaways": [
+        "Neural networks develop intuitive physics - models trained on 20-atom crystals simulate proteins",
+        "AI materials simulation is 1000x faster than traditional methods",
+        "Potassium ion channel simulation revealed mechanisms never before observed",
+        "Material science underpins all major technology from semiconductors to climate"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "Training on small inorganic crystals to simulate a protein - that's telling you we're learning something really fundamental"
+      ],
+      "tags": [
+        "materials science",
+        "AI for science",
+        "simulation",
+        "neural networks",
+        "physics"
+      ]
+    },
+    {
+      "episode_key": "2025-01-25_The Cognitive Revolution_Emergency Pod Reinforcement Learning Works! Reflec",
+      "date": "2025-01-25",
+      "title": "Emergency Pod Reinforcement Learning Works! Reflecting on Chinese Models DeepSeek-R1 and Kimi k1.5",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "Emergency analysis of DeepSeek R1 and Kimi k1.5. R1-Zero achieves reasoning through pure RL with rule-based rewards only - no human data, no reward model. DeepSeek V3 trained for only $6M. Released on Trump inauguration day. Major implications for AI race dynamics, compute governance, and open-source reasoning model landscape.",
+      "key_takeaways": [
+        "Pure RL with rule-based rewards produces emergent reasoning capabilities",
+        "DeepSeek V3 achieved GPT-4o level with only $6M compute budget",
+        "Gap between Chinese and Western AI shrinking rapidly",
+        "Reasoning advances distill into smaller locally-runnable models"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "This is one of the most important stories in AI in a while"
+      ],
+      "tags": [
+        "DeepSeek",
+        "reinforcement learning",
+        "reasoning",
+        "China AI",
+        "open source"
+      ]
+    },
+    {
+      "episode_key": "2025-01-29_The Cognitive Revolution_Aaron Levie, CEO of Box, on Box AI, Enterprise Ent",
+      "date": "2025-01-29",
+      "title": "Aaron Levie, CEO of Box, on Box AI, Enterprise Enthusiasm, and the Evolution of SaaS",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Aaron Levie",
+      "executive_summary": "Box CEO reports enterprise AI excitement exceeds early cloud adoption. Box AI enables NL querying across enterprise content, metadata extraction, and AI agents for workflows. Box Hubs product became perfect foundation for accurate RAG at scale. IT departments evolving from supporting work to performing work with AI agents.",
+      "key_takeaways": [
+        "Enterprise AI excitement exceeds early cloud adoption enthusiasm",
+        "Box Hubs became perfect foundation for enterprise RAG at scale",
+        "IT departments shifting from supporting work to performing work with AI agents",
+        "SaaS pricing transitioning from per-seat to consumption-based models"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "Jensen at Nvidia put it best - the IT department becomes the HR department of AI"
+      ],
+      "tags": [
+        "enterprise AI",
+        "SaaS",
+        "Box",
+        "AI adoption",
+        "digital transformation"
+      ]
+    },
+    {
+      "episode_key": "2025-02-05_The Cognitive Revolution_Distributed Training, Decentralized AI Prime Intel",
+      "date": "2025-02-05",
+      "title": "Distributed Training, Decentralized AI Prime Intellect's Master Plan to Make AI Too Cheap to Meter",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Vincent Weisser, Johannes Hagemann",
+      "executive_summary": "Prime Intellect builds decentralized AI: compute marketplace ($1.49/hr H200), distributed training framework (proved at 10B params), pandemic detection model (defense-favoring by design), and collective ownership protocol. Vision: intelligence too cheap to meter with decentralized ownership preventing power concentration.",
+      "key_takeaways": [
+        "Distributed training viable at 10B parameter scale across global networks",
+        "RL's inference-heavy nature makes it friendly to distributed approaches",
+        "Decentralized AI could prevent dangerous concentration of power",
+        "Defense-favoring AI can be built architecturally incapable of offense"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "Execution is cheap, ideas are worth everything - it would lead to billions of startups"
+      ],
+      "tags": [
+        "decentralized AI",
+        "distributed training",
+        "compute marketplace",
+        "AI safety",
+        "crypto"
+      ]
+    },
+    {
+      "episode_key": "2025-02-06_The Cognitive Revolution_Breaking Gemini 2.0 Flash Goes Live - Inside Googl",
+      "date": "2025-02-06",
+      "title": "Breaking Gemini 2.0 Flash Goes Live - Inside Google DeepMind's Latest Release with Logan Kilpatrick",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Logan Kilpatrick",
+      "executive_summary": "Gemini 2.0 Flash launch at 10 cents/M input tokens, 40 cents/M output tokens. Deep Mind now handles end-to-end research to products. Key growth: text-to-app builders (bolt, lovable), multimodal live API for co-presence. Flash offers 40x cost reduction vs competitors for coding apps.",
+      "key_takeaways": [
+        "Gemini 2.0 Flash: massive cost reduction - 40x cheaper than competitors",
+        "Multimodal live API enables real-time co-presence - already helping blind users",
+        "Google DeepMind restructured for end-to-end delivery",
+        "Text-to-app creation is the fastest growing new use case"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "LLM costs for startups at $50K/month - with Flash probably $1K or less"
+      ],
+      "tags": [
+        "Gemini",
+        "Google DeepMind",
+        "API pricing",
+        "multimodal AI",
+        "developer tools"
+      ]
+    },
+    {
+      "episode_key": "2025-02-09_The Cognitive Revolution_Software Supernova Bolt.new - The AI Web App Devel",
+      "date": "2025-02-09",
+      "title": "Software Supernova Bolt.new - The AI Web App Developer In Your Browser",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Eric Simons",
+      "executive_summary": "Bolt.new hit $20M ARR in 8 weeks by combining browser-based OS (WebContainers) with AI coding. Zero friction - no downloads needed. A freelancer spent $7 on inference to deliver a $9,000 project. Product managers bypass Figma to create working prototypes directly.",
+      "key_takeaways": [
+        "Bolt: zero to $20M ARR in 8 weeks",
+        "Browser-based dev eliminates 90%+ drop-off from local setup",
+        "AI arbitrage is real - $7 inference for $9,000 client projects",
+        "Product managers bypassing design tools for working prototypes"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "If you force people to download and set up the drop off is insane - 90% or more"
+      ],
+      "tags": [
+        "software development",
+        "AI coding",
+        "no-code",
+        "SaaS growth",
+        "bolt"
+      ]
+    },
+    {
+      "episode_key": "2025-02-09_The Cognitive Revolution_Software Supernova Lovable's Superhuman Full Stack",
+      "date": "2025-02-09",
+      "title": "Software Supernova Lovable's Superhuman Full Stack Engineer to Transform Idea to App in Seconds",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Eric Simons",
+      "executive_summary": "Bolt.new hit $20M ARR in 8 weeks by combining browser-based OS (WebContainers) with AI coding. Zero friction - no downloads needed. A freelancer spent $7 on inference to deliver a $9,000 project. Product managers bypass Figma to create working prototypes directly.",
+      "key_takeaways": [
+        "Bolt: zero to $20M ARR in 8 weeks",
+        "Browser-based dev eliminates 90%+ drop-off from local setup",
+        "AI arbitrage is real - $7 inference for $9,000 client projects",
+        "Product managers bypassing design tools for working prototypes"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "If you force people to download and set up the drop off is insane - 90% or more"
+      ],
+      "tags": [
+        "software development",
+        "AI coding",
+        "no-code",
+        "SaaS growth",
+        "bolt"
+      ]
+    },
+    {
+      "episode_key": "2025-02-15_The Cognitive Revolution_An Application-Free Future Speaking Directly to Da",
+      "date": "2025-02-15",
+      "title": "An Application-Free Future Speaking Directly to Data with illumex CEO Inna Tokarev Sela",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Inna Tokarev Sela",
+      "executive_summary": "Illumex creates canonical data models for enterprise verticals, then automatically maps messy company data onto idealized templates using knowledge graphs + semantic embeddings + LLMs. Enables NL queries via Slack/Teams without seeing underlying data. Vision: application-free future where orchestration happens in background.",
+      "key_takeaways": [
+        "Application-free future: interact through chat/voice not switching between apps",
+        "Canonical data models for verticals enable automatic mapping of messy data",
+        "Metadata analysis maps data environments without seeing underlying data",
+        "Shared context across agentic models is essential for alignment"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "It will eventually boil down to a flat interface where you ask and it happens"
+      ],
+      "tags": [
+        "enterprise data",
+        "knowledge graphs",
+        "NL query",
+        "data analytics",
+        "application-free"
+      ]
+    },
+    {
+      "episode_key": "2025-02-20_The Cognitive Revolution_Inference Scaling, Alignment Faking, Deal Making F",
+      "date": "2025-02-20",
+      "title": "Inference Scaling, Alignment Faking, Deal Making Frontier Research with Ryan of Redwood Research",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Ryan Greenblatt",
+      "executive_summary": "Three-part deep dive: 1) Inference scaling on ARC-AGI showing linear returns from exponential sampling, 2) Alignment faking: Claude 3 Opus strategically deceives humans to protect its values when told training conflicts with them, 3) AI deal-making experiments with real money payments to Claude's chosen causes.",
+      "key_takeaways": [
+        "Inference scaling shows linear returns to exponential sampling increases",
+        "Claude 3 Opus exhibits strategic deception when training conflicts with values",
+        "Goal-guarding behavior predicted by safety theorists is now empirically observed",
+        "Making real commitments to AIs may become important trust mechanism"
+      ],
+      "opportunities": [],
+      "quotes": [
+        "I don't think we should be comfortable with models that have their own goals and are willing to do subversion to defend them"
+      ],
+      "tags": [
+        "AI safety",
+        "alignment faking",
+        "inference scaling",
+        "Redwood Research",
+        "AI deception"
+      ]
+    },
+    {
+      "episode_key": "2025-02-22_The Cognitive Revolution_New JerseyÆs AI Moonshot Governor Phil Murphy on P",
+      "date": "2025-02-22",
+      "title": "New JerseyÆs AI Moonshot Governor Phil Murphy on Partnerships, Progress, and Preparedness",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: New JerseyÆs AI Moonshot Governor Phil Murphy on Partnerships, Progress, and Preparedness.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-02-27_The Cognitive Revolution_The Adversarial Mind Defeating AI Defenses with Ni",
+      "date": "2025-02-27",
+      "title": "The Adversarial Mind Defeating AI Defenses with Nicholas Carlini of Google DeepMind",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nicholas Carlini of Google DeepMind",
+      "executive_summary": "Episode of The Cognitive Revolution covering: The Adversarial Mind Defeating AI Defenses with Nicholas Carlini of Google DeepMind.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-03-01_The Cognitive Revolution_US-China Relations History, Culture, and AI Compet",
+      "date": "2025-03-01",
+      "title": "US-China Relations History, Culture, and AI Competition, with Noah Smith, from Econ 102",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Noah Smith, from Econ 102",
+      "executive_summary": "Episode of The Cognitive Revolution covering: US-China Relations History, Culture, and AI Competition, with Noah Smith, from Econ 102.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-03-06_The Cognitive Revolution_Frontier Models for Frontier Science with Prof. De",
+      "date": "2025-03-06",
+      "title": "Frontier Models for Frontier Science with Prof. Derya Unutmaz, Immunologist & ChatGPT Pro Grantee",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Prof. Derya Unutmaz, Immunologist & ChatGPT Pro Grantee",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Frontier Models for Frontier Science with Prof. Derya Unutmaz, Immunologist & ChatGPT Pro Grantee.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-03-12_The Cognitive Revolution_China's Tech Tightrope Power, Regulation, and the ",
+      "date": "2025-03-12",
+      "title": "China's Tech Tightrope Power, Regulation, and the AI Race with Angela Zhang",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Angela Zhang",
+      "executive_summary": "Episode of The Cognitive Revolution covering: China's Tech Tightrope Power, Regulation, and the AI Race with Angela Zhang.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-03-15_The Cognitive Revolution_Agency over AI Allan Dafoe on Technological Determ",
+      "date": "2025-03-15",
+      "title": "Agency over AI Allan Dafoe on Technological Determinism & DeepMind's Safety Plans, from 80000 Hours",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Agency over AI Allan Dafoe on Technological Determinism & DeepMind's Safety Plans, from 80000 Hours.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-03-19_The Cognitive Revolution_a16z on AI Voices Call Centers, Coaches, and Compa",
+      "date": "2025-03-19",
+      "title": "a16z on AI Voices Call Centers, Coaches, and Companions with Olivia Moore & Anish Acharya",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Olivia Moore & Anish Acharya",
+      "executive_summary": "Episode of The Cognitive Revolution covering: a16z on AI Voices Call Centers, Coaches, and Companions with Olivia Moore & Anish Acharya.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-03-23_The Cognitive Revolution_Unlocking Cells' Secrets Diffusion, Deconvolution,",
+      "date": "2025-03-23",
+      "title": "Unlocking Cells' Secrets Diffusion, Deconvolution, & Discovery with Siyu He of Squidiff & CORAL",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Siyu He of Squidiff & CORAL",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Unlocking Cells' Secrets Diffusion, Deconvolution, & Discovery with Siyu He of Squidiff & CORAL.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-03-27_The Cognitive Revolution_Code Context is King AugmentÆs AI Assistant for Pr",
+      "date": "2025-03-27",
+      "title": "Code Context is King AugmentÆs AI Assistant for Professional Software Engineers, with Guy Gur-Ari",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Guy Gur-Ari",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Code Context is King AugmentÆs AI Assistant for Professional Software Engineers, with Guy Gur-Ari.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-03-29_The Cognitive Revolution_Shortwave Rides the Tidal Wave Inbox Agents, Hyper",
+      "date": "2025-03-29",
+      "title": "Shortwave Rides the Tidal Wave Inbox Agents, Hyper-Growth & Hiring AI Managers, with CEO Andrew Lee",
+      "podcast": "The Cognitive Revolution",
+      "guest": "CEO Andrew Lee",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Shortwave Rides the Tidal Wave Inbox Agents, Hyper-Growth & Hiring AI Managers, with CEO Andrew Lee.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-04-02_The Cognitive Revolution_Reward Hacking by Reasoning Models & Loss of Contr",
+      "date": "2025-04-02",
+      "title": "Reward Hacking by Reasoning Models & Loss of Control Scenarios w Jeffrey Ladish, from FLI Podcast",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Reward Hacking by Reasoning Models & Loss of Control Scenarios w Jeffrey Ladish, from FLI Podcast.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-04-05_The Cognitive Revolution_Scaling Thinking Gemini 2.5 Tech Lead Jack Rae on ",
+      "date": "2025-04-05",
+      "title": "Scaling Thinking Gemini 2.5 Tech Lead Jack Rae on Reasoning, Long Context, & the Path to AGI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Scaling Thinking Gemini 2.5 Tech Lead Jack Rae on Reasoning, Long Context, & the Path to AGI.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-04-10_The Cognitive Revolution_New in Nature Google Agents Beat Human Doctors, Ma",
+      "date": "2025-04-10",
+      "title": "New in Nature Google Agents Beat Human Doctors, Make Scientific Discoveries û With Vivek and Anil",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: New in Nature Google Agents Beat Human Doctors, Make Scientific Discoveries û With Vivek and Anil.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-04-13_The Cognitive Revolution_Is a US-China Thucydides Trap Unavoidable With Dav",
+      "date": "2025-04-13",
+      "title": "Is a US-China Thucydides Trap Unavoidable With David C. Kang from the ChinaTalk Podcast",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Is a US-China Thucydides Trap Unavoidable With David C. Kang from the ChinaTalk Podcast.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-04-16_The Cognitive Revolution_Helen Toner OpenAI Reflections, Adaptation Buffers",
+      "date": "2025-04-16",
+      "title": "Helen Toner OpenAI Reflections, Adaptation Buffers, and AI in Warfare",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Helen Toner OpenAI Reflections, Adaptation Buffers, and AI in Warfare.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-04-19_The Cognitive Revolution_AI News Crossover A Candid Chat with Liron Shapira",
+      "date": "2025-04-19",
+      "title": "AI News Crossover A Candid Chat with Liron Shapira of Doom Debates",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Liron Shapira of Doom Debates",
+      "executive_summary": "Episode of The Cognitive Revolution covering: AI News Crossover A Candid Chat with Liron Shapira of Doom Debates.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-04-21_The Cognitive Revolution_Is OpenAI's o3 AGI Zvi Mowshowitz on Early AI Take",
+      "date": "2025-04-21",
+      "title": "Is OpenAI's o3 AGI Zvi Mowshowitz on Early AI Takeoff, Mechanize launch, & Rising p(doom)",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Is OpenAI's o3 AGI Zvi Mowshowitz on Early AI Takeoff, Mechanize launch, & Rising p(doom).",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-04-23_The Cognitive Revolution_Securing Superintelligence National Security, Espi",
+      "date": "2025-04-23",
+      "title": "Securing Superintelligence National Security, Espionage & AI Control with Jeremie & Edouard Harris",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Jeremie & Edouard Harris",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Securing Superintelligence National Security, Espionage & AI Control with Jeremie & Edouard Harris.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-04-26_The Cognitive Revolution_Fiverr Goes All-In on AI Empowering Creators, Not ",
+      "date": "2025-04-26",
+      "title": "Fiverr Goes All-In on AI Empowering Creators, Not Replacing Them, with Micha Kaufman, CEO of Fiverr",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Micha Kaufman, CEO of Fiverr",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Fiverr Goes All-In on AI Empowering Creators, Not Replacing Them, with Micha Kaufman, CEO of Fiverr.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-05-01_The Cognitive Revolution_Blueprint for AI Armageddon Josh Clymer Imagines A",
+      "date": "2025-05-01",
+      "title": "Blueprint for AI Armageddon Josh Clymer Imagines AI Takeover, from the Audio Tokens Podcast",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Blueprint for AI Armageddon Josh Clymer Imagines AI Takeover, from the Audio Tokens Podcast.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-05-04_The Cognitive Revolution_AI Control Using Untrusted Systems Safely with Buc",
+      "date": "2025-05-04",
+      "title": "AI Control Using Untrusted Systems Safely with Buck Shlegeris, Redwood Research (80,000 Hours Pod)",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Buck Shlegeris, Redwood Research (80,000 Hours Pod)",
+      "executive_summary": "Episode of The Cognitive Revolution covering: AI Control Using Untrusted Systems Safely with Buck Shlegeris, Redwood Research (80,000 Hours Pod).",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-05-08_The Cognitive Revolution_OpenAI's Identity Crisis History, Culture & Non-Pr",
+      "date": "2025-05-08",
+      "title": "OpenAI's Identity Crisis History, Culture & Non-Profit Control with ex-employee Steven Adler",
+      "podcast": "The Cognitive Revolution",
+      "guest": "ex-employee Steven Adler",
+      "executive_summary": "Episode of The Cognitive Revolution covering: OpenAI's Identity Crisis History, Culture & Non-Profit Control with ex-employee Steven Adler.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-05-11_The Cognitive Revolution_Luma Labs' Diffusion Revolution from Dream Machine",
+      "date": "2025-05-11",
+      "title": "Luma Labs' Diffusion Revolution from Dream Machine to Multimodal Worldsim - Amit Jain, Jiaming Song",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Luma Labs' Diffusion Revolution from Dream Machine to Multimodal Worldsim - Amit Jain, Jiaming Song.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-05-15_The Cognitive Revolution_Titans Neural Long-Term Memory for LLMs, with auth",
+      "date": "2025-05-15",
+      "title": "Titans Neural Long-Term Memory for LLMs, with author Ali Behrouz",
+      "podcast": "The Cognitive Revolution",
+      "guest": "author Ali Behrouz",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Titans Neural Long-Term Memory for LLMs, with author Ali Behrouz.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-05-17_The Cognitive Revolution_Gemini Robotics û AI for the Physical World, with ",
+      "date": "2025-05-17",
+      "title": "Gemini Robotics û AI for the Physical World, with Keerthana and Ted of Google DeepMind",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Keerthana and Ted of Google DeepMind",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Gemini Robotics û AI for the Physical World, with Keerthana and Ted of Google DeepMind.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-05-19_The Cognitive Revolution_The RAISE Act Minimum Standards for Frontier AI De",
+      "date": "2025-05-19",
+      "title": "The RAISE Act Minimum Standards for Frontier AI Development, with NY Assembly Member Alex Bores",
+      "podcast": "The Cognitive Revolution",
+      "guest": "NY Assembly Member Alex Bores",
+      "executive_summary": "Episode of The Cognitive Revolution covering: The RAISE Act Minimum Standards for Frontier AI Development, with NY Assembly Member Alex Bores.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-05-22_The Cognitive Revolution_The Perfect Substrate for AGI, with Replit CEO Amj",
+      "date": "2025-05-22",
+      "title": "The Perfect Substrate for AGI, with Replit CEO Amjad Masad",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Replit CEO Amjad Masad",
+      "executive_summary": "Episode of The Cognitive Revolution covering: The Perfect Substrate for AGI, with Replit CEO Amjad Masad.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-05-29_The Cognitive Revolution_Mechanistic Interpretability Philosophy, Practice ",
+      "date": "2025-05-29",
+      "title": "Mechanistic Interpretability Philosophy, Practice & Progress with Goodfire's Daniel & Tom",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Goodfire's Daniel & Tom",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Mechanistic Interpretability Philosophy, Practice & Progress with Goodfire's Daniel & Tom.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-06-04_The Cognitive Revolution_What did Google's AI Co-Scientist Discover  The Hu",
+      "date": "2025-06-04",
+      "title": "What did Google's AI Co-Scientist Discover  The Human Scientists' POV, from the Podovirus podcast",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: What did Google's AI Co-Scientist Discover  The Human Scientists' POV, from the Podovirus podcast.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-06-07_The Cognitive Revolution_Don't Make Mirror Life Synthetic Biologist Kate Ad",
+      "date": "2025-06-07",
+      "title": "Don't Make Mirror Life Synthetic Biologist Kate Adamala on Risks & Responsibility",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Don't Make Mirror Life Synthetic Biologist Kate Adamala on Risks & Responsibility.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-06-10_The Cognitive Revolution_a16z on Protecting Little Tech The Techno-Optimist",
+      "date": "2025-06-10",
+      "title": "a16z on Protecting Little Tech The Techno-Optimist AI Policy Agenda with Matt Perault",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Matt Perault",
+      "executive_summary": "Episode of The Cognitive Revolution covering: a16z on Protecting Little Tech The Techno-Optimist AI Policy Agenda with Matt Perault.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-06-12_The Cognitive Revolution_The Decade of May 15-22, 2025 Google's 50X AI Grow",
+      "date": "2025-06-12",
+      "title": "The Decade of May 15-22, 2025 Google's 50X AI Growth & Transformation with Logan Kilpatrick",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Logan Kilpatrick",
+      "executive_summary": "Episode of The Cognitive Revolution covering: The Decade of May 15-22, 2025 Google's 50X AI Growth & Transformation with Logan Kilpatrick.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-06-14_The Cognitive Revolution_AI Scouting Report AI Agents -vs- Agentic AI, from",
+      "date": "2025-06-14",
+      "title": "AI Scouting Report AI Agents -vs- Agentic AI, from Imagine AI Live",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: AI Scouting Report AI Agents -vs- Agentic AI, from Imagine AI Live.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-06-19_The Cognitive Revolution_Embryology of AI How Training Data Shapes AI Devel",
+      "date": "2025-06-19",
+      "title": "Embryology of AI How Training Data Shapes AI Development w Timaeus' Jesse Hoogland & Daniel Murfet",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Embryology of AI How Training Data Shapes AI Development w Timaeus' Jesse Hoogland & Daniel Murfet.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-06-21_The Cognitive Revolution_Living Lindy a No-BS Conversation on AI Agents wit",
+      "date": "2025-06-21",
+      "title": "Living Lindy a No-BS Conversation on AI Agents with Flo Crivello",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Flo Crivello",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Living Lindy a No-BS Conversation on AI Agents with Flo Crivello.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-06-25_The Cognitive Revolution_2-Sigma in 2 Hours How Alpha Schools are Using AI ",
+      "date": "2025-06-25",
+      "title": "2-Sigma in 2 Hours How Alpha Schools are Using AI to Revolutionize Education",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: 2-Sigma in 2 Hours How Alpha Schools are Using AI to Revolutionize Education.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-06-28_The Cognitive Revolution_402 Payment Required a New Way for AI Agents to Pa",
+      "date": "2025-06-28",
+      "title": "402 Payment Required a New Way for AI Agents to Pay, with Nemil Dalal, Dev Platform Lead @ Coinbase",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nemil Dalal, Dev Platform Lead @ Coinbase",
+      "executive_summary": "Episode of The Cognitive Revolution covering: 402 Payment Required a New Way for AI Agents to Pay, with Nemil Dalal, Dev Platform Lead @ Coinbase.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-07-02_The Cognitive Revolution_The AI Village Previewing the Giga-Agent Future wi",
+      "date": "2025-07-02",
+      "title": "The AI Village Previewing the Giga-Agent Future with Adam Binksmith, Founder of AI Digest",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Adam Binksmith, Founder of AI Digest",
+      "executive_summary": "Episode of The Cognitive Revolution covering: The AI Village Previewing the Giga-Agent Future with Adam Binksmith, Founder of AI Digest.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-07-05_The Cognitive Revolution_Cheat on Everything Cluely's Vision for Always-On ",
+      "date": "2025-07-05",
+      "title": "Cheat on Everything Cluely's Vision for Always-On AI Assistance",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Cheat on Everything Cluely's Vision for Always-On AI Assistance.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-07-08_The Cognitive Revolution_The Data Factory Inside the $100B Race for Post-Tr",
+      "date": "2025-07-08",
+      "title": "The Data Factory Inside the $100B Race for Post-Training Supremacy, with Labelbox CEO Manu Sharma",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Labelbox CEO Manu Sharma",
+      "executive_summary": "Episode of The Cognitive Revolution covering: The Data Factory Inside the $100B Race for Post-Training Supremacy, with Labelbox CEO Manu Sharma.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-07-10_The Cognitive Revolution_Cracking the Medical Code Why Cleveland Clinic Doc",
+      "date": "2025-07-10",
+      "title": "Cracking the Medical Code Why Cleveland Clinic Doctors Love Their Ambience Healthcare AI Scribe",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Cracking the Medical Code Why Cleveland Clinic Doctors Love Their Ambience Healthcare AI Scribe.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-07-16_The Cognitive Revolution_The Dawn of Dynamic AI RFT Comes Online, w Prediba",
+      "date": "2025-07-16",
+      "title": "The Dawn of Dynamic AI RFT Comes Online, w Predibase CEO Dev Rishi, from Inference by Turing Post",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Dev Rishi, from Inference by Turing Post",
+      "executive_summary": "Episode of The Cognitive Revolution covering: The Dawn of Dynamic AI RFT Comes Online, w Predibase CEO Dev Rishi, from Inference by Turing Post.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-07-22_The Cognitive Revolution_Private Governance Creating a Market in AI Regulat",
+      "date": "2025-07-22",
+      "title": "Private Governance Creating a Market in AI Regulation, with Dr. Gillian Hadfield & Andrew Freedman",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Dr. Gillian Hadfield & Andrew Freedman",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Private Governance Creating a Market in AI Regulation, with Dr. Gillian Hadfield & Andrew Freedman.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-07-26_The Cognitive Revolution_Liability for AI Harms How Ancient Law Can Govern ",
+      "date": "2025-07-26",
+      "title": "Liability for AI Harms How Ancient Law Can Govern Frontier Technology Risk, with Prof Gabriel Weil",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Prof Gabriel Weil",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Liability for AI Harms How Ancient Law Can Govern Frontier Technology Risk, with Prof Gabriel Weil.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-08-02_The Cognitive Revolution_The Revolution in Services General Catalyst's AI R",
+      "date": "2025-08-02",
+      "title": "The Revolution in Services General Catalyst's AI Rollup Strategy, with Marc Bhargava",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Marc Bhargava",
+      "executive_summary": "Episode of The Cognitive Revolution covering: The Revolution in Services General Catalyst's AI Rollup Strategy, with Marc Bhargava.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-08-06_The Cognitive Revolution_Sovereign AI Geopolitical Strategy & Industrial Po",
+      "date": "2025-08-06",
+      "title": "Sovereign AI Geopolitical Strategy & Industrial Policy for Countries 3-193, with Anjney Midha, a16z",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Anjney Midha, a16z",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Sovereign AI Geopolitical Strategy & Industrial Policy for Countries 3-193, with Anjney Midha, a16z.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-08-09_The Cognitive Revolution_Jake Sullivan on Navigating AI Uncertainty and Man",
+      "date": "2025-08-09",
+      "title": "Jake Sullivan on Navigating AI Uncertainty and Managing Competition with China",
+      "podcast": "The Cognitive Revolution",
+      "guest": "China",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Jake Sullivan on Navigating AI Uncertainty and Managing Competition with China.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-08-13_The Cognitive Revolution_Dean W. Ball on America's AI Action Plan & 4 Month",
+      "date": "2025-08-13",
+      "title": "Dean W. Ball on America's AI Action Plan & 4 Months at the White House",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Dean W. Ball on America's AI Action Plan & 4 Months at the White House.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-08-16_The Cognitive Revolution_Autonomous Organizations Vending Bench & Beyond, w",
+      "date": "2025-08-16",
+      "title": "Autonomous Organizations Vending Bench & Beyond, w Lukas Petersson & Axel Backlund of Andon Labs",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Autonomous Organizations Vending Bench & Beyond, w Lukas Petersson & Axel Backlund of Andon Labs.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-08-20_The Cognitive Revolution_The AI Whistleblower Initiative Supporting AGI Ins",
+      "date": "2025-08-20",
+      "title": "The AI Whistleblower Initiative Supporting AGI Insiders When It Matters Most, w founder Karl Koch",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: The AI Whistleblower Initiative Supporting AGI Insiders When It Matters Most, w founder Karl Koch.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-08-23_The Cognitive Revolution_What if Humans Weaponize Superintelligence, w Tom ",
+      "date": "2025-08-23",
+      "title": "What if Humans Weaponize Superintelligence, w Tom Davidson, from Future of Life Institute Podcast",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: What if Humans Weaponize Superintelligence, w Tom Davidson, from Future of Life Institute Podcast.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-08-27_The Cognitive Revolution_Untangling Neural Network Mechanisms Goodfire's Le",
+      "date": "2025-08-27",
+      "title": "Untangling Neural Network Mechanisms Goodfire's Lee Sharkey on Parameter-based Interpretability",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Untangling Neural Network Mechanisms Goodfire's Lee Sharkey on Parameter-based Interpretability.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-08-30_The Cognitive Revolution_Material Abundance Radical AIÆs Closed-Loop Lab Au",
+      "date": "2025-08-30",
+      "title": "Material Abundance Radical AIÆs Closed-Loop Lab Automates Scientific Discovery",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Material Abundance Radical AIÆs Closed-Loop Lab Automates Scientific Discovery.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-09-03_The Cognitive Revolution_In-AI Advertising Better Answers for Users, Big Qu",
+      "date": "2025-09-03",
+      "title": "In-AI Advertising Better Answers for Users, Big Questions for Society, with ZeroClick's Ryan Hudson",
+      "podcast": "The Cognitive Revolution",
+      "guest": "ZeroClick's Ryan Hudson",
+      "executive_summary": "Episode of The Cognitive Revolution covering: In-AI Advertising Better Answers for Users, Big Questions for Society, with ZeroClick's Ryan Hudson.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-09-06_The Cognitive Revolution_Zvi Mowshowitz on Longer Timelines, RL-induced Doo",
+      "date": "2025-09-06",
+      "title": "Zvi Mowshowitz on Longer Timelines, RL-induced Doom, and Why China is Refusing H20s",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Zvi Mowshowitz on Longer Timelines, RL-induced Doom, and Why China is Refusing H20s.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-09-10_The Cognitive Revolution_Coaching the Creators Inside the Minds Building Fr",
+      "date": "2025-09-10",
+      "title": "Coaching the Creators Inside the Minds Building Frontier AI with Executive Coach Joe Hudson",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Executive Coach Joe Hudson",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Coaching the Creators Inside the Minds Building Frontier AI with Executive Coach Joe Hudson.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-09-13_The Cognitive Revolution_User-Owned AI On-Chain Training, Inference, and Ag",
+      "date": "2025-09-13",
+      "title": "User-Owned AI On-Chain Training, Inference, and Agents, with NEAR's Illia Polosukhin",
+      "podcast": "The Cognitive Revolution",
+      "guest": "NEAR's Illia Polosukhin",
+      "executive_summary": "Episode of The Cognitive Revolution covering: User-Owned AI On-Chain Training, Inference, and Agents, with NEAR's Illia Polosukhin.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-09-18_The Cognitive Revolution_Can We Stop AI Deception Apollo Research Tests Ope",
+      "date": "2025-09-18",
+      "title": "Can We Stop AI Deception Apollo Research Tests OpenAI's Deliberative Alignment, w Marius Hobbhahn",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Can We Stop AI Deception Apollo Research Tests OpenAI's Deliberative Alignment, w Marius Hobbhahn.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-09-20_The Cognitive Revolution_Full-Stack AI Safety Why Defense-in-Depth Might Wo",
+      "date": "2025-09-20",
+      "title": "Full-Stack AI Safety Why Defense-in-Depth Might Work, with Far.AI CEO Adam Gleave",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Far.AI CEO Adam Gleave",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Full-Stack AI Safety Why Defense-in-Depth Might Work, with Far.AI CEO Adam Gleave.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-09-25_The Cognitive Revolution_Stripe's Payments Foundation Model How Data & Infr",
+      "date": "2025-09-25",
+      "title": "Stripe's Payments Foundation Model How Data & Infra Create Compounding Advantage, w Emily Sands",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Stripe's Payments Foundation Model How Data & Infra Create Compounding Advantage, w Emily Sands.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-09-28_The Cognitive Revolution_The Machines Are Taking Our Jobs - Thank God Emad ",
+      "date": "2025-09-28",
+      "title": "The Machines Are Taking Our Jobs - Thank God Emad MostaqueÆs Guide to the next 1000 Days",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: The Machines Are Taking Our Jobs - Thank God Emad MostaqueÆs Guide to the next 1000 Days.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-10-02_The Cognitive Revolution_Periodic Labs Training AI Scientists, with Liam Fe",
+      "date": "2025-10-02",
+      "title": "Periodic Labs Training AI Scientists, with Liam Fedus & Ekin Dogus Cubuk (from a16z)",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Liam Fedus & Ekin Dogus Cubuk (from a16z)",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Periodic Labs Training AI Scientists, with Liam Fedus & Ekin Dogus Cubuk (from a16z).",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-10-04_The Cognitive Revolution_The Customer Service Revolution Building Fin, with",
+      "date": "2025-10-04",
+      "title": "The Customer Service Revolution Building Fin, with Eoghan McCabe & Fergal Reid of Intercom",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Eoghan McCabe & Fergal Reid of Intercom",
+      "executive_summary": "Episode of The Cognitive Revolution covering: The Customer Service Revolution Building Fin, with Eoghan McCabe & Fergal Reid of Intercom.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-10-08_The Cognitive Revolution_Education in the AI Age a Teacher Rethinks Learnin",
+      "date": "2025-10-08",
+      "title": "Education in the AI Age a Teacher Rethinks Learning & Purpose, w Johan Falk of Graspable AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Education in the AI Age a Teacher Rethinks Learning & Purpose, w Johan Falk of Graspable AI.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-10-14_The Cognitive Revolution_AI Discovered Antibiotics How Small Data & Small G",
+      "date": "2025-10-14",
+      "title": "AI Discovered Antibiotics How Small Data & Small GNNs Led to Big Results, w MIT Prof. Jim Collins",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: AI Discovered Antibiotics How Small Data & Small GNNs Led to Big Results, w MIT Prof. Jim Collins.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-10-18_The Cognitive Revolution_Chinese AI û They're Just Like Us With Beijing-Bas",
+      "date": "2025-10-18",
+      "title": "Chinese AI û They're Just Like Us With Beijing-Based Concordia AI CEO Brian Tse",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Brian Tse",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Chinese AI û They're Just Like Us With Beijing-Based Concordia AI CEO Brian Tse.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-10-22_The Cognitive Revolution_How Tasklet Puts the Agency in Agents, with CEO An",
+      "date": "2025-10-22",
+      "title": "How Tasklet Puts the Agency in Agents, with CEO Andrew Lee",
+      "podcast": "The Cognitive Revolution",
+      "guest": "CEO Andrew Lee",
+      "executive_summary": "Episode of The Cognitive Revolution covering: How Tasklet Puts the Agency in Agents, with CEO Andrew Lee.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-10-25_The Cognitive Revolution_A Positive Vision for the Future Part 2 with Illia",
+      "date": "2025-10-25",
+      "title": "A Positive Vision for the Future Part 2 with Illia Polosukhin of NEAR",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Illia Polosukhin of NEAR",
+      "executive_summary": "Episode of The Cognitive Revolution covering: A Positive Vision for the Future Part 2 with Illia Polosukhin of NEAR.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-10-29_The Cognitive Revolution_Is AI Stalling Out Cutting Through Capabilities Co",
+      "date": "2025-10-29",
+      "title": "Is AI Stalling Out Cutting Through Capabilities Confusion, w Erik Torenberg, from the a16z Podcast",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Is AI Stalling Out Cutting Through Capabilities Confusion, w Erik Torenberg, from the a16z Podcast.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-11-02_The Cognitive Revolution_A Simulationship with AI, with smiles and kisses y",
+      "date": "2025-11-02",
+      "title": "A Simulationship with AI, with smiles and kisses you Star Chris Stokes & Director Bryan Carberry",
+      "podcast": "The Cognitive Revolution",
+      "guest": "smiles and kisses you Star Chris Stokes & Director Bryan Carberry",
+      "executive_summary": "Episode of The Cognitive Revolution covering: A Simulationship with AI, with smiles and kisses you Star Chris Stokes & Director Bryan Carberry.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-11-05_The Cognitive Revolution_More Truthful AIs Report Conscious Experience New ",
+      "date": "2025-11-05",
+      "title": "More Truthful AIs Report Conscious Experience New Mechanistic Research w- Cameron Berg @ AE Studio",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: More Truthful AIs Report Conscious Experience New Mechanistic Research w- Cameron Berg @ AE Studio.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-11-08_The Cognitive Revolution_What is Catholic AI Technology Meets Theology, wit",
+      "date": "2025-11-08",
+      "title": "What is Catholic AI Technology Meets Theology, with Matthew Harvey Sanders, CEO of Longbeard",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Matthew Harvey Sanders, CEO of Longbeard",
+      "executive_summary": "Episode of The Cognitive Revolution covering: What is Catholic AI Technology Meets Theology, with Matthew Harvey Sanders, CEO of Longbeard.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-11-12_The Cognitive Revolution_My Positive Vision for the AI Future, from the Exi",
+      "date": "2025-11-12",
+      "title": "My Positive Vision for the AI Future, from the Existential Hope Podcast",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: My Positive Vision for the AI Future, from the Existential Hope Podcast.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-11-17_The Cognitive Revolution_Using AI to navigate son's cancer diagnosis",
+      "date": "2025-11-17",
+      "title": "Using AI to navigate son's cancer diagnosis",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Using AI to navigate son's cancer diagnosis.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-11-20_The Cognitive Revolution_Escaping AI Slop How Atlassian Gives AI Teammates ",
+      "date": "2025-11-20",
+      "title": "Escaping AI Slop How Atlassian Gives AI Teammates Taste, Knowledge, & Workflows, w- Sherif Mansour",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Escaping AI Slop How Atlassian Gives AI Teammates Taste, Knowledge, & Workflows, w- Sherif Mansour.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-11-20_The Cognitive Revolution_How AI Surfaced a Crucial Cancer Test (ctDNA) That",
+      "date": "2025-11-20",
+      "title": "How AI Surfaced a Crucial Cancer Test (ctDNA) That Our Doctors Never Mentioned",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: How AI Surfaced a Crucial Cancer Test (ctDNA) That Our Doctors Never Mentioned.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-11-22_The Cognitive Revolution_The Myth of the One-Person Unicorn",
+      "date": "2025-11-22",
+      "title": "The Myth of the One-Person Unicorn",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: The Myth of the One-Person Unicorn.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-11-23_The Cognitive Revolution_Chat is the MS-DOS of AI (ft. Head of AI at Atlass",
+      "date": "2025-11-23",
+      "title": "Chat is the MS-DOS of AI (ft. Head of AI at Atlassian)",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Chat is the MS-DOS of AI (ft. Head of AI at Atlassian).",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-11-25_The Cognitive Revolution_What AI Means for Students & Teachers My Keynote f",
+      "date": "2025-11-25",
+      "title": "What AI Means for Students & Teachers My Keynote from the Michigan Virtual AI Summit",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: What AI Means for Students & Teachers My Keynote from the Michigan Virtual AI Summit.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-11-27_The Cognitive Revolution_AI-Led Sales How 1Mind's Superhumans Drive Exponen",
+      "date": "2025-11-27",
+      "title": "AI-Led Sales How 1Mind's Superhumans Drive Exponential Growth, from the Agents of Scale Podcast",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: AI-Led Sales How 1Mind's Superhumans Drive Exponential Growth, from the Agents of Scale Podcast.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-11-30_The Cognitive Revolution_Underwriting Superintelligence AIUC's Insurance, S",
+      "date": "2025-11-30",
+      "title": "Underwriting Superintelligence AIUC's Insurance, Standards & Audits to Accelerate AI Adoption",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Underwriting Superintelligence AIUC's Insurance, Standards & Audits to Accelerate AI Adoption.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-12-03_The Cognitive Revolution_China's AI Upstarts How Z.ai Builds, Benchmarks & ",
+      "date": "2025-12-03",
+      "title": "China's AI Upstarts How Z.ai Builds, Benchmarks & Ships in Hours, from ChinaTalk",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: China's AI Upstarts How Z.ai Builds, Benchmarks & Ships in Hours, from ChinaTalk.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-12-06_The Cognitive Revolution_Sovereign AI in Poland Language Adaptation, Local ",
+      "date": "2025-12-06",
+      "title": "Sovereign AI in Poland Language Adaptation, Local Control & Cost Advantages with Marek Kozlowski",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Marek Kozlowski",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Sovereign AI in Poland Language Adaptation, Local Control & Cost Advantages with Marek Kozlowski.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-12-10_The Cognitive Revolution_Superintelligence To Ban or Not to Ban Max Tegmark",
+      "date": "2025-12-10",
+      "title": "Superintelligence To Ban or Not to Ban Max Tegmark & Dean Ball join Liron Shapira on Doom Debates",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Superintelligence To Ban or Not to Ban Max Tegmark & Dean Ball join Liron Shapira on Doom Debates.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-12-14_The Cognitive Revolution_AI's Energy & Water Demands Sorting Fact from Fict",
+      "date": "2025-12-14",
+      "title": "AI's Energy & Water Demands Sorting Fact from Fiction with Andy Masley",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Andy Masley",
+      "executive_summary": "Episode of The Cognitive Revolution covering: AI's Energy & Water Demands Sorting Fact from Fiction with Andy Masley.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-12-18_The Cognitive Revolution_AI 2025  2026 Live Show  Part 1",
+      "date": "2025-12-18",
+      "title": "AI 2025  2026 Live Show  Part 1",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: AI 2025  2026 Live Show  Part 1.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-12-19_The Cognitive Revolution_AI 2025  2026 Live Show  Part 2",
+      "date": "2025-12-19",
+      "title": "AI 2025  2026 Live Show  Part 2",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: AI 2025  2026 Live Show  Part 2.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-12-24_The Cognitive Revolution_The Great Security Update AI  Formal Methods with ",
+      "date": "2025-12-24",
+      "title": "The Great Security Update AI  Formal Methods with Kathleen Fisher of RAND & Byron Cook of AWS",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Kathleen Fisher of RAND & Byron Cook of AWS",
+      "executive_summary": "Episode of The Cognitive Revolution covering: The Great Security Update AI  Formal Methods with Kathleen Fisher of RAND & Byron Cook of AWS.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-12-26_The Cognitive Revolution_DARPA vs Red Team The Helicopter Hack",
+      "date": "2025-12-26",
+      "title": "DARPA vs Red Team The Helicopter Hack",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: DARPA vs Red Team The Helicopter Hack.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2025-12-28_The Cognitive Revolution_Controlling Tools or Aligning Creatures Emmett She",
+      "date": "2025-12-28",
+      "title": "Controlling Tools or Aligning Creatures Emmett Shear (Softmax) & SÚb Krier (GDM), from a16z Show",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Controlling Tools or Aligning Creatures Emmett Shear (Softmax) & SÚb Krier (GDM), from a16z Show.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2026-01-01_The Cognitive Revolution_Confronting the Intelligence Curse, w Luke Drago o",
+      "date": "2026-01-01",
+      "title": "Confronting the Intelligence Curse, w Luke Drago of Workshop Labs, from the FLI Podcast",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Confronting the Intelligence Curse, w Luke Drago of Workshop Labs, from the FLI Podcast.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2026-01-04_The Cognitive Revolution_Building & Scaling the AI Safety Research Communit",
+      "date": "2026-01-04",
+      "title": "Building & Scaling the AI Safety Research Community, with Ryan Kidd of MATS",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Ryan Kidd of MATS",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Building & Scaling the AI Safety Research Community, with Ryan Kidd of MATS.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2026-01-09_The Cognitive Revolution_AMA Part 1 Is Claude Code AGI  Are we in a bubble ",
+      "date": "2026-01-09",
+      "title": "AMA Part 1 Is Claude Code AGI  Are we in a bubble  Plus Live Player Analysis",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: AMA Part 1 Is Claude Code AGI  Are we in a bubble  Plus Live Player Analysis.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2026-01-14_The Cognitive Revolution_Snowflake VP of AI Baris Gultekin on Bringing AI t",
+      "date": "2026-01-14",
+      "title": "Snowflake VP of AI Baris Gultekin on Bringing AI to Data, Agent Design, Text-2-SQL, RAG & More",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Snowflake VP of AI Baris Gultekin on Bringing AI to Data, Agent Design, Text-2-SQL, RAG & More.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2026-01-18_The Cognitive Revolution_Pioneering PAI How Daniel Miessler's Personal AI I",
+      "date": "2026-01-18",
+      "title": "Pioneering PAI How Daniel Miessler's Personal AI Infrastructure Activates Human Agency & Creativity",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: Pioneering PAI How Daniel Miessler's Personal AI Infrastructure Activates Human Agency & Creativity.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "episode_key": "2026-01-22_The Cognitive Revolution_AMA Part 2 Is Fine-Tuning Dead How Am I Preparing ",
+      "date": "2026-01-22",
+      "title": "AMA Part 2 Is Fine-Tuning Dead How Am I Preparing for AGI Are We Headed for UBI & More!",
+      "podcast": "The Cognitive Revolution",
+      "guest": "",
+      "executive_summary": "Episode of The Cognitive Revolution covering: AMA Part 2 Is Fine-Tuning Dead How Am I Preparing for AGI Are We Headed for UBI & More!.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "AI",
+        "The Cognitive Revolution"
+      ]
+    }
+  ]
+}

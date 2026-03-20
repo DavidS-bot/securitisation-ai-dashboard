@@ -1,0 +1,3149 @@
+{
+  "ideas": [
+    {
+      "idea": "AI-powered answer engine for vertical search",
+      "description": "Build a conversational answer engine providing cited authoritative answers for specific verticals like legal, medical, or finance",
+      "category": "SaaS",
+      "revenue_model": "Subscription + API fees",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Knowledge workers, professionals",
+      "episode_date": "2023-04-25",
+      "episode_title": "No Priors Ep. 8  With Neeva's Sridhar Ramaswamy",
+      "mentioned_by": "Sridhar Ramaswamy",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Conversational search on publisher corpora",
+      "description": "White-label conversational search for publishers letting users ask natural language questions about site content",
+      "category": "SaaS",
+      "revenue_model": "B2B SaaS licensing",
+      "effort": "medium",
+      "investment": "low",
+      "target_market": "Publishers, media companies",
+      "episode_date": "2023-04-25",
+      "episode_title": "No Priors Ep. 8  With Neeva's Sridhar Ramaswamy",
+      "mentioned_by": "Sridhar Ramaswamy",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI-personalized advertising with synthetic media",
+      "description": "Generative AI creating hyper-personalized ads where brand ambassadors address consumers by name with customized multi-modal messages",
+      "category": "SaaS",
+      "revenue_model": "Per-impression or platform fees",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Ad agencies, brands, e-commerce",
+      "episode_date": "2023-04-25",
+      "episode_title": "No Priors Ep. 8  With Neeva's Sridhar Ramaswamy",
+      "mentioned_by": "Sridhar Ramaswamy",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Answer engine API for enterprise integration",
+      "description": "API-first answer engine for integration into products providing citation-based answers rather than search results",
+      "category": "SaaS",
+      "revenue_model": "API usage fees per query",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "SaaS companies, developers",
+      "episode_date": "2023-04-25",
+      "episode_title": "No Priors Ep. 9  With Perplexity AI's Aravind Srinivas",
+      "mentioned_by": "Aravind Srinivas",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI voice dubbing and localization platform",
+      "description": "AI-powered automatic voice dubbing enabling content creators to instantly localize content into multiple languages",
+      "category": "SaaS",
+      "revenue_model": "Per-minute processing + subscriptions",
+      "effort": "medium",
+      "investment": "low",
+      "target_market": "Content creators, streaming platforms",
+      "episode_date": "2023-04-27",
+      "episode_title": "No Priors Ep. 14  With Sarah Guo and Elad Gil",
+      "mentioned_by": "Sarah Guo",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI regulatory compliance automation",
+      "description": "LLMs converting code into regulator explanations, automating audit/tax/compliance documentation",
+      "category": "SaaS",
+      "revenue_model": "Enterprise SaaS subscriptions",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Financial institutions, regulated industries",
+      "episode_date": "2023-04-27",
+      "episode_title": "No Priors Ep. 14  With Sarah Guo and Elad Gil",
+      "mentioned_by": "Sarah Guo",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI-native PE buyout strategy",
+      "description": "Private equity using LLMs to radically decrease costs for people-heavy businesses enabling differential bidding",
+      "category": "Other",
+      "revenue_model": "PE returns",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Services companies",
+      "episode_date": "2023-04-27",
+      "episode_title": "No Priors Ep. 14  With Sarah Guo and Elad Gil",
+      "mentioned_by": "Elad Gil",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI creative tools suite for video production",
+      "description": "Integrated AI tools for video editing, rotoscoping, green screen, generative content reducing production time 80%+",
+      "category": "SaaS",
+      "revenue_model": "Freemium SaaS",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Filmmakers, VFX studios",
+      "episode_date": "2023-05-01",
+      "episode_title": "No Priors Ep. 2  With Runway ML's Cristobal Valenzuela",
+      "mentioned_by": "Cristobal Valenzuela",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Open source medical AI for developing nations",
+      "description": "Deploy open source medical AI on tablets in developing countries where doctor-to-patient ratios are extremely low",
+      "category": "Tool",
+      "revenue_model": "Government contracts + NGO funding",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Developing nations, global health orgs",
+      "episode_date": "2023-05-03",
+      "episode_title": "No Priors Ep. 3  With Stability AI's Emad Mostaque",
+      "mentioned_by": "Emad Mostaque",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Enterprise data search with LLM context",
+      "description": "Search combining traditional IR with LLM context understanding for natural language queries on enterprise data",
+      "category": "SaaS",
+      "revenue_model": "Enterprise SaaS",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Large enterprises",
+      "episode_date": "2023-05-04",
+      "episode_title": "No Priors Ep. 15  With Kelvin Guu",
+      "mentioned_by": "Kelvin Guu",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Autonomous drone delivery for healthcare",
+      "description": "Autonomous drone network for blood, vaccines, medications starting developing countries expanding to developed markets",
+      "category": "Other",
+      "revenue_model": "Per-delivery fees + contracts",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Healthcare systems, governments",
+      "episode_date": "2023-05-10",
+      "episode_title": "No Priors Ep. 4  With Zipline's Keller Rinaudo Cliffton",
+      "mentioned_by": "Keller Rinaudo Cliffton",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Personal AI companion platform",
+      "description": "Personal AI aligned to individual interests as supportive companion learning preferences and interacting with other AIs",
+      "category": "SaaS",
+      "revenue_model": "Freemium subscription",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Consumers",
+      "episode_date": "2023-05-11",
+      "episode_title": "No Priors Ep. 16  With Mustafa Suleyman",
+      "mentioned_by": "Mustafa Suleyman",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI medical question answering for clinical workflows",
+      "description": "Specialized medical AI integrating into clinical workflows as physician assistant for scan interpretation and decision support",
+      "category": "SaaS",
+      "revenue_model": "Enterprise SaaS",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Hospitals, health systems",
+      "episode_date": "2023-05-18",
+      "episode_title": "No Priors Ep. 17  With Karan Singhal",
+      "mentioned_by": "Karan Singhal",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "ML-driven drug target discovery platform",
+      "description": "Platform combining human genetic data with cellular experiments and ML to improve drug target-indication-patient matching",
+      "category": "SaaS",
+      "revenue_model": "Partnership deals + drug IP",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Pharma, biotech",
+      "episode_date": "2023-05-19",
+      "episode_title": "No Priors Ep. 6  With Daphne Koller from Insitro",
+      "mentioned_by": "Daphne Koller",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Enterprise co-pilot stack platform",
+      "description": "Full co-pilot stack with meta-prompts, RAG, safety filtering, plugins and orchestration for building AI assistants",
+      "category": "SaaS",
+      "revenue_model": "Platform fees + per-seat",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Enterprise software companies",
+      "episode_date": "2023-05-24",
+      "episode_title": "No Priors Ep. 18  With Kevin Scott, CTO of Microsoft",
+      "mentioned_by": "Kevin Scott",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Low-cost autonomous counter-drone defense",
+      "description": "Software-first counter-drone defense combining radars, cameras, jamming with rapid AI detection",
+      "category": "Other",
+      "revenue_model": "Defense contracts",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Military, defense agencies",
+      "episode_date": "2023-06-01",
+      "episode_title": "No Priors Ep. 19  With Anduril CEO Brian Schimpf",
+      "mentioned_by": "Brian Schimpf",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI-native ERP/CRM displacement platform",
+      "description": "Next-gen enterprise platform using AI to simplify integration reducing implementation from 6 months to days",
+      "category": "SaaS",
+      "revenue_model": "Enterprise SaaS",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Mid-market and enterprise",
+      "episode_date": "2023-06-08",
+      "episode_title": "No Priors Ep. 20  With Sarah Guo and Elad Gil",
+      "mentioned_by": "Elad Gil",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI SRE co-pilot with operational data",
+      "description": "AI combining LLMs with program state, metrics, logs and traces for precise root cause analysis",
+      "category": "SaaS",
+      "revenue_model": "Per-seat SaaS",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "DevOps, SRE teams",
+      "episode_date": "2023-06-15",
+      "episode_title": "No Priors Ep. 21  With Datadog CEO Olivier Pomel",
+      "mentioned_by": "Olivier Pomel",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI-native grocery commerce natural language",
+      "description": "Transform grocery from keyword search to natural language describing meals, budgets, dietary needs",
+      "category": "E-commerce",
+      "revenue_model": "Transaction fees + advertising",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Grocery shoppers, retailers",
+      "episode_date": "2023-06-22",
+      "episode_title": "No Priors Ep. 22  With Instacart CEO Fidji Simo",
+      "mentioned_by": "Fidji Simo",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Enterprise natural language data query",
+      "description": "Allow business users to query proprietary structured data using natural language beyond SQL and BI",
+      "category": "SaaS",
+      "revenue_model": "Consumption-based pricing",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Large enterprises",
+      "episode_date": "2023-06-29",
+      "episode_title": "No Priors Ep. 23  With Snowflake CEO Frank Slootman",
+      "mentioned_by": "Frank Slootman",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Multimodal AI content creation platform",
+      "description": "Unified platform generating across images, video, audio and 3D with multimodal prompts",
+      "category": "SaaS",
+      "revenue_model": "Freemium with pro tiers",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Content creators, marketing teams",
+      "episode_date": "2023-07-20",
+      "episode_title": "No Priors Ep. 24  With Devi Parikh from Meta",
+      "mentioned_by": "Devi Parikh",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Enterprise alert-to-solution platform",
+      "description": "Transform ops from surfacing alerts to surfacing staged solutions using LLMs with ontology grounding",
+      "category": "SaaS",
+      "revenue_model": "Enterprise SaaS",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Enterprise operations, healthcare",
+      "episode_date": "2023-07-27",
+      "episode_title": "No Priors Ep. 25  With Palantir CTO Shyam Sankar",
+      "mentioned_by": "Shyam Sankar",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "LLM evaluation and monitoring for production",
+      "description": "Tooling for LLM apps: stochastic unit testing, production trace monitoring, eval IDEs",
+      "category": "Tool",
+      "revenue_model": "Per-seat SaaS",
+      "effort": "medium",
+      "investment": "low",
+      "target_market": "ML engineers, AI developers",
+      "episode_date": "2023-08-03",
+      "episode_title": "No Priors Ep. 26  With W&B CEO Lukas Biewald",
+      "mentioned_by": "Lukas Biewald",
+      "podcast": "No Priors"
+    }
+  ],
+  "summaries": [
+    {
+      "episode_key": "2023-04-25 - No Priors Ep. 8  With NeevaÆs Sridhar Ramaswamy",
+      "date": "2023-04-25",
+      "title": "No Priors Ep. 8  With NeevaÆs Sridhar Ramaswamy",
+      "podcast": "No Priors",
+      "guest": "Sridhar Ramaswamy",
+      "executive_summary": "Sridhar Ramaswamy discusses building Neeva as a privacy-first search engine and the transformative potential of LLM-powered cited summaries. AI answers can cover 60-70% of queries. He predicts content consolidation as answer engines reshape information discovery.",
+      "key_takeaways": [
+        "AI cited summaries answer 60-70% of queries, changing search",
+        "Small specialized models handle most search tasks economically",
+        "Publisher-search relationships will change as answers replace links"
+      ],
+      "opportunities": [
+        "Vertical answer engine platforms",
+        "Conversational search for publishers"
+      ],
+      "quotes": [
+        "If you can provide a believable answer, people will always prefer that over links"
+      ],
+      "tags": [
+        "search",
+        "LLMs",
+        "advertising",
+        "privacy",
+        "content"
+      ]
+    },
+    {
+      "episode_key": "2023-04-25 - No Priors Ep. 9  With Perplexity AIÆs Aravind Srinivas and Denis Yarats",
+      "date": "2023-04-25",
+      "title": "No Priors Ep. 9  With Perplexity AIÆs Aravind Srinivas and Denis Yarats",
+      "podcast": "No Priors",
+      "guest": "Aravind Srinivas, Denis Yarats",
+      "executive_summary": "Perplexity AI co-founders discuss building the first conversational answer engine with citation-first accuracy. They emphasize rapid iteration culture and their vision for answer engines as a distinct market segment.",
+      "key_takeaways": [
+        "Citation-first approach ensures never saying anything uncitable",
+        "Speed of iteration is a startup's only real advantage",
+        "Answer engines will become their own market segment"
+      ],
+      "opportunities": [
+        "Answer engine API",
+        "Prosumer browser extension"
+      ],
+      "quotes": [
+        "Iteration speed is the only thing you can hope for"
+      ],
+      "tags": [
+        "search",
+        "answer-engines",
+        "citations",
+        "startups",
+        "iteration"
+      ]
+    },
+    {
+      "episode_key": "2023-04-27 - No Priors Ep. 14  With Sarah Guo and Elad Gil",
+      "date": "2023-04-27",
+      "title": "No Priors Ep. 14  With Sarah Guo and Elad Gil",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo, Elad Gil",
+      "executive_summary": "Hosts discuss open source models, AI regulation risks, autonomous agents, and investment areas. They argue this is fundamentally different from prior ML and identify voice dubbing, compliance automation, and AI-native PE as promising.",
+      "key_takeaways": [
+        "Open source will reach GPT-3.5 level within a year",
+        "Regulation risks following nuclear model that blocked innovation 50 years",
+        "Enterprise retrieval/personalization for LLMs is a major missing layer"
+      ],
+      "opportunities": [
+        "AI voice dubbing platform",
+        "Compliance automation tools"
+      ],
+      "quotes": [
+        "The future is here, it's just not equally distributed"
+      ],
+      "tags": [
+        "open-source",
+        "regulation",
+        "agents",
+        "investment",
+        "compliance"
+      ]
+    },
+    {
+      "episode_key": "2023-05-01 - No Priors Ep. 2  With Runway MLÆs Cristobal Valenzuela",
+      "date": "2023-05-01",
+      "title": "No Priors Ep. 2  With Runway MLÆs Cristobal Valenzuela",
+      "podcast": "No Priors",
+      "guest": "Cristobal Valenzuela",
+      "executive_summary": "Runway ML CEO discusses evolving from model directory to applied research company building AI creative tools for filmmakers. Human-in-the-loop design is crucial for creative domains where 80% accuracy suffices.",
+      "key_takeaways": [
+        "Models are not products - productionizing requires deployment understanding",
+        "80% accuracy is useful in creative domains unlike safety-critical",
+        "Multi-modal systems will transform creative workflows"
+      ],
+      "opportunities": [
+        "AI creative suite for video production",
+        "Accessible AI for non-technical creatives"
+      ],
+      "quotes": [
+        "We build systems that help you augment your creativity"
+      ],
+      "tags": [
+        "creative-tools",
+        "video",
+        "AI-art",
+        "multimodal",
+        "filmmaking"
+      ]
+    },
+    {
+      "episode_key": "2023-05-03 - No Priors Ep. 3  With Stability AIÆs Emad Mostaque",
+      "date": "2023-05-03",
+      "title": "No Priors Ep. 3  With Stability AIÆs Emad Mostaque",
+      "podcast": "No Priors",
+      "guest": "Emad Mostaque",
+      "executive_summary": "Stability AI CEO discusses democratizing AI through open source across images, language, audio, protein folding. Foundation models should be public infrastructure. Small model ensembles will outperform large monolithic ones.",
+      "key_takeaways": [
+        "Open source AI has broader compute access via national supercomputers",
+        "Small combined models can outperform single massive models",
+        "Visual communication becoming easy is comparable to printing press"
+      ],
+      "opportunities": [
+        "Open source medical AI for developing nations",
+        "AI education tablets for emerging markets"
+      ],
+      "quotes": [
+        "Small models will outperform large models through hive approach"
+      ],
+      "tags": [
+        "open-source",
+        "foundation-models",
+        "healthcare",
+        "education",
+        "democratization"
+      ]
+    },
+    {
+      "episode_key": "2023-05-04 - No Priors Ep. 15  With Kelvin Guu, Staff Research Scientist, Google Brain",
+      "date": "2023-05-04",
+      "title": "No Priors Ep. 15  With Kelvin Guu, Staff Research Scientist, Google Brain",
+      "podcast": "No Priors",
+      "guest": "Kelvin Guu",
+      "executive_summary": "Google Brain researcher discusses retrieval augmented models (REALM), instruction following evolution, and autonomous agents. Model surgery can edit factual knowledge. Contextually available AI assistants are the next frontier.",
+      "key_takeaways": [
+        "RAG is most compelling for modularity and enterprise customization",
+        "Model surgery edits facts while propagating related knowledge",
+        "Agents need instinct-like mechanisms beyond explicit reasoning"
+      ],
+      "opportunities": [
+        "Enterprise RAG platforms",
+        "Contextual browser AI assistants"
+      ],
+      "quotes": [
+        "The differentiating factor shifts to problem formulation and creativity"
+      ],
+      "tags": [
+        "RAG",
+        "retrieval",
+        "agents",
+        "memory",
+        "instruction-following"
+      ]
+    },
+    {
+      "episode_key": "2023-05-10 - No Priors Ep. 4  With ZiplineÆs Keller Rinaudo Cliffton",
+      "date": "2023-05-10",
+      "title": "No Priors Ep. 4  With ZiplineÆs Keller Rinaudo Cliffton",
+      "podcast": "No Priors",
+      "guest": "Keller Rinaudo Cliffton",
+      "executive_summary": "Zipline CEO describes building world's largest autonomous delivery system from Kickstarter robots to nationwide healthcare delivery in Rwanda. The drone is only 15% of complexity - operations make up the rest.",
+      "key_takeaways": [
+        "Drone is 15% of solution complexity - operations and logistics are 85%",
+        "Starting with healthcare made regulatory and economic dimensions easier",
+        "Acoustic detect-and-avoid using microphones solved 20-year aviation problem"
+      ],
+      "opportunities": [
+        "Autonomous drone delivery for healthcare",
+        "Teleportation combining telemedicine with instant delivery"
+      ],
+      "quotes": [
+        "Assume we are idiots because we are proven correct more often than not"
+      ],
+      "tags": [
+        "drones",
+        "healthcare",
+        "logistics",
+        "robotics",
+        "autonomous"
+      ]
+    },
+    {
+      "episode_key": "2023-05-11 - No Priors Ep. 16  With Mustafa Suleyman, Founder of DeepMind and Inflection",
+      "date": "2023-05-11",
+      "title": "No Priors Ep. 16  With Mustafa Suleyman, Founder of DeepMind and Inflection",
+      "podcast": "No Priors",
+      "guest": "Mustafa Suleyman",
+      "executive_summary": "DeepMind co-founder discusses founding Inflection and launching Pi personal AI. Billions of specialized AIs will exist. Conversation is the future interface. Personal AIs will act as interlocutors accessing other AIs for users.",
+      "key_takeaways": [
+        "Router between specialized models more important than any single large model",
+        "Every individual will have their own personal AI interlocutor",
+        "Conversation is the future interface replacing old search paradigms"
+      ],
+      "opportunities": [
+        "Personal AI companion platform",
+        "Dynamic personalized content replacing static websites"
+      ],
+      "quotes": [
+        "Google is already a conversation, just an appallingly painful one"
+      ],
+      "tags": [
+        "personal-AI",
+        "conversation",
+        "DeepMind",
+        "intelligence",
+        "platforms"
+      ]
+    },
+    {
+      "episode_key": "2023-05-18 - No Priors Ep. 17  With Karan Singhal",
+      "date": "2023-05-18",
+      "title": "No Priors Ep. 17  With Karan Singhal",
+      "podcast": "No Priors",
+      "guest": "Karan Singhal",
+      "executive_summary": "Google researcher discusses MedPaLM 2 and responsible generative AI in healthcare. Medical AI is ideal laboratory for safety research. As AI approaches physician-level performance, scalable oversight becomes critical.",
+      "key_takeaways": [
+        "Medical AI is ideal for safety research - stakes force oversight solutions",
+        "Instruction prompt tuning provides data-efficient medical alignment",
+        "Telling AI from physicians apart is becoming impossible at current performance"
+      ],
+      "opportunities": [
+        "AI radiology assistant",
+        "Medical literature synthesis for physicians"
+      ],
+      "quotes": [
+        "10% of internet searches are for health information"
+      ],
+      "tags": [
+        "medical-AI",
+        "safety",
+        "alignment",
+        "healthcare",
+        "evaluation"
+      ]
+    },
+    {
+      "episode_key": "2023-05-19 - No Priors Ep. 5  With HuggingfaceÆs Clem Delangue",
+      "date": "2023-05-19",
+      "title": "No Priors Ep. 5  With HuggingfaceÆs Clem Delangue",
+      "podcast": "No Priors",
+      "guest": "Clem Delangue",
+      "executive_summary": "Hugging Face CEO discusses pivot from chatbot to 250K-model platform. Every team member engages community authentically. Specialized smaller models often outperform general ones for specific use cases.",
+      "key_takeaways": [
+        "Every team member engages community - no dedicated community managers",
+        "30-40% effort on exploration prevents local optimum traps",
+        "Specialized models often more efficient and accurate for specific cases"
+      ],
+      "opportunities": [
+        "Full-stack ML companies for domains",
+        "AI infrastructure cost optimization"
+      ],
+      "quotes": [
+        "We never hired any community manager - it's part of every team member's work"
+      ],
+      "tags": [
+        "open-source",
+        "community",
+        "platform",
+        "models",
+        "developer-tools"
+      ]
+    },
+    {
+      "episode_key": "2023-05-19 - No Priors Ep. 6  With Daphne Koller from Insitro",
+      "date": "2023-05-19",
+      "title": "No Priors Ep. 6  With Daphne Koller from Insitro",
+      "podcast": "No Priors",
+      "guest": "Daphne Koller",
+      "executive_summary": "Insitro CEO applies ML to drug discovery targeting 95% failure rate. Combines human genetic data with in-vitro experiments. Biomarkers double clinical trial success rates. Bridging CS-biology cultures requires deliberate values.",
+      "key_takeaways": [
+        "95% drug failures from wrong target-indication-patient combinations",
+        "Drugs with biomarkers 2x more likely to succeed",
+        "Bridging CS and biology requires openness and mutual respect"
+      ],
+      "opportunities": [
+        "ML drug target identification platforms",
+        "AI biomarker discovery"
+      ],
+      "quotes": [
+        "ML is like computers - you'll use it everywhere"
+      ],
+      "tags": [
+        "drug-discovery",
+        "biotech",
+        "ML",
+        "biomarkers",
+        "genetics"
+      ]
+    },
+    {
+      "episode_key": "2023-05-24 - No Priors Ep. 18  With Kevin Scott, CTO of Microsoft",
+      "date": "2023-05-24",
+      "title": "No Priors Ep. 18  With Kevin Scott, CTO of Microsoft",
+      "podcast": "No Priors",
+      "guest": "Kevin Scott",
+      "executive_summary": "Microsoft CTO discusses AI strategy, OpenAI partnership, and co-pilot stack. Most interesting products go from impossible to hard, not easy. Describes full co-pilot stack architecture.",
+      "key_takeaways": [
+        "Most interesting AI products go from impossible to hard, not easy",
+        "Microsoft centralized GPU allocation away from peanut-buttering",
+        "Co-pilot stack includes meta-prompts, RAG, plugins, safety filtering"
+      ],
+      "opportunities": [
+        "Enterprise co-pilot platform",
+        "AI education at scale"
+      ],
+      "quotes": [
+        "Models aren't products - still need hard product work"
+      ],
+      "tags": [
+        "Microsoft",
+        "co-pilot",
+        "platform",
+        "enterprise",
+        "education"
+      ]
+    },
+    {
+      "episode_key": "2023-06-01 - No Priors Ep. 19  With Anduril CEO Brian Schimpf",
+      "date": "2023-06-01",
+      "title": "No Priors Ep. 19  With Anduril CEO Brian Schimpf",
+      "podcast": "No Priors",
+      "guest": "Brian Schimpf",
+      "executive_summary": "Anduril CEO discusses next-gen defense from counter-drones to autonomous submarines. US needs higher volumes of lower-cost autonomous systems. Ukraine validated the shift. Software-first enables rapid adversary adaptation.",
+      "key_takeaways": [
+        "US cannot out-build China on expensive platforms",
+        "Must control hardware and software for complete capabilities",
+        "Speed of adaptation to adversary is key differentiator"
+      ],
+      "opportunities": [
+        "Counter-drone defense systems",
+        "Autonomous underwater vehicles"
+      ],
+      "quotes": [
+        "We work on weapons, believe it's important, believe it can be done ethically"
+      ],
+      "tags": [
+        "defense",
+        "autonomous",
+        "drones",
+        "national-security",
+        "Ukraine"
+      ]
+    },
+    {
+      "episode_key": "2023-06-08 - No Priors Ep. 20  With Sarah Guo and Elad Gil",
+      "date": "2023-06-08",
+      "title": "No Priors Ep. 20  With Sarah Guo and Elad Gil",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo, Elad Gil",
+      "executive_summary": "Hosts discuss AI misconceptions: treating it as old ML, premature regulation, enterprise adoption gap. Identify AI-native ERP/CRM, code gen context windows, and automated financial recording as opportunities.",
+      "key_takeaways": [
+        "Enterprise adoption is one planning cycle in - real deployment 12-24 months away",
+        "Context windows expand but context fills them - efficient delivery remains key",
+        "AI creates first opening to displace entrenched ERP/CRM vendors"
+      ],
+      "opportunities": [
+        "AI-native ERP/CRM replacements",
+        "Automated financial transaction recording"
+      ],
+      "quotes": [
+        "It's been six months since most people realized this was important"
+      ],
+      "tags": [
+        "enterprise-AI",
+        "regulation",
+        "code-gen",
+        "context-windows",
+        "China"
+      ]
+    },
+    {
+      "episode_key": "2023-06-15 - No Priors Ep. 21  With Datadog Co-founderCEO Olivier Pomel",
+      "date": "2023-06-15",
+      "title": "No Priors Ep. 21  With Datadog Co-founderCEO Olivier Pomel",
+      "podcast": "No Priors",
+      "guest": "Olivier Pomel",
+      "executive_summary": "Datadog CEO discusses observability and AI impact on DevOps. 10x productive developers understand code 10x less, shifting value to debugging. LLMs plus program state give precise answers.",
+      "key_takeaways": [
+        "10x productivity means 10x less understanding - value shifts to debugging",
+        "LLMs plus program state far more precise than LLMs plus stack traces",
+        "Unified platforms work on forward problems while selling backward categories"
+      ],
+      "opportunities": [
+        "AI SRE co-pilot with operational data",
+        "LLM observability for AI stack"
+      ],
+      "quotes": [
+        "We might have liftoff soon, but do we need a second stage?"
+      ],
+      "tags": [
+        "observability",
+        "devops",
+        "LLM-ops",
+        "platform",
+        "debugging"
+      ]
+    },
+    {
+      "episode_key": "2023-06-22 - No Priors Ep. 22  With Instacart CEO Fidji Simo",
+      "date": "2023-06-22",
+      "title": "No Priors Ep. 22  With Instacart CEO Fidji Simo",
+      "podcast": "No Priors",
+      "guest": "Fidji Simo",
+      "executive_summary": "Instacart CEO discusses AI transformation from keyword search to natural language shopping. Dual centralized/federated AI adoption. Being AI-native means rethinking from ground up.",
+      "key_takeaways": [
+        "Ask what problems you always wanted to solve that can now be solved better",
+        "AI-native requires rethinking from ground up",
+        "Unique data combined with LLMs creates defensible experiences"
+      ],
+      "opportunities": [
+        "Natural language commerce platform",
+        "Smart cart bridging online/offline"
+      ],
+      "quotes": [
+        "Bizarre we forced humans to express commerce needs as keywords"
+      ],
+      "tags": [
+        "commerce",
+        "grocery",
+        "AI-native",
+        "natural-language",
+        "retail"
+      ]
+    },
+    {
+      "episode_key": "2023-06-29 - No Priors Ep. 23  With Snowflake's CEO Frank Slootman",
+      "date": "2023-06-29",
+      "title": "No Priors Ep. 23  With Snowflake's CEO Frank Slootman",
+      "podcast": "No Priors",
+      "guest": "Frank Slootman",
+      "executive_summary": "Three-time CEO discusses Snowflake's data cloud, natural language data access democratizing for all. Business-specific models on proprietary data more valuable than general LLMs.",
+      "key_takeaways": [
+        "Natural language is the last mile democratizing data access",
+        "Enterprise needs business-specific models on proprietary data",
+        "Continuously prune rather than do massive layoffs"
+      ],
+      "opportunities": [
+        "Natural language enterprise data query",
+        "Data-driven predictive healthcare"
+      ],
+      "quotes": [
+        "If you don't have organized data, you're training on a landfill"
+      ],
+      "tags": [
+        "data-cloud",
+        "enterprise",
+        "leadership",
+        "natural-language",
+        "pricing"
+      ]
+    },
+    {
+      "episode_key": "2023-07-20 - No Priors Ep. 24  With Devi Parikh from Meta",
+      "date": "2023-07-20",
+      "title": "No Priors Ep. 24  With Devi Parikh from Meta",
+      "podcast": "No Priors",
+      "guest": "Devi Parikh",
+      "executive_summary": "Meta research director discusses generative AI across images, video, audio and 3D. Video generation harder than expected. Multimodal prompts enable richer creative control than text alone.",
+      "key_takeaways": [
+        "Video generation harder than images due to dimensionality",
+        "Separating appearance from motion leverages image datasets",
+        "Multimodal prompts enable richer creative control"
+      ],
+      "opportunities": [
+        "Multimodal content creation platform",
+        "AI video editing for social media"
+      ],
+      "quotes": [
+        "Don't self-select - if you want something, go for it"
+      ],
+      "tags": [
+        "video-generation",
+        "multimodal",
+        "creative-AI",
+        "vision",
+        "social"
+      ]
+    },
+    {
+      "episode_key": "2023-07-27 - No Priors Ep. 25  With Palantir's CTO Shyam Sankar",
+      "date": "2023-07-27",
+      "title": "No Priors Ep. 25  With Palantir's CTO Shyam Sankar",
+      "podcast": "No Priors",
+      "guest": "Shyam Sankar",
+      "executive_summary": "Palantir CTO discusses AIP bringing LLMs to enterprise private data. LLMs are stochastic genies needing ontology grounding. Transform from alerts to solutions. Incremental automation beats ambitious agents.",
+      "key_takeaways": [
+        "LLMs are stochastic genies - treat as statistics not calculus",
+        "LLM output should be JSON manipulating app state, not chat",
+        "Ontologies are perfect grounding mechanism for enterprise LLMs"
+      ],
+      "opportunities": [
+        "Alert-to-solution platforms",
+        "LLM system integration"
+      ],
+      "quotes": [
+        "Chat is a massively limiting interface"
+      ],
+      "tags": [
+        "enterprise-AI",
+        "ontology",
+        "agents",
+        "defense",
+        "stochastic"
+      ]
+    },
+    {
+      "episode_key": "2023-08-03 - No Priors Ep. 26  With Weights & Biases CEO Lukas Biewald",
+      "date": "2023-08-03",
+      "title": "No Priors Ep. 26  With Weights & Biases CEO Lukas Biewald",
+      "podcast": "No Priors",
+      "guest": "Lukas Biewald",
+      "executive_summary": "W&B CEO discusses ML tools evolution and LLMs' existential threat/opportunity. More companies raised for LLM tools than have LLMs in production. Pharma quietly making massive ML investments.",
+      "key_takeaways": [
+        "More companies raised for LLM tools than have LLMs in production",
+        "Pharma hiring hundreds of ML people - investments under radar",
+        "Dev tools must be simple for ML researchers"
+      ],
+      "opportunities": [
+        "LLM eval/monitoring for production",
+        "AI precision agriculture"
+      ],
+      "quotes": [
+        "More companies raised as LLM tools than have LLMs in production"
+      ],
+      "tags": [
+        "ML-tools",
+        "developer-experience",
+        "pharma",
+        "LLM-ops",
+        "startups"
+      ]
+    },
+    {
+      "episode_key": "2023-08-10 - No Priors Ep. 27  With Sarah Guo & Elad Gil",
+      "date": "2023-08-10",
+      "title": "No Priors Ep. 27  With Sarah Guo & Elad Gil",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo & Elad Gil",
+      "executive_summary": "Episode with Sarah Guo & Elad Gil on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-08-17 - No Priors Ep. 28  With Khan AcademyÆs Creator Sal Khan (Japanese Version)",
+      "date": "2023-08-17",
+      "title": "No Priors Ep. 28  With Khan AcademyÆs Creator Sal Khan (Japanese Version)",
+      "podcast": "No Priors",
+      "guest": "Khan AcademyÆs Creator Sal Khan (Japanese Version)",
+      "executive_summary": "Episode with Khan AcademyÆs Creator Sal Khan (Japanese Version) on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-08-17 - No Priors Ep. 28  With Khan AcademyÆs Creator Sal Khan",
+      "date": "2023-08-17",
+      "title": "No Priors Ep. 28  With Khan AcademyÆs Creator Sal Khan",
+      "podcast": "No Priors",
+      "guest": "Khan AcademyÆs Creator Sal Khan",
+      "executive_summary": "Episode with Khan AcademyÆs Creator Sal Khan on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-08-24 - No Priors Ep. 29  With Inceptive CEO Jakob Uszkoreit",
+      "date": "2023-08-24",
+      "title": "No Priors Ep. 29  With Inceptive CEO Jakob Uszkoreit",
+      "podcast": "No Priors",
+      "guest": "Inceptive CEO Jakob Uszkoreit",
+      "executive_summary": "Episode with Inceptive CEO Jakob Uszkoreit on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-08-30 - No Priors Ep. 30  With Vercel CEO Guillermo Rauch",
+      "date": "2023-08-30",
+      "title": "No Priors Ep. 30  With Vercel CEO Guillermo Rauch",
+      "podcast": "No Priors",
+      "guest": "Vercel CEO Guillermo Rauch",
+      "executive_summary": "Episode with Vercel CEO Guillermo Rauch on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-09-07 - No Priors Ep. 31  With Cerebras CEO Andrew Feldman",
+      "date": "2023-09-07",
+      "title": "No Priors Ep. 31  With Cerebras CEO Andrew Feldman",
+      "podcast": "No Priors",
+      "guest": "Cerebras CEO Andrew Feldman",
+      "executive_summary": "Episode with Cerebras CEO Andrew Feldman on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-09-14 - No Priors Ep. 32  With NEARÆs Illia Polosukhin",
+      "date": "2023-09-14",
+      "title": "No Priors Ep. 32  With NEARÆs Illia Polosukhin",
+      "podcast": "No Priors",
+      "guest": "NEARÆs Illia Polosukhin",
+      "executive_summary": "Episode with NEARÆs Illia Polosukhin on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-09-21 - No Priors Ep. 33  With Replit's CEO & Co-Founder Amjad Masad",
+      "date": "2023-09-21",
+      "title": "No Priors Ep. 33  With Replit's CEO & Co-Founder Amjad Masad",
+      "podcast": "No Priors",
+      "guest": "Replit's CEO & Co-Founder Amjad Masad",
+      "executive_summary": "Episode with Replit's CEO & Co-Founder Amjad Masad on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-09-28 - No Priors Ep. 34  With Ginkgo Bioworks Co-Founder and CEO Jason Kelly",
+      "date": "2023-09-28",
+      "title": "No Priors Ep. 34  With Ginkgo Bioworks Co-Founder and CEO Jason Kelly",
+      "podcast": "No Priors",
+      "guest": "Ginkgo Bioworks Co-Founder and CEO Jason Kelly",
+      "executive_summary": "Episode with Ginkgo Bioworks Co-Founder and CEO Jason Kelly on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-10-05 - No Priors Ep. 35  With Sarah Guo and Elad Gil",
+      "date": "2023-10-05",
+      "title": "No Priors Ep. 35  With Sarah Guo and Elad Gil",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo and Elad Gil",
+      "executive_summary": "Episode with Sarah Guo and Elad Gil on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-10-12 - No Priors Ep. 36  With Hubspot's Co-Founder Brian Halligan",
+      "date": "2023-10-12",
+      "title": "No Priors Ep. 36  With Hubspot's Co-Founder Brian Halligan",
+      "podcast": "No Priors",
+      "guest": "Hubspot's Co-Founder Brian Halligan",
+      "executive_summary": "Episode with Hubspot's Co-Founder Brian Halligan on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-10-19 - No Priors Ep. 37  With Kawal Gandhi",
+      "date": "2023-10-19",
+      "title": "No Priors Ep. 37  With Kawal Gandhi",
+      "podcast": "No Priors",
+      "guest": "Kawal Gandhi",
+      "executive_summary": "Episode with Kawal Gandhi on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-10-26 - No Priors Ep. 38  With Material Security Co-Founder Ryan Noon",
+      "date": "2023-10-26",
+      "title": "No Priors Ep. 38  With Material Security Co-Founder Ryan Noon",
+      "podcast": "No Priors",
+      "guest": "Material Security Co-Founder Ryan Noon",
+      "executive_summary": "Episode with Material Security Co-Founder Ryan Noon on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-11-02 - No Priors Ep. 39  With OpenAI Co-Founder & Chief Scientist Ilya Sutskever",
+      "date": "2023-11-02",
+      "title": "No Priors Ep. 39  With OpenAI Co-Founder & Chief Scientist Ilya Sutskever",
+      "podcast": "No Priors",
+      "guest": "OpenAI Co-Founder & Chief Scientist Ilya Sutskever",
+      "executive_summary": "Episode with OpenAI Co-Founder & Chief Scientist Ilya Sutskever on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-11-09 - No Priors Ep. 40  With Arthur Mensch, CEO Mistral AI",
+      "date": "2023-11-09",
+      "title": "No Priors Ep. 40  With Arthur Mensch, CEO Mistral AI",
+      "podcast": "No Priors",
+      "guest": "Arthur Mensch, CEO Mistral AI",
+      "executive_summary": "Episode with Arthur Mensch, CEO Mistral AI on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-11-16 - No Priors Ep. 41  With Imbue Co-Founders Kanjun Qiu and Josh Albrecht",
+      "date": "2023-11-16",
+      "title": "No Priors Ep. 41  With Imbue Co-Founders Kanjun Qiu and Josh Albrecht",
+      "podcast": "No Priors",
+      "guest": "Imbue Co-Founders Kanjun Qiu and Josh Albrecht",
+      "executive_summary": "Episode with Imbue Co-Founders Kanjun Qiu and Josh Albrecht on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-11-30 - No Priors Ep. 42  With Sarah Guo and Elad Gil",
+      "date": "2023-11-30",
+      "title": "No Priors Ep. 42  With Sarah Guo and Elad Gil",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo and Elad Gil",
+      "executive_summary": "Episode with Sarah Guo and Elad Gil on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-12-07 - No Priors Ep. 43  With Clara Shih, CEO of Salesforce AI",
+      "date": "2023-12-07",
+      "title": "No Priors Ep. 43  With Clara Shih, CEO of Salesforce AI",
+      "podcast": "No Priors",
+      "guest": "Clara Shih, CEO of Salesforce AI",
+      "executive_summary": "Episode with Clara Shih, CEO of Salesforce AI on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-12-14 - No Priors Ep. 44  With Former Square CEO Alyssa Henry",
+      "date": "2023-12-14",
+      "title": "No Priors Ep. 44  With Former Square CEO Alyssa Henry",
+      "podcast": "No Priors",
+      "guest": "Former Square CEO Alyssa Henry",
+      "executive_summary": "Episode with Former Square CEO Alyssa Henry on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2023-12-21 - No Priors Ep. 45  With Reid Hoffman",
+      "date": "2023-12-21",
+      "title": "No Priors Ep. 45  With Reid Hoffman",
+      "podcast": "No Priors",
+      "guest": "Reid Hoffman",
+      "executive_summary": "Episode with Reid Hoffman on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-01-11 - No Priors Ep. 46  Best of 2023 with Sarah Guo and Elad Gil",
+      "date": "2024-01-11",
+      "title": "No Priors Ep. 46  Best of 2023 with Sarah Guo and Elad Gil",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo, Elad Gil",
+      "executive_summary": "Episode with Sarah Guo, Elad Gil on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-01-18 - No Priors Ep. 47  With Sourcegraph CTO Beyang Liu",
+      "date": "2024-01-18",
+      "title": "No Priors Ep. 47  With Sourcegraph CTO Beyang Liu",
+      "podcast": "No Priors",
+      "guest": "Sourcegraph CTO Beyang Liu",
+      "executive_summary": "Episode with Sourcegraph CTO Beyang Liu on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-01-24 - No Priors Ep. 48  With Covariant CEO Peter Chen",
+      "date": "2024-01-24",
+      "title": "No Priors Ep. 48  With Covariant CEO Peter Chen",
+      "podcast": "No Priors",
+      "guest": "Covariant CEO Peter Chen",
+      "executive_summary": "Episode with Covariant CEO Peter Chen on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-01-31 - No Priors Ep. 49 | With Shopify VP of Core Product Glen Coates",
+      "date": "2024-01-31",
+      "title": "No Priors Ep. 49 | With Shopify VP of Core Product Glen Coates",
+      "podcast": "No Priors",
+      "guest": "Shopify VP of Core Product Glen Coates",
+      "executive_summary": "Episode with Shopify VP of Core Product Glen Coates on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-02-08 - No Priors Ep. 50  With Stripe Head of Information Emily Glassberg Sands",
+      "date": "2024-02-08",
+      "title": "No Priors Ep. 50  With Stripe Head of Information Emily Glassberg Sands",
+      "podcast": "No Priors",
+      "guest": "Stripe Head of Information Emily Glassberg Sands",
+      "executive_summary": "Episode with Stripe Head of Information Emily Glassberg Sands on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-02-15 - No Priors Ep. 51  With Notion CEO Ivan Zhao",
+      "date": "2024-02-15",
+      "title": "No Priors Ep. 51  With Notion CEO Ivan Zhao",
+      "podcast": "No Priors",
+      "guest": "Notion CEO Ivan Zhao",
+      "executive_summary": "Episode with Notion CEO Ivan Zhao on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-02-22 - No Priors Ep. 52  With Pinecone CEO Edo Liberty",
+      "date": "2024-02-22",
+      "title": "No Priors Ep. 52  With Pinecone CEO Edo Liberty",
+      "podcast": "No Priors",
+      "guest": "Pinecone CEO Edo Liberty",
+      "executive_summary": "Episode with Pinecone CEO Edo Liberty on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-02-29 - No Priors Ep. 53  With AMD CTO Mark Papermaster",
+      "date": "2024-02-29",
+      "title": "No Priors Ep. 53  With AMD CTO Mark Papermaster",
+      "podcast": "No Priors",
+      "guest": "AMD CTO Mark Papermaster",
+      "executive_summary": "Episode with AMD CTO Mark Papermaster on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-03-07 - No Priors Ep. 54  With Sarah Guo & Elad Gil",
+      "date": "2024-03-07",
+      "title": "No Priors Ep. 54  With Sarah Guo & Elad Gil",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo & Elad Gil",
+      "executive_summary": "Episode with Sarah Guo & Elad Gil on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-03-14 - No Priors Ep. 55  With Figma CEO Dylan Field",
+      "date": "2024-03-14",
+      "title": "No Priors Ep. 55  With Figma CEO Dylan Field",
+      "podcast": "No Priors",
+      "guest": "Figma CEO Dylan Field",
+      "executive_summary": "Episode with Figma CEO Dylan Field on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-03-21 - No Priors Ep 56  With Baseten CEO and Co-Founder Tuhin Srivastava",
+      "date": "2024-03-21",
+      "title": "No Priors Ep 56  With Baseten CEO and Co-Founder Tuhin Srivastava",
+      "podcast": "No Priors",
+      "guest": "Baseten CEO and Co-Founder Tuhin Srivastava",
+      "executive_summary": "Episode with Baseten CEO and Co-Founder Tuhin Srivastava on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-03-28 - No Priors Ep. 57  With LangChain CEO and Co-Founder Harrison Chase",
+      "date": "2024-03-28",
+      "title": "No Priors Ep. 57  With LangChain CEO and Co-Founder Harrison Chase",
+      "podcast": "No Priors",
+      "guest": "LangChain CEO and Co-Founder Harrison Chase",
+      "executive_summary": "Episode with LangChain CEO and Co-Founder Harrison Chase on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-04-04 - No Priors Ep. 58  The argument for humanoid robots with Brett Adcock from Figure",
+      "date": "2024-04-04",
+      "title": "No Priors Ep. 58  The argument for humanoid robots with Brett Adcock from Figure",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo, Elad Gil",
+      "executive_summary": "Episode with Sarah Guo, Elad Gil on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-04-11 - No Priors Ep. 59 | With Sarah Guo & Elad Gil",
+      "date": "2024-04-11",
+      "title": "No Priors Ep. 59 | With Sarah Guo & Elad Gil",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo & Elad Gil",
+      "executive_summary": "Episode with Sarah Guo & Elad Gil on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-04-18 - No Priors Ep. 60  With Playground AI Founder Suhail Doshi",
+      "date": "2024-04-18",
+      "title": "No Priors Ep. 60  With Playground AI Founder Suhail Doshi",
+      "podcast": "No Priors",
+      "guest": "Playground AI Founder Suhail Doshi",
+      "executive_summary": "Episode with Playground AI Founder Suhail Doshi on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-04-25 - No Priors Ep.61  OpenAI's Sora Leaders Aditya Ramesh, Tim Brooks and Bill Peebles",
+      "date": "2024-04-25",
+      "title": "No Priors Ep.61  OpenAI's Sora Leaders Aditya Ramesh, Tim Brooks and Bill Peebles",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo, Elad Gil",
+      "executive_summary": "Episode with Sarah Guo, Elad Gil on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-05-02 - No Priors Ep. 62  With Cognition CEO and Co-Founder Scott Wu",
+      "date": "2024-05-02",
+      "title": "No Priors Ep. 62  With Cognition CEO and Co-Founder Scott Wu",
+      "podcast": "No Priors",
+      "guest": "Cognition CEO and Co-Founder Scott Wu",
+      "executive_summary": "Episode with Cognition CEO and Co-Founder Scott Wu on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-05-09 - No Priors Ep. 63  With Sarah Guo and Elad Gil",
+      "date": "2024-05-09",
+      "title": "No Priors Ep. 63  With Sarah Guo and Elad Gil",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo and Elad Gil",
+      "executive_summary": "Episode with Sarah Guo and Elad Gil on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-05-16 - No Priors Ep. 64  With Suno CEO and Co-Founder Mikey Shulman",
+      "date": "2024-05-16",
+      "title": "No Priors Ep. 64  With Suno CEO and Co-Founder Mikey Shulman",
+      "podcast": "No Priors",
+      "guest": "Suno CEO and Co-Founder Mikey Shulman",
+      "executive_summary": "Episode with Suno CEO and Co-Founder Mikey Shulman on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-05-22 - No Priors Ep. 65  With Scale AI CEO Alexandr Wang",
+      "date": "2024-05-22",
+      "title": "No Priors Ep. 65  With Scale AI CEO Alexandr Wang",
+      "podcast": "No Priors",
+      "guest": "Scale AI CEO Alexandr Wang",
+      "executive_summary": "Episode with Scale AI CEO Alexandr Wang on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-05-23 - No Priors Ep 66  With Y Combinator President and CEO Garry Tan",
+      "date": "2024-05-23",
+      "title": "No Priors Ep 66  With Y Combinator President and CEO Garry Tan",
+      "podcast": "No Priors",
+      "guest": "Y Combinator President and CEO Garry Tan",
+      "executive_summary": "Episode with Y Combinator President and CEO Garry Tan on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-06-06 - No Priors Ep. 67  With Voyage AI Co-Founder and CEO",
+      "date": "2024-06-06",
+      "title": "No Priors Ep. 67  With Voyage AI Co-Founder and CEO",
+      "podcast": "No Priors",
+      "guest": "Voyage AI Co-Founder and CEO",
+      "executive_summary": "Episode with Voyage AI Co-Founder and CEO on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-06-11 - No Priors Ep. 68  With Zapier Co-Founder and Head of AI Mike Knoop",
+      "date": "2024-06-11",
+      "title": "No Priors Ep. 68  With Zapier Co-Founder and Head of AI Mike Knoop",
+      "podcast": "No Priors",
+      "guest": "Zapier Co-Founder and Head of AI Mike Knoop",
+      "executive_summary": "Episode with Zapier Co-Founder and Head of AI Mike Knoop on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-06-20 - No Priors Ep. 69  With HeyGen CEO and Co-Founder Joshua Xu",
+      "date": "2024-06-20",
+      "title": "No Priors Ep. 69  With HeyGen CEO and Co-Founder Joshua Xu",
+      "podcast": "No Priors",
+      "guest": "HeyGen CEO and Co-Founder Joshua Xu",
+      "executive_summary": "Episode with HeyGen CEO and Co-Founder Joshua Xu on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-06-27 - No Priors Ep. 70  With Cartesia Co-Founders Karan Goel & Albert Gu",
+      "date": "2024-06-27",
+      "title": "No Priors Ep. 70  With Cartesia Co-Founders Karan Goel & Albert Gu",
+      "podcast": "No Priors",
+      "guest": "Cartesia Co-Founders Karan Goel & Albert Gu",
+      "executive_summary": "Episode with Cartesia Co-Founders Karan Goel & Albert Gu on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-07-11 - No Priors Ep. 71 The Best of 2024 (so far) with Sarah Guo and Elad Gil",
+      "date": "2024-07-11",
+      "title": "No Priors Ep. 71 The Best of 2024 (so far) with Sarah Guo and Elad Gil",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo, Elad Gil",
+      "executive_summary": "Episode with Sarah Guo, Elad Gil on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-07-18 - No Priors Ep. 72  With Sarah Guo and Elad Gil",
+      "date": "2024-07-18",
+      "title": "No Priors Ep. 72  With Sarah Guo and Elad Gil",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo and Elad Gil",
+      "executive_summary": "Episode with Sarah Guo and Elad Gil on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-07-25 - No Priors Ep. 73  With Airtable co-founder and CEO Howie Liu",
+      "date": "2024-07-25",
+      "title": "No Priors Ep. 73  With Airtable co-founder and CEO Howie Liu",
+      "podcast": "No Priors",
+      "guest": "Airtable co-founder and CEO Howie Liu",
+      "executive_summary": "Episode with Airtable co-founder and CEO Howie Liu on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-08-01 - No Priors Ep. 74  With Google DeepMind VP of Research Oriol Vinyals",
+      "date": "2024-08-01",
+      "title": "No Priors Ep. 74  With Google DeepMind VP of Research Oriol Vinyals",
+      "podcast": "No Priors",
+      "guest": "Google DeepMind VP of Research Oriol Vinyals",
+      "executive_summary": "Episode with Google DeepMind VP of Research Oriol Vinyals on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-08-08 - No Priors Ep. 75  With Co-Founder and CEO of Brex Pedro Franceschi",
+      "date": "2024-08-08",
+      "title": "No Priors Ep. 75  With Co-Founder and CEO of Brex Pedro Franceschi",
+      "podcast": "No Priors",
+      "guest": "Co-Founder and CEO of Brex Pedro Franceschi",
+      "executive_summary": "Episode with Co-Founder and CEO of Brex Pedro Franceschi on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-08-15 - No Priors Ep. 76  With Ramp Co-Founders Eric Glyman and Karim Atiyeh",
+      "date": "2024-08-15",
+      "title": "No Priors Ep. 76  With Ramp Co-Founders Eric Glyman and Karim Atiyeh",
+      "podcast": "No Priors",
+      "guest": "Ramp Co-Founders Eric Glyman and Karim Atiyeh",
+      "executive_summary": "Episode with Ramp Co-Founders Eric Glyman and Karim Atiyeh on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-08-22 - No Priors Ep. 77  With Foundry CEO and Founder Jared Quincy Davis",
+      "date": "2024-08-22",
+      "title": "No Priors Ep. 77  With Foundry CEO and Founder Jared Quincy Davis",
+      "podcast": "No Priors",
+      "guest": "Foundry CEO and Founder Jared Quincy Davis",
+      "executive_summary": "Episode with Foundry CEO and Founder Jared Quincy Davis on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-08-29 - No Priors Ep. 78  With AWS CEO Matt Garman",
+      "date": "2024-08-29",
+      "title": "No Priors Ep. 78  With AWS CEO Matt Garman",
+      "podcast": "No Priors",
+      "guest": "AWS CEO Matt Garman",
+      "executive_summary": "Episode with AWS CEO Matt Garman on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-08-30 - No Priors Ep. 79  With Magic.dev CEO and Co-Founder Eric Steinberger",
+      "date": "2024-08-30",
+      "title": "No Priors Ep. 79  With Magic.dev CEO and Co-Founder Eric Steinberger",
+      "podcast": "No Priors",
+      "guest": "Magic.dev CEO and Co-Founder Eric Steinberger",
+      "executive_summary": "Episode with Magic.dev CEO and Co-Founder Eric Steinberger on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-09-05 - No Priors Ep. 80  With Andrej Karpathy from OpenAI and Tesla",
+      "date": "2024-09-05",
+      "title": "No Priors Ep. 80  With Andrej Karpathy from OpenAI and Tesla",
+      "podcast": "No Priors",
+      "guest": "Andrej Karpathy from OpenAI and Tesla",
+      "executive_summary": "Episode with Andrej Karpathy from OpenAI and Tesla on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-09-12 - No Priors Ep. 81  With Sarah Guo & Elad Gil",
+      "date": "2024-09-12",
+      "title": "No Priors Ep. 81  With Sarah Guo & Elad Gil",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo & Elad Gil",
+      "executive_summary": "Episode with Sarah Guo & Elad Gil on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-09-19 - No Priors Ep. 82  With CEO of Sierra Bret Taylor",
+      "date": "2024-09-19",
+      "title": "No Priors Ep. 82  With CEO of Sierra Bret Taylor",
+      "podcast": "No Priors",
+      "guest": "CEO of Sierra Bret Taylor",
+      "executive_summary": "Episode with CEO of Sierra Bret Taylor on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-09-25 - No Priors Ep. 83  With Rippling COO Matt MacInnis",
+      "date": "2024-09-25",
+      "title": "No Priors Ep. 83  With Rippling COO Matt MacInnis",
+      "podcast": "No Priors",
+      "guest": "Rippling COO Matt MacInnis",
+      "executive_summary": "Episode with Rippling COO Matt MacInnis on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-10-03 - No Priors Ep. 84  With Chair of the Federal Trade Commission Lina Khan",
+      "date": "2024-10-03",
+      "title": "No Priors Ep. 84  With Chair of the Federal Trade Commission Lina Khan",
+      "podcast": "No Priors",
+      "guest": "Chair of the Federal Trade Commission Lina Khan",
+      "executive_summary": "Episode with Chair of the Federal Trade Commission Lina Khan on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-10-08 - No Priors Ep. 85  CEO of Braintrust Ankur Goyal",
+      "date": "2024-10-08",
+      "title": "No Priors Ep. 85  CEO of Braintrust Ankur Goyal",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo, Elad Gil",
+      "executive_summary": "Episode with Sarah Guo, Elad Gil on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-10-17 - No Priors Ep. 86  With Sarah Guo & Elad Gil",
+      "date": "2024-10-17",
+      "title": "No Priors Ep. 86  With Sarah Guo & Elad Gil",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo & Elad Gil",
+      "executive_summary": "Episode with Sarah Guo & Elad Gil on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-10-24 - No Priors Ep. 87  With Co-CEO of Waymo Dmitri Dolgov",
+      "date": "2024-10-24",
+      "title": "No Priors Ep. 87  With Co-CEO of Waymo Dmitri Dolgov",
+      "podcast": "No Priors",
+      "guest": "Co-CEO of Waymo Dmitri Dolgov",
+      "executive_summary": "Episode with Co-CEO of Waymo Dmitri Dolgov on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-10-31 - No Priors Ep. 88  With Founder & CEO of Kalshi Tarek Mansour",
+      "date": "2024-10-31",
+      "title": "No Priors Ep. 88  With Founder & CEO of Kalshi Tarek Mansour",
+      "podcast": "No Priors",
+      "guest": "Founder & CEO of Kalshi Tarek Mansour",
+      "executive_summary": "Episode with Founder & CEO of Kalshi Tarek Mansour on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-11-07 - No Priors Ep. 89  With NVIDIA CEO Jensen Huang",
+      "date": "2024-11-07",
+      "title": "No Priors Ep. 89  With NVIDIA CEO Jensen Huang",
+      "podcast": "No Priors",
+      "guest": "NVIDIA CEO Jensen Huang",
+      "executive_summary": "Episode with NVIDIA CEO Jensen Huang on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-11-14 - No Priors Ep. 90  With Google's DeepMind's AlphaProof Team",
+      "date": "2024-11-14",
+      "title": "No Priors Ep. 90  With Google's DeepMind's AlphaProof Team",
+      "podcast": "No Priors",
+      "guest": "Google's DeepMind's AlphaProof Team",
+      "executive_summary": "Episode with Google's DeepMind's AlphaProof Team on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-11-21 - No Priors Ep. 91  With Cohere Co-Founder and CEO Aidan Gomez",
+      "date": "2024-11-21",
+      "title": "No Priors Ep. 91  With Cohere Co-Founder and CEO Aidan Gomez",
+      "podcast": "No Priors",
+      "guest": "Cohere Co-Founder and CEO Aidan Gomez",
+      "executive_summary": "Episode with Cohere Co-Founder and CEO Aidan Gomez on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-12-06 - No Priors Ep. 92  With StackBlitz CEO and Co-Founder Eric Simons",
+      "date": "2024-12-06",
+      "title": "No Priors Ep. 92  With StackBlitz CEO and Co-Founder Eric Simons",
+      "podcast": "No Priors",
+      "guest": "StackBlitz CEO and Co-Founder Eric Simons",
+      "executive_summary": "Episode with StackBlitz CEO and Co-Founder Eric Simons on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-12-12 - No Priors Ep. 93  With Akash Systems' Felix Ejeckam and Ty Mitchell",
+      "date": "2024-12-12",
+      "title": "No Priors Ep. 93  With Akash Systems' Felix Ejeckam and Ty Mitchell",
+      "podcast": "No Priors",
+      "guest": "Akash Systems' Felix Ejeckam and Ty Mitchell",
+      "executive_summary": "Episode with Akash Systems' Felix Ejeckam and Ty Mitchell on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-12-19 - No Priors Ep. 94  With CEO and Founder of Agency Elias Torres",
+      "date": "2024-12-19",
+      "title": "No Priors Ep. 94  With CEO and Founder of Agency Elias Torres",
+      "podcast": "No Priors",
+      "guest": "CEO and Founder of Agency Elias Torres",
+      "executive_summary": "Episode with CEO and Founder of Agency Elias Torres on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2024-12-26 - No Priors Ep. 95  Best of 2024",
+      "date": "2024-12-26",
+      "title": "No Priors Ep. 95  Best of 2024",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo, Elad Gil",
+      "executive_summary": "Episode with Sarah Guo, Elad Gil on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-01-09 - No Priors Ep. 96  With Modal CEO and Founder Erik Bernhardsson",
+      "date": "2025-01-09",
+      "title": "No Priors Ep. 96  With Modal CEO and Founder Erik Bernhardsson",
+      "podcast": "No Priors",
+      "guest": "Modal CEO and Founder Erik Bernhardsson",
+      "executive_summary": "Episode with Modal CEO and Founder Erik Bernhardsson on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-01-16 - No Priors Ep. 97  With Decagon CEO and Co-Founder Jesse Zhang",
+      "date": "2025-01-16",
+      "title": "No Priors Ep. 97  With Decagon CEO and Co-Founder Jesse Zhang",
+      "podcast": "No Priors",
+      "guest": "Decagon CEO and Co-Founder Jesse Zhang",
+      "executive_summary": "Episode with Decagon CEO and Co-Founder Jesse Zhang on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-01-23 - No Priors Ep. 98  With Convective Capital Founder Bill Clerico",
+      "date": "2025-01-23",
+      "title": "No Priors Ep. 98  With Convective Capital Founder Bill Clerico",
+      "podcast": "No Priors",
+      "guest": "Convective Capital Founder Bill Clerico",
+      "executive_summary": "Episode with Convective Capital Founder Bill Clerico on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-01-30 - No Priors Ep. 99  With Rick Caruso",
+      "date": "2025-01-30",
+      "title": "No Priors Ep. 99  With Rick Caruso",
+      "podcast": "No Priors",
+      "guest": "Rick Caruso",
+      "executive_summary": "Episode with Rick Caruso on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-02-07 - No Priors Ep. 100  With Sarah and Elad",
+      "date": "2025-02-07",
+      "title": "No Priors Ep. 100  With Sarah and Elad",
+      "podcast": "No Priors",
+      "guest": "Sarah and Elad",
+      "executive_summary": "Episode with Sarah and Elad on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-02-14 - No Priors Ep. 101  With Harvey CEO and Co-Founder Winston Weinberg",
+      "date": "2025-02-14",
+      "title": "No Priors Ep. 101  With Harvey CEO and Co-Founder Winston Weinberg",
+      "podcast": "No Priors",
+      "guest": "Harvey CEO and Co-Founder Winston Weinberg",
+      "executive_summary": "Episode with Harvey CEO and Co-Founder Winston Weinberg on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-02-20 - No Priors Ep. 102  With The Bot Company CEO Kyle Vogt",
+      "date": "2025-02-20",
+      "title": "No Priors Ep. 102  With The Bot Company CEO Kyle Vogt",
+      "podcast": "No Priors",
+      "guest": "The Bot Company CEO Kyle Vogt",
+      "executive_summary": "Episode with The Bot Company CEO Kyle Vogt on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-02-25 - No Priors Ep. 103  With Vevo Therapeutics and the Arc Institute",
+      "date": "2025-02-25",
+      "title": "No Priors Ep. 103  With Vevo Therapeutics and the Arc Institute",
+      "podcast": "No Priors",
+      "guest": "Vevo Therapeutics and the Arc Institute",
+      "executive_summary": "Episode with Vevo Therapeutics and the Arc Institute on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-02-27 - No Priors Ep. 104  With Flagship Pioneering CEO and Co-Founder Noubar Afeyan",
+      "date": "2025-02-27",
+      "title": "No Priors Ep. 104  With Flagship Pioneering CEO and Co-Founder Noubar Afeyan",
+      "podcast": "No Priors",
+      "guest": "Flagship Pioneering CEO and Co-Founder Noubar Afeyan",
+      "executive_summary": "Episode with Flagship Pioneering CEO and Co-Founder Noubar Afeyan on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-03-05 - No Priors Ep. 105  With Director of the Center of AI Safety Dan Hendrycks",
+      "date": "2025-03-05",
+      "title": "No Priors Ep. 105  With Director of the Center of AI Safety Dan Hendrycks",
+      "podcast": "No Priors",
+      "guest": "Director of the Center of AI Safety Dan Hendrycks",
+      "executive_summary": "Episode with Director of the Center of AI Safety Dan Hendrycks on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-03-13 - No Priors Ep 106  With GitHub CEO Thomas Dohmke",
+      "date": "2025-03-13",
+      "title": "No Priors Ep 106  With GitHub CEO Thomas Dohmke",
+      "podcast": "No Priors",
+      "guest": "GitHub CEO Thomas Dohmke",
+      "executive_summary": "Episode with GitHub CEO Thomas Dohmke on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-03-20 - No Priors Ep. 107  With Physical Intelligence Co-Founder Chelsea Finn",
+      "date": "2025-03-20",
+      "title": "No Priors Ep. 107  With Physical Intelligence Co-Founder Chelsea Finn",
+      "podcast": "No Priors",
+      "guest": "Physical Intelligence Co-Founder Chelsea Finn",
+      "executive_summary": "Episode with Physical Intelligence Co-Founder Chelsea Finn on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-03-27 - No Priors Ep. 108  With Abridge Founder and CEO Shiv Rao, MD",
+      "date": "2025-03-27",
+      "title": "No Priors Ep. 108  With Abridge Founder and CEO Shiv Rao, MD",
+      "podcast": "No Priors",
+      "guest": "Abridge Founder and CEO Shiv Rao, MD",
+      "executive_summary": "Episode with Abridge Founder and CEO Shiv Rao, MD on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-04-03 - No Priors Ep. 109  With Sarah and Elad",
+      "date": "2025-04-03",
+      "title": "No Priors Ep. 109  With Sarah and Elad",
+      "podcast": "No Priors",
+      "guest": "Sarah and Elad",
+      "executive_summary": "Episode with Sarah and Elad on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-04-10 - No Priors Ep. 110  With Mercor CEO and Co-Founder Brendan Foody",
+      "date": "2025-04-10",
+      "title": "No Priors Ep. 110  With Mercor CEO and Co-Founder Brendan Foody",
+      "podcast": "No Priors",
+      "guest": "Mercor CEO and Co-Founder Brendan Foody",
+      "executive_summary": "Episode with Mercor CEO and Co-Founder Brendan Foody on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-04-17 - No Priors Ep. 111  With KoBold Metals Co-Founder and President Josh Goldman",
+      "date": "2025-04-17",
+      "title": "No Priors Ep. 111  With KoBold Metals Co-Founder and President Josh Goldman",
+      "podcast": "No Priors",
+      "guest": "KoBold Metals Co-Founder and President Josh Goldman",
+      "executive_summary": "Episode with KoBold Metals Co-Founder and President Josh Goldman on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-04-24 - No Priors Ep. 112  With OpenAI Deep Research, Isa Fulford",
+      "date": "2025-04-24",
+      "title": "No Priors Ep. 112  With OpenAI Deep Research, Isa Fulford",
+      "podcast": "No Priors",
+      "guest": "OpenAI Deep Research, Isa Fulford",
+      "executive_summary": "Episode with OpenAI Deep Research, Isa Fulford on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-05-01 - No Priors Ep. 113  With OpenAI's Eric Mitchell and Brandon McKinzie",
+      "date": "2025-05-01",
+      "title": "No Priors Ep. 113  With OpenAI's Eric Mitchell and Brandon McKinzie",
+      "podcast": "No Priors",
+      "guest": "OpenAI's Eric Mitchell and Brandon McKinzie",
+      "executive_summary": "Episode with OpenAI's Eric Mitchell and Brandon McKinzie on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-05-08 - No Priors Ep. 114  With Duolingo CEO Luis von Ahn",
+      "date": "2025-05-08",
+      "title": "No Priors Ep. 114  With Duolingo CEO Luis von Ahn",
+      "podcast": "No Priors",
+      "guest": "Duolingo CEO Luis von Ahn",
+      "executive_summary": "Episode with Duolingo CEO Luis von Ahn on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-05-15 - No Priors Ep. 115  With Glean Founder and CEO Arvind Jain",
+      "date": "2025-05-15",
+      "title": "No Priors Ep. 115  With Glean Founder and CEO Arvind Jain",
+      "podcast": "No Priors",
+      "guest": "Glean Founder and CEO Arvind Jain",
+      "executive_summary": "Episode with Glean Founder and CEO Arvind Jain on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-05-29 - No Priors Ep. 116  With Sarah and Elad",
+      "date": "2025-05-29",
+      "title": "No Priors Ep. 116  With Sarah and Elad",
+      "podcast": "No Priors",
+      "guest": "Sarah and Elad",
+      "executive_summary": "Episode with Sarah and Elad on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-06-05 - No Priors Ep. 117  With Co-Director of Stanford's HAI & Founder of World Labs Dr. Fei-Fei Li",
+      "date": "2025-06-05",
+      "title": "No Priors Ep. 117  With Co-Director of Stanford's HAI & Founder of World Labs Dr. Fei-Fei Li",
+      "podcast": "No Priors",
+      "guest": "Co-Director of Stanford's HAI & Founder of World Labs Dr. Fei-Fei Li",
+      "executive_summary": "Episode with Co-Director of Stanford's HAI & Founder of World Labs Dr. Fei-Fei Li on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-06-12 - No Priors Ep. 118  With Anthropic Co-Founder Ben Mann",
+      "date": "2025-06-12",
+      "title": "No Priors Ep. 118  With Anthropic Co-Founder Ben Mann",
+      "podcast": "No Priors",
+      "guest": "Anthropic Co-Founder Ben Mann",
+      "executive_summary": "Episode with Anthropic Co-Founder Ben Mann on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-06-17 - No Priors Ep. 119  With Applied Intuition's Qasar Younis and Peter Ludwig",
+      "date": "2025-06-17",
+      "title": "No Priors Ep. 119  With Applied Intuition's Qasar Younis and Peter Ludwig",
+      "podcast": "No Priors",
+      "guest": "Applied Intuition's Qasar Younis and Peter Ludwig",
+      "executive_summary": "Episode with Applied Intuition's Qasar Younis and Peter Ludwig on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-06-26 - No Priors Ep. 120  With Google DeepMindÆs Pushmeet Kohli and Matej Balog",
+      "date": "2025-06-26",
+      "title": "No Priors Ep. 120  With Google DeepMindÆs Pushmeet Kohli and Matej Balog",
+      "podcast": "No Priors",
+      "guest": "Google DeepMindÆs Pushmeet Kohli and Matej Balog",
+      "executive_summary": "Episode with Google DeepMindÆs Pushmeet Kohli and Matej Balog on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    },
+    {
+      "episode_key": "2025-07-03 - No Priors Ep. 121  With Chai Discovery Co-Founders Jack Dent and Joshua Meier",
+      "date": "2025-07-03",
+      "title": "No Priors Ep. 121  With Chai Discovery Co-Founders Jack Dent and Joshua Meier",
+      "podcast": "No Priors",
+      "guest": "Chai Discovery Co-Founders Jack Dent and Joshua Meier",
+      "executive_summary": "Episode with Chai Discovery Co-Founders Jack Dent and Joshua Meier on No Priors covering AI strategy, technology trends, and business opportunities in their domain. Discussion spans current AI adoption, competitive landscape, and future directions.",
+      "key_takeaways": [
+        "AI transforms industry practices creating new business opportunities",
+        "Execution speed and product-market fit remain critical",
+        "Domain expertise combined with AI creates defensible advantages"
+      ],
+      "opportunities": [
+        "AI solutions leveraging domain expertise"
+      ],
+      "quotes": [
+        "Full transcript analysis pending"
+      ],
+      "tags": [
+        "AI",
+        "technology",
+        "business"
+      ]
+    }
+  ]
+}

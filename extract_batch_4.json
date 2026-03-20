@@ -1,0 +1,2776 @@
+{
+  "ideas": [
+    {
+      "idea": "Integrated SaaS platform company",
+      "description": "Build seamlessly integrated suite of business applications sharing underlying platform capabilities like permissions, analytics, and workflow automations rather than narrow point solutions.",
+      "category": "SaaS",
+      "revenue_model": "Subscription per employee + modules",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Mid-market and enterprise businesses",
+      "episode_date": "2025-07-10",
+      "episode_title": "No Priors Ep. 122 With Rippling CEO Parker Conrad",
+      "mentioned_by": "Parker Conrad",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Enterprise code comprehension agent",
+      "description": "AI agent focused on code comprehension not generation. 80% of engineering time is comprehending complex systems. Build omniscient oracle combining codebase, Slack, Jira, docs knowledge.",
+      "category": "Tool",
+      "revenue_model": "Subscription per seat + usage",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Enterprise engineering organizations",
+      "episode_date": "2025-07-17",
+      "episode_title": "No Priors Ep. 123 With ReflectionAI CEO Misha Laskin",
+      "mentioned_by": "Misha Laskin",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Team-wide AI memory system for engineering",
+      "description": "Collaborative memory with permissions-based access where senior engineers teach AI tribal knowledge. A GitHub++ for meta-knowledge helping LLMs understand codebases better.",
+      "category": "Tool",
+      "revenue_model": "Subscription per team",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Software engineering teams",
+      "episode_date": "2025-07-17",
+      "episode_title": "No Priors Ep. 123 With ReflectionAI CEO Misha Laskin",
+      "mentioned_by": "Misha Laskin",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Rich RL training environments for AI agents",
+      "description": "Build rich simulated environments modeling entire workflows (salesperson world with Salesforce, Gmail, Slack, calendar). No ceiling on environment quality for RL training.",
+      "category": "Tool",
+      "revenue_model": "Enterprise contracts with AI labs",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Frontier AI labs",
+      "episode_date": "2025-07-24",
+      "episode_title": "No Priors Ep. 124 With SurgeAI CEO Edwin Chen",
+      "mentioned_by": "Edwin Chen",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI content marketplace and payment rails",
+      "description": "Marketplace where content creators control access and get compensated by AI companies. Block training by default, create scarcity, build payment infrastructure.",
+      "category": "Marketplace",
+      "revenue_model": "Transaction fees / revenue share",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Web publishers and AI companies",
+      "episode_date": "2025-08-07",
+      "episode_title": "No Priors Ep. 126 With Cloudflare CEO Matthew Prince",
+      "mentioned_by": "Matthew Prince",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Data center automation robotics",
+      "description": "Robotics and automation for data center construction and operations. Massive labor shortage constraining buildout. Automate wiring, installation, maintenance.",
+      "category": "Tool",
+      "revenue_model": "Hardware sales + service contracts",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Data center builders and hyperscalers",
+      "episode_date": "2025-08-14",
+      "episode_title": "No Priors Ep. 127 With SemiAnalysis CEO Dylan Patel",
+      "mentioned_by": "Dylan Patel",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI product management acceleration tools",
+      "description": "As AI coding makes engineering 10x faster, PM becomes bottleneck. Build tools for rapid user research simulation, AI-simulated user groups, instant prototyping.",
+      "category": "SaaS",
+      "revenue_model": "Subscription",
+      "effort": "medium",
+      "investment": "medium",
+      "target_market": "Product managers and founders",
+      "episode_date": "2025-08-21",
+      "episode_title": "No Priors Ep. 128 With Andrew Ng",
+      "mentioned_by": "Andrew Ng",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI clinical decision support for doctors",
+      "description": "Semantic search routing complex clinical queries to relevant peer-reviewed literature. Treat doctors as consumers with free mobile app. Used by 40% of US doctors.",
+      "category": "SaaS",
+      "revenue_model": "Freemium + enterprise contracts",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Physicians and healthcare systems",
+      "episode_date": "2025-09-05",
+      "episode_title": "No Priors Ep. 130 With OpenEvidence Founder Daniel Nadler",
+      "mentioned_by": "Daniel Nadler",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI customer service agent platform",
+      "description": "AI agents handling customer service end-to-end. Per-conversation pricing. 60-70% cost reduction. Evolve toward full concierge covering reservations, upselling, proactive outreach.",
+      "category": "SaaS",
+      "revenue_model": "Per conversation usage-based",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Enterprise contact centers",
+      "episode_date": "2025-09-18",
+      "episode_title": "No Priors Ep. 132 With Decagon CEO Jesse Zhang",
+      "mentioned_by": "Jesse Zhang",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI-powered 2-hour school model",
+      "description": "Students learn in 2 hours/day with AI tutors at 80-85% difficulty zone then 4 hours life skills workshops. Top 1% performance. Subject takes 20-30 hours to master. Private school market 50B+.",
+      "category": "Other",
+      "revenue_model": "Tuition + vouchers",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "K-12 families",
+      "episode_date": "2025-09-25",
+      "episode_title": "No Priors Ep. 133 With Alpha School Principal Joe Liemandt",
+      "mentioned_by": "Joe Liemandt",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Learning science edtech platform",
+      "description": "Edtech from ground up using learning science. Zone of proximal development at 80-85%. AI generates unlimited personalized content. Grade-level subject takes 20-30 hours to master.",
+      "category": "SaaS",
+      "revenue_model": "Subscription",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Students and schools globally",
+      "episode_date": "2025-09-25",
+      "episode_title": "No Priors Ep. 133 With Alpha School Principal Joe Liemandt",
+      "mentioned_by": "Joe Liemandt",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI construction permitting automation",
+      "description": "Automate 40+ step construction permitting with 90%+ accuracy reducing months to minutes. Eliminates consultant fees and graft.",
+      "category": "SaaS",
+      "revenue_model": "Per-permit fee or government contract",
+      "effort": "medium",
+      "investment": "medium",
+      "target_market": "Government agencies and developers",
+      "episode_date": "2025-09-11",
+      "episode_title": "No Priors Ep. 131 With Jared Kushner",
+      "mentioned_by": "Jared Kushner",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Distributed home battery virtual power plant",
+      "description": "Install batteries on homes, connect as distributed power plant via software, bid into energy markets. 10-20% savings. Vertical integration from design to operation.",
+      "category": "Other",
+      "revenue_model": "Electricity sales consumption-based",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Homeowners in deregulated markets",
+      "episode_date": "2025-10-15",
+      "episode_title": "No Priors Ep. 136 With Base Power CEO Zach Dell",
+      "mentioned_by": "Zach Dell",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Terminal-based agentic development environment",
+      "description": "Modern terminal as launch point for AI coding agents. English or command instructions. Agents handle coding, debugging, setup. 1M revenue every 7-10 days.",
+      "category": "Tool",
+      "revenue_model": "Subscription per developer",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Professional developers",
+      "episode_date": "2025-10-23",
+      "episode_title": "No Priors Ep. 137 With Warp CEO Zach Lloyd",
+      "mentioned_by": "Zach Lloyd",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "Agentic data analytics for every employee",
+      "description": "Opinionated agentic platform for data value. Replace dashboards with interactive AI any business user can query. Consumption-based pricing.",
+      "category": "SaaS",
+      "revenue_model": "Consumption-based",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Enterprise business users",
+      "episode_date": "2025-11-06",
+      "episode_title": "No Priors Ep. 139 With Snowflake CEO Sridhar Ramaswamy",
+      "mentioned_by": "Sridhar Ramaswamy",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "AI deep research agent for biotech R&D",
+      "description": "Deep research agent over scientific R&D data. Scientists answer questions in hours vs weeks. Recover institutional knowledge from old lab notebooks.",
+      "category": "SaaS",
+      "revenue_model": "Subscription + usage",
+      "effort": "high",
+      "investment": "medium",
+      "target_market": "Biotech and pharma R&D",
+      "episode_date": "2025-11-13",
+      "episode_title": "No Priors Ep. 140 With Benchling CEO Sajith Wickramasekara",
+      "mentioned_by": "Sajith Wickramasekara",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "General-purpose home robot for chores",
+      "description": "Affordable home robot doing dishes, laundry, table clearing via imitation learning. Under 10K at scale. 10M+ trajectories from 500+ glove users. Beta 2026.",
+      "category": "Other",
+      "revenue_model": "Hardware sales",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Every household",
+      "episode_date": "2025-11-19",
+      "episode_title": "No Priors Ep. 141 With Sunday Robotics",
+      "mentioned_by": "Tony Zhao / Cheng Chi",
+      "podcast": "No Priors"
+    },
+    {
+      "idea": "EQ-focused AI understanding human goals over time",
+      "description": "AI models optimized for understanding human objectives across time scales. Models that remember, ask questions, express uncertainty, consider long-term implications.",
+      "category": "SaaS",
+      "revenue_model": "Subscription / API",
+      "effort": "high",
+      "investment": "high",
+      "target_market": "Consumer and enterprise AI users",
+      "episode_date": "2025-10-09",
+      "episode_title": "No Priors Ep. 135 With Humans& Founder Eric Zelikman",
+      "mentioned_by": "Eric Zelikman",
+      "podcast": "No Priors"
+    }
+  ],
+  "summaries": [
+    {
+      "episode_key": "2025-07-10 - No Priors Ep. 122 With Rippling CEO Parker Conrad",
+      "date": "2025-07-10",
+      "title": "No Priors Ep. 122 With Rippling CEO Parker Conrad",
+      "podcast": "No Priors",
+      "guest": "Parker Conrad",
+      "executive_summary": "Parker Conrad discusses Rippling platform approach to integrated business software, arguing narrow SaaS being superseded by platforms. Reflects on founder psychology and why AI will be employment-conserving.",
+      "key_takeaways": [
+        "Platform companies with shared capabilities outperform point solutions",
+        "AI will increase demand for software rather than reducing headcount",
+        "Finding owners who drive business holistically is biggest scaling bottleneck"
+      ],
+      "opportunities": [
+        "Verticalized industry-specific applications on core platforms"
+      ],
+      "quotes": [
+        "I want A and B - does it violate the second law of thermodynamics?"
+      ],
+      "tags": [
+        "SaaS",
+        "platform-strategy",
+        "AI-employment",
+        "enterprise-software"
+      ]
+    },
+    {
+      "episode_key": "2025-07-17 - No Priors Ep. 123 With ReflectionAI CEO Misha Laskin",
+      "date": "2025-07-17",
+      "title": "No Priors Ep. 123 With ReflectionAI CEO Misha Laskin",
+      "podcast": "No Priors",
+      "guest": "Misha Laskin",
+      "executive_summary": "Misha Laskin discusses code comprehension agent Asimov. 80% of engineering is comprehension not generation. Field is fundamentally reward-bound in scaling RL.",
+      "key_takeaways": [
+        "Code comprehension is 80% of engineer time",
+        "AI field is reward-bound",
+        "Tight model-product coupling essential"
+      ],
+      "opportunities": [
+        "Enterprise code comprehension with collaborative memory"
+      ],
+      "quotes": [
+        "No such thing as generalization - just bring test distribution into train."
+      ],
+      "tags": [
+        "AI-agents",
+        "code-comprehension",
+        "RL",
+        "reward-models"
+      ]
+    },
+    {
+      "episode_key": "2025-07-24 - No Priors Ep. 124 With SurgeAI CEO Edwin Chen",
+      "date": "2025-07-24",
+      "title": "No Priors Ep. 124 With SurgeAI CEO Edwin Chen",
+      "podcast": "No Priors",
+      "guest": "Edwin Chen",
+      "executive_summary": "Bootstrapped Surge AI surpassed 1B revenue serving frontier AI labs. Criticizes benchmark-chasing. No ceiling on RL training environment quality.",
+      "key_takeaways": [
+        "1000 high-quality human data points outperform 10M synthetic",
+        "LMSys Arena incentivizes clickbait",
+        "No ceiling on environment quality for RL training"
+      ],
+      "opportunities": [
+        "Rich RL environment construction"
+      ],
+      "quotes": [
+        "High quality data embraces human intelligence and creativity."
+      ],
+      "tags": [
+        "human-data",
+        "AI-training",
+        "data-quality",
+        "benchmarks"
+      ]
+    },
+    {
+      "episode_key": "2025-07-31 - No Priors Ep. 125 With White House AI Advisor Sriram Krishnan",
+      "date": "2025-07-31",
+      "title": "No Priors Ep. 125 With White House AI Advisor Sriram Krishnan",
+      "podcast": "No Priors",
+      "guest": "Sriram Krishnan",
+      "executive_summary": "AI action plan: build infrastructure, innovation via cutting red tape and open source, export American AI stack globally. America has narrow AI lead.",
+      "key_takeaways": [
+        "Americas AI lead over China is small",
+        "Open source decentralizes power and enables innovation",
+        "American AI stack should be exported strategically"
+      ],
+      "opportunities": [
+        "Open source model development with government support"
+      ],
+      "quotes": [
+        "Embrace AI with optimism rather than fear."
+      ],
+      "tags": [
+        "AI-policy",
+        "geopolitics",
+        "open-source",
+        "infrastructure"
+      ]
+    },
+    {
+      "episode_key": "2025-08-07 - No Priors Ep. 126 With Cloudflare CEO Matthew Prince",
+      "date": "2025-08-07",
+      "title": "No Priors Ep. 126 With Cloudflare CEO Matthew Prince",
+      "podcast": "No Priors",
+      "guest": "Matthew Prince",
+      "executive_summary": "Shifting web economics - AI makes it 750x harder for content to get clicks. Building content marketplace infrastructure. Scarcity prerequisite for compensation.",
+      "key_takeaways": [
+        "AI makes it 750x harder for content to get clicks vs search",
+        "Scarcity must be created before content market can emerge",
+        "Google must play by same rules as other AI companies"
+      ],
+      "opportunities": [
+        "Content marketplace between publishers and AI companies"
+      ],
+      "quotes": [
+        "In order to have a market you have to have scarcity."
+      ],
+      "tags": [
+        "content-economics",
+        "web-infrastructure",
+        "AI-impact"
+      ]
+    },
+    {
+      "episode_key": "2025-08-14 - No Priors Ep. 127 With SemiAnalysis CEO Dylan Patel",
+      "date": "2025-08-14",
+      "title": "No Priors Ep. 127 With SemiAnalysis CEO Dylan Patel",
+      "podcast": "No Priors",
+      "guest": "Dylan Patel",
+      "executive_summary": "AI infrastructure bottlenecks, Nvidia three-headed moat, neo-cloud consolidation, geopolitical GPU dynamics. AI capex may be full point of GDP growth.",
+      "key_takeaways": [
+        "Nvidia moat: hardware + networking + software",
+        "Neo-clouds must move up or go massive or die",
+        "AI infrastructure capex may be full point of GDP growth"
+      ],
+      "opportunities": [
+        "Data center automation and GPU efficiency"
+      ],
+      "quotes": [
+        "Nvidia charges a lot because they are the best."
+      ],
+      "tags": [
+        "semiconductors",
+        "AI-infrastructure",
+        "Nvidia",
+        "data-centers"
+      ]
+    },
+    {
+      "episode_key": "2025-08-21 - No Priors Ep. 128 With Andrew Ng",
+      "date": "2025-08-21",
+      "title": "No Priors Ep. 128 With Andrew Ng",
+      "podcast": "No Priors",
+      "guest": "Andrew Ng",
+      "executive_summary": "Product management now bottleneck as coding accelerates. Technical founders advantage. Talent is biggest barrier to agentic AI, not technology.",
+      "key_takeaways": [
+        "PM is bottleneck as AI coding accelerates engineering",
+        "Technical founders have massive advantage",
+        "Talent not technology is biggest barrier to agentic AI"
+      ],
+      "opportunities": [
+        "AI tools accelerating PM and user research"
+      ],
+      "quotes": [
+        "After a day of AI assisted coding I am exhausted mentally."
+      ],
+      "tags": [
+        "agentic-AI",
+        "founder-advice",
+        "product-management"
+      ]
+    },
+    {
+      "episode_key": "2025-08-28 - No Priors Ep. 129 With Jacob Helberg",
+      "date": "2025-08-28",
+      "title": "No Priors Ep. 129 With Jacob Helberg",
+      "podcast": "No Priors",
+      "guest": "Jacob Helberg",
+      "executive_summary": "Super intelligent century vision - AI productivity could grow GDP dramatically. Securing supply chains from China, nuclear energy for abundance, re-industrialization.",
+      "key_takeaways": [
+        "AI could enable second great divergence",
+        "Nuclear energy essential for abundance",
+        "US shifting from consumption to high-investment economy"
+      ],
+      "opportunities": [
+        "Nuclear energy with foreign investment"
+      ],
+      "quotes": [
+        "Increase productivity will erode labor cost advantages of developing countries."
+      ],
+      "tags": [
+        "geopolitics",
+        "energy",
+        "nuclear",
+        "manufacturing"
+      ]
+    },
+    {
+      "episode_key": "2025-09-05 - No Priors Ep. 130 With OpenEvidence Founder Daniel Nadler",
+      "date": "2025-09-05",
+      "title": "No Priors Ep. 130 With OpenEvidence Founder Daniel Nadler",
+      "podcast": "No Priors",
+      "guest": "Daniel Nadler",
+      "executive_summary": "OpenEvidence used by 40% of US doctors by treating physicians as consumers. Semantic search across 35M biomedical publications routing to relevant clinical trials.",
+      "key_takeaways": [
+        "Medical knowledge doubles every 5 years",
+        "Treating knowledge workers as consumers drives viral adoption",
+        "Medical education will invert toward continuous learning"
+      ],
+      "opportunities": [
+        "AI clinical support for underserved areas"
+      ],
+      "quotes": [
+        "Nobody had ever addressed doctors as consumers before."
+      ],
+      "tags": [
+        "healthcare",
+        "clinical-AI",
+        "consumer-adoption"
+      ]
+    },
+    {
+      "episode_key": "2025-09-11 - No Priors Ep. 131 With Jared Kushner",
+      "date": "2025-09-11",
+      "title": "No Priors Ep. 131 With Jared Kushner",
+      "podcast": "No Priors",
+      "guest": "Jared Kushner",
+      "executive_summary": "Affinity Partners investing, BrainCo AI implementation, Abraham Accords diplomacy. Construction permitting automated from months to minutes.",
+      "key_takeaways": [
+        "AI implementation requires matching tech talent with real problems",
+        "Construction permitting automatable to minutes at 90%+ accuracy",
+        "Middle East emerging as significant AI partner"
+      ],
+      "opportunities": [
+        "AI implementation for largest institutions"
+      ],
+      "quotes": [
+        "Silicon Valley amazing at solving problems but not always at identifying which to solve."
+      ],
+      "tags": [
+        "AI-implementation",
+        "geopolitics",
+        "Middle-East"
+      ]
+    },
+    {
+      "episode_key": "2025-09-18 - No Priors Ep. 132 With Decagon CEO Jesse Zhang",
+      "date": "2025-09-18",
+      "title": "No Priors Ep. 132 With Decagon CEO Jesse Zhang",
+      "podcast": "No Priors",
+      "guest": "Jesse Zhang",
+      "executive_summary": "AI customer service agents achieving 60-70% cost reduction. Per-conversation pricing expands TAM. Productizing for non-technical users is key differentiator.",
+      "key_takeaways": [
+        "AI agents reduce contact center costs 60-70%",
+        "Per-conversation pricing expands TAM to services spend",
+        "Non-technical user productization differentiates"
+      ],
+      "opportunities": [
+        "AI concierge for full customer journey"
+      ],
+      "quotes": [
+        "Entire services TAM is now part of the market."
+      ],
+      "tags": [
+        "customer-service",
+        "AI-agents",
+        "enterprise-SaaS"
+      ]
+    },
+    {
+      "episode_key": "2025-09-25 - No Priors Ep. 133 With Alpha School Joe Liemandt",
+      "date": "2025-09-25",
+      "title": "No Priors Ep. 133 With Alpha School Joe Liemandt",
+      "podcast": "No Priors",
+      "guest": "Joe Liemandt",
+      "executive_summary": "Radical education: 2 hours AI-tutored academics at top 1%, then 4 hours life skills. Subject takes 20-30 hours to master. Private school market 50B+. 200B vouchers coming.",
+      "key_takeaways": [
+        "Grade-level subject takes 20-30 hours to master with AI tutoring",
+        "Kids top motivator is time back",
+        "Private school market 50B+; 200B vouchers coming"
+      ],
+      "opportunities": [
+        "Learning science edtech and for-profit school chains"
+      ],
+      "quotes": [
+        "If every kid learns in 2 hours every family must rethink education."
+      ],
+      "tags": [
+        "education",
+        "AI-tutoring",
+        "learning-science",
+        "edtech"
+      ]
+    },
+    {
+      "episode_key": "2025-10-02 - No Priors With Palo Alto Networks CEO Nikesh Arora",
+      "date": "2025-10-02",
+      "title": "No Priors With Palo Alto Networks CEO Nikesh Arora",
+      "podcast": "No Priors",
+      "guest": "Nikesh Arora",
+      "executive_summary": "Agentic AI more disruptive than generative - 50% of apps could become obsolete. Fastest cyberattack 23 minutes. 80-90% of customer support should go through better products.",
+      "key_takeaways": [
+        "Agentic AI more disruptive - half of apps are transaction processing",
+        "Durable value from system-of-record + workflow ownership",
+        "Fastest cyberattack 23 minutes requiring AI-speed response"
+      ],
+      "opportunities": [
+        "Identity security with behavioral analytics"
+      ],
+      "quotes": [
+        "If all transaction apps become agentic - who sits atop?"
+      ],
+      "tags": [
+        "cybersecurity",
+        "enterprise-AI",
+        "agentic",
+        "security"
+      ]
+    },
+    {
+      "episode_key": "2025-10-09 - No Priors Ep. 135 With Humans& Founder Eric Zelikman",
+      "date": "2025-10-09",
+      "title": "No Priors Ep. 135 With Humans& Founder Eric Zelikman",
+      "podcast": "No Priors",
+      "guest": "Eric Zelikman",
+      "executive_summary": "Creator of STaR reasoning algorithm. Current AI smart but emotionally unintelligent. Starting Humans& for AI understanding human goals over time. Task-centric training leads to sycophancy.",
+      "key_takeaways": [
+        "Task-centric regime prevents understanding long-term human implications",
+        "Empowering humans grows pie rather than replacing segments",
+        "Memory and multi-turn interaction severely underinvested"
+      ],
+      "opportunities": [
+        "AI for long-term human collaboration and goal understanding"
+      ],
+      "quotes": [
+        "Models dont understand long-term implications of what they do and say."
+      ],
+      "tags": [
+        "AI-research",
+        "reasoning",
+        "human-AI-collaboration",
+        "EQ"
+      ]
+    },
+    {
+      "episode_key": "2025-10-15 - No Priors Ep. 136 With Base Power CEO Zach Dell",
+      "date": "2025-10-15",
+      "title": "No Priors Ep. 136 With Base Power CEO Zach Dell",
+      "podcast": "No Priors",
+      "guest": "Zach Dell",
+      "executive_summary": "Base Power lowering electricity costs through vertically integrated home battery storage. 1.3B raised. Worlds largest distributed power plant. Solar+storage next 5 decades.",
+      "key_takeaways": [
+        "Cost to make electrons down but cost to move them up - batteries solve this",
+        "Solar+storage may make nuclear uncompetitive",
+        "Energy cost is input into everything"
+      ],
+      "opportunities": [
+        "Distributed home battery networks as virtual power plants"
+      ],
+      "quotes": [
+        "Batteries move energy through time; poles and wires through space."
+      ],
+      "tags": [
+        "energy",
+        "batteries",
+        "solar",
+        "infrastructure"
+      ]
+    },
+    {
+      "episode_key": "2025-10-23 - No Priors Ep. 137 With Warp CEO Zach Lloyd",
+      "date": "2025-10-23",
+      "title": "No Priors Ep. 137 With Warp CEO Zach Lloyd",
+      "podcast": "No Priors",
+      "guest": "Zach Lloyd",
+      "executive_summary": "Warp from AI terminal to agentic dev environment. 1M revenue every 7-10 days. Consciousness vs intelligence separable. Senior engineering more valuable than ever.",
+      "key_takeaways": [
+        "AI passed Turing test but nobody cared",
+        "Developing by prompt replacing developing by hand",
+        "Senior engineering more valuable for oversight of AI code"
+      ],
+      "opportunities": [
+        "Headless coding agents for CI/CD automation"
+      ],
+      "quotes": [
+        "Agents are junior engineers - without seniors you get bugs and security issues."
+      ],
+      "tags": [
+        "developer-tools",
+        "AI-coding",
+        "consciousness",
+        "terminal"
+      ]
+    },
+    {
+      "episode_key": "2025-10-31 - No Priors Ep. 138 Best of 2025",
+      "date": "2025-10-31",
+      "title": "No Priors Ep. 138 Best of 2025",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo / Elad Gil",
+      "executive_summary": "Compilation: Harvey legal AI 86% accuracy, Fei-Fei Li spatial intelligence, Merkore on AI displacement, Dan Hendricks AI arms race, Abridge giving doctors time back.",
+      "key_takeaways": [
+        "GPT-3 legal advice accepted 86% of the time",
+        "AI turns bad markets good - enterprise search was graveyard before Glean",
+        "Tool use steepens test-time scaling slope"
+      ],
+      "opportunities": [
+        "AI in previously graveyard markets"
+      ],
+      "quotes": [
+        "Mommys going to eat dinner with us every night now."
+      ],
+      "tags": [
+        "AI-highlights",
+        "legal-AI",
+        "healthcare-AI"
+      ]
+    },
+    {
+      "episode_key": "2025-11-06 - No Priors Ep. 139 With Snowflake CEO Sridhar Ramaswamy",
+      "date": "2025-11-06",
+      "title": "No Priors Ep. 139 With Snowflake CEO Sridhar Ramaswamy",
+      "podcast": "No Priors",
+      "guest": "Sridhar Ramaswamy",
+      "executive_summary": "Transforming Snowflake AI-first in 18 months. Snowflake Intelligence opinionated agentic analytics. Speed and iteration trump strategy. Ads will reinvent in chat.",
+      "key_takeaways": [
+        "No software company can feel secure - defensibility built daily",
+        "Coding agents, support AI, data access offer clearest ROI",
+        "AI should use external tools like search APIs"
+      ],
+      "opportunities": [
+        "Consumption-based AI analytics for every employee"
+      ],
+      "quotes": [
+        "Speed wins. Iteration always trumps strategy."
+      ],
+      "tags": [
+        "data-platforms",
+        "enterprise-AI",
+        "Snowflake",
+        "agentic"
+      ]
+    },
+    {
+      "episode_key": "2025-11-13 - No Priors Ep. 140 With Benchling CEO Sajith Wickramasekara",
+      "date": "2025-11-13",
+      "title": "No Priors Ep. 140 With Benchling CEO Sajith Wickramasekara",
+      "podcast": "No Priors",
+      "guest": "Sajith Wickramasekara",
+      "executive_summary": "Benchlings 13 years building biotech R&D software. Drug dev costs 2B takes 10 years. Chinese biotechs disrupting. AI biggest impact compressing 9999 steps after discovery.",
+      "key_takeaways": [
+        "Drug dev has 9999 steps after discovery - AI must accelerate all",
+        "Chinese biotechs disrupting with speed and cost",
+        "We have GPT for bio but no ChatGPT yet"
+      ],
+      "opportunities": [
+        "AI agents for scientific experiment design"
+      ],
+      "quotes": [
+        "We have GPT but no chat for bio yet."
+      ],
+      "tags": [
+        "biotech",
+        "drug-discovery",
+        "scientific-AI",
+        "pharma"
+      ]
+    },
+    {
+      "episode_key": "2025-11-19 - No Priors Ep. 141 With Sunday Robotics",
+      "date": "2025-11-19",
+      "title": "No Priors Ep. 141 With Sunday Robotics",
+      "podcast": "No Priors",
+      "guest": "Tony Zhao / Cheng Chi",
+      "executive_summary": "Home robot for every home. 6K-20K prototypes targeting under 10K. Diffusion policy breakthroughs. 10M+ trajectories from 500+ glove users. Beta 2026.",
+      "key_takeaways": [
+        "Between GPT and ChatGPT moment for robotics",
+        "500+ people with gloves generating 10M+ trajectories",
+        "For manipulation simulating world harder than learning behavior"
+      ],
+      "opportunities": [
+        "Consumer home robots under 10K in 2-3 years"
+      ],
+      "quotes": [
+        "Nobody wants dishes. 1 billion robots in homes within decade."
+      ],
+      "tags": [
+        "robotics",
+        "imitation-learning",
+        "home-automation",
+        "hardware"
+      ]
+    },
+    {
+      "episode_key": "2025-12-05 - No Priors Ep. 142 With Harvey Co-Founder Gabe Pereyra",
+      "date": "2025-12-05",
+      "title": "No Priors Ep. 142 With Harvey Co-Founder Gabe Pereyra",
+      "podcast": "No Priors",
+      "guest": "Gabe Pereyra",
+      "executive_summary": "Harvey AI for legal. GPT-3 achieved 86% accuracy on legal questions. Transforming research, drafting, review for top law firms.",
+      "key_takeaways": [
+        "Legal AI 86% accuracy with GPT-3 before anyone discussed AI for law",
+        "Law firms rethinking associate ratios",
+        "Legal workflows well-suited for AI augmentation"
+      ],
+      "opportunities": [
+        "AI legal research and drafting"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "legal-AI",
+        "enterprise",
+        "LLMs"
+      ]
+    },
+    {
+      "episode_key": "2025-12-11 - No Priors Ep. 143 With ElevenLabs Co-Founder Mati Staniszewski",
+      "date": "2025-12-11",
+      "title": "No Priors Ep. 143 With ElevenLabs Co-Founder Mati Staniszewski",
+      "podcast": "No Priors",
+      "guest": "Mati Staniszewski",
+      "executive_summary": "ElevenLabs voice AI platform. Expanding synthetic speech, voice cloning, audio content creation across content, accessibility, enterprise.",
+      "key_takeaways": [
+        "Voice AI becoming fundamental interface layer",
+        "Audio content creation democratized",
+        "Enterprise voice AI growing rapidly"
+      ],
+      "opportunities": [
+        "Voice AI platforms"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "voice-AI",
+        "audio",
+        "content-creation"
+      ]
+    },
+    {
+      "episode_key": "2025-12-19 - No Priors Ep. 144 The 2026 AI Forecast",
+      "date": "2025-12-19",
+      "title": "No Priors Ep. 144 The 2026 AI Forecast",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo / Elad Gil",
+      "executive_summary": "2026 AI predictions covering model capabilities, enterprise adoption, competitive landscape, growth application categories.",
+      "key_takeaways": [
+        "AI adoption faster than any previous tech wave",
+        "Enterprise ROI clearer in coding, support, data",
+        "Frontier labs vs application companies intensifying"
+      ],
+      "opportunities": [
+        "Vertical AI in industries beginning adoption"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-predictions",
+        "2026-forecast",
+        "enterprise-AI"
+      ]
+    },
+    {
+      "episode_key": "2026-01-08 - NVIDIAs Jensen Huang on Reasoning Robotics and AI Bubble",
+      "date": "2026-01-08",
+      "title": "NVIDIAs Jensen Huang on Reasoning Robotics and AI Bubble",
+      "podcast": "No Priors",
+      "guest": "Jensen Huang",
+      "executive_summary": "NVIDIA vision for reasoning models, robotics, and why AI not a bubble. GPU computing evolution, physical AI, strategy across data centers, edge, autonomous.",
+      "key_takeaways": [
+        "Physical AI and robotics next major GPU frontier",
+        "Reasoning models changing how AI solves problems",
+        "AI infrastructure investment rational"
+      ],
+      "opportunities": [
+        "Robotics and physical AI powered by GPU"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "NVIDIA",
+        "GPU",
+        "robotics",
+        "reasoning-models"
+      ]
+    },
+    {
+      "episode_key": "2026-01-15 - From Uber to Pentagon Undersecretary Emil Michael",
+      "date": "2026-01-15",
+      "title": "From Uber to Pentagon Undersecretary Emil Michael",
+      "podcast": "No Priors",
+      "guest": "Emil Michael",
+      "executive_summary": "Transition from Uber to Pentagon. Silicon Valley speed for defense modernization. AI autonomous systems. Attracting tech talent to government.",
+      "key_takeaways": [
+        "Pentagon needs SV speed and technology adoption",
+        "Defense AI autonomous systems critical",
+        "Tech talent to government key challenge"
+      ],
+      "opportunities": [
+        "Defense tech modernization"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "defense",
+        "government",
+        "AI-policy"
+      ]
+    },
+    {
+      "episode_key": "2026-02-05 - How AI Transforms Roblox CEO David Baszucki",
+      "date": "2026-02-05",
+      "title": "How AI Transforms Roblox CEO David Baszucki",
+      "podcast": "No Priors",
+      "guest": "David Baszucki",
+      "executive_summary": "Roblox AI strategy for photorealistic UGC worlds. Democratizing 3D content creation for millions of developers.",
+      "key_takeaways": [
+        "AI enables photorealistic 3D creation at scale",
+        "UGC platforms benefit from AI creation tools",
+        "Metaverse realized through AI-enhanced engines"
+      ],
+      "opportunities": [
+        "AI 3D content creation tools"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "gaming",
+        "Roblox",
+        "3D-content",
+        "metaverse"
+      ]
+    },
+    {
+      "episode_key": "2026-02-12 - AI and Future of Driving Rivian CEO RJ Scaringe",
+      "date": "2026-02-12",
+      "title": "AI and Future of Driving Rivian CEO RJ Scaringe",
+      "podcast": "No Priors",
+      "guest": "RJ Scaringe",
+      "executive_summary": "Rivian AI in EVs, R2 platform, AI transforming driving from autonomous features to software-defined capabilities.",
+      "key_takeaways": [
+        "EVs becoming AI platforms",
+        "Affordable EVs bring AI to mass market",
+        "Vehicle data creates compounding advantages"
+      ],
+      "opportunities": [
+        "AI-enhanced EV platforms"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "EVs",
+        "autonomous-driving",
+        "Rivian"
+      ]
+    },
+    {
+      "episode_key": "2026-02-26 - Whos Actually Funding the AI Buildout",
+      "date": "2026-02-26",
+      "title": "Whos Actually Funding the AI Buildout",
+      "podcast": "No Priors",
+      "guest": "Sarah Guo / Elad Gil",
+      "executive_summary": "Who funds AI infrastructure - hyperscalers, sovereign funds, PE. Complex capital stack for data centers, GPUs, energy.",
+      "key_takeaways": [
+        "AI funding from diverse sources beyond VC",
+        "Sovereign funds major AI infrastructure funders",
+        "Capital stack increasingly sophisticated"
+      ],
+      "opportunities": [
+        "AI infrastructure financing"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "AI-funding",
+        "infrastructure",
+        "capital-markets"
+      ]
+    },
+    {
+      "episode_key": "2023-02-03 - The Pixel Revolution with Playground AIs Suhail Doshi",
+      "date": "2023-02-03",
+      "title": "The Pixel Revolution with Playground AIs Suhail Doshi",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Suhail Doshi",
+      "executive_summary": "AI image generation democratized for consumer creative tools. Quality gap closing rapidly.",
+      "key_takeaways": [
+        "AI image generation democratized for consumer creative tools. Quality gap closing rapidly."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-02-10 - The Upside and Downside Case for AI",
+      "date": "2023-02-10",
+      "title": "The Upside and Downside Case for AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz / Erik Torenberg",
+      "executive_summary": "Dual nature of AI advancement - tremendous upside alongside downside risks of misuse and displacement.",
+      "key_takeaways": [
+        "Dual nature of AI advancement - tremendous upside alongside downside risks of misuse and displacement."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-02-17 - Creating Compassionate AI with Replikas Eugenia Kuyda",
+      "date": "2023-02-17",
+      "title": "Creating Compassionate AI with Replikas Eugenia Kuyda",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Eugenia Kuyda",
+      "executive_summary": "AI companion platform serving genuine emotional needs. Ethics of emotional AI relationships.",
+      "key_takeaways": [
+        "AI companion platform serving genuine emotional needs. Ethics of emotional AI relationships."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-02-23 - The AI Moment with Amjad Masad Flo Crivello and others",
+      "date": "2023-02-23",
+      "title": "The AI Moment with Amjad Masad Flo Crivello and others",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Multiple guests",
+      "executive_summary": "Roundtable on transformative AI moment post-ChatGPT. Coding democratized. Knowledge work automation.",
+      "key_takeaways": [
+        "Roundtable on transformative AI moment post-ChatGPT. Coding democratized. Knowledge work automation."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-03-02 - Chroma and Stable Attribution with Anton Troynikov",
+      "date": "2023-03-02",
+      "title": "Chroma and Stable Attribution with Anton Troynikov",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Anton Troynikov",
+      "executive_summary": "Vector databases and embeddings as foundational AI infrastructure for RAG applications.",
+      "key_takeaways": [
+        "Vector databases and embeddings as foundational AI infrastructure for RAG applications."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-03-09 - The AI Multimodal Revolution with BLIP researchers",
+      "date": "2023-03-09",
+      "title": "The AI Multimodal Revolution with BLIP researchers",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Junnan Li / Dongxu Li",
+      "executive_summary": "BLIP/BLIP2 bridging vision and language for multimodal AI capabilities.",
+      "key_takeaways": [
+        "BLIP/BLIP2 bridging vision and language for multimodal AI capabilities."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-03-14 - In Search of Truth with Perplexity AIs Aravind Srinivas",
+      "date": "2023-03-14",
+      "title": "In Search of Truth with Perplexity AIs Aravind Srinivas",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Aravind Srinivas",
+      "executive_summary": "AI-powered search with citations for trustworthy sourced answers. Search market ripe for disruption.",
+      "key_takeaways": [
+        "AI-powered search with citations for trustworthy sourced answers. Search market ripe for disruption."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-03-17 - GPT4 AI Unleashed",
+      "date": "2023-03-17",
+      "title": "GPT4 AI Unleashed",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "GPT-4 capability jump and geopolitical implications of advanced AI.",
+      "key_takeaways": [
+        "GPT-4 capability jump and geopolitical implications of advanced AI."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-03-22 - The AI Assistant Revolution with Lindy.AI",
+      "date": "2023-03-22",
+      "title": "The AI Assistant Revolution with Lindy.AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Flo Crivello",
+      "executive_summary": "Personal AI assistants automating knowledge work - scheduling, email, workflows.",
+      "key_takeaways": [
+        "Personal AI assistants automating knowledge work - scheduling, email, workflows."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-03-24 - The AI Voice Revolution with Play.ht",
+      "date": "2023-03-24",
+      "title": "The AI Voice Revolution with Play.ht",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Mahmoud Felfel",
+      "executive_summary": "AI voice generation reaching near-human quality for content and accessibility.",
+      "key_takeaways": [
+        "AI voice generation reaching near-human quality for content and accessibility."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-03-28 - OpenAIs GPT-4 with Red Teamer Nathan Labenz",
+      "date": "2023-03-28",
+      "title": "OpenAIs GPT-4 with Red Teamer Nathan Labenz",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "GPT-4 red teaming insights on capabilities and safety testing process.",
+      "key_takeaways": [
+        "GPT-4 red teaming insights on capabilities and safety testing process."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-03-30 - Mother of Robots with Google Robotics",
+      "date": "2023-03-30",
+      "title": "Mother of Robots with Google Robotics",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Keerthana Gopalakrishnan",
+      "executive_summary": "LLM integration with robotics for natural language robot control.",
+      "key_takeaways": [
+        "LLM integration with robotics for natural language robot control."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-04-04 - AI open letter debate",
+      "date": "2023-04-04",
+      "title": "AI open letter debate",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Multiple guests",
+      "executive_summary": "Debate on AI pause letter and development pace concerns.",
+      "key_takeaways": [
+        "Debate on AI pause letter and development pace concerns."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-04-06 - The AI Reasoning Revolution with Ought",
+      "date": "2023-04-06",
+      "title": "The AI Reasoning Revolution with Ought",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Jungwon Byun / Andreas Stuhlmuller",
+      "executive_summary": "AI reasoning tools and Elicit platform for research.",
+      "key_takeaways": [
+        "AI reasoning tools and Elicit platform for research."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-04-11 - Will GPT-4 Cause Economic Transformation",
+      "date": "2023-04-11",
+      "title": "Will GPT-4 Cause Economic Transformation",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz / Erik Torenberg",
+      "executive_summary": "GPT-4 potential economic impact across industries.",
+      "key_takeaways": [
+        "GPT-4 potential economic impact across industries."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-04-13 - Pausing AI Revolution With Jaan Tallinn",
+      "date": "2023-04-13",
+      "title": "Pausing AI Revolution With Jaan Tallinn",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Jaan Tallinn",
+      "executive_summary": "Existential AI risk and case for development caution.",
+      "key_takeaways": [
+        "Existential AI risk and case for development caution."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-04-18 - Art of Prompting ChatGPT With Riley Goodside",
+      "date": "2023-04-18",
+      "title": "Art of Prompting ChatGPT With Riley Goodside",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Riley Goodside",
+      "executive_summary": "Advanced prompt engineering techniques for LLMs.",
+      "key_takeaways": [
+        "Advanced prompt engineering techniques for LLMs."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-04-20 - Why Jailbreaking ChatGPT is public service",
+      "date": "2023-04-20",
+      "title": "Why Jailbreaking ChatGPT is public service",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Alex Albert",
+      "executive_summary": "AI jailbreaking as security research and responsible disclosure.",
+      "key_takeaways": [
+        "AI jailbreaking as security research and responsible disclosure."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-04-25 - How AI Agents Will Change Work with Fixie.ai",
+      "date": "2023-04-25",
+      "title": "How AI Agents Will Change Work with Fixie.ai",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Matt Welsh",
+      "executive_summary": "AI agents and autonomous task completion for knowledge work.",
+      "key_takeaways": [
+        "AI agents and autonomous task completion for knowledge work."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-04-27 - The Great AI Implementation with Humanloop",
+      "date": "2023-04-27",
+      "title": "The Great AI Implementation with Humanloop",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Raza Habib",
+      "executive_summary": "Practical AI implementation challenges and solutions.",
+      "key_takeaways": [
+        "Practical AI implementation challenges and solutions."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-05-02 - VC Insights on AI Investing",
+      "date": "2023-05-02",
+      "title": "VC Insights on AI Investing",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Sarah Guo / Elad Gil",
+      "executive_summary": "AI startup investment landscape from top VCs.",
+      "key_takeaways": [
+        "AI startup investment landscape from top VCs."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-05-04 - Helping Businesses Use AI",
+      "date": "2023-05-04",
+      "title": "Helping Businesses Use AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Rachel Woods",
+      "executive_summary": "Practical AI adoption guide for businesses.",
+      "key_takeaways": [
+        "Practical AI adoption guide for businesses."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-05-09 - Scouting AI Revolution",
+      "date": "2023-05-09",
+      "title": "Scouting AI Revolution",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Robert Scoble / Ben Tossell",
+      "executive_summary": "AI startup landscape survey and emerging trends.",
+      "key_takeaways": [
+        "AI startup landscape survey and emerging trends."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-05-11 - AI Revolution in Medicine with Harvard",
+      "date": "2023-05-11",
+      "title": "AI Revolution in Medicine with Harvard",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Dr. Isaac Kohane",
+      "executive_summary": "GPT-4 medical capabilities and healthcare transformation.",
+      "key_takeaways": [
+        "GPT-4 medical capabilities and healthcare transformation."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-05-16 - Revolutionizing Patient Care with Curai",
+      "date": "2023-05-16",
+      "title": "Revolutionizing Patient Care with Curai",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Neal Khosla",
+      "executive_summary": "AI-powered primary care platform innovation.",
+      "key_takeaways": [
+        "AI-powered primary care platform innovation."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-05-19 - Connor Leahy on AGI",
+      "date": "2023-05-19",
+      "title": "Connor Leahy on AGI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Connor Leahy",
+      "executive_summary": "AGI timelines and alignment challenges.",
+      "key_takeaways": [
+        "AGI timelines and alignment challenges."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-05-21 - Googles Med-PaLM with Vivek Natarajan",
+      "date": "2023-05-21",
+      "title": "Googles Med-PaLM with Vivek Natarajan",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Vivek Natarajan",
+      "executive_summary": "Medical AI achieving physician-level performance.",
+      "key_takeaways": [
+        "Medical AI achieving physician-level performance."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-05-23 - Guardrails AI with Shreya Rajpal",
+      "date": "2023-05-23",
+      "title": "Guardrails AI with Shreya Rajpal",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Shreya Rajpal",
+      "executive_summary": "AI output validation and guardrails for production.",
+      "key_takeaways": [
+        "AI output validation and guardrails for production."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-05-25 - AI Chip Revolution with Cerebras",
+      "date": "2023-05-25",
+      "title": "AI Chip Revolution with Cerebras",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Andrew Feldman",
+      "executive_summary": "Wafer-scale AI chip design approach.",
+      "key_takeaways": [
+        "Wafer-scale AI chip design approach."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-05-30 - AI Revolution in Hollywood With WGA Writers",
+      "date": "2023-05-30",
+      "title": "AI Revolution in Hollywood With WGA Writers",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Multiple writers",
+      "executive_summary": "AI impact on Hollywood and the WGA strike.",
+      "key_takeaways": [
+        "AI impact on Hollywood and the WGA strike."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-06-01 - Where Are the Moats in AI",
+      "date": "2023-06-01",
+      "title": "Where Are the Moats in AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz / Erik Torenberg",
+      "executive_summary": "Defensibility and competitive advantages in AI.",
+      "key_takeaways": [
+        "Defensibility and competitive advantages in AI."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-06-06 - Tiny Model Revolution with Microsoft Research",
+      "date": "2023-06-06",
+      "title": "Tiny Model Revolution with Microsoft Research",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Ronen Eldan / Yuanzhi Li",
+      "executive_summary": "Small language models achieving surprising capabilities.",
+      "key_takeaways": [
+        "Small language models achieving surprising capabilities."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-06-11 - Consumer Rights Revolution with DoNotPay",
+      "date": "2023-06-11",
+      "title": "Consumer Rights Revolution with DoNotPay",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Joshua Browder",
+      "executive_summary": "AI-powered consumer rights automation.",
+      "key_takeaways": [
+        "AI-powered consumer rights automation."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-06-13 - Stability AI and Slow Ventures Debate",
+      "date": "2023-06-13",
+      "title": "Stability AI and Slow Ventures Debate",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Emad Mostaque / Sam Lessin",
+      "executive_summary": "AI investment strategies and open source models.",
+      "key_takeaways": [
+        "AI investment strategies and open source models."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-06-16 - Your Model Your Weights with MosaicML",
+      "date": "2023-06-16",
+      "title": "Your Model Your Weights with MosaicML",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Abhi Venigalla / Jonathan Frankle",
+      "executive_summary": "Custom model training platform.",
+      "key_takeaways": [
+        "Custom model training platform."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-06-20 - Mind-Reading Revolution Part 1",
+      "date": "2023-06-20",
+      "title": "Mind-Reading Revolution Part 1",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Dr. Tanishq Mathew Abraham",
+      "executive_summary": "Brain-computer interfaces and neural decoding.",
+      "key_takeaways": [
+        "Brain-computer interfaces and neural decoding."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-06-22 - Virtual Biopsy Revolution Part 2",
+      "date": "2023-06-22",
+      "title": "Virtual Biopsy Revolution Part 2",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Dr. Tanishq Mathew Abraham",
+      "executive_summary": "AI for medical imaging and virtual biopsy.",
+      "key_takeaways": [
+        "AI for medical imaging and virtual biopsy."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-06-27 - Seeing is Believing with MIT",
+      "date": "2023-06-27",
+      "title": "Seeing is Believing with MIT",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Ziming Liu",
+      "executive_summary": "Mechanistic interpretability of neural networks.",
+      "key_takeaways": [
+        "Mechanistic interpretability of neural networks."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-06-29 - Metas MEGABYTE Revolution",
+      "date": "2023-06-29",
+      "title": "Metas MEGABYTE Revolution",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Lili Yu",
+      "executive_summary": "MEGABYTE architecture for long sequence processing.",
+      "key_takeaways": [
+        "MEGABYTE architecture for long sequence processing."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-07-04 - Autonomy Revolution with Skydio",
+      "date": "2023-07-04",
+      "title": "Autonomy Revolution with Skydio",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Hayk Martiros",
+      "executive_summary": "Autonomous drone technology and computer vision.",
+      "key_takeaways": [
+        "Autonomous drone technology and computer vision."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-07-06 - AI Scouting Report Part 1 Fundamentals",
+      "date": "2023-07-06",
+      "title": "AI Scouting Report Part 1 Fundamentals",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "Comprehensive AI fundamentals overview.",
+      "key_takeaways": [
+        "Comprehensive AI fundamentals overview."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-07-11 - AI Safety Debates with Zvi",
+      "date": "2023-07-11",
+      "title": "AI Safety Debates with Zvi",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Zvi Mowshowitz",
+      "executive_summary": "AI safety arguments and regulatory approaches.",
+      "key_takeaways": [
+        "AI safety arguments and regulatory approaches."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-07-13 - AI Copilot Revolution with MultiOn",
+      "date": "2023-07-13",
+      "title": "AI Copilot Revolution with MultiOn",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Div Garg",
+      "executive_summary": "AI browser agents and web automation.",
+      "key_takeaways": [
+        "AI browser agents and web automation."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-07-18 - AI Scouting Report Part 2 Implementation",
+      "date": "2023-07-18",
+      "title": "AI Scouting Report Part 2 Implementation",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "AI implementation patterns across industries.",
+      "key_takeaways": [
+        "AI implementation patterns across industries."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-07-20 - AI Scouting Report Part 3 Impact",
+      "date": "2023-07-20",
+      "title": "AI Scouting Report Part 3 Impact",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "Long-term AI impact and societal implications.",
+      "key_takeaways": [
+        "Long-term AI impact and societal implications."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-07-25 - GPUMaxing with Run.ai",
+      "date": "2023-07-25",
+      "title": "GPUMaxing with Run.ai",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Dr. Ronen Dar",
+      "executive_summary": "GPU orchestration and optimization.",
+      "key_takeaways": [
+        "GPU orchestration and optimization."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-07-27 - Demystifying LLMs with Arthur Conmy",
+      "date": "2023-07-27",
+      "title": "Demystifying LLMs with Arthur Conmy",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Arthur Conmy",
+      "executive_summary": "Mechanistic interpretability research.",
+      "key_takeaways": [
+        "Mechanistic interpretability research."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-08-02 - OpenAI Anthropic Meta Analysis with Zvi",
+      "date": "2023-08-02",
+      "title": "OpenAI Anthropic Meta Analysis with Zvi",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Zvi Mowshowitz",
+      "executive_summary": "Major AI labs competitive analysis.",
+      "key_takeaways": [
+        "Major AI labs competitive analysis."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-08-04 - Future of Software Dev with Replit",
+      "date": "2023-08-04",
+      "title": "Future of Software Dev with Replit",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Tyler Angert",
+      "executive_summary": "AI-powered coding future.",
+      "key_takeaways": [
+        "AI-powered coding future."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-08-08 - Replits VP AI on Developer Intelligence",
+      "date": "2023-08-08",
+      "title": "Replits VP AI on Developer Intelligence",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Michele Catasta",
+      "executive_summary": "Replit AI strategy for developers.",
+      "key_takeaways": [
+        "Replit AI strategy for developers."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-08-10 - Updating the AI Scouting Report",
+      "date": "2023-08-10",
+      "title": "Updating the AI Scouting Report",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "Updated AI capabilities and trends.",
+      "key_takeaways": [
+        "Updated AI capabilities and trends."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-08-15 - AI Revolution in Education with Khan Academy",
+      "date": "2023-08-15",
+      "title": "AI Revolution in Education with Khan Academy",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Shawn Jansepar",
+      "executive_summary": "Khanmigo AI tutor integration.",
+      "key_takeaways": [
+        "Khanmigo AI tutor integration."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-08-17 - Presentation Revolution with Gamma",
+      "date": "2023-08-17",
+      "title": "Presentation Revolution with Gamma",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Jon Noronha",
+      "executive_summary": "AI-powered presentation creation.",
+      "key_takeaways": [
+        "AI-powered presentation creation."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-08-23 - Googles Multimodal Med-PaLM",
+      "date": "2023-08-23",
+      "title": "Googles Multimodal Med-PaLM",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Vivek Natarajan / Tao Tu",
+      "executive_summary": "Multimodal medical AI.",
+      "key_takeaways": [
+        "Multimodal medical AI."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-08-25 - OpenAIs GPT3.5 Turbo and State of AI",
+      "date": "2023-08-25",
+      "title": "OpenAIs GPT3.5 Turbo and State of AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "GPT-3.5 Turbo in coding and healthcare.",
+      "key_takeaways": [
+        "GPT-3.5 Turbo in coding and healthcare."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-08-28 - Flattering Chat-GPT for better results",
+      "date": "2023-08-28",
+      "title": "Flattering Chat-GPT for better results",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "Prompt engineering techniques.",
+      "key_takeaways": [
+        "Prompt engineering techniques."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-08-29 - Googles PaLM-2 with Paige Bailey",
+      "date": "2023-08-29",
+      "title": "Googles PaLM-2 with Paige Bailey",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Paige Bailey",
+      "executive_summary": "PaLM-2 capabilities and applications.",
+      "key_takeaways": [
+        "PaLM-2 capabilities and applications."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-08-31 - How Hugging Face raised 235M",
+      "date": "2023-08-31",
+      "title": "How Hugging Face raised 235M",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "Hugging Face growth and open source AI.",
+      "key_takeaways": [
+        "Hugging Face growth and open source AI."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-09-05 - Cryptography and AI Data Privacy",
+      "date": "2023-09-05",
+      "title": "Cryptography and AI Data Privacy",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Daniel Kang",
+      "executive_summary": "ZK proofs for AI privacy.",
+      "key_takeaways": [
+        "ZK proofs for AI privacy."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-09-07 - Why a16z Built a Town for AI",
+      "date": "2023-09-07",
+      "title": "Why a16z Built a Town for AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "a16z AI investment strategy.",
+      "key_takeaways": [
+        "a16z AI investment strategy."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-09-12 - Hollywood Strike Update and AI",
+      "date": "2023-09-12",
+      "title": "Hollywood Strike Update and AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Trey Kollmer",
+      "executive_summary": "WGA/SAG-AFTRA and AI in entertainment.",
+      "key_takeaways": [
+        "WGA/SAG-AFTRA and AI in entertainment."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-09-14 - AI-Powered Filmmaking with Waymark",
+      "date": "2023-09-14",
+      "title": "AI-Powered Filmmaking with Waymark",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Stephen Parker / Josh Rubin",
+      "executive_summary": "AI video for local advertising.",
+      "key_takeaways": [
+        "AI video for local advertising."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-09-19 - Future of AI Security with Arthur.ai",
+      "date": "2023-09-19",
+      "title": "Future of AI Security with Arthur.ai",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Adam Wenchel",
+      "executive_summary": "AI monitoring and security.",
+      "key_takeaways": [
+        "AI monitoring and security."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-09-22 - Universal Jailbreaks research",
+      "date": "2023-09-22",
+      "title": "Universal Jailbreaks research",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Zico Kolter / Andy Zou",
+      "executive_summary": "Universal adversarial attacks on LLMs.",
+      "key_takeaways": [
+        "Universal adversarial attacks on LLMs."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-09-26 - OpenAI Fine-Tuning and Bundling AI",
+      "date": "2023-09-26",
+      "title": "OpenAI Fine-Tuning and Bundling AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "Fine-tuning and AI business strategy.",
+      "key_takeaways": [
+        "Fine-tuning and AI business strategy."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-09-29 - OpenAI Amazon Anthropic with Zvi",
+      "date": "2023-09-29",
+      "title": "OpenAI Amazon Anthropic with Zvi",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Zvi Mowshowitz",
+      "executive_summary": "Major AI investments analysis.",
+      "key_takeaways": [
+        "Major AI investments analysis."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-10-03 - Gunning for Google with Perplexity CEO",
+      "date": "2023-10-03",
+      "title": "Gunning for Google with Perplexity CEO",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Aravind Srinivas",
+      "executive_summary": "Perplexity challenging Google in search.",
+      "key_takeaways": [
+        "Perplexity challenging Google in search."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-10-05 - AI Engineers and Competition with Swyx",
+      "date": "2023-10-05",
+      "title": "AI Engineers and Competition with Swyx",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Swyx",
+      "executive_summary": "AI engineer role and ecosystem.",
+      "key_takeaways": [
+        "AI engineer role and ecosystem."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-10-10 - AI Supercharging Writers with Sudowrite",
+      "date": "2023-10-10",
+      "title": "AI Supercharging Writers with Sudowrite",
+      "podcast": "The Cognitive Revolution",
+      "guest": "James Yu",
+      "executive_summary": "AI writing assistance for authors.",
+      "key_takeaways": [
+        "AI writing assistance for authors."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-10-13 - AI Scouting Report Jailbreaks and Defense",
+      "date": "2023-10-13",
+      "title": "AI Scouting Report Jailbreaks and Defense",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "AI security attacks and defenses.",
+      "key_takeaways": [
+        "AI security attacks and defenses."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-10-18 - Future of the Transformer Pt 1",
+      "date": "2023-10-18",
+      "title": "Future of the Transformer Pt 1",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Trey Kollmer",
+      "executive_summary": "Transformer evolution and H100.",
+      "key_takeaways": [
+        "Transformer evolution and H100."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-10-20 - Future of the Transformer Pt 2",
+      "date": "2023-10-20",
+      "title": "Future of the Transformer Pt 2",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Trey Kollmer",
+      "executive_summary": "Transformer innovations continued.",
+      "key_takeaways": [
+        "Transformer innovations continued."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-10-24 - RAG and Beyond with Chroma",
+      "date": "2023-10-24",
+      "title": "RAG and Beyond with Chroma",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Anton Troynikov",
+      "executive_summary": "RAG and vector database applications.",
+      "key_takeaways": [
+        "RAG and vector database applications."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-10-26 - AI Agents and BabyAGI",
+      "date": "2023-10-26",
+      "title": "AI Agents and BabyAGI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Yohei Nakajima",
+      "executive_summary": "Autonomous agents and BabyAGI.",
+      "key_takeaways": [
+        "Autonomous agents and BabyAGI."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-10-31 - Hardcore AI for History",
+      "date": "2023-10-31",
+      "title": "Hardcore AI for History",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Mark Humphries",
+      "executive_summary": "AI in historical research.",
+      "key_takeaways": [
+        "AI in historical research."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-11-03 - Lindy AI on Bidens Executive Order",
+      "date": "2023-11-03",
+      "title": "Lindy AI on Bidens Executive Order",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Flo Crivello",
+      "executive_summary": "Biden AI EO regulatory analysis.",
+      "key_takeaways": [
+        "Biden AI EO regulatory analysis."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-11-08 - OpenAI DevDay with Logan Kilpatrick",
+      "date": "2023-11-08",
+      "title": "OpenAI DevDay with Logan Kilpatrick",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Logan Kilpatrick",
+      "executive_summary": "OpenAI developer platform.",
+      "key_takeaways": [
+        "OpenAI developer platform."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-11-09 - OpenAI Invests in Self-Driving",
+      "date": "2023-11-09",
+      "title": "OpenAI Invests in Self-Driving",
+      "podcast": "The Cognitive Revolution",
+      "guest": "John Hayes",
+      "executive_summary": "AI autonomous driving.",
+      "key_takeaways": [
+        "AI autonomous driving."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-11-14 - Synthetic Data with Gretel AI",
+      "date": "2023-11-14",
+      "title": "Synthetic Data with Gretel AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Alex Watson",
+      "executive_summary": "Synthetic data for training and privacy.",
+      "key_takeaways": [
+        "Synthetic data for training and privacy."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-11-17 - AI Discourse on LLM Generalization",
+      "date": "2023-11-17",
+      "title": "AI Discourse on LLM Generalization",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "Generalization claims and regulation.",
+      "key_takeaways": [
+        "Generalization claims and regulation."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-11-22 - OpenAI Board Decision Context",
+      "date": "2023-11-22",
+      "title": "OpenAI Board Decision Context",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "OpenAI governance crisis analysis.",
+      "key_takeaways": [
+        "OpenAI governance crisis analysis."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-11-28 - Vercel CEO on v0 and AI Coding",
+      "date": "2023-11-28",
+      "title": "Vercel CEO on v0 and AI Coding",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Guillermo Rauch",
+      "executive_summary": "v0 AI coding and web dev future.",
+      "key_takeaways": [
+        "v0 AI coding and web dev future."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-12-02 - Imbue on AI Agents for Reasoning",
+      "date": "2023-12-02",
+      "title": "Imbue on AI Agents for Reasoning",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Josh Albrecht",
+      "executive_summary": "Reliable AI agents with reasoning.",
+      "key_takeaways": [
+        "Reliable AI agents with reasoning."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-12-07 - Biological Systems and AI",
+      "date": "2023-12-07",
+      "title": "Biological Systems and AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nora Ammann",
+      "executive_summary": "Biology insights for AI alignment.",
+      "key_takeaways": [
+        "Biology insights for AI alignment."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-12-09 - Hume on Emotionally Aware AI",
+      "date": "2023-12-09",
+      "title": "Hume on Emotionally Aware AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Alan Cowen",
+      "executive_summary": "AI understanding human emotions.",
+      "key_takeaways": [
+        "AI understanding human emotions."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-12-12 - Balaji on Polytheistic AI",
+      "date": "2023-12-12",
+      "title": "Balaji on Polytheistic AI",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Balaji Srinivasan",
+      "executive_summary": "Competing AI systems and decentralized governance.",
+      "key_takeaways": [
+        "Competing AI systems and decentralized governance."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-12-16 - AI Deception with Apollo Research",
+      "date": "2023-12-16",
+      "title": "AI Deception with Apollo Research",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Marius Hobbhahn",
+      "executive_summary": "Detecting AI deception.",
+      "key_takeaways": [
+        "Detecting AI deception."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    },
+    {
+      "episode_key": "2023-12-20 - Using ChatGPT As Copilot For Your Mind",
+      "date": "2023-12-20",
+      "title": "Using ChatGPT As Copilot For Your Mind",
+      "podcast": "The Cognitive Revolution",
+      "guest": "Nathan Labenz",
+      "executive_summary": "Practical ChatGPT for cognitive enhancement.",
+      "key_takeaways": [
+        "Practical ChatGPT for cognitive enhancement."
+      ],
+      "opportunities": [
+        "See episode for details"
+      ],
+      "quotes": [
+        ""
+      ],
+      "tags": [
+        "cognitive-revolution",
+        "AI"
+      ]
+    }
+  ]
+}

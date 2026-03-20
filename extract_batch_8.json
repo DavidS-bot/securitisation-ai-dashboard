@@ -1,0 +1,2105 @@
+{
+  "ideas": [
+    {
+      "idea": "Robot lawn mowing service",
+      "description": "Buy robot lawn mowers ($5-7K each) and start a lawn mowing service. Drop off robots at homes daily. Or buy existing landscaping company and switch to robots for near-pure-profit margins.",
+      "category": "Other",
+      "revenue_model": "Monthly service subscriptions",
+      "effort": "Medium",
+      "investment": "Medium",
+      "target_market": "Homeowners with large yards",
+      "episode_date": "2024-10-14",
+      "episode_title": "6 startup ideas from the Tech Warren Buffett",
+      "mentioned_by": "Andrew Wilkinson",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Robot lawnmower review/affiliate website",
+      "description": "Wire Cutter-style review site for robot lawnmowers with SEO and affiliate revenue.",
+      "category": "Content",
+      "revenue_model": "Affiliate commissions",
+      "effort": "Low",
+      "investment": "Low",
+      "target_market": "Homeowners researching robot lawn mowers",
+      "episode_date": "2024-10-14",
+      "episode_title": "6 startup ideas from the Tech Warren Buffett",
+      "mentioned_by": "Andrew Wilkinson",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Sleep apnea ecosystem businesses",
+      "description": "Apple Watch now diagnoses sleep apnea. Build clinics, CPAP alternatives, monitoring apps, or hardware financing. 80-90% of cases undiagnosed.",
+      "category": "Other",
+      "revenue_model": "Hardware sales, clinic services, app subscriptions",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Newly diagnosed sleep apnea patients",
+      "episode_date": "2024-10-14",
+      "episode_title": "6 startup ideas from the Tech Warren Buffett",
+      "mentioned_by": "Andrew Wilkinson",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Computer vision analytics for small businesses",
+      "description": "Cheap webcams with AI for retail analytics: heat maps, anonymized repeat customer tracking, confusion detection for small businesses.",
+      "category": "SaaS",
+      "revenue_model": "Monthly SaaS subscription",
+      "effort": "High",
+      "investment": "Medium",
+      "target_market": "Small retail businesses, restaurants",
+      "episode_date": "2024-10-14",
+      "episode_title": "6 startup ideas from the Tech Warren Buffett",
+      "mentioned_by": "Andrew Wilkinson",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Negotiation-as-a-service",
+      "description": "Service that negotiates houses, cars, large purchases on behalf of customers. Take 20-25% of savings. Train remote salesforce with LLM assistance.",
+      "category": "Agency",
+      "revenue_model": "Performance-based fee (% of savings)",
+      "effort": "Medium",
+      "investment": "Low",
+      "target_market": "Anyone making large purchases",
+      "episode_date": "2024-10-14",
+      "episode_title": "6 startup ideas from the Tech Warren Buffett",
+      "mentioned_by": "Andrew Wilkinson",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "At-home sperm freezing service",
+      "description": "Ship dry ice kits to men's homes for sample collection. No one advertising on Google for sperm freezing - massive gap.",
+      "category": "Other",
+      "revenue_model": "Kit sales + annual storage fees",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Men 25-40 wanting to preserve fertility",
+      "episode_date": "2024-10-14",
+      "episode_title": "6 startup ideas from the Tech Warren Buffett",
+      "mentioned_by": "Andrew Wilkinson",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Entrepreneur forum groups (secular church)",
+      "description": "Create structured monthly forum groups for entrepreneurs. 5-6 people share business and personal challenges. Builds deep trust and friendship.",
+      "category": "Community",
+      "revenue_model": "Membership fees, events",
+      "effort": "Medium",
+      "investment": "Low",
+      "target_market": "Entrepreneurs seeking peer support",
+      "episode_date": "2024-10-14",
+      "episode_title": "6 startup ideas from the Tech Warren Buffett",
+      "mentioned_by": "Andrew Wilkinson",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Premium dating app with modern status signals",
+      "description": "Rebuild The League for 2024+ using follower counts, YC membership, influential followers. Charge $100-2500/month.",
+      "category": "Marketplace",
+      "revenue_model": "Premium subscriptions ($99-$2499/month)",
+      "effort": "High",
+      "investment": "Medium",
+      "target_market": "Ambitious professionals aged 25-40",
+      "episode_date": "2024-10-16",
+      "episode_title": "The blueprint for a $340k/mo premium dating app",
+      "mentioned_by": "Greg Isenberg",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Niche premium dating apps from Match portfolio",
+      "description": "Go through Match.com's A-Z portfolio and create premium versions for each niche. Cash flow, don't raise money.",
+      "category": "Marketplace",
+      "revenue_model": "Premium subscriptions",
+      "effort": "Medium",
+      "investment": "Low-Medium",
+      "target_market": "Niche dating demographics",
+      "episode_date": "2024-10-16",
+      "episode_title": "The blueprint for a $340k/mo premium dating app",
+      "mentioned_by": "Greg Isenberg",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "AI charisma/social skills report card",
+      "description": "App that listens to conversations and scores social competence. Like Umax but for social skills.",
+      "category": "Tool",
+      "revenue_model": "One-time payment under $5",
+      "effort": "Medium",
+      "investment": "Low",
+      "target_market": "Young professionals wanting social feedback",
+      "episode_date": "2024-10-16",
+      "episode_title": "The blueprint for a $340k/mo premium dating app",
+      "mentioned_by": "Greg Isenberg",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "AI calorie tracking app with organic TikTok growth",
+      "description": "Photo-based AI calorie counter grown via organic TikTok. A 17-year-old built one doing $400K/month.",
+      "category": "Tool",
+      "revenue_model": "App subscriptions",
+      "effort": "Medium",
+      "investment": "Low-Medium",
+      "target_market": "Health-conscious consumers, gym-goers",
+      "episode_date": "2024-10-09",
+      "episode_title": "How to build a $400k/mo AI App",
+      "mentioned_by": "Roman (Arcads)",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "AI-powered ad creation tool",
+      "description": "Generate thousands of ad variations with AI actors and text-to-speech. Test 30K+ creatives to find profitable angles.",
+      "category": "SaaS",
+      "revenue_model": "SaaS subscription",
+      "effort": "High",
+      "investment": "Medium",
+      "target_market": "Mobile app studios, DTC brands",
+      "episode_date": "2024-10-09",
+      "episode_title": "How to build a $400k/mo AI App",
+      "mentioned_by": "Roman (Arcads)",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Cybersecurity for AI model weights",
+      "description": "Protect AI model weights like Fort Knox. As labs spend $500M+ training models, protecting weights becomes critical.",
+      "category": "SaaS",
+      "revenue_model": "Enterprise B2B contracts",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "AI companies (OpenAI, Anthropic, etc.)",
+      "episode_date": "2024-11-11",
+      "episode_title": "John Coogan gives you $1B BIG startup ideas",
+      "mentioned_by": "John Coogan",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Moon infrastructure/logistics company",
+      "description": "Put assets (food, water, solar) on the moon in prep for colonization. SpaceX provides cheap launch capacity.",
+      "category": "Other",
+      "revenue_model": "Government contracts",
+      "effort": "Very High",
+      "investment": "Very High",
+      "target_market": "NASA, SpaceX, space agencies",
+      "episode_date": "2024-11-11",
+      "episode_title": "John Coogan gives you $1B BIG startup ideas",
+      "mentioned_by": "John Coogan",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Kids-focused AI device (anti-iPhone)",
+      "description": "Fun, ruggedized, deliberately limited device for kids. No app store, no addictive apps. Quirky anti-Apple design.",
+      "category": "Other",
+      "revenue_model": "Hardware sales ($100-200)",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Millennial parents with kids aged 6-13",
+      "episode_date": "2024-11-11",
+      "episode_title": "John Coogan gives you $1B BIG startup ideas",
+      "mentioned_by": "John Coogan",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Curated directories with affiliate monetization",
+      "description": "Create one curated directory per month. Programmatic SEO for landing pages at scale. Convert 6-10% to email.",
+      "category": "Content",
+      "revenue_model": "Affiliate commissions, email monetization",
+      "effort": "Low",
+      "investment": "Low",
+      "target_market": "Various niches",
+      "episode_date": "2024-10-14",
+      "episode_title": "6 startup ideas from the Tech Warren Buffett",
+      "mentioned_by": "Greg Isenberg & Andrew Wilkinson",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Cursor for writing / Creator Composer",
+      "description": "VS Code-like interface for content creators with notes panel, markdown editor, and AI presets for tweets, threads, scripts.",
+      "category": "SaaS",
+      "revenue_model": "SaaS subscription",
+      "effort": "High",
+      "investment": "Medium",
+      "target_market": "Content creators, writers",
+      "episode_date": "2024-10-04",
+      "episode_title": "I can't believe we built an IOS app with AI in under 33 min",
+      "mentioned_by": "Riley Brown & Greg Isenberg",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Reusable modular prompt library",
+      "description": "Aggregator of reusable prompts for common features (auth, payments) that work with Cursor and AI coding tools.",
+      "category": "Tool",
+      "revenue_model": "Freemium SaaS, marketplace fees",
+      "effort": "Medium",
+      "investment": "Low",
+      "target_market": "AI-assisted developers",
+      "episode_date": "2024-10-11",
+      "episode_title": "Essential AI Coding Fundamentals",
+      "mentioned_by": "Jason (AI Jason)",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Reddit/community analytics platform",
+      "description": "Scrape subreddit posts and categorize using AI: solution requests, pain/anger, advice, money talk.",
+      "category": "SaaS",
+      "revenue_model": "SaaS subscription",
+      "effort": "Medium",
+      "investment": "Low",
+      "target_market": "Founders, marketers doing research",
+      "episode_date": "2024-10-11",
+      "episode_title": "Essential AI Coding Fundamentals",
+      "mentioned_by": "Jason (AI Jason)",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "IMDb for creators",
+      "description": "Directory of content creators across niches. Help people find trusted creators for any topic.",
+      "category": "Marketplace",
+      "revenue_model": "Advertising, premium listings",
+      "effort": "Medium",
+      "investment": "Low",
+      "target_market": "Content consumers",
+      "episode_date": "2024-10-11",
+      "episode_title": "Essential AI Coding Fundamentals",
+      "mentioned_by": "Greg Isenberg",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Indie hacker product directory with gamification",
+      "description": "Product Hunt alternative with upvoting and daily rankings. Monetize through affiliate deals.",
+      "category": "Marketplace",
+      "revenue_model": "Affiliate commissions, featured listings",
+      "effort": "Low",
+      "investment": "Low",
+      "target_market": "Indie hackers, bootstrapped founders",
+      "episode_date": "2024-11-08",
+      "episode_title": "Bolt tutorial for beginners with Bolt CEO",
+      "mentioned_by": "Greg Isenberg & Eric Simons",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "AI insurance for brand safety",
+      "description": "Sell insurance to brands worried about AI-generated campaigns going wrong. Cover brand correction costs.",
+      "category": "Other",
+      "revenue_model": "Insurance premiums",
+      "effort": "High",
+      "investment": "High",
+      "target_market": "Enterprise brands adopting generative AI",
+      "episode_date": "2024-11-11",
+      "episode_title": "John Coogan gives you $1B BIG startup ideas",
+      "mentioned_by": "John Coogan & Greg Isenberg",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Best product of the year badge/plaque business",
+      "description": "Create and sell credibility badges like Better Business Bureau. Physical plaques + embeddable website images. 99% margin.",
+      "category": "Other",
+      "revenue_model": "Annual subscription ($200-300/year)",
+      "effort": "Low",
+      "investment": "Low",
+      "target_market": "SaaS companies, startups wanting credibility",
+      "episode_date": "2024-12-23",
+      "episode_title": "pov: brainstorming $1M+ startup ideas with Daniel Dalen",
+      "mentioned_by": "Greg Isenberg",
+      "podcast": "The Startup Ideas Podcast"
+    },
+    {
+      "idea": "Embeddable for-sale button for websites",
+      "description": "Widget for website owners to signal site is for sale. Creates directory of businesses for sale. Already 400 sites using offerbutton.com.",
+      "category": "SaaS",
+      "revenue_model": "Transaction fees, premium features",
+      "effort": "Low",
+      "investment": "Low",
+      "target_market": "Website owners considering selling",
+      "episode_date": "2024-12-23",
+      "episode_title": "pov: brainstorming $1M+ startup ideas with Daniel Dalen",
+      "mentioned_by": "Greg Isenberg",
+      "podcast": "The Startup Ideas Podcast"
+    }
+  ],
+  "summaries": [
+    {
+      "episode_key": "2024-10-02-the-only-startup-naming-guide-",
+      "date": "2024-10-02",
+      "title": "The only startup naming guide you'll ever need",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Greg shares his naming framework: descriptive, phrase, or humorous names. Explains telephone test, tofu names, and provides a checklist for novel names.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "naming",
+        "branding",
+        "framework"
+      ]
+    },
+    {
+      "episode_key": "2024-10-04-i-can't-believe-we-built-an-io",
+      "date": "2024-10-04",
+      "title": "I can't believe we built an IOS app with AI in under 33 min",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Riley Brown",
+      "executive_summary": "Riley demonstrates building iOS apps with Cursor+Xcode and prototyping with v0. Key concept: Creator Composer who builds with community feedback.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-coding",
+        "ios",
+        "prototyping",
+        "v0"
+      ]
+    },
+    {
+      "episode_key": "2024-10-06-replit-ceo-builds-an-app-with-",
+      "date": "2024-10-06",
+      "title": "Replit CEO Builds an App with 100% AI in 20 Min",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Amjad Masad (Replit CEO)",
+      "executive_summary": "Replit CEO live-builds a scenic drives app using Replit Agent. Demonstrates one-click deployment, database integration, and GitHub pushing.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "replit",
+        "ai-coding",
+        "deployment",
+        "tutorial"
+      ]
+    },
+    {
+      "episode_key": "2024-10-07-how-creators-can-thrive-in-the",
+      "date": "2024-10-07",
+      "title": "How Creators Can Thrive in the AI + AR Era",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Samir (Colin and Samir)",
+      "executive_summary": "Samir discusses creator positioning for AR/VR future, YouTube's shift to connected TV, content market fit, and IRL events as creator monetization.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "creators",
+        "ar-vr",
+        "youtube",
+        "monetization"
+      ]
+    },
+    {
+      "episode_key": "2024-10-08-bolt.new-tutorial-for-beginner",
+      "date": "2024-10-08",
+      "title": "Bolt.new Tutorial for Beginners",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Ross Mike",
+      "executive_summary": "Ross Mike builds a text-to-image AI app with Bolt.new. Demonstrates end-to-end building and one-click Netlify deployment. Bolt best for non-technical builders.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "bolt",
+        "tutorial",
+        "prototyping"
+      ]
+    },
+    {
+      "episode_key": "2024-10-09-how-to-build-a-$400k-mo-ai-app",
+      "date": "2024-10-09",
+      "title": "How to build a $400k/mo AI App using ASO, Organic Growth, and Paid Ads",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Roman (Arcads)",
+      "executive_summary": "Three mobile app growth strategies: ASO, organic TikTok, and paid ads at scale. Case study: 17yo making $400K/mo with AI calorie tracker.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "mobile-apps",
+        "aso",
+        "growth",
+        "paid-ads"
+      ]
+    },
+    {
+      "episode_key": "2024-10-11-essential-ai-coding-fundamenta",
+      "date": "2024-10-11",
+      "title": "Essential AI Coding Fundamentals I wish I knew sooner",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Jason (AI Jason)",
+      "executive_summary": "AI coding workflow: detailed specs first, Cursor for functionality then v0 for UI, reusable modular prompts. Step-by-step Reddit analytics build.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-coding",
+        "cursor",
+        "v0",
+        "workflow"
+      ]
+    },
+    {
+      "episode_key": "2024-10-14-6-startup-ideas-from-the-tech-",
+      "date": "2024-10-14",
+      "title": "6 startup ideas from the Tech Warren Buffett",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Andrew Wilkinson",
+      "executive_summary": "Six ideas: robot lawn mowing, sleep apnea businesses, computer vision for SMBs, negotiation service, sperm freezing, entrepreneur forums.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "startup-ideas",
+        "bootstrapping",
+        "andrew-wilkinson"
+      ]
+    },
+    {
+      "episode_key": "2024-10-15-vercel's-vp-of-product-on-how-",
+      "date": "2024-10-15",
+      "title": "Vercel's VP of Product on how to use v0",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Lee Robinson (Vercel)",
+      "executive_summary": "Advanced v0 usage: screenshots as reference, Tailwind classes, ShadCN UI, forking prompts, database schema design.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "v0",
+        "vercel",
+        "web-design",
+        "tutorial"
+      ]
+    },
+    {
+      "episode_key": "2024-10-16-the-blueprint-for-a-$340k-mo-p",
+      "date": "2024-10-16",
+      "title": "The blueprint for a $340k/mo premium dating app",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Working Theories guest",
+      "executive_summary": "Dating app opportunities: premium niche apps from Match portfolio, modern status signals, AI companions. Monthly subscriptions = situationships.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "dating-apps",
+        "premium-pricing",
+        "status-symbols"
+      ]
+    },
+    {
+      "episode_key": "2024-11-08-bolt-tutorial-for-beginners-wi",
+      "date": "2024-11-08",
+      "title": "Bolt tutorial for beginners with the Bolt CEO Eric Simons",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Eric Simons (Bolt CEO)",
+      "executive_summary": "Bolt CEO live-builds product directory with voting and Firebase chat. One-click deployment to Netlify. Start with vibe descriptions in prompts.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "bolt",
+        "tutorial",
+        "firebase",
+        "deployment"
+      ]
+    },
+    {
+      "episode_key": "2024-11-11-john-coogan-(tbpn)-gives-you-$",
+      "date": "2024-11-11",
+      "title": "John Coogan (TBPN) gives you $1B BIG startup ideas",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "John Coogan",
+      "executive_summary": "Moonshot ideas: cybersecurity for AI weights, moon infrastructure, kids anti-iPhone device, armed humanoid robots.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "moonshots",
+        "defense-tech",
+        "hardware",
+        "space"
+      ]
+    },
+    {
+      "episode_key": "2024-11-15-the-ultimate-guide-to-midjourn",
+      "date": "2024-11-15",
+      "title": "The ULTIMATE guide to Midjourney",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Nick St. Pierre",
+      "executive_summary": "Advanced Midjourney: style references, SREF codes, personalization, style blending. Creates gallery-quality art from vintage poster inspiration.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "midjourney",
+        "ai-design",
+        "tutorial",
+        "art"
+      ]
+    },
+    {
+      "episode_key": "2024-11-20-how-to-start-a-holding-company",
+      "date": "2024-11-20",
+      "title": "How to start a Holding Company (full tutorial)",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Michael Girdley",
+      "executive_summary": "Holding company tutorial: types (rollup/platform/pure), legal structures, seven steps to start, centralization spectrum.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "holding-company",
+        "business-structure",
+        "wealth-building"
+      ]
+    },
+    {
+      "episode_key": "2024-11-22-figma-ui-design-tutorial:-desi",
+      "date": "2024-11-22",
+      "title": "Figma UI Design Tutorial: Design your app in 40 Minutes!",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Red (Dive.Club)",
+      "executive_summary": "Live Figma design: components for speed, auto layout, Destroyer plugin, prototyping, visual effects. Good design = trying more things.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "figma",
+        "ui-design",
+        "tutorial",
+        "prototyping"
+      ]
+    },
+    {
+      "episode_key": "2024-12-06-how-to-use-ai-to-build-your-sa",
+      "date": "2024-12-06",
+      "title": "How to use AI to build your SaaS startup (Lovable, Supabase)",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Ross Mike",
+      "executive_summary": "Lovable with native Supabase integration for full-stack SaaS. Think like a product manager. Design and distribution are the new moats.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "lovable",
+        "supabase",
+        "saas",
+        "product-management"
+      ]
+    },
+    {
+      "episode_key": "2024-12-16-how-to-get-your-first-customer",
+      "date": "2024-12-16",
+      "title": "How to get your first customers (even with ZERO audience)",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Jonathan Courtney (AJ&Smart)",
+      "executive_summary": "Three strategies: Dream 100 method, joining communities to deliver value, and long-form tutorial content. Dream 100 generated $40-60M.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "customer-acquisition",
+        "dream-100",
+        "community",
+        "growth"
+      ]
+    },
+    {
+      "episode_key": "2024-12-20-how-to-get-145k-followers-on-l",
+      "date": "2024-12-20",
+      "title": "How to get 145k followers on LinkedIn in 1 year",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg (IP2 talk)",
+      "executive_summary": "LinkedIn growth: videos, stories+selfies, viral infographics. Add links after 150+ likes. ACP funnel: Audience > Community > Product.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "linkedin",
+        "growth-hacking",
+        "social-media",
+        "lead-magnets"
+      ]
+    },
+    {
+      "episode_key": "2024-12-23-pov:-brainstorming-$1m+-startu",
+      "date": "2024-12-23",
+      "title": "pov: brainstorming $1M+ startup ideas with Daniel Dalen",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Daniel Dalen",
+      "executive_summary": "Ideas: credibility badge business, embeddable businesses, influencer pricing. Aesthetics as moat. Shopify ecosystem opportunities.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "startup-ideas",
+        "aesthetics",
+        "shopify",
+        "embeddable"
+      ]
+    },
+    {
+      "episode_key": "2024-12-25-my-2024-year-in-review-(net-wo",
+      "date": "2024-12-25",
+      "title": "My 2024 Year in Review (net worth update etc)",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg (solo)",
+      "executive_summary": "2024 review: YouTube 11K to 146K, net worth up 38%. Portfolio: 75% stocks, 16% PE. Business updates on boring marketing/ads. Build skyscrapers not strip malls.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "year-review",
+        "portfolio",
+        "holding-company"
+      ]
+    },
+    {
+      "episode_key": "2024-12-28-how-to-create-ai-agents-from-s",
+      "date": "2024-12-28",
+      "title": "How To Create Ai Agents From Scratch",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Tutorial on building AI agents with CrewAI, Zapier, Cursor for workflow automation.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-agents",
+        "crewai",
+        "automation"
+      ]
+    },
+    {
+      "episode_key": "2024-12-30-y-combinator-is-overrated",
+      "date": "2024-12-30",
+      "title": "Y Combinator Is Overrated",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "22-year-old founder explains building multiple viral products without YC. Bootstrap-first philosophy.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "yc",
+        "bootstrapping",
+        "viral-products"
+      ]
+    },
+    {
+      "episode_key": "2025-01-07-q&a:-how-to-get-100,000-follow",
+      "date": "2025-01-07",
+      "title": "Q&A: How to get 100,000 followers in 2025",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Strategies for growing to 100K followers across platforms in 2025.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "audience-growth",
+        "social-media"
+      ]
+    },
+    {
+      "episode_key": "2025-01-13-he-built-a-startup-using-ai-th",
+      "date": "2025-01-13",
+      "title": "He Built a Startup using AI That Prints Money",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Full tutorial on building a profitable AI startup from idea to revenue.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-startup",
+        "tutorial",
+        "revenue"
+      ]
+    },
+    {
+      "episode_key": "2025-01-15-i-asked-mrbeast's-ex-strategis",
+      "date": "2025-01-15",
+      "title": "I Asked MrBeast's Ex-Strategist How to Hit 100k on YouTube",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "MrBeast's former strategist shares YouTube growth playbook: thumbnails, titles, retention.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "youtube",
+        "growth",
+        "mrbeast"
+      ]
+    },
+    {
+      "episode_key": "2025-01-17-how-to-build-your-ai-app-with-",
+      "date": "2025-01-17",
+      "title": "How to build your AI App with Cursor, Firebase, Vercel",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Full tutorial: Cursor for coding, Firebase for backend, Vercel for deployment.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "cursor",
+        "firebase",
+        "vercel",
+        "tutorial"
+      ]
+    },
+    {
+      "episode_key": "2025-01-20-i-discovered-the-perfect-ai-wr",
+      "date": "2025-01-20",
+      "title": "I Discovered The Perfect AI Writing System",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "AI writing system that transforms content creation workflow.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-writing",
+        "content-creation",
+        "productivity"
+      ]
+    },
+    {
+      "episode_key": "2025-01-22-how-only-2,500-subscribers-can",
+      "date": "2025-01-22",
+      "title": "How only 2,500 subscribers can make you $1,000,000",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Framework for million-dollar business with 2,500 subscribers. Premium pricing strategy.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "pricing",
+        "small-audience",
+        "premium"
+      ]
+    },
+    {
+      "episode_key": "2025-01-24-i-ranked-every-ai-coder:-bolt-",
+      "date": "2025-01-24",
+      "title": "I ranked every AI Coder: Bolt vs. Cursor vs. Replit vs Lovable",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Comprehensive comparison of AI coding tools for different user types.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-coding",
+        "comparison",
+        "tools"
+      ]
+    },
+    {
+      "episode_key": "2025-01-27-david-senra-on-how-to-become-a",
+      "date": "2025-01-27",
+      "title": "David Senra on How to Become a World Class Founder",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "David Senra",
+      "executive_summary": "Insights from studying hundreds of founders. Intensity, focus, and learning from history.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "founders",
+        "leadership",
+        "mindset"
+      ]
+    },
+    {
+      "episode_key": "2025-01-29-deepseek-r1---everything-you-n",
+      "date": "2025-01-29",
+      "title": "DeepSeek R1 - Everything you need to know",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "DeepSeek R1 implications: cost reduction, open-source AI catching up to proprietary.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "deepseek",
+        "ai-models",
+        "open-source"
+      ]
+    },
+    {
+      "episode_key": "2025-01-30-chatgpt-operator-built-a-$500-",
+      "date": "2025-01-30",
+      "title": "ChatGPT Operator Built a $500/Day Business in 30 Minutes",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Using ChatGPT Operator to automate and build a $500/day business.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "chatgpt",
+        "automation",
+        "tutorial"
+      ]
+    },
+    {
+      "episode_key": "2025-01-31-i-built-an-ai-agent-in-43-min-",
+      "date": "2025-01-31",
+      "title": "I built an AI Agent in 43 min to automate my workflows",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "No-code AI agent building for workflow automation.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-agents",
+        "no-code",
+        "automation"
+      ]
+    },
+    {
+      "episode_key": "2025-02-05-i-built-an-ai-startup-in-65-mi",
+      "date": "2025-02-05",
+      "title": "I built an AI startup in 65 minutes",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Rapid AI startup building using ChatGPT, Leonardo AI, Kling AI, ElevenLabs.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-startup",
+        "rapid-building"
+      ]
+    },
+    {
+      "episode_key": "2025-02-10-the-step-by-step-plan-to-go-fr",
+      "date": "2025-02-10",
+      "title": "The Step-by-Step Plan to Go From $0 to $10M+",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Framework for scaling from zero to $10M+ revenue.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "scaling",
+        "framework",
+        "revenue"
+      ]
+    },
+    {
+      "episode_key": "2025-02-12-i-built-a-cash-flowing-online-",
+      "date": "2025-02-12",
+      "title": "I built a Cash Flowing Online Directory in 54 minutes",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Building profitable directories with Ahrefs and WordPress.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "directories",
+        "seo",
+        "wordpress"
+      ]
+    },
+    {
+      "episode_key": "2025-02-15-google-ai-studio-replaces-your",
+      "date": "2025-02-15",
+      "title": "Google AI studio replaces your AI tech stack",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Google AI Studio demo showing how it consolidates multiple AI tools.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "google-ai",
+        "tutorial"
+      ]
+    },
+    {
+      "episode_key": "2025-02-17-these-7-ai-startup-ideas-will-",
+      "date": "2025-02-17",
+      "title": "These 7 AI startup ideas will print $100k/Month",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Seven validated AI startup ideas with revenue proof.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-startups",
+        "startup-ideas"
+      ]
+    },
+    {
+      "episode_key": "2025-02-19-chatgpt-pro-vs-perplexity-ai:-",
+      "date": "2025-02-19",
+      "title": "ChatGPT Pro vs Perplexity AI: Building a $5M Startup",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Comparison of ChatGPT Pro vs Perplexity for startup building.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "chatgpt",
+        "perplexity",
+        "comparison"
+      ]
+    },
+    {
+      "episode_key": "2025-02-24-ex-google-guy's-framework-for-",
+      "date": "2025-02-24",
+      "title": "Ex-Google Guy's Framework for Building a $1M AI GPT Wrapper",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Design Sprint framework for profitable GPT wrapper startups.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "gpt-wrappers",
+        "design-sprint"
+      ]
+    },
+    {
+      "episode_key": "2025-02-25-vibe-coding-a-cool-video-game",
+      "date": "2025-02-25",
+      "title": "VIBE CODING A COOL VIDEO GAME",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Vibe coding a video game using Grok 3 and Claude 3.7.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "vibe-coding",
+        "gaming"
+      ]
+    },
+    {
+      "episode_key": "2025-02-26-revealed:-the-exact-strategy-i",
+      "date": "2025-02-26",
+      "title": "REVEALED: The Exact Strategy I Used to Build a $10M AI Startup",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Exact strategy behind building a $10M AI startup.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "strategy",
+        "ai-startup",
+        "scaling"
+      ]
+    },
+    {
+      "episode_key": "2025-03-03-how-i-find-$130k-month-ai-saas",
+      "date": "2025-03-03",
+      "title": "How I find $130K/month AI SaaS Opportunities",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Framework for discovering hidden AI SaaS opportunities.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-saas",
+        "opportunity-finding"
+      ]
+    },
+    {
+      "episode_key": "2025-03-05-my-honest-review-of-ai-product",
+      "date": "2025-03-05",
+      "title": "My honest review of AI Product Designer backed by Y-Combinator",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Review of YC-backed AI product design tool.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-design",
+        "product-review"
+      ]
+    },
+    {
+      "episode_key": "2025-03-10-3-proven-startup-trends-that-w",
+      "date": "2025-03-10",
+      "title": "3 Proven startup trends that will make $124,000/Month",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Three validated startup trends with implementation guides.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "trends",
+        "startup-ideas"
+      ]
+    },
+    {
+      "episode_key": "2025-03-12-manus-ai-replaces-your-ai-tech",
+      "date": "2025-03-12",
+      "title": "Manus AI replaces your AI tech stack",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Manus AI demo and capabilities vs existing tools.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "manus-ai",
+        "demo"
+      ]
+    },
+    {
+      "episode_key": "2025-03-14-model-context-protocol-(mcp),-",
+      "date": "2025-03-14",
+      "title": "Model Context Protocol (MCP), clearly explained",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Clear explanation of MCP and why it matters.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "mcp",
+        "ai-infrastructure"
+      ]
+    },
+    {
+      "episode_key": "2025-03-17-build-once,-profit-forever-(th",
+      "date": "2025-03-17",
+      "title": "Build Once, Profit Forever (The ACP Framework)",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Deep dive into ACP (Audience, Community, Product) framework.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "acp-framework",
+        "business-model"
+      ]
+    },
+    {
+      "episode_key": "2025-03-19-build-the-next-poppi-($1.95b-e",
+      "date": "2025-03-19",
+      "title": "Build the next POPPI ($1.95B exit to Pepsi)",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Analysis of POPPI's $1.95B exit and replication strategies.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "cpg",
+        "exit",
+        "brand-building"
+      ]
+    },
+    {
+      "episode_key": "2025-03-24-if-i-wanted-to-build-$1m+-ai-s",
+      "date": "2025-03-24",
+      "title": "If I wanted to build $1M+ AI startup in 2025, I'd do this",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "2025 playbook for building a $1M+ AI startup.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-startup",
+        "2025",
+        "playbook"
+      ]
+    },
+    {
+      "episode_key": "2025-03-26-i-challenged-manus-ai-to-find-",
+      "date": "2025-03-26",
+      "title": "I challenged Manus AI to find $1M+ AI Startup Ideas",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Using Manus AI to generate and validate startup ideas.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "manus-ai",
+        "startup-ideas"
+      ]
+    },
+    {
+      "episode_key": "2025-04-23-his-250m+-app-download-bluepri",
+      "date": "2025-04-23",
+      "title": "His 250M+ App Download Blueprint",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Blueprint for achieving 250M+ app downloads.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "app-growth",
+        "strategy"
+      ]
+    },
+    {
+      "episode_key": "2025-04-25-should-you-use-google's-new-fi",
+      "date": "2025-04-25",
+      "title": "Should you use Google's NEW Firebase Studio for vibe coding",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Review of Firebase Studio for vibe coding.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "firebase",
+        "vibe-coding"
+      ]
+    },
+    {
+      "episode_key": "2025-05-07-make-chatgpt-10x-smarter-with-",
+      "date": "2025-05-07",
+      "title": "Make ChatGPT 10X smarter with this 3-step process",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Three-step process for dramatically better ChatGPT outputs.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "chatgpt",
+        "prompting"
+      ]
+    },
+    {
+      "episode_key": "2025-05-19-5-ai-startup-ideas-so-good-you",
+      "date": "2025-05-19",
+      "title": "5 AI Startup Ideas So Good You'll Quit Your Job",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Five compelling AI startup ideas with implementation paths.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-startups",
+        "startup-ideas"
+      ]
+    },
+    {
+      "episode_key": "2025-05-21-chatgpt-codex-is-like-10-ai-so",
+      "date": "2025-05-21",
+      "title": "ChatGPT Codex is like 10 AI software developers",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Tutorial on ChatGPT Codex for software development.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "codex",
+        "ai-coding"
+      ]
+    },
+    {
+      "episode_key": "2025-06-02-i-used-ai-to-build-4-$1m+-year",
+      "date": "2025-06-02",
+      "title": "I Used AI to Build 4 $1M+/year businesses",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Full playbook on building multiple million-dollar AI businesses.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-businesses",
+        "playbook"
+      ]
+    },
+    {
+      "episode_key": "2025-06-04-building-ai-apps:-from-idea-to",
+      "date": "2025-06-04",
+      "title": "Building AI Apps: From Idea to Viral in 30 Days",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "30-day framework for building and launching viral AI apps.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-apps",
+        "viral-growth"
+      ]
+    },
+    {
+      "episode_key": "2025-06-09-how-to-get-10x-more-out-of-lov",
+      "date": "2025-06-09",
+      "title": "How to get 10x more out of Lovable, Bolt, Cursor",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Advanced tips for maximizing AI coding tools.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "lovable",
+        "bolt",
+        "cursor"
+      ]
+    },
+    {
+      "episode_key": "2025-06-16-perplexity's-new-ai-agents-are",
+      "date": "2025-06-16",
+      "title": "Perplexity's new AI agents are INSANE",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Review of Perplexity's AI agent capabilities.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "perplexity",
+        "ai-agents"
+      ]
+    },
+    {
+      "episode_key": "2025-06-18-how-to-make-internet-money",
+      "date": "2025-06-18",
+      "title": "How to make internet money",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Comprehensive guide to making money online.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "internet-business",
+        "monetization"
+      ]
+    },
+    {
+      "episode_key": "2025-06-23-i-built-next-gen-ai-agents-wit",
+      "date": "2025-06-23",
+      "title": "I built next gen AI Agents with MCP + Claude",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Building AI agents using MCP and Claude.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "mcp",
+        "claude",
+        "ai-agents"
+      ]
+    },
+    {
+      "episode_key": "2025-06-25-genspark-vs-chatgpt,-my-brutal",
+      "date": "2025-06-25",
+      "title": "Genspark vs ChatGPT, my brutally honest review",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Comparison of Genspark vs ChatGPT.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "genspark",
+        "chatgpt",
+        "review"
+      ]
+    },
+    {
+      "episode_key": "2025-07-02-meet-the-hidden-agent-builder-",
+      "date": "2025-07-02",
+      "title": "Meet the Hidden Agent Builder Turning Simple Prompts into Profit",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Profile of an agent builder monetizing AI prompts.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-agents",
+        "monetization"
+      ]
+    },
+    {
+      "episode_key": "2025-07-09-i'm-revealing-all-the-vibe-mar",
+      "date": "2025-07-09",
+      "title": "I'm REVEALING ALL the Vibe Marketing Secrets",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Complete guide to vibe marketing strategies.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "vibe-marketing",
+        "marketing"
+      ]
+    },
+    {
+      "episode_key": "2025-07-14-i-tested-every-hyped-ai-tool--",
+      "date": "2025-07-14",
+      "title": "I Tested EVERY Hyped AI Tool - I ONLY Kept Using These",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Curated list of AI tools worth keeping.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-tools",
+        "reviews"
+      ]
+    },
+    {
+      "episode_key": "2025-07-15-does-grok-4-deserve-a-spot-in-",
+      "date": "2025-07-15",
+      "title": "Does Grok 4 Deserve a Spot In Your AI Stack?",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Review of Grok 4 capabilities.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "grok",
+        "ai-tools"
+      ]
+    },
+    {
+      "episode_key": "2025-07-16-5-businesses-i'd-start-if-i-wa",
+      "date": "2025-07-16",
+      "title": "5 Businesses I'd Start If I Was 22 Again",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Five business ideas for young entrepreneurs with minimal capital.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "startup-ideas",
+        "young-entrepreneurs"
+      ]
+    },
+    {
+      "episode_key": "2025-07-21-5-new-tools-from-google-ai-to-",
+      "date": "2025-07-21",
+      "title": "5 NEW Tools from Google AI to make money/be productive",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Review of five new Google AI tools.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "google-ai",
+        "productivity"
+      ]
+    },
+    {
+      "episode_key": "2025-07-29-the-end-of-microsoft-excel's-4",
+      "date": "2025-07-29",
+      "title": "The end of Microsoft Excel's 40-Year Dominance?",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Review of Shortcut AI as potential Excel replacement.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "shortcut-ai",
+        "productivity"
+      ]
+    },
+    {
+      "episode_key": "2025-08-25-are-we-in-an-ai-bubble?",
+      "date": "2025-08-25",
+      "title": "Are we in an AI bubble?",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Analysis of whether the AI market is in a bubble.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-bubble",
+        "market-analysis"
+      ]
+    },
+    {
+      "episode_key": "2025-08-27-i-got-a-private-lesson-on-goog",
+      "date": "2025-08-27",
+      "title": "I got a private lesson on Google's NEW Nano Banana AI Model",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Private demo of Google's Nano Banana AI model.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "google-ai",
+        "demo"
+      ]
+    },
+    {
+      "episode_key": "2025-09-02-cursor-ai-agents-work-like-10-",
+      "date": "2025-09-02",
+      "title": "Cursor AI Agents Work Like 10 Developers",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Cursor VP demos AI agents working like 10 developers.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "cursor",
+        "ai-agents",
+        "demo"
+      ]
+    },
+    {
+      "episode_key": "2025-09-15-what-vibe-coders-wish-they-kne",
+      "date": "2025-09-15",
+      "title": "What Vibe Coders Wish They Knew Sooner",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Lessons from vibe coding practitioners.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "vibe-coding",
+        "lessons"
+      ]
+    },
+    {
+      "episode_key": "2025-09-24-inside-the-$50-trillion-ai-gol",
+      "date": "2025-09-24",
+      "title": "Inside the $50 Trillion AI Gold Rush",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Analysis of the $50 trillion AI opportunity.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-market",
+        "opportunities"
+      ]
+    },
+    {
+      "episode_key": "2025-09-26-inside-the-ai-startup-that-add",
+      "date": "2025-09-26",
+      "title": "Inside the AI Startup That Added $1M ARR in 7 Days",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Case study of AI startup adding $1M ARR in one week.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-startup",
+        "growth"
+      ]
+    },
+    {
+      "episode_key": "2025-10-06-i-watched-dan-koe-break-down-h",
+      "date": "2025-10-06",
+      "title": "I Watched Dan Koe Break Down His AI Workflow OMG",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Dan Koe",
+      "executive_summary": "Dan Koe's AI workflow for content and business.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "dan-koe",
+        "ai-workflow"
+      ]
+    },
+    {
+      "episode_key": "2025-10-13-my-ai-videos-hit-1m+-views-(ve",
+      "date": "2025-10-13",
+      "title": "My AI Videos Hit 1M+ Views (Veo3 + Sora 2 Demo)",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Using Veo3 and Sora 2 for viral AI videos.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-video",
+        "veo3",
+        "sora"
+      ]
+    },
+    {
+      "episode_key": "2025-10-17-i-built-an-entire-app-with-ope",
+      "date": "2025-10-17",
+      "title": "I Built an Entire App with OpenAI's Codex and 8 AI Agent Employees",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Complete app built with Codex and multiple AI agents.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "codex",
+        "ai-agents"
+      ]
+    },
+    {
+      "episode_key": "2025-10-22-the-complete-ai-stack-and-work",
+      "date": "2025-10-22",
+      "title": "The Complete AI Stack and Workflow for 100M+ Video Views",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "AI workflow for videos getting 100M+ views.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-video",
+        "workflow"
+      ]
+    },
+    {
+      "episode_key": "2025-10-29-vercel's-ceo-shares-5-ai-start",
+      "date": "2025-10-29",
+      "title": "Vercel's CEO Shares 5 AI Startup Ideas",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Vercel CEO shares five AI startup ideas.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "vercel",
+        "startup-ideas"
+      ]
+    },
+    {
+      "episode_key": "2025-11-03-the-best-vibe-coding-tools-in-",
+      "date": "2025-11-03",
+      "title": "The Best Vibe Coding Tools in 2026",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Ranking best vibe coding tools for 2026.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "vibe-coding",
+        "tools"
+      ]
+    },
+    {
+      "episode_key": "2025-11-17-9-required-finance-lessons-for",
+      "date": "2025-11-17",
+      "title": "9 REQUIRED Finance Lessons for Founders",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Essential finance lessons for founders.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "finance",
+        "founders"
+      ]
+    },
+    {
+      "episode_key": "2025-11-18-google's-gemini-3.0:-the-most-",
+      "date": "2025-11-18",
+      "title": "Google's Gemini 3.0: The Most Powerful LLM Ever",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Analysis of Gemini 3.0 capabilities.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "gemini",
+        "google"
+      ]
+    },
+    {
+      "episode_key": "2025-11-21-i-tested-gemini-3-as-a-designe",
+      "date": "2025-11-21",
+      "title": "I Tested Gemini 3 as a Designer",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Testing Gemini 3 for design tasks.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "gemini",
+        "ai-design"
+      ]
+    },
+    {
+      "episode_key": "2025-11-24-how-i-design-apps-10x-better-(",
+      "date": "2025-11-24",
+      "title": "How I Design Apps 10x Better (Free Course)",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Free course on designing better apps.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "design",
+        "course"
+      ]
+    },
+    {
+      "episode_key": "2025-11-26-reviewing-claude-opus-4.5",
+      "date": "2025-11-26",
+      "title": "Reviewing Claude Opus 4.5",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Review of Claude Opus 4.5.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "claude",
+        "opus",
+        "review"
+      ]
+    },
+    {
+      "episode_key": "2025-12-01-be-a-10x-vibe-coder-(claude-co",
+      "date": "2025-12-01",
+      "title": "Be a 10x Vibe Coder (Claude Code + Cursor + MCP)",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Advanced vibe coding with Claude Code, Cursor, MCP.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "vibe-coding",
+        "claude-code",
+        "mcp"
+      ]
+    },
+    {
+      "episode_key": "2025-12-08-blueprint-to-build-a-$1m-saas-",
+      "date": "2025-12-08",
+      "title": "Blueprint to Build a $1M SaaS From Scratch",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Complete blueprint for million-dollar SaaS.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "saas",
+        "blueprint"
+      ]
+    },
+    {
+      "episode_key": "2025-12-10-anthropic-releases-method-to-1",
+      "date": "2025-12-10",
+      "title": "Anthropic releases method to 10x Claude Code",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Anthropic's methods to improve Claude Code.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "anthropic",
+        "claude-code"
+      ]
+    },
+    {
+      "episode_key": "2025-12-15-sahil-bloom-gives-you-a-plan-f",
+      "date": "2025-12-15",
+      "title": "Sahil Bloom Gives You a Plan for 2026",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Sahil Bloom",
+      "executive_summary": "Sahil Bloom's planning framework for 2026.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "planning",
+        "2026"
+      ]
+    },
+    {
+      "episode_key": "2025-12-16-testing-chatgpt-image-1.5's-cr",
+      "date": "2025-12-16",
+      "title": "Testing ChatGPT Image 1.5's crazy capabilities",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Review of ChatGPT Image 1.5.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "chatgpt",
+        "image-generation"
+      ]
+    },
+    {
+      "episode_key": "2025-12-17-claude's-agent-mode-was-leaked",
+      "date": "2025-12-17",
+      "title": "Claude's Agent Mode was LEAKED",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "First look at Claude's agent mode.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "claude",
+        "agent-mode"
+      ]
+    },
+    {
+      "episode_key": "2025-12-22-openai-releases-chatgpt-ai-age",
+      "date": "2025-12-22",
+      "title": "OpenAI Releases ChatGPT AI Agent Skills",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Analysis of ChatGPT agent skills.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "openai",
+        "ai-agents"
+      ]
+    },
+    {
+      "episode_key": "2025-12-24-claude-skills:-build-your-own-",
+      "date": "2025-12-24",
+      "title": "Claude Skills: Build Your Own AI Employees",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Building AI employees with Claude Skills.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "claude",
+        "ai-employees"
+      ]
+    },
+    {
+      "episode_key": "2026-01-07-beginner's-guide-to-building-s",
+      "date": "2026-01-07",
+      "title": "Beginner's Guide to Building Software With AI & CLIs",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Beginner guide to AI-assisted development using CLIs.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "cli",
+        "ai-coding"
+      ]
+    },
+    {
+      "episode_key": "2026-01-08-ralph-wiggum-ai-agent-will-10x",
+      "date": "2026-01-08",
+      "title": "Ralph Wiggum AI Agent will 10x Claude Code/Amp",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Ralph Wiggum agent pattern for Claude Code.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-agents",
+        "claude-code"
+      ]
+    },
+    {
+      "episode_key": "2026-01-12-side-hustle-king:-6-$60k-mo-bu",
+      "date": "2026-01-12",
+      "title": "Side Hustle King: 6 $60K/Mo Businesses Nobody's Doing",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Six underexplored side hustles making $60K/month.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "side-hustles",
+        "startup-ideas"
+      ]
+    },
+    {
+      "episode_key": "2026-01-19-claude-code-clearly-explained-",
+      "date": "2026-01-19",
+      "title": "Claude Code Clearly Explained (and how to use it)",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Clear explanation and tutorial on Claude Code.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "claude-code",
+        "tutorial"
+      ]
+    },
+    {
+      "episode_key": "2026-01-23-i-got-a-private-lesson-on-clau",
+      "date": "2026-01-23",
+      "title": "I got a private lesson on Claude Cowork & Claude Code",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Private tutorial on Claude Cowork and Claude Code.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "claude-cowork",
+        "tutorial"
+      ]
+    },
+    {
+      "episode_key": "2026-01-26-inside-$180b-co-founder's-ai-a",
+      "date": "2026-01-26",
+      "title": "Inside $180B Co-Founder's AI Agent System",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "AI agent system from $180B company co-founder.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-agents",
+        "enterprise"
+      ]
+    },
+    {
+      "episode_key": "2026-01-27-clawdbot-openclaw-clearly-expl",
+      "date": "2026-01-27",
+      "title": "Clawdbot/OpenClaw Clearly Explained",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Explanation and tutorial on Clawdbot/OpenClaw.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "clawdbot",
+        "openclaw"
+      ]
+    },
+    {
+      "episode_key": "2026-01-29-how-i-use-clawdbot-to-run-my-b",
+      "date": "2026-01-29",
+      "title": "How I Use Clawdbot to Run My Business and Life 24/7",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Clawdbot for business and life automation.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "clawdbot",
+        "automation"
+      ]
+    },
+    {
+      "episode_key": "2026-02-02-screensharing-kevin-rose's-ai-",
+      "date": "2026-02-02",
+      "title": "Screensharing Kevin Rose's AI Workflow/New App",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Kevin Rose",
+      "executive_summary": "Kevin Rose's AI workflow and new app.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "kevin-rose",
+        "ai-workflow"
+      ]
+    },
+    {
+      "episode_key": "2026-02-04-the-claude-code-skill-my-smart",
+      "date": "2026-02-04",
+      "title": "The Claude Code Skill My Smartest Friends Use",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Advanced Claude Code skill from top builders.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "claude-code",
+        "skills"
+      ]
+    },
+    {
+      "episode_key": "2026-02-06-claude-opus-4.6-vs-gpt-5.3-cod",
+      "date": "2026-02-06",
+      "title": "Claude Opus 4.6 vs GPT-5.3 Codex",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Comparison of Claude Opus 4.6 and GPT-5.3 Codex.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "claude",
+        "gpt",
+        "comparison"
+      ]
+    },
+    {
+      "episode_key": "2026-02-09-ai-marketing-masterclass:-from",
+      "date": "2026-02-09",
+      "title": "AI marketing Masterclass: From beginner to expert in 60 minutes",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Comprehensive AI marketing masterclass.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-marketing",
+        "masterclass"
+      ]
+    },
+    {
+      "episode_key": "2026-02-11-claude-code-built-my-$450k-mar",
+      "date": "2026-02-11",
+      "title": "Claude Code Built My $450K Marketing Campaign",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Using Claude Code for $450K marketing campaign.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "claude-code",
+        "marketing"
+      ]
+    },
+    {
+      "episode_key": "2026-02-13-stop-shipping-ai-slop.-design-",
+      "date": "2026-02-13",
+      "title": "Stop Shipping AI Slop. Design with Weavy AI, Claude etc.",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Designing quality AI products vs AI slop.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-design",
+        "quality"
+      ]
+    },
+    {
+      "episode_key": "2026-02-18-making-$$$-with-openclaw",
+      "date": "2026-02-18",
+      "title": "Making $$$ with OpenClaw",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Monetization strategies with OpenClaw.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "openclaw",
+        "monetization"
+      ]
+    },
+    {
+      "episode_key": "2026-02-23-how-i-use-obsidian-+-claude-co",
+      "date": "2026-02-23",
+      "title": "How I Use Obsidian + Claude Code to Run My Life",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Productivity system with Obsidian and Claude Code.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "obsidian",
+        "claude-code",
+        "productivity"
+      ]
+    },
+    {
+      "episode_key": "2026-02-27-what-is-perplexity-computer?",
+      "date": "2026-02-27",
+      "title": "What is Perplexity Computer?",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Explanation of Perplexity Computer.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "perplexity",
+        "explainer"
+      ]
+    },
+    {
+      "episode_key": "2026-03-09-i-gave-openclaw-one-job:-go-vi",
+      "date": "2026-03-09",
+      "title": "I gave OpenClaw one job: go viral (it worked?)",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Using OpenClaw to create viral content.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "openclaw",
+        "viral"
+      ]
+    },
+    {
+      "episode_key": "2026-03-11-karpathy's-autoresearch-broke-",
+      "date": "2026-03-11",
+      "title": "Karpathy's autoresearch broke the internet",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Greg Isenberg",
+      "executive_summary": "Analysis of Karpathy's autoresearch tool.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "karpathy",
+        "autoresearch"
+      ]
+    },
+    {
+      "episode_key": "2026-03-17-building-ai-agents-that-actual",
+      "date": "2026-03-17",
+      "title": "Building AI Agents that actually work (Full Course)",
+      "podcast": "The Startup Ideas Podcast",
+      "guest": "Remy Gaskell",
+      "executive_summary": "Full course on building functional AI agents.",
+      "key_takeaways": [],
+      "opportunities": [],
+      "quotes": [],
+      "tags": [
+        "ai-agents",
+        "course"
+      ]
+    }
+  ]
+}
