@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAG Architecture — Obsidian Knowledge Base</title>
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root { --bg: #0a0a0f; --bg2: #12121a; --bg3: #1a1a24; --fg: #e0e0e8; --fg2: #888894; --accent: #f0a030; --green: #50c878; --blue: #6384ff; --red: #ff6347; --purple: #dc50dc; }
+body { background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; }
+.container { max-width: 1200px; margin: 0 auto; padding: 32px 20px 100px; }
+
+h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+.subtitle { font-size: 14px; color: var(--fg2); margin-bottom: 32px; line-height: 1.6; }
+h2 { font-size: 20px; font-weight: 600; margin: 40px 0 16px; color: var(--accent); }
+h3 { font-size: 16px; font-weight: 600; margin: 24px 0 10px; }
+p, li { font-size: 14px; line-height: 1.7; color: var(--fg2); }
+p { margin-bottom: 12px; }
+ul { padding-left: 20px; margin-bottom: 16px; }
+li { margin-bottom: 6px; }
+strong { color: var(--fg); }
+code { background: rgba(255,255,255,0.06); padding: 2px 6px; border-radius: 4px; font-size: 13px; color: var(--accent); }
+
+/* Diagram */
+.diagram { background: var(--bg2); border: 1px solid rgba(255,255,255,0.06); border-radius: 14px; padding: 32px; margin: 24px 0; overflow-x: auto; }
+.diagram svg { display: block; margin: 0 auto; }
+
+/* Phase cards */
+.phases { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin: 20px 0; }
+.phase {
+  background: var(--bg2); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px;
+  padding: 20px; transition: all 0.15s;
+}
+.phase:hover { border-color: rgba(255,255,255,0.12); }
+.phase-num { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); font-weight: 600; margin-bottom: 6px; }
+.phase h3 { margin-top: 0; }
+.phase .tech { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 10px; }
+.phase .tech span {
+  padding: 3px 10px; font-size: 10px; border-radius: 12px; font-weight: 500;
+  background: rgba(99,132,255,0.1); color: var(--blue); border: 1px solid rgba(99,132,255,0.2);
+}
+
+/* Comparison table */
+.comp-table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 13px; }
+.comp-table th { text-align: left; padding: 10px 12px; background: var(--bg3); color: var(--accent); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; }
+.comp-table td { padding: 10px 12px; border-bottom: 1px solid rgba(255,255,255,0.04); color: var(--fg2); }
+.comp-table tr:hover td { background: rgba(255,255,255,0.02); }
+.comp-table .rec { color: var(--green); font-weight: 600; }
+
+/* Code blocks */
+.code-block {
+  background: var(--bg3); border: 1px solid rgba(255,255,255,0.06); border-radius: 8px;
+  padding: 16px; margin: 12px 0; font-family: 'Cascadia Code', 'Fira Code', monospace;
+  font-size: 12px; line-height: 1.6; overflow-x: auto; color: var(--fg2);
+}
+.code-block .comment { color: #666; }
+.code-block .keyword { color: var(--blue); }
+.code-block .string { color: var(--green); }
+.code-block .func { color: var(--accent); }
+
+/* Flow arrows */
+.flow { display: flex; align-items: center; gap: 8px; margin: 16px 0; flex-wrap: wrap; }
+.flow-step {
+  padding: 8px 16px; border-radius: 8px; font-size: 12px; font-weight: 500;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.flow-arrow { color: var(--accent); font-size: 18px; }
+.flow-ingest { background: rgba(99,132,255,0.1); color: var(--blue); border-color: rgba(99,132,255,0.2); }
+.flow-chunk { background: rgba(80,200,120,0.1); color: var(--green); border-color: rgba(80,200,120,0.2); }
+.flow-embed { background: rgba(240,160,48,0.1); color: var(--accent); border-color: rgba(240,160,48,0.2); }
+.flow-store { background: rgba(220,80,220,0.1); color: var(--purple); border-color: rgba(220,80,220,0.2); }
+.flow-query { background: rgba(255,99,71,0.1); color: var(--red); border-color: rgba(255,99,71,0.2); }
+
+.note-box {
+  background: rgba(240,160,48,0.06); border: 1px solid rgba(240,160,48,0.15);
+  border-radius: 10px; padding: 16px; margin: 16px 0; font-size: 13px;
+}
+.note-box strong { color: var(--accent); }
+
+@media (max-width: 640px) {
+  .phases { grid-template-columns: 1fr; }
+  h1 { font-size: 22px; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>RAG sobre tu Knowledge Base de Obsidian</h1>
+<p class="subtitle">
+  Arquitectura para hacer preguntas en lenguaje natural sobre tus <strong>1,429 archivos</strong> de Obsidian
+  (transcripciones de podcasts, notas de proyectos, conocimiento financiero) y obtener respuestas
+  contextualizadas con referencias a las fuentes originales.
+</p>
+
+<!-- MAIN DIAGRAM -->
+<div class="diagram">
+<svg viewBox="0 0 900 520" width="900" height="520" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+  <!-- Background grid -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 7" refX="10" refY="3.5" markerWidth="8" markerHeight="6" orient="auto-start-auto">
+      <path d="M 0 0 L 10 3.5 L 0 7 z" fill="#f0a030"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 7" refX="10" refY="3.5" markerWidth="8" markerHeight="6" orient="auto-start-auto">
+      <path d="M 0 0 L 10 3.5 L 0 7 z" fill="#6384ff"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 7" refX="10" refY="3.5" markerWidth="8" markerHeight="6" orient="auto-start-auto">
+      <path d="M 0 0 L 10 3.5 L 0 7 z" fill="#50c878"/>
+    </marker>
+  </defs>
+
+  <!-- PHASE 1: INGEST -->
+  <rect x="20" y="20" width="180" height="180" rx="12" fill="#12121a" stroke="#6384ff" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="110" y="48" text-anchor="middle" fill="#6384ff" font-size="10" font-weight="600" letter-spacing="1">PHASE 1: INGEST</text>
+
+  <rect x="40" y="65" width="140" height="28" rx="6" fill="rgba(99,132,255,0.1)"/>
+  <text x="110" y="84" text-anchor="middle" fill="#aabbff" font-size="11">Obsidian Vault</text>
+
+  <rect x="40" y="100" width="140" height="28" rx="6" fill="rgba(99,132,255,0.1)"/>
+  <text x="110" y="119" text-anchor="middle" fill="#aabbff" font-size="11">1,429 .md files</text>
+
+  <rect x="40" y="135" width="66" height="22" rx="4" fill="rgba(99,132,255,0.08)"/>
+  <text x="73" y="150" text-anchor="middle" fill="#8899cc" font-size="9">Podcasts</text>
+  <rect x="114" y="135" width="66" height="22" rx="4" fill="rgba(99,132,255,0.08)"/>
+  <text x="147" y="150" text-anchor="middle" fill="#8899cc" font-size="9">Notes</text>
+
+  <rect x="40" y="165" width="140" height="22" rx="4" fill="rgba(99,132,255,0.08)"/>
+  <text x="110" y="180" text-anchor="middle" fill="#8899cc" font-size="9">YAML frontmatter + tags</text>
+
+  <!-- Arrow 1->2 -->
+  <line x1="200" y1="110" x2="250" y2="110" stroke="#f0a030" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- PHASE 2: CHUNK -->
+  <rect x="260" y="20" width="180" height="180" rx="12" fill="#12121a" stroke="#50c878" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="350" y="48" text-anchor="middle" fill="#50c878" font-size="10" font-weight="600" letter-spacing="1">PHASE 2: CHUNK</text>
+
+  <rect x="280" y="65" width="140" height="28" rx="6" fill="rgba(80,200,120,0.1)"/>
+  <text x="350" y="84" text-anchor="middle" fill="#88ddaa" font-size="11">Markdown Parser</text>
+
+  <rect x="280" y="100" width="140" height="28" rx="6" fill="rgba(80,200,120,0.1)"/>
+  <text x="350" y="119" text-anchor="middle" fill="#88ddaa" font-size="11">Semantic Chunking</text>
+
+  <rect x="280" y="135" width="140" height="22" rx="4" fill="rgba(80,200,120,0.08)"/>
+  <text x="350" y="150" text-anchor="middle" fill="#77bb99" font-size="9">~500 tokens/chunk</text>
+
+  <rect x="280" y="165" width="140" height="22" rx="4" fill="rgba(80,200,120,0.08)"/>
+  <text x="350" y="180" text-anchor="middle" fill="#77bb99" font-size="9">Metadata preserved</text>
+
+  <!-- Arrow 2->3 -->
+  <line x1="440" y1="110" x2="490" y2="110" stroke="#f0a030" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- PHASE 3: EMBED -->
+  <rect x="500" y="20" width="180" height="180" rx="12" fill="#12121a" stroke="#f0a030" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="590" y="48" text-anchor="middle" fill="#f0a030" font-size="10" font-weight="600" letter-spacing="1">PHASE 3: EMBED</text>
+
+  <rect x="520" y="65" width="140" height="28" rx="6" fill="rgba(240,160,48,0.1)"/>
+  <text x="590" y="84" text-anchor="middle" fill="#f0c070" font-size="11">Embedding Model</text>
+
+  <rect x="520" y="100" width="140" height="28" rx="6" fill="rgba(240,160,48,0.1)"/>
+  <text x="590" y="119" text-anchor="middle" fill="#f0c070" font-size="11">text -> [0.12, -0.34...]</text>
+
+  <rect x="520" y="135" width="140" height="22" rx="4" fill="rgba(240,160,48,0.08)"/>
+  <text x="590" y="150" text-anchor="middle" fill="#cc9944" font-size="9">1536 dimensions</text>
+
+  <rect x="520" y="165" width="140" height="22" rx="4" fill="rgba(240,160,48,0.08)"/>
+  <text x="590" y="180" text-anchor="middle" fill="#cc9944" font-size="9">Batch processing</text>
+
+  <!-- Arrow 3->4 -->
+  <line x1="680" y1="110" x2="730" y2="110" stroke="#f0a030" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- PHASE 4: STORE -->
+  <rect x="740" y="20" width="140" height="180" rx="12" fill="#12121a" stroke="#dc50dc" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="810" y="48" text-anchor="middle" fill="#dc50dc" font-size="10" font-weight="600" letter-spacing="1">PHASE 4: STORE</text>
+
+  <rect x="758" y="65" width="104" height="28" rx="6" fill="rgba(220,80,220,0.1)"/>
+  <text x="810" y="84" text-anchor="middle" fill="#ee88ee" font-size="11">Vector DB</text>
+
+  <rect x="758" y="100" width="104" height="28" rx="6" fill="rgba(220,80,220,0.1)"/>
+  <text x="810" y="119" text-anchor="middle" fill="#ee88ee" font-size="11">ChromaDB</text>
+
+  <rect x="758" y="135" width="104" height="22" rx="4" fill="rgba(220,80,220,0.08)"/>
+  <text x="810" y="150" text-anchor="middle" fill="#bb66bb" font-size="9">~50K chunks</text>
+
+  <rect x="758" y="165" width="104" height="22" rx="4" fill="rgba(220,80,220,0.08)"/>
+  <text x="810" y="180" text-anchor="middle" fill="#bb66bb" font-size="9">Local SQLite</text>
+
+  <!-- QUERY FLOW (bottom) -->
+
+  <!-- User Query -->
+  <rect x="20" y="280" width="180" height="100" rx="12" fill="#12121a" stroke="#ff6347" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="110" y="308" text-anchor="middle" fill="#ff6347" font-size="10" font-weight="600" letter-spacing="1">USER QUERY</text>
+  <rect x="40" y="320" width="140" height="22" rx="4" fill="rgba(255,99,71,0.1)"/>
+  <text x="110" y="335" text-anchor="middle" fill="#ff8866" font-size="10">"What did Karpathy</text>
+  <rect x="40" y="348" width="140" height="22" rx="4" fill="rgba(255,99,71,0.1)"/>
+  <text x="110" y="363" text-anchor="middle" fill="#ff8866" font-size="10">say about agents?"</text>
+
+  <!-- Arrow Query -> Embed -->
+  <line x1="200" y1="330" x2="250" y2="330" stroke="#f0a030" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Embed Query -->
+  <rect x="260" y="280" width="180" height="100" rx="12" fill="#12121a" stroke="#f0a030" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="350" y="308" text-anchor="middle" fill="#f0a030" font-size="10" font-weight="600" letter-spacing="1">EMBED QUERY</text>
+  <rect x="280" y="320" width="140" height="22" rx="4" fill="rgba(240,160,48,0.1)"/>
+  <text x="350" y="335" text-anchor="middle" fill="#f0c070" font-size="10">Same model as above</text>
+  <rect x="280" y="348" width="140" height="22" rx="4" fill="rgba(240,160,48,0.1)"/>
+  <text x="350" y="363" text-anchor="middle" fill="#f0c070" font-size="10">query -> vector</text>
+
+  <!-- Arrow Embed -> Search -->
+  <line x1="440" y1="330" x2="490" y2="330" stroke="#f0a030" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Vector Search -->
+  <rect x="500" y="280" width="180" height="100" rx="12" fill="#12121a" stroke="#dc50dc" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="590" y="308" text-anchor="middle" fill="#dc50dc" font-size="10" font-weight="600" letter-spacing="1">SIMILARITY SEARCH</text>
+  <rect x="520" y="320" width="140" height="22" rx="4" fill="rgba(220,80,220,0.1)"/>
+  <text x="590" y="335" text-anchor="middle" fill="#ee88ee" font-size="10">cosine similarity</text>
+  <rect x="520" y="348" width="140" height="22" rx="4" fill="rgba(220,80,220,0.1)"/>
+  <text x="590" y="363" text-anchor="middle" fill="#ee88ee" font-size="10">Top K = 10 chunks</text>
+
+  <!-- Arrow Search -> VectorDB (up) -->
+  <line x1="810" y1="200" x2="810" y2="250" stroke="#dc50dc" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="810" y1="250" x2="680" y2="310" stroke="#dc50dc" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Arrow Search -> LLM -->
+  <line x1="680" y1="330" x2="730" y2="330" stroke="#f0a030" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- LLM Response -->
+  <rect x="740" y="260" width="140" height="140" rx="12" fill="#12121a" stroke="#50c878" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="810" y="288" text-anchor="middle" fill="#50c878" font-size="10" font-weight="600" letter-spacing="1">LLM RESPONSE</text>
+  <rect x="758" y="300" width="104" height="22" rx="4" fill="rgba(80,200,120,0.1)"/>
+  <text x="810" y="315" text-anchor="middle" fill="#88ddaa" font-size="10">Claude API</text>
+  <rect x="758" y="328" width="104" height="22" rx="4" fill="rgba(80,200,120,0.1)"/>
+  <text x="810" y="343" text-anchor="middle" fill="#88ddaa" font-size="10">Context + Query</text>
+  <rect x="758" y="356" width="104" height="22" rx="4" fill="rgba(80,200,120,0.1)"/>
+  <text x="810" y="371" text-anchor="middle" fill="#88ddaa" font-size="10">= Answer + Sources</text>
+
+  <!-- Labels -->
+  <text x="450" y="240" text-anchor="middle" fill="#444" font-size="11" font-style="italic">Indexing pipeline (runs once + incremental updates)</text>
+  <text x="450" y="440" text-anchor="middle" fill="#444" font-size="11" font-style="italic">Query pipeline (runs on each question)</text>
+
+  <!-- Divider -->
+  <line x1="20" y1="250" x2="880" y2="250" stroke="#333" stroke-width="1" stroke-dasharray="6,6"/>
+
+  <!-- OPTION LABELS -->
+  <text x="450" y="480" text-anchor="middle" fill="#f0a030" font-size="12" font-weight="600">3 opciones de implementacion (ver abajo)</text>
+
+  <!-- OpenClaw badge -->
+  <rect x="60" y="470" width="100" height="26" rx="6" fill="rgba(99,132,255,0.1)" stroke="rgba(99,132,255,0.3)" stroke-width="1"/>
+  <text x="110" y="488" text-anchor="middle" fill="#6384ff" font-size="10" font-weight="600">A: OpenClaw QMD</text>
+
+  <rect x="260" y="470" width="100" height="26" rx="6" fill="rgba(80,200,120,0.1)" stroke="rgba(80,200,120,0.3)" stroke-width="1"/>
+  <text x="310" y="488" text-anchor="middle" fill="#50c878" font-size="10" font-weight="600">B: Python local</text>
+
+  <rect x="460" y="470" width="120" height="26" rx="6" fill="rgba(220,80,220,0.1)" stroke="rgba(220,80,220,0.3)" stroke-width="1"/>
+  <text x="520" y="488" text-anchor="middle" fill="#dc50dc" font-size="10" font-weight="600">C: Claude Projects</text>
+</svg>
+</div>
+
+<!-- HOW IT WORKS -->
+<h2>Como funciona paso a paso</h2>
+
+<div class="flow">
+  <span class="flow-step flow-ingest">1. Leer .md files</span>
+  <span class="flow-arrow">-></span>
+  <span class="flow-step flow-chunk">2. Partir en chunks</span>
+  <span class="flow-arrow">-></span>
+  <span class="flow-step flow-embed">3. Convertir a vectores</span>
+  <span class="flow-arrow">-></span>
+  <span class="flow-step flow-store">4. Guardar en DB</span>
+  <span class="flow-arrow">-></span>
+  <span class="flow-step flow-query">5. Buscar por similitud</span>
+  <span class="flow-arrow">-></span>
+  <span class="flow-step" style="background:rgba(80,200,120,0.1);color:#50c878;border-color:rgba(80,200,120,0.2)">6. LLM responde con contexto</span>
+</div>
+
+<p>
+  <strong>RAG = Retrieval Augmented Generation.</strong> En vez de meter todos tus 1,429 archivos en el prompt del LLM
+  (imposible, serian ~16MB de texto), buscas primero los fragmentos mas relevantes y solo esos se pasan al modelo.
+</p>
+
+<div class="note-box">
+  <strong>Tu caso concreto:</strong> 1,429 archivos x ~1,500 palabras media = ~2.1M palabras = ~2.8M tokens.
+  Incluso con un context window de 1M tokens, no cabe todo. Con RAG, cada query solo necesita ~5-10K tokens de contexto relevante.
+</div>
+
+<!-- 3 OPTIONS -->
+<h2>3 Opciones de implementacion</h2>
+
+<table class="comp-table">
+<tr>
+  <th>Criterio</th>
+  <th>A: OpenClaw QMD (ya tienes)</th>
+  <th>B: Python + ChromaDB</th>
+  <th>C: Claude Projects</th>
+</tr>
+<tr>
+  <td><strong>Que es</strong></td>
+  <td>Plugin QMD que ya tienes instalado. Busqueda semantica sobre tu workspace</td>
+  <td>Script Python que indexa Obsidian, guarda en ChromaDB, y expone un API/CLI</td>
+  <td>Subir archivos clave a un Proyecto de Claude.ai con instrucciones custom</td>
+</tr>
+<tr>
+  <td><strong>Esfuerzo</strong></td>
+  <td class="rec">Ya instalado</td>
+  <td>~4-6 horas de setup</td>
+  <td>~30 minutos</td>
+</tr>
+<tr>
+  <td><strong>Coste</strong></td>
+  <td class="rec">Incluido en OpenClaw</td>
+  <td>API embeddings ~$0.50 para indexar todo + ChromaDB gratis</td>
+  <td>Incluido en Claude Pro/Max</td>
+</tr>
+<tr>
+  <td><strong>Capacidad</strong></td>
+  <td>Workspace completo indexado</td>
+  <td class="rec">Todo el vault (1,429 files), custom chunking, filtros por metadata</td>
+  <td>Limite ~200K tokens por proyecto (~30-50 archivos)</td>
+</tr>
+<tr>
+  <td><strong>Calidad busqueda</strong></td>
+  <td>Buena (embedding search)</td>
+  <td class="rec">Excelente (custom embeddings + reranking + metadata filters)</td>
+  <td>Muy buena (Claude nativo)</td>
+</tr>
+<tr>
+  <td><strong>Interfaz</strong></td>
+  <td>Dentro de OpenClaw chat</td>
+  <td>CLI, web UI, o integrado en OpenClaw/Claude Code</td>
+  <td class="rec">Claude.ai web (la mejor UX)</td>
+</tr>
+<tr>
+  <td><strong>Incremental updates</strong></td>
+  <td class="rec">Automatico</td>
+  <td>Script de sync (cron job)</td>
+  <td>Manual (re-subir archivos)</td>
+</tr>
+<tr>
+  <td><strong>Ideal para</strong></td>
+  <td>Preguntas rapidas desde OpenClaw</td>
+  <td class="rec">Produccion: queries complejas, API, multiples clientes</td>
+  <td>Analisis profundo de subsets del vault</td>
+</tr>
+</table>
+
+<!-- OPTION B DETAIL -->
+<h2>Opcion B: RAG completo con Python (recomendada)</h2>
+<p>Esta es la opcion mas potente y la que te da control total. Aqui esta el stack completo:</p>
+
+<div class="phases">
+  <div class="phase">
+    <div class="phase-num">Paso 1 — Ingest</div>
+    <h3>Leer y parsear Obsidian</h3>
+    <p>Script Python que recorre tu vault, lee cada .md, extrae el frontmatter YAML (titulo, fecha, podcast, tags, url) y el contenido.</p>
+    <div class="tech">
+      <span>Python pathlib</span>
+      <span>python-frontmatter</span>
+      <span>watchdog (live sync)</span>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-num">Paso 2 — Chunk</div>
+    <h3>Partir en fragmentos semanticos</h3>
+    <p>Dividir cada archivo en chunks de ~500 tokens respetando limites naturales (headers, parrafos). Cada chunk hereda los metadatos del archivo padre.</p>
+    <div class="tech">
+      <span>langchain text_splitters</span>
+      <span>tiktoken</span>
+      <span>RecursiveCharacterSplitter</span>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-num">Paso 3 — Embed</div>
+    <h3>Convertir texto a vectores</h3>
+    <p>Cada chunk se convierte en un vector de 1536 dimensiones usando un modelo de embeddings. Textos semanticamente similares quedan cerca en el espacio vectorial.</p>
+    <div class="tech">
+      <span>OpenAI text-embedding-3-small</span>
+      <span>o Voyage AI</span>
+      <span>o sentence-transformers (gratis, local)</span>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-num">Paso 4 — Store</div>
+    <h3>Guardar en base de datos vectorial</h3>
+    <p>Los vectores + metadatos se guardan en ChromaDB (local, SQLite). Soporta filtros por metadata: podcast, fecha, tags.</p>
+    <div class="tech">
+      <span>ChromaDB</span>
+      <span>o LanceDB</span>
+      <span>o Qdrant</span>
+      <span>SQLite backend</span>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-num">Paso 5 — Query</div>
+    <h3>Buscar por similitud</h3>
+    <p>La pregunta del usuario se embede con el mismo modelo. Se buscan los Top-K chunks mas cercanos por cosine similarity. Se pueden filtrar por metadata (solo Latent Space, solo 2026, etc).</p>
+    <div class="tech">
+      <span>cosine similarity</span>
+      <span>Top-K = 10</span>
+      <span>metadata filters</span>
+      <span>reranking (opcional)</span>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-num">Paso 6 — Generate</div>
+    <h3>LLM responde con contexto</h3>
+    <p>Los chunks recuperados se inyectan en el prompt del LLM junto con la pregunta. El modelo responde citando las fuentes (archivo, fecha, podcast).</p>
+    <div class="tech">
+      <span>Claude API (Sonnet/Opus)</span>
+      <span>system prompt con instrucciones</span>
+      <span>source citations</span>
+    </div>
+  </div>
+</div>
+
+<!-- ARCHITECTURE CODE -->
+<h2>Estructura del proyecto</h2>
+
+<div class="code-block">
+<span class="comment"># C:\Dev\AI\obsidian-rag\</span>
+<br>
+obsidian-rag/
+<br>
+├── <span class="func">ingest.py</span>          <span class="comment"># Lee vault, chunking, embeddings, guarda en ChromaDB</span>
+<br>
+├── <span class="func">query.py</span>           <span class="comment"># CLI: python query.py "que dijo Karpathy sobre agentes?"</span>
+<br>
+├── <span class="func">server.py</span>          <span class="comment"># API web (FastAPI) para queries desde browser/OpenClaw</span>
+<br>
+├── <span class="func">sync.py</span>            <span class="comment"># Watcher: detecta cambios en vault, re-indexa incrementalmente</span>
+<br>
+├── <span class="func">ui.html</span>            <span class="comment"># Frontend simple para hacer preguntas (opcional)</span>
+<br>
+├── chroma_db/          <span class="comment"># Base de datos vectorial (auto-generada)</span>
+<br>
+├── .env                <span class="comment"># ANTHROPIC_API_KEY, OPENAI_API_KEY (para embeddings)</span>
+<br>
+└── config.yaml         <span class="comment"># Ruta al vault, modelo, chunk_size, top_k</span>
+</div>
+
+<!-- PROMPT TEMPLATE -->
+<h2>System prompt para el LLM</h2>
+
+<div class="code-block">
+<span class="keyword">SYSTEM:</span> Eres un asistente experto que responde preguntas basandose UNICAMENTE
+<br>en los fragmentos de la knowledge base proporcionados.
+<br>
+<br><span class="keyword">REGLAS:</span>
+<br>1. Responde SOLO con informacion de los fragmentos. Si no hay info relevante, dilo.
+<br>2. Cita las fuentes: [Podcast, Fecha, Episodio]
+<br>3. Si multiples fuentes coinciden, sintetiza y compara.
+<br>4. Responde en el idioma de la pregunta.
+<br>
+<br><span class="keyword">CONTEXTO RECUPERADO:</span>
+<br><span class="string">{chunks recuperados por similarity search}</span>
+<br>
+<br><span class="keyword">PREGUNTA:</span> <span class="string">{pregunta del usuario}</span>
+</div>
+
+<!-- ADVANCED -->
+<h2>Mejoras avanzadas</h2>
+
+<div class="phases">
+  <div class="phase">
+    <div class="phase-num">Mejora 1</div>
+    <h3>Hybrid Search</h3>
+    <p>Combinar busqueda semantica (embeddings) con busqueda lexica (BM25/keyword). Mejora recall para terminos tecnicos exactos como "STS" o "Basel III".</p>
+    <div class="tech"><span>BM25</span><span>Reciprocal Rank Fusion</span></div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-num">Mejora 2</div>
+    <h3>Reranking</h3>
+    <p>Despues de recuperar Top-20 chunks, usar un modelo de reranking (Cohere, BGE) para reordenar por relevancia real. Mejora precision significativamente.</p>
+    <div class="tech"><span>Cohere Rerank</span><span>BGE Reranker</span></div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-num">Mejora 3</div>
+    <h3>Multi-Query</h3>
+    <p>Generar 3-5 variaciones de la pregunta del usuario con un LLM, buscar con cada una, y fusionar resultados. Captura matices que una sola query pierde.</p>
+    <div class="tech"><span>Query expansion</span><span>HyDE</span></div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-num">Mejora 4</div>
+    <h3>MCP Server</h3>
+    <p>Exponer el RAG como un servidor MCP que Cursor, Claude Code, u OpenClaw pueden usar como herramienta. Asi cualquier agente puede consultar tu knowledge base.</p>
+    <div class="tech"><span>MCP protocol</span><span>stdio transport</span></div>
+  </div>
+</div>
+
+<!-- COST ESTIMATE -->
+<h2>Estimacion de costes</h2>
+
+<table class="comp-table">
+<tr><th>Concepto</th><th>Coste</th><th>Nota</th></tr>
+<tr><td>Indexar 1,429 archivos (embeddings)</td><td class="rec">~$0.50</td><td>text-embedding-3-small a $0.02/1M tokens</td></tr>
+<tr><td>ChromaDB</td><td class="rec">$0 (local)</td><td>SQLite, no requiere servidor</td></tr>
+<tr><td>Cada query (embedding + LLM)</td><td>~$0.01-0.05</td><td>Embedding query + Sonnet response</td></tr>
+<tr><td>Re-indexar (incremental)</td><td>< $0.01</td><td>Solo archivos nuevos/modificados</td></tr>
+<tr><td><strong>Total mensual estimado</strong></td><td class="rec"><strong>$2-10</strong></td><td>Asumiendo 100-500 queries/mes</td></tr>
+</table>
+
+<div class="note-box">
+  <strong>Alternativa 100% gratis:</strong> Usar <code>sentence-transformers/all-MiniLM-L6-v2</code> como modelo de embeddings
+  (corre local en CPU, no necesita API). Solo pagas el LLM para la respuesta final.
+</div>
+
+<!-- QUICK START -->
+<h2>Quick Start (10 minutos)</h2>
+
+<div class="code-block">
+<span class="comment"># 1. Instalar dependencias</span>
+<br><span class="keyword">pip install</span> chromadb openai anthropic python-frontmatter tiktoken
+<br>
+<br><span class="comment"># 2. Indexar tu vault (una vez)</span>
+<br><span class="keyword">python</span> ingest.py --vault <span class="string">"C:/Users/davsa/OneDrive/Documentos/Obsidian Vault"</span>
+<br>
+<br><span class="comment"># 3. Hacer preguntas</span>
+<br><span class="keyword">python</span> query.py <span class="string">"Que oportunidades de negocio menciona Greg Isenberg para el sector financiero?"</span>
+<br>
+<br><span class="comment"># 4. Servidor web (opcional)</span>
+<br><span class="keyword">python</span> server.py  <span class="comment"># -> http://localhost:8000</span>
+</div>
+
+<p style="margin-top: 32px; text-align: center; color: var(--fg2); font-size: 12px;">
+  Diagrama generado para David Sanchez | Basado en 1,429 archivos de Obsidian | Marzo 2026
+</p>
+
+</div>
+</body>
+</html>
